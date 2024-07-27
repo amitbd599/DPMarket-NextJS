@@ -1,4 +1,5 @@
-// import HeaderOne from "@/components/HeaderOne";
+import Register from "@/components/Register";
+import Progress from "@/components/Progress";
 
 export const metadata = {
   title: "Digital Market Place NEXT Js Template",
@@ -9,8 +10,11 @@ export const metadata = {
 const page = () => {
   return (
     <>
-      {/* HeaderOne */}
-      {/* <HeaderOne /> */}
+      {/* Progress */}
+      <Progress />
+
+      {/* Login */}
+      <Register />
     </>
   );
 };
