@@ -13,10 +13,10 @@ body {
   display: flex;
   flex-direction: column;
   @include sm-screen {
-    @include font-15; 
+    @include font-15;
   }
   @include msm-screen {
-    @include font-14; 
+    @include font-14;
   }
 }
 p {
@@ -111,4 +111,5 @@ button {
   outline: 0;
   box-shadow: none;
 }
+
 /* ================================= Typography Css End =========================== */

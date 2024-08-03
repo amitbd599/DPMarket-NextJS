@@ -1,3 +1,5 @@
+import ThemeToggle from "./ThemeToggle";
+
 const HeaderOne = () => {
   return (
     <>
@@ -151,17 +153,8 @@ const HeaderOne = () => {
                 <span className="qty-badge font-12">0</span>
               </a>
               {/* Light Dark Mode */}
-              <div className="theme-switch-wrapper position-relative">
-                <label className="theme-switch" htmlFor="checkbox">
-                  <input type="checkbox" className="d-none" id="checkbox" />
-                  <span className="slider text-black header-right__button white-version">
-                    <img src="assets/images/icons/sun.svg" alt="" />
-                  </span>
-                  <span className="slider text-black header-right__button dark-version">
-                    <img src="assets/images/icons/moon.svg" alt="" />
-                  </span>
-                </label>
-              </div>
+              <ThemeToggle />
+              {/* Light Dark Mode */}
               <div className="header-right__inner gap-3 flx-align d-lg-flex d-none">
                 <a href="register.html" className="btn btn-main pill">
                   <span className="icon-left icon">
