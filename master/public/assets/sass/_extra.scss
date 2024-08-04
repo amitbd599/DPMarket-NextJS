@@ -49,3 +49,7 @@
     opacity: 1;
     margin-top: 6px;
 }
+
+.payment-method__item .form-check-input:checked + .form-check-label::before {
+  background: var(--main-gradient);
+}

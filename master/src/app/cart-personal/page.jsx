@@ -1,6 +1,6 @@
 import BrandSectionOne from "@/components/BrandSectionOne";
-import BreadcrumbFour from "@/components/BreadcrumbFour";
-import Cart from "@/components/Cart";
+import BreadcrumbFive from "@/components/BreadcrumbFive";
+import CartPersonal from "@/components/CartPersonal";
 import FooterOne from "@/components/FooterOne";
 import HeaderOne from "@/components/HeaderOne";
 import Preloader from "@/helper/Preloader";
@@ -20,12 +20,12 @@ const page = () => {
       {/* HeaderOne */}
       <HeaderOne />
 
-      {/* BreadcrumbFour */}
-      <BreadcrumbFour />
 
+      {/* BreadcrumbFive */}
+      <BreadcrumbFive />
 
-      {/* Cart */}
-      <Cart />
+      {/* CartPersonal */}
+      <CartPersonal />
 
       {/* BrandSectionOne */}
       <BrandSectionOne />
