@@ -11,6 +11,7 @@ import PerformanceAuthor from "@/components/PerformanceAuthor";
 import PopularOne from "@/components/PopularOne";
 import SaleOffer from "@/components/SaleOffer";
 import SellingOne from "@/components/SellingOne";
+import Preloader from "@/helper/Preloader";
 
 export const metadata = {
   title: "Digital Market Place NEXT Js Template",
@@ -20,7 +21,10 @@ export const metadata = {
 
 const page = () => {
   return (
-    <>
+    <section className="change-gradient">
+      {/* Preloader */}
+      <Preloader />
+
       {/* SaleOffer */}
       <SaleOffer />
 
@@ -59,7 +63,7 @@ const page = () => {
 
       {/* FooterOne */}
       <FooterOne />
-    </>
+    </section>
   );
 };
 

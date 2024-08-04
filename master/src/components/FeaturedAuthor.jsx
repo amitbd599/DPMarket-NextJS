@@ -5,7 +5,7 @@ const FeaturedAuthor = () => {
   const textRef = useRef(null);
 
   useEffect(() => {
-    new CircleType(textRef.current).radius(75);
+    new CircleType(textRef.current).radius(1);
   }, []);
   return (
     <section className="top-author padding-y-120 section-bg position-relative z-index-1">
@@ -78,7 +78,7 @@ const FeaturedAuthor = () => {
                   <img src="assets/images/icons/featured-badge.png" alt="" />
                 </div>
                 <div className="circle__text">
-                  <p ref={textRef}>DPmarketer Top Featured Author</p>
+                  <p ref={textRef}>DPmarketer Top Featured </p>
                 </div>
               </div>
               <div className="row gy-4 card-wrapper">
