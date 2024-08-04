@@ -8,22 +8,31 @@
   align-items: center;
 }
 
-.nav-menu__item.has-submenu {
-  .nav-submenu {
-    display: block;
-    max-height: 0;
-    overflow: hidden;
-    transition: max-height 0.3s ease-in-out;
-  }
-  &.active {
+.mobile-menu {
+  top: 0;
+  .nav-menu__item.has-submenu {
     .nav-submenu {
-      max-height: 1000px;
-      transition: max-height 0.8s ease-in-out;
+      display: block;
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.3s ease-in-out;
+    }
+    &.active {
+      .nav-submenu {
+        max-height: 1000px;
+        transition: max-height 0.8s ease-in-out;
+      }
     }
   }
 }
 
 .testimonial-slider {
+  .slick-dots {
+    bottom: -75px;
+  }
+}
+
+.resource-slider {
   .slick-dots {
     bottom: -75px;
   }

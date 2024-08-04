@@ -1,8 +1,15 @@
 import ArrivalTwo from "@/components/ArrivalTwo";
 import BannerTwo from "@/components/BannerTwo";
+import BecomeSellerTwo from "@/components/BecomeSellerTwo";
+import BlogTwo from "@/components/BlogTwo";
+import BrandSectionTwo from "@/components/BrandSectionTwo";
 import FeaturedTwo from "@/components/FeaturedTwo";
+import FooterTwo from "@/components/FooterTwo";
 import HeaderOne from "@/components/HeaderOne";
+import Newsletter from "@/components/Newsletter";
 import PopularTwo from "@/components/PopularTwo";
+import PricingOne from "@/components/PricingOne";
+import ResourceOne from "@/components/ResourceOne";
 import SaleOfferTwo from "@/components/SaleOfferTwo";
 import SellingTwo from "@/components/SellingTwo";
 import ServiceOne from "@/components/ServiceOne";
@@ -47,6 +54,27 @@ const page = () => {
 
       {/* Testimonial */}
       <Testimonial />
+
+      {/* PricingOne */}
+      <PricingOne />
+
+      {/* BrandSectionTwo */}
+      <BrandSectionTwo />
+
+      {/* BecomeSellerTwo */}
+      <BecomeSellerTwo />
+
+      {/* BlogTwo */}
+      <BlogTwo />
+
+      {/* ResourceOne */}
+      <ResourceOne />
+
+      {/* Newsletter */}
+      <Newsletter />
+
+      {/* FooterTwo */}
+      <FooterTwo />
     </>
   );
 };
