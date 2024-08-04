@@ -3,14 +3,16 @@ import { useState } from "react";
 
 const AllProduct = () => {
   const [activeButton, setActiveButton] = useState("grid-view");
+  const [filter, setFilter] = useState(false)
 
   const handleClick = (buttonName) => {
     setActiveButton(buttonName);
   };
 
+
+
   return (
-    <section className={`all-product padding-y-120 ${
-        activeButton === "list-view" ? "list-view" : ""
+    <section className={`all-product padding-y-120 ${activeButton === "list-view" ? "list-view" : ""
       }`}>
       <div className="container container-two">
         <div className="row">
@@ -117,17 +119,15 @@ const AllProduct = () => {
               </ul>
               <div className="list-grid d-flex align-items-center gap-2">
                 <button
-                  className={`list-grid__button list-button d-sm-flex d-none text-body ${
-                    activeButton === "list-view" ? "active" : ""
-                  }`}
+                  className={`list-grid__button list-button d-sm-flex d-none text-body ${activeButton === "list-view" ? "active" : ""
+                    }`}
                   onClick={() => handleClick("list-view")}
                 >
                   <i className="las la-list" />
                 </button>
                 <button
-                  className={`list-grid__button grid-button d-sm-flex d-none  text-body ${
-                    activeButton === "grid-view" ? "active" : ""
-                  }`}
+                  className={`list-grid__button grid-button d-sm-flex d-none  text-body ${activeButton === "grid-view" ? "active" : ""
+                    }`}
                   onClick={() => handleClick("grid-view")}
                 >
                   <i className="las la-border-all" />
@@ -137,7 +137,7 @@ const AllProduct = () => {
                 </button>
               </div>
             </div>
-            <form action="#" className="filter-form pb-4">
+            <form action="#" className="filter-form pb-4 d-block">
               <div className="row gy-3">
                 <div className="col-sm-4 col-xs-6">
                   <div className="flx-between gap-1">

@@ -43,3 +43,9 @@
     padding-bottom: 200px;
   }
 }
+
+.social-share:hover .social-share__icons{
+  visibility: visible;
+    opacity: 1;
+    margin-top: 6px;
+}

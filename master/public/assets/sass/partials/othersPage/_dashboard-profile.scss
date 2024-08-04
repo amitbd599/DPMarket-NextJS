@@ -37,7 +37,7 @@
       height: 300px;
       width: 100%;
       border-radius: 0;
-      // background-image: url(../images/thumbs/cover-photo.png);
+      background-image: url("/assets/images/thumbs/cover-photo.png");
       @include md-screen {
         height: 250px;
       }
@@ -84,7 +84,7 @@
     height: 116px;
     position: relative;
     border-radius: 100%;
-    // background-image: url(../images/thumbs/profile-info-img.png);
+    background-image: url("/assets/images/thumbs/profile-info-img.png");
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;

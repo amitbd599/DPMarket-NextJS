@@ -113,8 +113,8 @@
       background-color: var(--dark-black-five);
     }
   }
-  .footer-section {
-    // background-image: url(../images/shapes/footer-bg-dark.png);
+  .footer-section {   
+    background-image: url("/assets/images/shapes/footer-bg-dark.png");
     background-color: var(--dark-black-one);
   }
   .bottom-footer {
@@ -191,7 +191,7 @@
   }
 
   .seller-two {
-    // background-image: url(../images/shapes/wave-shape-dark.png);
+    background-image: url("/assets/images/shapes/wave-shape-dark.png");
     background-color: var(--dark-black-one);
   }
   .download-icon {
@@ -381,7 +381,7 @@
     background: none;
   }
   .badge-list__item {
-    // background-image: url(../images/shapes/polygon-shape-white.png);
+    background-image: url("/assets/images/shapes/polygon-shape-white.png");
   }
 }
 /* ============================ Dark Version Css End =============================== */
