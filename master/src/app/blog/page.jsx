@@ -1,4 +1,6 @@
+import Blog from "@/components/Blog";
 import BrandSectionOne from "@/components/BrandSectionOne";
+import BreadcrumbSeven from "@/components/BreadcrumbSeven";
 import CartThankYou from "@/components/CartThankYou";
 import FooterOne from "@/components/FooterOne";
 import HeaderOne from "@/components/HeaderOne";
@@ -19,9 +21,11 @@ const page = () => {
       {/* HeaderOne */}
       <HeaderOne />
 
-      {/* CartThankYou */}
-      <CartThankYou />
+      {/* BreadcrumbSeven */}
+      <BreadcrumbSeven />
 
+      {/* Blog */}
+      <Blog />
 
       {/* BrandSectionOne */}
       <BrandSectionOne />
