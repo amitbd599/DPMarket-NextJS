@@ -24,12 +24,11 @@ const page = () => {
       <BreadcrumbThree />
 
 
-   {/* Profile */}
-<Profile/>
+      {/* Profile */}
+      <Profile />
 
 
       {/* BrandSectionOne */}
-
       <BrandSectionOne />
 
 
