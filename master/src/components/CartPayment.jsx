@@ -20,12 +20,12 @@ const CartPayment = () => {
         );
     }
     const settings = {
-        dots: true,
+        dots: false,
         arrows: true,
-        infinite: true,
+        infinite: false,
         speed: 1000,
-        slidesToShow: 10,
-        slidesToScroll: 3,
+        slidesToShow:10,
+        slidesToScroll: 10,
         initialSlide: 0,
         nextArrow: <SampleNextArrow />,
         prevArrow: <SamplePrevArrow />,
@@ -71,7 +71,7 @@ const CartPayment = () => {
                                 type="radio"
                                 name="payment"
                                 id="payment1"
-                                hidden=""
+                                hidden
                             />
                             <label className="form-check-label" htmlFor="payment1">
                                 <img src="assets/images/thumbs/payment-method1.png" alt="" />
@@ -83,7 +83,7 @@ const CartPayment = () => {
                                 type="radio"
                                 name="payment"
                                 id="payment2"
-                                hidden=""
+                                hidden
                             />
                             <label className="form-check-label" htmlFor="payment2">
                                 <img src="assets/images/thumbs/payment-method2.png" alt="" />
@@ -95,7 +95,7 @@ const CartPayment = () => {
                                 type="radio"
                                 name="payment"
                                 id="payment3"
-                                hidden=""
+                                hidden
                             />
                             <label className="form-check-label" htmlFor="payment3">
                                 <img src="assets/images/thumbs/payment-method3.png" alt="" />
@@ -107,7 +107,7 @@ const CartPayment = () => {
                                 type="radio"
                                 name="payment"
                                 id="payment4"
-                                hidden=""
+                                hidden
                             />
                             <label className="form-check-label" htmlFor="payment4">
                                 <img src="assets/images/thumbs/payment-method4.png" alt="" />
@@ -119,7 +119,7 @@ const CartPayment = () => {
                                 type="radio"
                                 name="payment"
                                 id="payment5"
-                                hidden=""
+                                hidden
                             />
                             <label className="form-check-label" htmlFor="payment5">
                                 <img src="assets/images/thumbs/payment-method5.png" alt="" />
@@ -131,7 +131,7 @@ const CartPayment = () => {
                                 type="radio"
                                 name="payment"
                                 id="payment6"
-                                hidden=""
+                                hidden
                             />
                             <label className="form-check-label" htmlFor="payment6">
                                 <img src="assets/images/thumbs/payment-method6.png" alt="" />
@@ -143,7 +143,7 @@ const CartPayment = () => {
                                 type="radio"
                                 name="payment"
                                 id="payment7"
-                                hidden=""
+                                hidden
                             />
                             <label className="form-check-label" htmlFor="payment7">
                                 <img src="assets/images/thumbs/payment-method7.png" alt="" />
@@ -155,7 +155,7 @@ const CartPayment = () => {
                                 type="radio"
                                 name="payment"
                                 id="payment8"
-                                hidden=""
+                                hidden
                             />
                             <label className="form-check-label" htmlFor="payment8">
                                 <img src="assets/images/thumbs/payment-method8.png" alt="" />
@@ -167,7 +167,7 @@ const CartPayment = () => {
                                 type="radio"
                                 name="payment"
                                 id="payment9"
-                                hidden=""
+                                hidden
                             />
                             <label className="form-check-label" htmlFor="payment9">
                                 <img src="assets/images/thumbs/payment-method9.png" alt="" />
@@ -179,7 +179,7 @@ const CartPayment = () => {
                                 type="radio"
                                 name="payment"
                                 id="payment10"
-                                hidden=""
+                                hidden
                             />
                             <label className="form-check-label" htmlFor="payment10">
                                 <img src="assets/images/thumbs/payment-method10.png" alt="" />
@@ -191,7 +191,7 @@ const CartPayment = () => {
                                 type="radio"
                                 name="payment"
                                 id="payment11"
-                                hidden=""
+                                hidden
                             />
                             <label className="form-check-label" htmlFor="payment11">
                                 <img src="assets/images/thumbs/payment-method11.png" alt="" />
@@ -203,7 +203,7 @@ const CartPayment = () => {
                                 type="radio"
                                 name="payment"
                                 id="payment12"
-                                hidden=""
+                                hidden
                             />
                             <label className="form-check-label" htmlFor="payment12">
                                 <img src="assets/images/thumbs/payment-method12.png" alt="" />
@@ -215,7 +215,7 @@ const CartPayment = () => {
                                 type="radio"
                                 name="payment"
                                 id="payment13"
-                                hidden=""
+                                hidden
                             />
                             <label className="form-check-label" htmlFor="payment13">
                                 <img src="assets/images/thumbs/payment-method13.png" alt="" />

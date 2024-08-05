@@ -51,5 +51,12 @@
 }
 
 .payment-method__item .form-check-input:checked + .form-check-label::before {
-  background: var(--main-gradient);
+  background: var(--main-gradient) !important;
+}
+
+
+.payment-method__item .form-check-input:checked + .form-check-label::after {
+  background: hsl(var(--static-white));
+  width: calc(100% - 4px);
+  height: calc(100% - 4px);
 }
