@@ -1,8 +1,10 @@
 'use client'
 import ThemeToggle from "@/components/ThemeToggle";
+import { usePathname } from "next/navigation";
 import { useState } from "react";
 
 const MasterLayout = ({ children }) => {
+    let pathname = usePathname();
 let [active, setActive] = useState(false)
 let [show, setShow] = useState(false)
     let dashboardControl =()=>{
@@ -11,6 +13,9 @@ let [show, setShow] = useState(false)
     let showProfileControl =()=>{
         setShow(!show)
     }
+
+
+    
     return (
         <>
 
@@ -205,7 +210,7 @@ let [show, setShow] = useState(false)
                             </a>
                             {/* Sidebar List Start */}
                             <ul className="sidebar-list">
-                                <li className="sidebar-list__item">
+                                <li className={`sidebar-list__item ${pathname == "/dashboard" && "activePage"}`}>
                                     <a href="dashboard.html" className="sidebar-list__link">
                                         <span className="sidebar-list__icon">
                                             <img
@@ -222,7 +227,7 @@ let [show, setShow] = useState(false)
                                         <span className="text">Dashboard</span>
                                     </a>
                                 </li>
-                                <li className="sidebar-list__item">
+                                <li className={`sidebar-list__item ${pathname == "/dashboard-profile" && "activePage"}`}>
                                     <a href="dashboard-profile.html" className="sidebar-list__link">
                                         <span className="sidebar-list__icon">
                                             <img
@@ -239,7 +244,7 @@ let [show, setShow] = useState(false)
                                         <span className="text">Profile</span>
                                     </a>
                                 </li>
-                                <li className="sidebar-list__item">
+                                <li className={`sidebar-list__item ${pathname == "/follower" && "activePage"}`}>
                                     <a href="follower.html" className="sidebar-list__link">
                                         <span className="sidebar-list__icon">
                                             <img
@@ -256,7 +261,7 @@ let [show, setShow] = useState(false)
                                         <span className="text">Followers</span>
                                     </a>
                                 </li>
-                                <li className="sidebar-list__item">
+                                <li className={`sidebar-list__item ${pathname == "/following" && "activePage"}`}>
                                     <a href="following.html" className="sidebar-list__link">
                                         <span className="sidebar-list__icon">
                                             <img
@@ -273,7 +278,7 @@ let [show, setShow] = useState(false)
                                         <span className="text">Followings</span>
                                     </a>
                                 </li>
-                                <li className="sidebar-list__item">
+                                <li className={`sidebar-list__item ${pathname == "/setting" && "activePage"}`}>
                                     <a href="setting.html" className="sidebar-list__link">
                                         <span className="sidebar-list__icon">
                                             <img
@@ -290,7 +295,7 @@ let [show, setShow] = useState(false)
                                         <span className="text">Settings</span>
                                     </a>
                                 </li>
-                                <li className="sidebar-list__item">
+                                <li className={`sidebar-list__item ${pathname == "/statement" && "activePage"}`}>
                                     <a href="statement.html" className="sidebar-list__link">
                                         <span className="sidebar-list__icon">
                                             <img
@@ -307,7 +312,7 @@ let [show, setShow] = useState(false)
                                         <span className="text">Statements</span>
                                     </a>
                                 </li>
-                                <li className="sidebar-list__item">
+                                <li className={`sidebar-list__item ${pathname == "/earning" && "activePage"}`}>
                                     <a href="earning.html" className="sidebar-list__link">
                                         <span className="sidebar-list__icon">
                                             <img
@@ -324,7 +329,7 @@ let [show, setShow] = useState(false)
                                         <span className="text">Earnings</span>
                                     </a>
                                 </li>
-                                <li className="sidebar-list__item">
+                                <li className={`sidebar-list__item ${pathname == "/review" && "activePage"}`}>
                                     <a href="review.html" className="sidebar-list__link">
                                         <span className="sidebar-list__icon">
                                             <img
@@ -341,7 +346,7 @@ let [show, setShow] = useState(false)
                                         <span className="text">Reviews</span>
                                     </a>
                                 </li>
-                                <li className="sidebar-list__item">
+                                <li className={`sidebar-list__item ${pathname == "/download" && "activePage"}`}>
                                     <a href="download.html" className="sidebar-list__link">
                                         <span className="sidebar-list__icon">
                                             <img
@@ -358,7 +363,7 @@ let [show, setShow] = useState(false)
                                         <span className="text">Downloads</span>
                                     </a>
                                 </li>
-                                <li className="sidebar-list__item">
+                                <li className={`sidebar-list__item ${pathname == "/refund" && "activePage"}`}>
                                     <a href="refund.html" className="sidebar-list__link">
                                         <span className="sidebar-list__icon">
                                             <img
@@ -375,7 +380,7 @@ let [show, setShow] = useState(false)
                                         <span className="text">Refunds</span>
                                     </a>
                                 </li>
-                                <li className="sidebar-list__item">
+                                <li className={`sidebar-list__item ${pathname == "/login" && "activePage"}`}>
                                     <a href="login.html" className="sidebar-list__link">
                                         <span className="sidebar-list__icon">
                                             <img
