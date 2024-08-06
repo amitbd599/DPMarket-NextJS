@@ -7,7 +7,16 @@ const PerformanceAuthor = () => {
   const textRef = useRef(null);
 
   useEffect(() => {
-    new CircleType(textRef.current).radius(75);
+    const text = textRef.current;
+    
+    if (text) {
+      text.innerHTML = text.innerText
+        .split("")
+        .map(
+          (char, i) => `<span style="transform:rotate(${i * 11.5}deg)">${char}</span>`
+        )
+        .join("");
+    }
   }, []);
   return (
     <section className="top-performance overflow-hidden padding-y-120 position-relative z-index-1">

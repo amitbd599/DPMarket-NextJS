@@ -9807,7 +9807,7 @@ const Profile = () => {
                     <div className="profile-sidebar__item">
                       <h6 className="title font-body">Open Request</h6>
                       <div className="select-has-icon">
-                        <select className="common-input">
+                        <select className="common-input" defaultValue={1}>
                           <option value={1}>Open Requests</option>
                           <option value={1}>Open Requests</option>
                           <option value={1}>Open Requests</option>
@@ -10290,7 +10290,7 @@ const Profile = () => {
                         </table>
                         <div className="flx-between gap-2">
                           <div className="paginate-content flx-align flex-nowrap gap-3">
-                            <select className="select common-input py-2 px-3 w-auto">
+                            <select className="select common-input py-2 px-3 w-auto" defaultValue={1}>
                               <option value={1}>1</option>
                               <option value={2}>2</option>
                               <option value={3}>3</option>
@@ -10698,7 +10698,7 @@ const Profile = () => {
                     </table>
                     <div className="flx-between gap-2">
                       <div className="paginate-content flx-align flex-nowrap gap-3">
-                        <select className="select common-input py-2 px-3 w-auto">
+                        <select className="select common-input py-2 px-3 w-auto" defaultValue={1}>
                           <option value={1}>1</option>
                           <option value={2}>2</option>
                           <option value={3}>3</option>

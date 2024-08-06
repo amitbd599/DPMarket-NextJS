@@ -189,7 +189,7 @@ const AllProduct = () => {
                     </button>
                   </div>
                   <div className="position-relative select-has-icon">
-                    <select id="time" className="common-input border-gray-five">
+                    <select id="time" className="common-input border-gray-five" defaultValue={1}>
                       <option value={1}>Now</option>
                       <option value={2}>Yesterday</option>
                       <option value={2}>1 Month Ago</option>

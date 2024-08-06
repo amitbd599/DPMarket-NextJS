@@ -177,7 +177,7 @@ const DashboardStatement = () => {
               </table>
               <div className="flx-between gap-2">
                 <div className="paginate-content flx-align flex-nowrap gap-3">
-                  <select className="select common-input py-2 px-3 w-auto">
+                  <select className="select common-input py-2 px-3 w-auto" defaultValue={1}>
                     <option value={1}>1</option>
                     <option value={2}>2</option>
                     <option value={3}>3</option>

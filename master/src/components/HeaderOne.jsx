@@ -216,7 +216,7 @@ const HeaderOne = () => {
                     alt=""
                     className="globe-icon dark-version"
                   />
-                  <select className="select py-0 ps-2 border-0 fw-500">
+                  <select className="select py-0 ps-2 border-0 fw-500" defaultValue={1}>
                     <option value={1}>Eng</option>
                     <option value={2}>Bn</option>
                     <option value={3}>Eur</option>
@@ -386,7 +386,7 @@ const HeaderOne = () => {
                   alt=""
                   className="globe-icon dark-version"
                 />
-                <select className="select py-0 ps-2 border-0 fw-500">
+                <select className="select py-0 ps-2 border-0 fw-500" defaultValue={1}>
                   <option value={1}>Eng</option>
                   <option value={2}>Bn</option>
                   <option value={3}>Eur</option>

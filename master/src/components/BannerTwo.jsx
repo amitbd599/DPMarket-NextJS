@@ -70,8 +70,8 @@ const BannerTwo = () => {
               </p>
               <form action="#" className="search-box style-two">
                 <div className="search-box__select select-has-icon">
-                  <select className="form-control form-control py-0 border-0 bg-transparent">
-                    <option value={1} selected="" disabled="">
+                  <select className="form-control form-control py-0 border-0 bg-transparent" defaultValue={1}>
+                    <option value={1}  disabled="">
                       All Categories
                     </option>
                     <option value={2}>WordPress</option>

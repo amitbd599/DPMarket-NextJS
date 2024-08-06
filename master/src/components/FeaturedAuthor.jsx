@@ -1,12 +1,20 @@
 "use client";
 import { useEffect, useRef } from "react";
-import CircleType from "circletype";
 import Link from "next/link";
 const FeaturedAuthor = () => {
   const textRef = useRef(null);
 
   useEffect(() => {
-    new CircleType(textRef.current).radius(1);
+    const text = textRef.current;
+    
+    if (text) {
+      text.innerHTML = text.innerText
+        .split("")
+        .map(
+          (char, i) => `<span style="transform:rotate(${i * 11.5}deg)">${char}</span>`
+        )
+        .join("");
+    }
   }, []);
   return (
     <section className="top-author padding-y-120 section-bg position-relative z-index-1">
@@ -78,8 +86,8 @@ const FeaturedAuthor = () => {
                 <div className="circle__badge">
                   <img src="assets/images/icons/featured-badge.png" alt="" />
                 </div>
-                <div className="circle__text">
-                  <p ref={textRef}>DPmarketer Top Featured </p>
+                <div className="circle__text" ref={textRef}>
+                     <p>DP marketer Top Featured Author</p>
                 </div>
               </div>
               <div className="row gy-4 card-wrapper">

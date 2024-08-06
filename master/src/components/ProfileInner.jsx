@@ -263,7 +263,7 @@ const ProfileInner = () => {
                                 City
                               </label>
                               <div className="select-has-icon">
-                                <select className="common-input border" id="cityyy">
+                                <select className="common-input border" id="cityyy" defaultValue={1}>
                                   <option value={1}>Dhaka</option>
                                   <option value={1}>Chandpur</option>
                                   <option value={1}>Comilla</option>
@@ -279,7 +279,7 @@ const ProfileInner = () => {
                                 State/Region
                               </label>
                               <div className="select-has-icon">
-                                <select className="common-input border" id="Stateee">
+                                <select className="common-input border" id="Stateee" defaultValue={1}>
                                   <option value={1}>USA</option>
                                   <option value={1}>Bangladesh</option>
                                   <option value={1}>India</option>
@@ -312,7 +312,7 @@ const ProfileInner = () => {
                               <div className="select-has-icon">
                                 <select
                                   className="common-input border"
-                                  id="Countryyy"
+                                  id="Countryyy" defaultValue={1}
                                 >
                                   <option value={1}>USA</option>
                                   <option value={1}>Bangladesh</option>
@@ -392,7 +392,7 @@ const ProfileInner = () => {
                                 City
                               </label>
                               <div className="select-has-icon">
-                                <select className="common-input border" id="city">
+                                <select className="common-input border" id="city" defaultValue={1}>
                                   <option value={1}>Dhaka</option>
                                   <option value={1}>Chandpur</option>
                                   <option value={1}>Comilla</option>

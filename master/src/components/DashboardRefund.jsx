@@ -17,7 +17,7 @@ const DashboardRefund = () => {
             <div className="profile-sidebar__item">
               <h6 className="title font-body">Open Request</h6>
               <div className="select-has-icon">
-                <select className="common-input">
+                <select className="common-input" defaultValue={1}>
                   <option value={1}>Open Requests</option>
                   <option value={1}>Open Requests</option>
                   <option value={1}>Open Requests</option>
