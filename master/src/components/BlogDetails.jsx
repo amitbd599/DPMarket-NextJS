@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 const BlogDetails = () => {
     return (
         <>
@@ -134,28 +136,28 @@ const BlogDetails = () => {
                       </span>
                       <ul className="post-tag__list flx-align gap-2">
                         <li className="post-tag__item">
-                          <a
-                            href="blog.html"
+                          <Link
+                            href="/blog"
                             className="post-tag__link font-14 text-heading pill fw-500"
                           >
                             Business
-                          </a>
+                          </Link>
                         </li>
                         <li className="post-tag__item">
-                          <a
-                            href="blog.html"
+                          <Link
+                            href="/blog"
                             className="post-tag__link font-14 text-heading pill fw-500"
                           >
                             Marketing
-                          </a>
+                          </Link>
                         </li>
                         <li className="post-tag__item">
-                          <a
-                            href="blog.html"
+                          <Link
+                            href="/blog"
                             className="post-tag__link font-14 text-heading pill fw-500"
                           >
                             Strategy
-                          </a>
+                          </Link>
                         </li>
                       </ul>
                     </div>
@@ -165,30 +167,30 @@ const BlogDetails = () => {
                       </span>
                       <ul className="social-icon-list colorful-style">
                         <li className="social-icon-list__item">
-                          <a
+                          <Link
                             href="https://www.facebook.com"
                             className="social-icon-list__link text-heading font-16 flex-center"
                           >
                             <i className="fab fa-facebook-f" />
-                          </a>
+                          </Link>
                         </li>
                         <li className="social-icon-list__item">
-                          <a
+                          <Link
                             href="https://www.twitter.com"
                             className="social-icon-list__link text-heading font-16 flex-center"
                           >
                             {" "}
                             <i className="fab fa-linkedin-in" />
-                          </a>
+                          </Link>
                         </li>
                         <li className="social-icon-list__item">
-                          <a
+                          <Link
                             href="https://www.google.com"
                             className="social-icon-list__link text-heading font-16 flex-center"
                           >
                             {" "}
                             <i className="fab fa-twitter" />
-                          </a>
+                          </Link>
                         </li>
                       </ul>
                     </div>
@@ -392,9 +394,9 @@ const BlogDetails = () => {
                   Browse all latest blogs and articles
                 </h3>
               </div>
-              <a href="blog.html" className="btn btn-outline-light btn-lg pill">
+              <Link href="/blog" className="btn btn-outline-light btn-lg pill">
                 Browse All Articles
-              </a>
+              </Link>
             </div>
             <div className="article-item-wrapper">
               <div className="article-item">
@@ -415,21 +417,21 @@ const BlogDetails = () => {
                   <div className="article-item__center d-flex align-items-center">
                     <div className="article-item__content">
                       <div className="article-item__top flx-align">
-                        <a href="blog.html" className="article-item__tag font-14">
+                        <Link href="/blog" className="article-item__tag font-14">
                           Startup
-                        </a>
-                        <a href="blog.html" className="article-item__tag font-14">
+                        </Link>
+                        <Link href="/blog" className="article-item__tag font-14">
                           Marketing
-                        </a>
+                        </Link>
                         <span className="text-heading font-16 fw-500">
                           June 24, 2024
                         </span>
                       </div>
                       <h4 className="article-item__title mb-3">
-                        <a href="blog-details.html" className="link">
+                        <Link href="/blog-details" className="link">
                           {" "}
                           Data-Driven Insights Unlock The Hidden Potential
-                        </a>
+                        </Link>
                       </h4>
                       <p className="article-item__desc">
                         Etiam id euismod odio. Ut euismod sem a lacus ringill a
@@ -442,12 +444,12 @@ const BlogDetails = () => {
                   </div>
                 </div>
                 <div className="article-item__end flex-shrink-0">
-                  <a href="blog-details.html" className="btn-simple">
+                  <Link href="/blog-details" className="btn-simple">
                     Read More{" "}
                     <span className="icon font-26">
                       <i className="las la-arrow-right" />
                     </span>{" "}
-                  </a>
+                  </Link>
                 </div>
               </div>
               <div className="article-item">
@@ -468,20 +470,20 @@ const BlogDetails = () => {
                   <div className="article-item__center d-flex align-items-center">
                     <div className="article-item__content">
                       <div className="article-item__top flx-align">
-                        <a href="blog.html" className="article-item__tag font-14">
+                        <Link href="/blog" className="article-item__tag font-14">
                           Startup
-                        </a>
-                        <a href="blog.html" className="article-item__tag font-14">
+                        </Link>
+                        <Link href="/blog" className="article-item__tag font-14">
                           Marketing
-                        </a>
+                        </Link>
                         <span className="text-heading font-16 fw-500">
                           June 24, 2024
                         </span>
                       </div>
                       <h4 className="article-item__title mb-3">
-                        <a href="blog-details.html" className="link">
+                        <Link href="/blog-details" className="link">
                           we offer best training for individuals and teams
-                        </a>
+                        </Link>
                       </h4>
                       <p className="article-item__desc">
                         Etiam id euismod odio. Ut euismod sem a lacus ringill a
@@ -494,12 +496,12 @@ const BlogDetails = () => {
                   </div>
                 </div>
                 <div className="article-item__end flex-shrink-0">
-                  <a href="blog-details.html" className="btn-simple">
+                  <Link href="/blog-details" className="btn-simple">
                     Read More{" "}
                     <span className="icon font-26">
                       <i className="las la-arrow-right" />
                     </span>{" "}
-                  </a>
+                  </Link>
                 </div>
               </div>
               <div className="article-item">
@@ -520,20 +522,20 @@ const BlogDetails = () => {
                   <div className="article-item__center d-flex align-items-center">
                     <div className="article-item__content">
                       <div className="article-item__top flx-align">
-                        <a href="blog.html" className="article-item__tag font-14">
+                        <Link href="/blog" className="article-item__tag font-14">
                           Startup
-                        </a>
-                        <a href="blog.html" className="article-item__tag font-14">
+                        </Link>
+                        <Link href="/blog" className="article-item__tag font-14">
                           Marketing
-                        </a>
+                        </Link>
                         <span className="text-heading font-16 fw-500">
                           June 24, 2024
                         </span>
                       </div>
                       <h4 className="article-item__title mb-3">
-                        <a href="blog-details.html" className="link">
+                        <Link href="/blog-details" className="link">
                           The analytics feature is like having a personal fortune.
-                        </a>
+                        </Link>
                       </h4>
                       <p className="article-item__desc">
                         Etiam id euismod odio. Ut euismod sem a lacus ringill a
@@ -546,12 +548,12 @@ const BlogDetails = () => {
                   </div>
                 </div>
                 <div className="article-item__end flex-shrink-0">
-                  <a href="blog-details.html" className="btn-simple">
+                  <Link href="/blog-details" className="btn-simple">
                     Read More{" "}
                     <span className="icon font-26">
                       <i className="las la-arrow-right" />
                     </span>{" "}
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>

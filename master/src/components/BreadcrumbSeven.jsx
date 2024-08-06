@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 const BreadcrumbSeven = () => {
     return (
         <section className="breadcrumb border-bottom p-0 d-block section-bg position-relative z-index-1">
@@ -13,12 +15,12 @@ const BreadcrumbSeven = () => {
                 <div className="breadcrumb-two-content text-center">
                   <ul className="breadcrumb-list flx-align gap-2 mb-2 justify-content-center">
                     <li className="breadcrumb-list__item font-14 text-body">
-                      <a
-                        href="index.html"
+                      <Link
+                        href="/"
                         className="breadcrumb-list__link text-body hover-text-main"
                       >
                         Home
-                      </a>
+                      </Link>
                     </li>
                     <li className="breadcrumb-list__item font-14 text-body">
                       <span className="breadcrumb-list__icon font-10">

@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 const PopularTwo = () => {
   return (
     <section className="popular-item-card-section padding-y-120 overflow-hidden">
@@ -244,12 +246,12 @@ const PopularTwo = () => {
               <div className="col-xl-3 col-lg-4 col-sm-6 col-xs-6">
                 <div className="popular-item-card">
                   <div className="popular-item-card__thumb">
-                    <a href="product-details.html" className="link w-100">
+                    <Link href="/product-details" className="link w-100">
                       <img
                         src="assets/images/thumbs/popular-item1.png"
                         alt=""
                       />
-                    </a>
+                    </Link>
                     <div className="product-item__bottom flx-between gap-2">
                       <div>
                         <span className="product-item__sales font-14 mb-0 text-white">
@@ -280,23 +282,23 @@ const PopularTwo = () => {
                       </div>
                       <span className="product-item__author">
                         by
-                        <a
-                          href="profile.html"
+                        <Link
+                          href="/profile"
                           className="link text-decoration-underline"
                         >
                           themepix
-                        </a>
+                        </Link>
                       </span>
                     </div>
                   </div>
                   <div className="popular-item-card__content d-flex align-items-center justify-content-between gap-2 text-start">
                     <h6 className="popular-item-card__title mb-0">
-                      <a href="product-details.html" className="link">
+                      <Link href="/product-details" className="link">
                         SaaS for Finance Management
-                      </a>
+                      </Link>
                     </h6>
-                    <a
-                      href="product-details.html"
+                    <Link
+                      href="/product-details"
                       className="btn-link line-height-1 flex-shrink-0"
                     >
                       <img
@@ -309,19 +311,19 @@ const PopularTwo = () => {
                         alt=""
                         className="dark-version"
                       />
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
               <div className="col-xl-3 col-lg-4 col-sm-6 col-xs-6">
                 <div className="popular-item-card">
                   <div className="popular-item-card__thumb">
-                    <a href="product-details.html" className="link w-100">
+                    <Link href="/product-details" className="link w-100">
                       <img
                         src="assets/images/thumbs/popular-item2.png"
                         alt=""
                       />
-                    </a>
+                    </Link>
                     <div className="product-item__bottom flx-between gap-2">
                       <div>
                         <span className="product-item__sales font-14 mb-0 text-white">
@@ -352,23 +354,23 @@ const PopularTwo = () => {
                       </div>
                       <span className="product-item__author">
                         by
-                        <a
-                          href="profile.html"
+                        <Link
+                          href="/profile"
                           className="link text-decoration-underline"
                         >
                           themepix
-                        </a>
+                        </Link>
                       </span>
                     </div>
                   </div>
                   <div className="popular-item-card__content d-flex align-items-center justify-content-between gap-2 text-start">
                     <h6 className="popular-item-card__title mb-0">
-                      <a href="product-details.html" className="link">
+                      <Link href="/product-details" className="link">
                         zirtrust - Fintech SaaS Ui kit
-                      </a>
+                      </Link>
                     </h6>
-                    <a
-                      href="product-details.html"
+                    <Link
+                      href="/product-details"
                       className="btn-link line-height-1 flex-shrink-0"
                     >
                       <img
@@ -381,19 +383,19 @@ const PopularTwo = () => {
                         alt=""
                         className="dark-version"
                       />
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
               <div className="col-xl-3 col-lg-4 col-sm-6 col-xs-6">
                 <div className="popular-item-card">
                   <div className="popular-item-card__thumb">
-                    <a href="product-details.html" className="link w-100">
+                    <Link href="/product-details" className="link w-100">
                       <img
                         src="assets/images/thumbs/popular-item3.png"
                         alt=""
                       />
-                    </a>
+                    </Link>
                     <div className="product-item__bottom flx-between gap-2">
                       <div>
                         <span className="product-item__sales font-14 mb-0 text-white">
@@ -424,23 +426,23 @@ const PopularTwo = () => {
                       </div>
                       <span className="product-item__author">
                         by
-                        <a
-                          href="profile.html"
+                        <Link
+                          href="/profile"
                           className="link text-decoration-underline"
                         >
                           themepix
-                        </a>
+                        </Link>
                       </span>
                     </div>
                   </div>
                   <div className="popular-item-card__content d-flex align-items-center justify-content-between gap-2 text-start">
                     <h6 className="popular-item-card__title mb-0">
-                      <a href="product-details.html" className="link">
+                      <Link href="/product-details" className="link">
                         yolla - CRM Software Landingpage
-                      </a>
+                      </Link>
                     </h6>
-                    <a
-                      href="product-details.html"
+                    <Link
+                      href="/product-details"
                       className="btn-link line-height-1 flex-shrink-0"
                     >
                       <img
@@ -453,19 +455,19 @@ const PopularTwo = () => {
                         alt=""
                         className="dark-version"
                       />
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
               <div className="col-xl-3 col-lg-4 col-sm-6 col-xs-6">
                 <div className="popular-item-card">
                   <div className="popular-item-card__thumb">
-                    <a href="product-details.html" className="link w-100">
+                    <Link href="/product-details" className="link w-100">
                       <img
                         src="assets/images/thumbs/popular-item4.png"
                         alt=""
                       />
-                    </a>
+                    </Link>
                     <div className="product-item__bottom flx-between gap-2">
                       <div>
                         <span className="product-item__sales font-14 mb-0 text-white">
@@ -496,23 +498,23 @@ const PopularTwo = () => {
                       </div>
                       <span className="product-item__author">
                         by
-                        <a
-                          href="profile.html"
+                        <Link
+                          href="/profile"
                           className="link text-decoration-underline"
                         >
                           themepix
-                        </a>
+                        </Link>
                       </span>
                     </div>
                   </div>
                   <div className="popular-item-card__content d-flex align-items-center justify-content-between gap-2 text-start">
                     <h6 className="popular-item-card__title mb-0">
-                      <a href="product-details.html" className="link">
+                      <Link href="/product-details" className="link">
                         Business point - HR UX-UI design Template
-                      </a>
+                      </Link>
                     </h6>
-                    <a
-                      href="product-details.html"
+                    <Link
+                      href="/product-details"
                       className="btn-link line-height-1 flex-shrink-0"
                     >
                       <img
@@ -525,19 +527,19 @@ const PopularTwo = () => {
                         alt=""
                         className="dark-version"
                       />
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
               <div className="col-xl-3 col-lg-4 col-sm-6 col-xs-6">
                 <div className="popular-item-card">
                   <div className="popular-item-card__thumb">
-                    <a href="product-details.html" className="link w-100">
+                    <Link href="/product-details" className="link w-100">
                       <img
                         src="assets/images/thumbs/popular-item5.png"
                         alt=""
                       />
-                    </a>
+                    </Link>
                     <div className="product-item__bottom flx-between gap-2">
                       <div>
                         <span className="product-item__sales font-14 mb-0 text-white">
@@ -568,23 +570,23 @@ const PopularTwo = () => {
                       </div>
                       <span className="product-item__author">
                         by
-                        <a
-                          href="profile.html"
+                        <Link
+                          href="/profile"
                           className="link text-decoration-underline"
                         >
                           themepix
-                        </a>
+                        </Link>
                       </span>
                     </div>
                   </div>
                   <div className="popular-item-card__content d-flex align-items-center justify-content-between gap-2 text-start">
                     <h6 className="popular-item-card__title mb-0">
-                      <a href="product-details.html" className="link">
+                      <Link href="/product-details" className="link">
                         Wonder AI Landing Page Template
-                      </a>
+                      </Link>
                     </h6>
-                    <a
-                      href="product-details.html"
+                    <Link
+                      href="/product-details"
                       className="btn-link line-height-1 flex-shrink-0"
                     >
                       <img
@@ -597,19 +599,19 @@ const PopularTwo = () => {
                         alt=""
                         className="dark-version"
                       />
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
               <div className="col-xl-3 col-lg-4 col-sm-6 col-xs-6">
                 <div className="popular-item-card">
                   <div className="popular-item-card__thumb">
-                    <a href="product-details.html" className="link w-100">
+                    <Link href="/product-details" className="link w-100">
                       <img
                         src="assets/images/thumbs/popular-item6.png"
                         alt=""
                       />
-                    </a>
+                    </Link>
                     <div className="product-item__bottom flx-between gap-2">
                       <div>
                         <span className="product-item__sales font-14 mb-0 text-white">
@@ -640,23 +642,23 @@ const PopularTwo = () => {
                       </div>
                       <span className="product-item__author">
                         by
-                        <a
-                          href="profile.html"
+                        <Link
+                          href="/profile"
                           className="link text-decoration-underline"
                         >
                           themepix
-                        </a>
+                        </Link>
                       </span>
                     </div>
                   </div>
                   <div className="popular-item-card__content d-flex align-items-center justify-content-between gap-2 text-start">
                     <h6 className="popular-item-card__title mb-0">
-                      <a href="product-details.html" className="link">
+                      <Link href="/product-details" className="link">
                         turing UI Kit: AI Smart Healthcare App&nbsp;
-                      </a>
+                      </Link>
                     </h6>
-                    <a
-                      href="product-details.html"
+                    <Link
+                      href="/product-details"
                       className="btn-link line-height-1 flex-shrink-0"
                     >
                       <img
@@ -669,19 +671,19 @@ const PopularTwo = () => {
                         alt=""
                         className="dark-version"
                       />
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
               <div className="col-xl-3 col-lg-4 col-sm-6 col-xs-6">
                 <div className="popular-item-card">
                   <div className="popular-item-card__thumb">
-                    <a href="product-details.html" className="link w-100">
+                    <Link href="/product-details" className="link w-100">
                       <img
                         src="assets/images/thumbs/popular-item7.png"
                         alt=""
                       />
-                    </a>
+                    </Link>
                     <div className="product-item__bottom flx-between gap-2">
                       <div>
                         <span className="product-item__sales font-14 mb-0 text-white">
@@ -712,23 +714,23 @@ const PopularTwo = () => {
                       </div>
                       <span className="product-item__author">
                         by
-                        <a
-                          href="profile.html"
+                        <Link
+                          href="/profile"
                           className="link text-decoration-underline"
                         >
                           themepix
-                        </a>
+                        </Link>
                       </span>
                     </div>
                   </div>
                   <div className="popular-item-card__content d-flex align-items-center justify-content-between gap-2 text-start">
                     <h6 className="popular-item-card__title mb-0">
-                      <a href="product-details.html" className="link">
+                      <Link href="/product-details" className="link">
                         FinTrust - Fintech SAAS Ui kit
-                      </a>
+                      </Link>
                     </h6>
-                    <a
-                      href="product-details.html"
+                    <Link
+                      href="/product-details"
                       className="btn-link line-height-1 flex-shrink-0"
                     >
                       <img
@@ -741,19 +743,19 @@ const PopularTwo = () => {
                         alt=""
                         className="dark-version"
                       />
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
               <div className="col-xl-3 col-lg-4 col-sm-6 col-xs-6">
                 <div className="popular-item-card">
                   <div className="popular-item-card__thumb">
-                    <a href="product-details.html" className="link w-100">
+                    <Link href="/product-details" className="link w-100">
                       <img
                         src="assets/images/thumbs/popular-item2.png"
                         alt=""
                       />
-                    </a>
+                    </Link>
                     <div className="product-item__bottom flx-between gap-2">
                       <div>
                         <span className="product-item__sales font-14 mb-0 text-white">
@@ -784,23 +786,23 @@ const PopularTwo = () => {
                       </div>
                       <span className="product-item__author">
                         by
-                        <a
-                          href="profile.html"
+                        <Link
+                          href="/profile"
                           className="link text-decoration-underline"
                         >
                           themepix
-                        </a>
+                        </Link>
                       </span>
                     </div>
                   </div>
                   <div className="popular-item-card__content d-flex align-items-center justify-content-between gap-2 text-start">
                     <h6 className="popular-item-card__title mb-0">
-                      <a href="product-details.html" className="link">
+                      <Link href="/product-details" className="link">
                         SaaS for Finance Management
-                      </a>
+                      </Link>
                     </h6>
-                    <a
-                      href="product-details.html"
+                    <Link
+                      href="/product-details"
                       className="btn-link line-height-1 flex-shrink-0"
                     >
                       <img
@@ -813,19 +815,19 @@ const PopularTwo = () => {
                         alt=""
                         className="dark-version"
                       />
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
               <div className="col-xl-3 col-lg-4 col-sm-6 col-xs-6">
                 <div className="popular-item-card">
                   <div className="popular-item-card__thumb">
-                    <a href="product-details.html" className="link w-100">
+                    <Link href="/product-details" className="link w-100">
                       <img
                         src="assets/images/thumbs/popular-item9.png"
                         alt=""
                       />
-                    </a>
+                    </Link>
                     <div className="product-item__bottom flx-between gap-2">
                       <div>
                         <span className="product-item__sales font-14 mb-0 text-white">
@@ -856,23 +858,23 @@ const PopularTwo = () => {
                       </div>
                       <span className="product-item__author">
                         by
-                        <a
-                          href="profile.html"
+                        <Link
+                          href="/profile"
                           className="link text-decoration-underline"
                         >
                           themepix
-                        </a>
+                        </Link>
                       </span>
                     </div>
                   </div>
                   <div className="popular-item-card__content d-flex align-items-center justify-content-between gap-2 text-start">
                     <h6 className="popular-item-card__title mb-0">
-                      <a href="product-details.html" className="link">
+                      <Link href="/product-details" className="link">
                         SaaS for Finance Management
-                      </a>
+                      </Link>
                     </h6>
-                    <a
-                      href="product-details.html"
+                    <Link
+                      href="/product-details"
                       className="btn-link line-height-1 flex-shrink-0"
                     >
                       <img
@@ -885,19 +887,19 @@ const PopularTwo = () => {
                         alt=""
                         className="dark-version"
                       />
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
               <div className="col-xl-3 col-lg-4 col-sm-6 col-xs-6">
                 <div className="popular-item-card">
                   <div className="popular-item-card__thumb">
-                    <a href="product-details.html" className="link w-100">
+                    <Link href="/product-details" className="link w-100">
                       <img
                         src="assets/images/thumbs/popular-item10.png"
                         alt=""
                       />
-                    </a>
+                    </Link>
                     <div className="product-item__bottom flx-between gap-2">
                       <div>
                         <span className="product-item__sales font-14 mb-0 text-white">
@@ -928,23 +930,23 @@ const PopularTwo = () => {
                       </div>
                       <span className="product-item__author">
                         by
-                        <a
-                          href="profile.html"
+                        <Link
+                          href="/profile"
                           className="link text-decoration-underline"
                         >
                           themepix
-                        </a>
+                        </Link>
                       </span>
                     </div>
                   </div>
                   <div className="popular-item-card__content d-flex align-items-center justify-content-between gap-2 text-start">
                     <h6 className="popular-item-card__title mb-0">
-                      <a href="product-details.html" className="link">
+                      <Link href="/product-details" className="link">
                         SaaS for Finance Management
-                      </a>
+                      </Link>
                     </h6>
-                    <a
-                      href="product-details.html"
+                    <Link
+                      href="/product-details"
                       className="btn-link line-height-1 flex-shrink-0"
                     >
                       <img
@@ -957,19 +959,19 @@ const PopularTwo = () => {
                         alt=""
                         className="dark-version"
                       />
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
               <div className="col-xl-3 col-lg-4 col-sm-6 col-xs-6">
                 <div className="popular-item-card">
                   <div className="popular-item-card__thumb">
-                    <a href="product-details.html" className="link w-100">
+                    <Link href="/product-details" className="link w-100">
                       <img
                         src="assets/images/thumbs/popular-item11.png"
                         alt=""
                       />
-                    </a>
+                    </Link>
                     <div className="product-item__bottom flx-between gap-2">
                       <div>
                         <span className="product-item__sales font-14 mb-0 text-white">
@@ -1000,23 +1002,23 @@ const PopularTwo = () => {
                       </div>
                       <span className="product-item__author">
                         by
-                        <a
-                          href="profile.html"
+                        <Link
+                          href="/profile"
                           className="link text-decoration-underline"
                         >
                           themepix
-                        </a>
+                        </Link>
                       </span>
                     </div>
                   </div>
                   <div className="popular-item-card__content d-flex align-items-center justify-content-between gap-2 text-start">
                     <h6 className="popular-item-card__title mb-0">
-                      <a href="product-details.html" className="link">
+                      <Link href="/product-details" className="link">
                         SaaS for Finance Management
-                      </a>
+                      </Link>
                     </h6>
-                    <a
-                      href="product-details.html"
+                    <Link
+                      href="/product-details"
                       className="btn-link line-height-1 flex-shrink-0"
                     >
                       <img
@@ -1029,19 +1031,19 @@ const PopularTwo = () => {
                         alt=""
                         className="dark-version"
                       />
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
               <div className="col-xl-3 col-lg-4 col-sm-6 col-xs-6">
                 <div className="popular-item-card">
                   <div className="popular-item-card__thumb">
-                    <a href="product-details.html" className="link w-100">
+                    <Link href="/product-details" className="link w-100">
                       <img
                         src="assets/images/thumbs/popular-item11.png"
                         alt=""
                       />
-                    </a>
+                    </Link>
                     <div className="product-item__bottom flx-between gap-2">
                       <div>
                         <span className="product-item__sales font-14 mb-0 text-white">
@@ -1072,23 +1074,23 @@ const PopularTwo = () => {
                       </div>
                       <span className="product-item__author">
                         by
-                        <a
-                          href="profile.html"
+                        <Link
+                          href="/profile"
                           className="link text-decoration-underline"
                         >
                           themepix
-                        </a>
+                        </Link>
                       </span>
                     </div>
                   </div>
                   <div className="popular-item-card__content d-flex align-items-center justify-content-between gap-2 text-start">
                     <h6 className="popular-item-card__title mb-0">
-                      <a href="product-details.html" className="link">
+                      <Link href="/product-details" className="link">
                         amiz - SaaS customer Website Template
-                      </a>
+                      </Link>
                     </h6>
-                    <a
-                      href="product-details.html"
+                    <Link
+                      href="/product-details"
                       className="btn-link line-height-1 flex-shrink-0"
                     >
                       <img
@@ -1101,7 +1103,7 @@ const PopularTwo = () => {
                         alt=""
                         className="dark-version"
                       />
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -1118,12 +1120,12 @@ const PopularTwo = () => {
               <div className="col-xl-3 col-lg-4 col-sm-6 col-xs-6">
                 <div className="popular-item-card">
                   <div className="popular-item-card__thumb">
-                    <a href="product-details.html" className="link w-100">
+                    <Link href="/product-details" className="link w-100">
                       <img
                         src="assets/images/thumbs/popular-item1.png"
                         alt=""
                       />
-                    </a>
+                    </Link>
                     <div className="product-item__bottom flx-between gap-2">
                       <div>
                         <span className="product-item__sales font-14 mb-0 text-white">
@@ -1154,23 +1156,23 @@ const PopularTwo = () => {
                       </div>
                       <span className="product-item__author">
                         by
-                        <a
-                          href="profile.html"
+                        <Link
+                          href="/profile"
                           className="link text-decoration-underline"
                         >
                           themepix
-                        </a>
+                        </Link>
                       </span>
                     </div>
                   </div>
                   <div className="popular-item-card__content d-flex align-items-center justify-content-between gap-2 text-start">
                     <h6 className="popular-item-card__title mb-0">
-                      <a href="product-details.html" className="link">
+                      <Link href="/product-details" className="link">
                         SaaS for Finance Management
-                      </a>
+                      </Link>
                     </h6>
-                    <a
-                      href="product-details.html"
+                    <Link
+                      href="/product-details"
                       className="btn-link line-height-1 flex-shrink-0"
                     >
                       <img
@@ -1183,19 +1185,19 @@ const PopularTwo = () => {
                         alt=""
                         className="dark-version"
                       />
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
               <div className="col-xl-3 col-lg-4 col-sm-6 col-xs-6">
                 <div className="popular-item-card">
                   <div className="popular-item-card__thumb">
-                    <a href="product-details.html" className="link w-100">
+                    <Link href="/product-details" className="link w-100">
                       <img
                         src="assets/images/thumbs/popular-item2.png"
                         alt=""
                       />
-                    </a>
+                    </Link>
                     <div className="product-item__bottom flx-between gap-2">
                       <div>
                         <span className="product-item__sales font-14 mb-0 text-white">
@@ -1226,23 +1228,23 @@ const PopularTwo = () => {
                       </div>
                       <span className="product-item__author">
                         by
-                        <a
-                          href="profile.html"
+                        <Link
+                          href="/profile"
                           className="link text-decoration-underline"
                         >
                           themepix
-                        </a>
+                        </Link>
                       </span>
                     </div>
                   </div>
                   <div className="popular-item-card__content d-flex align-items-center justify-content-between gap-2 text-start">
                     <h6 className="popular-item-card__title mb-0">
-                      <a href="product-details.html" className="link">
+                      <Link href="/product-details" className="link">
                         zirtrust - Fintech SaaS Ui kit
-                      </a>
+                      </Link>
                     </h6>
-                    <a
-                      href="product-details.html"
+                    <Link
+                      href="/product-details"
                       className="btn-link line-height-1 flex-shrink-0"
                     >
                       <img
@@ -1255,19 +1257,19 @@ const PopularTwo = () => {
                         alt=""
                         className="dark-version"
                       />
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
               <div className="col-xl-3 col-lg-4 col-sm-6 col-xs-6">
                 <div className="popular-item-card">
                   <div className="popular-item-card__thumb">
-                    <a href="product-details.html" className="link w-100">
+                    <Link href="/product-details" className="link w-100">
                       <img
                         src="assets/images/thumbs/popular-item3.png"
                         alt=""
                       />
-                    </a>
+                    </Link>
                     <div className="product-item__bottom flx-between gap-2">
                       <div>
                         <span className="product-item__sales font-14 mb-0 text-white">
@@ -1298,23 +1300,23 @@ const PopularTwo = () => {
                       </div>
                       <span className="product-item__author">
                         by
-                        <a
-                          href="profile.html"
+                        <Link
+                          href="/profile"
                           className="link text-decoration-underline"
                         >
                           themepix
-                        </a>
+                        </Link>
                       </span>
                     </div>
                   </div>
                   <div className="popular-item-card__content d-flex align-items-center justify-content-between gap-2 text-start">
                     <h6 className="popular-item-card__title mb-0">
-                      <a href="product-details.html" className="link">
+                      <Link href="/product-details" className="link">
                         yolla - CRM Software Landingpage
-                      </a>
+                      </Link>
                     </h6>
-                    <a
-                      href="product-details.html"
+                    <Link
+                      href="/product-details"
                       className="btn-link line-height-1 flex-shrink-0"
                     >
                       <img
@@ -1327,19 +1329,19 @@ const PopularTwo = () => {
                         alt=""
                         className="dark-version"
                       />
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
               <div className="col-xl-3 col-lg-4 col-sm-6 col-xs-6">
                 <div className="popular-item-card">
                   <div className="popular-item-card__thumb">
-                    <a href="product-details.html" className="link w-100">
+                    <Link href="/product-details" className="link w-100">
                       <img
                         src="assets/images/thumbs/popular-item4.png"
                         alt=""
                       />
-                    </a>
+                    </Link>
                     <div className="product-item__bottom flx-between gap-2">
                       <div>
                         <span className="product-item__sales font-14 mb-0 text-white">
@@ -1370,23 +1372,23 @@ const PopularTwo = () => {
                       </div>
                       <span className="product-item__author">
                         by
-                        <a
-                          href="profile.html"
+                        <Link
+                          href="/profile"
                           className="link text-decoration-underline"
                         >
                           themepix
-                        </a>
+                        </Link>
                       </span>
                     </div>
                   </div>
                   <div className="popular-item-card__content d-flex align-items-center justify-content-between gap-2 text-start">
                     <h6 className="popular-item-card__title mb-0">
-                      <a href="product-details.html" className="link">
+                      <Link href="/product-details" className="link">
                         Business point - HR UX-UI design Template
-                      </a>
+                      </Link>
                     </h6>
-                    <a
-                      href="product-details.html"
+                    <Link
+                      href="/product-details"
                       className="btn-link line-height-1 flex-shrink-0"
                     >
                       <img
@@ -1399,19 +1401,19 @@ const PopularTwo = () => {
                         alt=""
                         className="dark-version"
                       />
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
               <div className="col-xl-3 col-lg-4 col-sm-6 col-xs-6">
                 <div className="popular-item-card">
                   <div className="popular-item-card__thumb">
-                    <a href="product-details.html" className="link w-100">
+                    <Link href="/product-details" className="link w-100">
                       <img
                         src="assets/images/thumbs/popular-item5.png"
                         alt=""
                       />
-                    </a>
+                    </Link>
                     <div className="product-item__bottom flx-between gap-2">
                       <div>
                         <span className="product-item__sales font-14 mb-0 text-white">
@@ -1442,23 +1444,23 @@ const PopularTwo = () => {
                       </div>
                       <span className="product-item__author">
                         by
-                        <a
-                          href="profile.html"
+                        <Link
+                          href="/profile"
                           className="link text-decoration-underline"
                         >
                           themepix
-                        </a>
+                        </Link>
                       </span>
                     </div>
                   </div>
                   <div className="popular-item-card__content d-flex align-items-center justify-content-between gap-2 text-start">
                     <h6 className="popular-item-card__title mb-0">
-                      <a href="product-details.html" className="link">
+                      <Link href="/product-details" className="link">
                         Wonder AI Landing Page Template
-                      </a>
+                      </Link>
                     </h6>
-                    <a
-                      href="product-details.html"
+                    <Link
+                      href="/product-details"
                       className="btn-link line-height-1 flex-shrink-0"
                     >
                       <img
@@ -1471,19 +1473,19 @@ const PopularTwo = () => {
                         alt=""
                         className="dark-version"
                       />
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
               <div className="col-xl-3 col-lg-4 col-sm-6 col-xs-6">
                 <div className="popular-item-card">
                   <div className="popular-item-card__thumb">
-                    <a href="product-details.html" className="link w-100">
+                    <Link href="/product-details" className="link w-100">
                       <img
                         src="assets/images/thumbs/popular-item6.png"
                         alt=""
                       />
-                    </a>
+                    </Link>
                     <div className="product-item__bottom flx-between gap-2">
                       <div>
                         <span className="product-item__sales font-14 mb-0 text-white">
@@ -1514,23 +1516,23 @@ const PopularTwo = () => {
                       </div>
                       <span className="product-item__author">
                         by
-                        <a
-                          href="profile.html"
+                        <Link
+                          href="/profile"
                           className="link text-decoration-underline"
                         >
                           themepix
-                        </a>
+                        </Link>
                       </span>
                     </div>
                   </div>
                   <div className="popular-item-card__content d-flex align-items-center justify-content-between gap-2 text-start">
                     <h6 className="popular-item-card__title mb-0">
-                      <a href="product-details.html" className="link">
+                      <Link href="/product-details" className="link">
                         turing UI Kit: AI Smart Healthcare App&nbsp;
-                      </a>
+                      </Link>
                     </h6>
-                    <a
-                      href="product-details.html"
+                    <Link
+                      href="/product-details"
                       className="btn-link line-height-1 flex-shrink-0"
                     >
                       <img
@@ -1543,19 +1545,19 @@ const PopularTwo = () => {
                         alt=""
                         className="dark-version"
                       />
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
               <div className="col-xl-3 col-lg-4 col-sm-6 col-xs-6">
                 <div className="popular-item-card">
                   <div className="popular-item-card__thumb">
-                    <a href="product-details.html" className="link w-100">
+                    <Link href="/product-details" className="link w-100">
                       <img
                         src="assets/images/thumbs/popular-item7.png"
                         alt=""
                       />
-                    </a>
+                    </Link>
                     <div className="product-item__bottom flx-between gap-2">
                       <div>
                         <span className="product-item__sales font-14 mb-0 text-white">
@@ -1586,23 +1588,23 @@ const PopularTwo = () => {
                       </div>
                       <span className="product-item__author">
                         by
-                        <a
-                          href="profile.html"
+                        <Link
+                          href="/profile"
                           className="link text-decoration-underline"
                         >
                           themepix
-                        </a>
+                        </Link>
                       </span>
                     </div>
                   </div>
                   <div className="popular-item-card__content d-flex align-items-center justify-content-between gap-2 text-start">
                     <h6 className="popular-item-card__title mb-0">
-                      <a href="product-details.html" className="link">
+                      <Link href="/product-details" className="link">
                         FinTrust - Fintech SAAS Ui kit
-                      </a>
+                      </Link>
                     </h6>
-                    <a
-                      href="product-details.html"
+                    <Link
+                      href="/product-details"
                       className="btn-link line-height-1 flex-shrink-0"
                     >
                       <img
@@ -1615,19 +1617,19 @@ const PopularTwo = () => {
                         alt=""
                         className="dark-version"
                       />
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
               <div className="col-xl-3 col-lg-4 col-sm-6 col-xs-6">
                 <div className="popular-item-card">
                   <div className="popular-item-card__thumb">
-                    <a href="product-details.html" className="link w-100">
+                    <Link href="/product-details" className="link w-100">
                       <img
                         src="assets/images/thumbs/popular-item2.png"
                         alt=""
                       />
-                    </a>
+                    </Link>
                     <div className="product-item__bottom flx-between gap-2">
                       <div>
                         <span className="product-item__sales font-14 mb-0 text-white">
@@ -1658,23 +1660,23 @@ const PopularTwo = () => {
                       </div>
                       <span className="product-item__author">
                         by
-                        <a
-                          href="profile.html"
+                        <Link
+                          href="/profile"
                           className="link text-decoration-underline"
                         >
                           themepix
-                        </a>
+                        </Link>
                       </span>
                     </div>
                   </div>
                   <div className="popular-item-card__content d-flex align-items-center justify-content-between gap-2 text-start">
                     <h6 className="popular-item-card__title mb-0">
-                      <a href="product-details.html" className="link">
+                      <Link href="/product-details" className="link">
                         SaaS for Finance Management
-                      </a>
+                      </Link>
                     </h6>
-                    <a
-                      href="product-details.html"
+                    <Link
+                      href="/product-details"
                       className="btn-link line-height-1 flex-shrink-0"
                     >
                       <img
@@ -1687,19 +1689,19 @@ const PopularTwo = () => {
                         alt=""
                         className="dark-version"
                       />
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
               <div className="col-xl-3 col-lg-4 col-sm-6 col-xs-6">
                 <div className="popular-item-card">
                   <div className="popular-item-card__thumb">
-                    <a href="product-details.html" className="link w-100">
+                    <Link href="/product-details" className="link w-100">
                       <img
                         src="assets/images/thumbs/popular-item9.png"
                         alt=""
                       />
-                    </a>
+                    </Link>
                     <div className="product-item__bottom flx-between gap-2">
                       <div>
                         <span className="product-item__sales font-14 mb-0 text-white">
@@ -1730,23 +1732,23 @@ const PopularTwo = () => {
                       </div>
                       <span className="product-item__author">
                         by
-                        <a
-                          href="profile.html"
+                        <Link
+                          href="/profile"
                           className="link text-decoration-underline"
                         >
                           themepix
-                        </a>
+                        </Link>
                       </span>
                     </div>
                   </div>
                   <div className="popular-item-card__content d-flex align-items-center justify-content-between gap-2 text-start">
                     <h6 className="popular-item-card__title mb-0">
-                      <a href="product-details.html" className="link">
+                      <Link href="/product-details" className="link">
                         SaaS for Finance Management
-                      </a>
+                      </Link>
                     </h6>
-                    <a
-                      href="product-details.html"
+                    <Link
+                      href="/product-details"
                       className="btn-link line-height-1 flex-shrink-0"
                     >
                       <img
@@ -1759,19 +1761,19 @@ const PopularTwo = () => {
                         alt=""
                         className="dark-version"
                       />
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
               <div className="col-xl-3 col-lg-4 col-sm-6 col-xs-6">
                 <div className="popular-item-card">
                   <div className="popular-item-card__thumb">
-                    <a href="product-details.html" className="link w-100">
+                    <Link href="/product-details" className="link w-100">
                       <img
                         src="assets/images/thumbs/popular-item10.png"
                         alt=""
                       />
-                    </a>
+                    </Link>
                     <div className="product-item__bottom flx-between gap-2">
                       <div>
                         <span className="product-item__sales font-14 mb-0 text-white">
@@ -1802,23 +1804,23 @@ const PopularTwo = () => {
                       </div>
                       <span className="product-item__author">
                         by
-                        <a
-                          href="profile.html"
+                        <Link
+                          href="/profile"
                           className="link text-decoration-underline"
                         >
                           themepix
-                        </a>
+                        </Link>
                       </span>
                     </div>
                   </div>
                   <div className="popular-item-card__content d-flex align-items-center justify-content-between gap-2 text-start">
                     <h6 className="popular-item-card__title mb-0">
-                      <a href="product-details.html" className="link">
+                      <Link href="/product-details" className="link">
                         SaaS for Finance Management
-                      </a>
+                      </Link>
                     </h6>
-                    <a
-                      href="product-details.html"
+                    <Link
+                      href="/product-details"
                       className="btn-link line-height-1 flex-shrink-0"
                     >
                       <img
@@ -1831,19 +1833,19 @@ const PopularTwo = () => {
                         alt=""
                         className="dark-version"
                       />
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
               <div className="col-xl-3 col-lg-4 col-sm-6 col-xs-6">
                 <div className="popular-item-card">
                   <div className="popular-item-card__thumb">
-                    <a href="product-details.html" className="link w-100">
+                    <Link href="/product-details" className="link w-100">
                       <img
                         src="assets/images/thumbs/popular-item11.png"
                         alt=""
                       />
-                    </a>
+                    </Link>
                     <div className="product-item__bottom flx-between gap-2">
                       <div>
                         <span className="product-item__sales font-14 mb-0 text-white">
@@ -1874,23 +1876,23 @@ const PopularTwo = () => {
                       </div>
                       <span className="product-item__author">
                         by
-                        <a
-                          href="profile.html"
+                        <Link
+                          href="/profile"
                           className="link text-decoration-underline"
                         >
                           themepix
-                        </a>
+                        </Link>
                       </span>
                     </div>
                   </div>
                   <div className="popular-item-card__content d-flex align-items-center justify-content-between gap-2 text-start">
                     <h6 className="popular-item-card__title mb-0">
-                      <a href="product-details.html" className="link">
+                      <Link href="/product-details" className="link">
                         SaaS for Finance Management
-                      </a>
+                      </Link>
                     </h6>
-                    <a
-                      href="product-details.html"
+                    <Link
+                      href="/product-details"
                       className="btn-link line-height-1 flex-shrink-0"
                     >
                       <img
@@ -1903,19 +1905,19 @@ const PopularTwo = () => {
                         alt=""
                         className="dark-version"
                       />
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
               <div className="col-xl-3 col-lg-4 col-sm-6 col-xs-6">
                 <div className="popular-item-card">
                   <div className="popular-item-card__thumb">
-                    <a href="product-details.html" className="link w-100">
+                    <Link href="/product-details" className="link w-100">
                       <img
                         src="assets/images/thumbs/popular-item11.png"
                         alt=""
                       />
-                    </a>
+                    </Link>
                     <div className="product-item__bottom flx-between gap-2">
                       <div>
                         <span className="product-item__sales font-14 mb-0 text-white">
@@ -1946,23 +1948,23 @@ const PopularTwo = () => {
                       </div>
                       <span className="product-item__author">
                         by
-                        <a
-                          href="profile.html"
+                        <Link
+                          href="/profile"
                           className="link text-decoration-underline"
                         >
                           themepix
-                        </a>
+                        </Link>
                       </span>
                     </div>
                   </div>
                   <div className="popular-item-card__content d-flex align-items-center justify-content-between gap-2 text-start">
                     <h6 className="popular-item-card__title mb-0">
-                      <a href="product-details.html" className="link">
+                      <Link href="/product-details" className="link">
                         amiz - SaaS customer Website Template
-                      </a>
+                      </Link>
                     </h6>
-                    <a
-                      href="product-details.html"
+                    <Link
+                      href="/product-details"
                       className="btn-link line-height-1 flex-shrink-0"
                     >
                       <img
@@ -1975,7 +1977,7 @@ const PopularTwo = () => {
                         alt=""
                         className="dark-version"
                       />
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -1992,12 +1994,12 @@ const PopularTwo = () => {
               <div className="col-xl-3 col-lg-4 col-sm-6 col-xs-6">
                 <div className="popular-item-card">
                   <div className="popular-item-card__thumb">
-                    <a href="product-details.html" className="link w-100">
+                    <Link href="/product-details" className="link w-100">
                       <img
                         src="assets/images/thumbs/popular-item1.png"
                         alt=""
                       />
-                    </a>
+                    </Link>
                     <div className="product-item__bottom flx-between gap-2">
                       <div>
                         <span className="product-item__sales font-14 mb-0 text-white">
@@ -2028,23 +2030,23 @@ const PopularTwo = () => {
                       </div>
                       <span className="product-item__author">
                         by
-                        <a
-                          href="profile.html"
+                        <Link
+                          href="/profile"
                           className="link text-decoration-underline"
                         >
                           themepix
-                        </a>
+                        </Link>
                       </span>
                     </div>
                   </div>
                   <div className="popular-item-card__content d-flex align-items-center justify-content-between gap-2 text-start">
                     <h6 className="popular-item-card__title mb-0">
-                      <a href="product-details.html" className="link">
+                      <Link href="/product-details" className="link">
                         SaaS for Finance Management
-                      </a>
+                      </Link>
                     </h6>
-                    <a
-                      href="product-details.html"
+                    <Link
+                      href="/product-details"
                       className="btn-link line-height-1 flex-shrink-0"
                     >
                       <img
@@ -2057,19 +2059,19 @@ const PopularTwo = () => {
                         alt=""
                         className="dark-version"
                       />
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
               <div className="col-xl-3 col-lg-4 col-sm-6 col-xs-6">
                 <div className="popular-item-card">
                   <div className="popular-item-card__thumb">
-                    <a href="product-details.html" className="link w-100">
+                    <Link href="/product-details" className="link w-100">
                       <img
                         src="assets/images/thumbs/popular-item2.png"
                         alt=""
                       />
-                    </a>
+                    </Link>
                     <div className="product-item__bottom flx-between gap-2">
                       <div>
                         <span className="product-item__sales font-14 mb-0 text-white">
@@ -2100,23 +2102,23 @@ const PopularTwo = () => {
                       </div>
                       <span className="product-item__author">
                         by
-                        <a
-                          href="profile.html"
+                        <Link
+                          href="/profile"
                           className="link text-decoration-underline"
                         >
                           themepix
-                        </a>
+                        </Link>
                       </span>
                     </div>
                   </div>
                   <div className="popular-item-card__content d-flex align-items-center justify-content-between gap-2 text-start">
                     <h6 className="popular-item-card__title mb-0">
-                      <a href="product-details.html" className="link">
+                      <Link href="/product-details" className="link">
                         zirtrust - Fintech SaaS Ui kit
-                      </a>
+                      </Link>
                     </h6>
-                    <a
-                      href="product-details.html"
+                    <Link
+                      href="/product-details"
                       className="btn-link line-height-1 flex-shrink-0"
                     >
                       <img
@@ -2129,19 +2131,19 @@ const PopularTwo = () => {
                         alt=""
                         className="dark-version"
                       />
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
               <div className="col-xl-3 col-lg-4 col-sm-6 col-xs-6">
                 <div className="popular-item-card">
                   <div className="popular-item-card__thumb">
-                    <a href="product-details.html" className="link w-100">
+                    <Link href="/product-details" className="link w-100">
                       <img
                         src="assets/images/thumbs/popular-item3.png"
                         alt=""
                       />
-                    </a>
+                    </Link>
                     <div className="product-item__bottom flx-between gap-2">
                       <div>
                         <span className="product-item__sales font-14 mb-0 text-white">
@@ -2172,23 +2174,23 @@ const PopularTwo = () => {
                       </div>
                       <span className="product-item__author">
                         by
-                        <a
-                          href="profile.html"
+                        <Link
+                          href="/profile"
                           className="link text-decoration-underline"
                         >
                           themepix
-                        </a>
+                        </Link>
                       </span>
                     </div>
                   </div>
                   <div className="popular-item-card__content d-flex align-items-center justify-content-between gap-2 text-start">
                     <h6 className="popular-item-card__title mb-0">
-                      <a href="product-details.html" className="link">
+                      <Link href="/product-details" className="link">
                         yolla - CRM Software Landingpage
-                      </a>
+                      </Link>
                     </h6>
-                    <a
-                      href="product-details.html"
+                    <Link
+                      href="/product-details"
                       className="btn-link line-height-1 flex-shrink-0"
                     >
                       <img
@@ -2201,19 +2203,19 @@ const PopularTwo = () => {
                         alt=""
                         className="dark-version"
                       />
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
               <div className="col-xl-3 col-lg-4 col-sm-6 col-xs-6">
                 <div className="popular-item-card">
                   <div className="popular-item-card__thumb">
-                    <a href="product-details.html" className="link w-100">
+                    <Link href="/product-details" className="link w-100">
                       <img
                         src="assets/images/thumbs/popular-item4.png"
                         alt=""
                       />
-                    </a>
+                    </Link>
                     <div className="product-item__bottom flx-between gap-2">
                       <div>
                         <span className="product-item__sales font-14 mb-0 text-white">
@@ -2244,23 +2246,23 @@ const PopularTwo = () => {
                       </div>
                       <span className="product-item__author">
                         by
-                        <a
-                          href="profile.html"
+                        <Link
+                          href="/profile"
                           className="link text-decoration-underline"
                         >
                           themepix
-                        </a>
+                        </Link>
                       </span>
                     </div>
                   </div>
                   <div className="popular-item-card__content d-flex align-items-center justify-content-between gap-2 text-start">
                     <h6 className="popular-item-card__title mb-0">
-                      <a href="product-details.html" className="link">
+                      <Link href="/product-details" className="link">
                         Business point - HR UX-UI design Template
-                      </a>
+                      </Link>
                     </h6>
-                    <a
-                      href="product-details.html"
+                    <Link
+                      href="/product-details"
                       className="btn-link line-height-1 flex-shrink-0"
                     >
                       <img
@@ -2273,19 +2275,19 @@ const PopularTwo = () => {
                         alt=""
                         className="dark-version"
                       />
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
               <div className="col-xl-3 col-lg-4 col-sm-6 col-xs-6">
                 <div className="popular-item-card">
                   <div className="popular-item-card__thumb">
-                    <a href="product-details.html" className="link w-100">
+                    <Link href="/product-details" className="link w-100">
                       <img
                         src="assets/images/thumbs/popular-item5.png"
                         alt=""
                       />
-                    </a>
+                    </Link>
                     <div className="product-item__bottom flx-between gap-2">
                       <div>
                         <span className="product-item__sales font-14 mb-0 text-white">
@@ -2316,23 +2318,23 @@ const PopularTwo = () => {
                       </div>
                       <span className="product-item__author">
                         by
-                        <a
-                          href="profile.html"
+                        <Link
+                          href="/profile"
                           className="link text-decoration-underline"
                         >
                           themepix
-                        </a>
+                        </Link>
                       </span>
                     </div>
                   </div>
                   <div className="popular-item-card__content d-flex align-items-center justify-content-between gap-2 text-start">
                     <h6 className="popular-item-card__title mb-0">
-                      <a href="product-details.html" className="link">
+                      <Link href="/product-details" className="link">
                         Wonder AI Landing Page Template
-                      </a>
+                      </Link>
                     </h6>
-                    <a
-                      href="product-details.html"
+                    <Link
+                      href="/product-details"
                       className="btn-link line-height-1 flex-shrink-0"
                     >
                       <img
@@ -2345,19 +2347,19 @@ const PopularTwo = () => {
                         alt=""
                         className="dark-version"
                       />
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
               <div className="col-xl-3 col-lg-4 col-sm-6 col-xs-6">
                 <div className="popular-item-card">
                   <div className="popular-item-card__thumb">
-                    <a href="product-details.html" className="link w-100">
+                    <Link href="/product-details" className="link w-100">
                       <img
                         src="assets/images/thumbs/popular-item6.png"
                         alt=""
                       />
-                    </a>
+                    </Link>
                     <div className="product-item__bottom flx-between gap-2">
                       <div>
                         <span className="product-item__sales font-14 mb-0 text-white">
@@ -2388,23 +2390,23 @@ const PopularTwo = () => {
                       </div>
                       <span className="product-item__author">
                         by
-                        <a
-                          href="profile.html"
+                        <Link
+                          href="/profile"
                           className="link text-decoration-underline"
                         >
                           themepix
-                        </a>
+                        </Link>
                       </span>
                     </div>
                   </div>
                   <div className="popular-item-card__content d-flex align-items-center justify-content-between gap-2 text-start">
                     <h6 className="popular-item-card__title mb-0">
-                      <a href="product-details.html" className="link">
+                      <Link href="/product-details" className="link">
                         turing UI Kit: AI Smart Healthcare App&nbsp;
-                      </a>
+                      </Link>
                     </h6>
-                    <a
-                      href="product-details.html"
+                    <Link
+                      href="/product-details"
                       className="btn-link line-height-1 flex-shrink-0"
                     >
                       <img
@@ -2417,19 +2419,19 @@ const PopularTwo = () => {
                         alt=""
                         className="dark-version"
                       />
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
               <div className="col-xl-3 col-lg-4 col-sm-6 col-xs-6">
                 <div className="popular-item-card">
                   <div className="popular-item-card__thumb">
-                    <a href="product-details.html" className="link w-100">
+                    <Link href="/product-details" className="link w-100">
                       <img
                         src="assets/images/thumbs/popular-item7.png"
                         alt=""
                       />
-                    </a>
+                    </Link>
                     <div className="product-item__bottom flx-between gap-2">
                       <div>
                         <span className="product-item__sales font-14 mb-0 text-white">
@@ -2460,23 +2462,23 @@ const PopularTwo = () => {
                       </div>
                       <span className="product-item__author">
                         by
-                        <a
-                          href="profile.html"
+                        <Link
+                          href="/profile"
                           className="link text-decoration-underline"
                         >
                           themepix
-                        </a>
+                        </Link>
                       </span>
                     </div>
                   </div>
                   <div className="popular-item-card__content d-flex align-items-center justify-content-between gap-2 text-start">
                     <h6 className="popular-item-card__title mb-0">
-                      <a href="product-details.html" className="link">
+                      <Link href="/product-details" className="link">
                         FinTrust - Fintech SAAS Ui kit
-                      </a>
+                      </Link>
                     </h6>
-                    <a
-                      href="product-details.html"
+                    <Link
+                      href="/product-details"
                       className="btn-link line-height-1 flex-shrink-0"
                     >
                       <img
@@ -2489,19 +2491,19 @@ const PopularTwo = () => {
                         alt=""
                         className="dark-version"
                       />
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
               <div className="col-xl-3 col-lg-4 col-sm-6 col-xs-6">
                 <div className="popular-item-card">
                   <div className="popular-item-card__thumb">
-                    <a href="product-details.html" className="link w-100">
+                    <Link href="/product-details" className="link w-100">
                       <img
                         src="assets/images/thumbs/popular-item2.png"
                         alt=""
                       />
-                    </a>
+                    </Link>
                     <div className="product-item__bottom flx-between gap-2">
                       <div>
                         <span className="product-item__sales font-14 mb-0 text-white">
@@ -2532,23 +2534,23 @@ const PopularTwo = () => {
                       </div>
                       <span className="product-item__author">
                         by
-                        <a
-                          href="profile.html"
+                        <Link
+                          href="/profile"
                           className="link text-decoration-underline"
                         >
                           themepix
-                        </a>
+                        </Link>
                       </span>
                     </div>
                   </div>
                   <div className="popular-item-card__content d-flex align-items-center justify-content-between gap-2 text-start">
                     <h6 className="popular-item-card__title mb-0">
-                      <a href="product-details.html" className="link">
+                      <Link href="/product-details" className="link">
                         SaaS for Finance Management
-                      </a>
+                      </Link>
                     </h6>
-                    <a
-                      href="product-details.html"
+                    <Link
+                      href="/product-details"
                       className="btn-link line-height-1 flex-shrink-0"
                     >
                       <img
@@ -2561,19 +2563,19 @@ const PopularTwo = () => {
                         alt=""
                         className="dark-version"
                       />
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
               <div className="col-xl-3 col-lg-4 col-sm-6 col-xs-6">
                 <div className="popular-item-card">
                   <div className="popular-item-card__thumb">
-                    <a href="product-details.html" className="link w-100">
+                    <Link href="/product-details" className="link w-100">
                       <img
                         src="assets/images/thumbs/popular-item9.png"
                         alt=""
                       />
-                    </a>
+                    </Link>
                     <div className="product-item__bottom flx-between gap-2">
                       <div>
                         <span className="product-item__sales font-14 mb-0 text-white">
@@ -2604,23 +2606,23 @@ const PopularTwo = () => {
                       </div>
                       <span className="product-item__author">
                         by
-                        <a
-                          href="profile.html"
+                        <Link
+                          href="/profile"
                           className="link text-decoration-underline"
                         >
                           themepix
-                        </a>
+                        </Link>
                       </span>
                     </div>
                   </div>
                   <div className="popular-item-card__content d-flex align-items-center justify-content-between gap-2 text-start">
                     <h6 className="popular-item-card__title mb-0">
-                      <a href="product-details.html" className="link">
+                      <Link href="/product-details" className="link">
                         SaaS for Finance Management
-                      </a>
+                      </Link>
                     </h6>
-                    <a
-                      href="product-details.html"
+                    <Link
+                      href="/product-details"
                       className="btn-link line-height-1 flex-shrink-0"
                     >
                       <img
@@ -2633,19 +2635,19 @@ const PopularTwo = () => {
                         alt=""
                         className="dark-version"
                       />
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
               <div className="col-xl-3 col-lg-4 col-sm-6 col-xs-6">
                 <div className="popular-item-card">
                   <div className="popular-item-card__thumb">
-                    <a href="product-details.html" className="link w-100">
+                    <Link href="/product-details" className="link w-100">
                       <img
                         src="assets/images/thumbs/popular-item10.png"
                         alt=""
                       />
-                    </a>
+                    </Link>
                     <div className="product-item__bottom flx-between gap-2">
                       <div>
                         <span className="product-item__sales font-14 mb-0 text-white">
@@ -2676,23 +2678,23 @@ const PopularTwo = () => {
                       </div>
                       <span className="product-item__author">
                         by
-                        <a
-                          href="profile.html"
+                        <Link
+                          href="/profile"
                           className="link text-decoration-underline"
                         >
                           themepix
-                        </a>
+                        </Link>
                       </span>
                     </div>
                   </div>
                   <div className="popular-item-card__content d-flex align-items-center justify-content-between gap-2 text-start">
                     <h6 className="popular-item-card__title mb-0">
-                      <a href="product-details.html" className="link">
+                      <Link href="/product-details" className="link">
                         SaaS for Finance Management
-                      </a>
+                      </Link>
                     </h6>
-                    <a
-                      href="product-details.html"
+                    <Link
+                      href="/product-details"
                       className="btn-link line-height-1 flex-shrink-0"
                     >
                       <img
@@ -2705,19 +2707,19 @@ const PopularTwo = () => {
                         alt=""
                         className="dark-version"
                       />
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
               <div className="col-xl-3 col-lg-4 col-sm-6 col-xs-6">
                 <div className="popular-item-card">
                   <div className="popular-item-card__thumb">
-                    <a href="product-details.html" className="link w-100">
+                    <Link href="/product-details" className="link w-100">
                       <img
                         src="assets/images/thumbs/popular-item11.png"
                         alt=""
                       />
-                    </a>
+                    </Link>
                     <div className="product-item__bottom flx-between gap-2">
                       <div>
                         <span className="product-item__sales font-14 mb-0 text-white">
@@ -2748,23 +2750,23 @@ const PopularTwo = () => {
                       </div>
                       <span className="product-item__author">
                         by
-                        <a
-                          href="profile.html"
+                        <Link
+                          href="/profile"
                           className="link text-decoration-underline"
                         >
                           themepix
-                        </a>
+                        </Link>
                       </span>
                     </div>
                   </div>
                   <div className="popular-item-card__content d-flex align-items-center justify-content-between gap-2 text-start">
                     <h6 className="popular-item-card__title mb-0">
-                      <a href="product-details.html" className="link">
+                      <Link href="/product-details" className="link">
                         SaaS for Finance Management
-                      </a>
+                      </Link>
                     </h6>
-                    <a
-                      href="product-details.html"
+                    <Link
+                      href="/product-details"
                       className="btn-link line-height-1 flex-shrink-0"
                     >
                       <img
@@ -2777,19 +2779,19 @@ const PopularTwo = () => {
                         alt=""
                         className="dark-version"
                       />
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
               <div className="col-xl-3 col-lg-4 col-sm-6 col-xs-6">
                 <div className="popular-item-card">
                   <div className="popular-item-card__thumb">
-                    <a href="product-details.html" className="link w-100">
+                    <Link href="/product-details" className="link w-100">
                       <img
                         src="assets/images/thumbs/popular-item11.png"
                         alt=""
                       />
-                    </a>
+                    </Link>
                     <div className="product-item__bottom flx-between gap-2">
                       <div>
                         <span className="product-item__sales font-14 mb-0 text-white">
@@ -2820,23 +2822,23 @@ const PopularTwo = () => {
                       </div>
                       <span className="product-item__author">
                         by
-                        <a
-                          href="profile.html"
+                        <Link
+                          href="/profile"
                           className="link text-decoration-underline"
                         >
                           themepix
-                        </a>
+                        </Link>
                       </span>
                     </div>
                   </div>
                   <div className="popular-item-card__content d-flex align-items-center justify-content-between gap-2 text-start">
                     <h6 className="popular-item-card__title mb-0">
-                      <a href="product-details.html" className="link">
+                      <Link href="/product-details" className="link">
                         amiz - SaaS customer Website Template
-                      </a>
+                      </Link>
                     </h6>
-                    <a
-                      href="product-details.html"
+                    <Link
+                      href="/product-details"
                       className="btn-link line-height-1 flex-shrink-0"
                     >
                       <img
@@ -2849,7 +2851,7 @@ const PopularTwo = () => {
                         alt=""
                         className="dark-version"
                       />
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -2866,12 +2868,12 @@ const PopularTwo = () => {
               <div className="col-xl-3 col-lg-4 col-sm-6 col-xs-6">
                 <div className="popular-item-card">
                   <div className="popular-item-card__thumb">
-                    <a href="product-details.html" className="link w-100">
+                    <Link href="/product-details" className="link w-100">
                       <img
                         src="assets/images/thumbs/popular-item1.png"
                         alt=""
                       />
-                    </a>
+                    </Link>
                     <div className="product-item__bottom flx-between gap-2">
                       <div>
                         <span className="product-item__sales font-14 mb-0 text-white">
@@ -2902,23 +2904,23 @@ const PopularTwo = () => {
                       </div>
                       <span className="product-item__author">
                         by
-                        <a
-                          href="profile.html"
+                        <Link
+                          href="/profile"
                           className="link text-decoration-underline"
                         >
                           themepix
-                        </a>
+                        </Link>
                       </span>
                     </div>
                   </div>
                   <div className="popular-item-card__content d-flex align-items-center justify-content-between gap-2 text-start">
                     <h6 className="popular-item-card__title mb-0">
-                      <a href="product-details.html" className="link">
+                      <Link href="/product-details" className="link">
                         SaaS for Finance Management
-                      </a>
+                      </Link>
                     </h6>
-                    <a
-                      href="product-details.html"
+                    <Link
+                      href="/product-details"
                       className="btn-link line-height-1 flex-shrink-0"
                     >
                       <img
@@ -2931,19 +2933,19 @@ const PopularTwo = () => {
                         alt=""
                         className="dark-version"
                       />
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
               <div className="col-xl-3 col-lg-4 col-sm-6 col-xs-6">
                 <div className="popular-item-card">
                   <div className="popular-item-card__thumb">
-                    <a href="product-details.html" className="link w-100">
+                    <Link href="/product-details" className="link w-100">
                       <img
                         src="assets/images/thumbs/popular-item2.png"
                         alt=""
                       />
-                    </a>
+                    </Link>
                     <div className="product-item__bottom flx-between gap-2">
                       <div>
                         <span className="product-item__sales font-14 mb-0 text-white">
@@ -2974,23 +2976,23 @@ const PopularTwo = () => {
                       </div>
                       <span className="product-item__author">
                         by
-                        <a
-                          href="profile.html"
+                        <Link
+                          href="/profile"
                           className="link text-decoration-underline"
                         >
                           themepix
-                        </a>
+                        </Link>
                       </span>
                     </div>
                   </div>
                   <div className="popular-item-card__content d-flex align-items-center justify-content-between gap-2 text-start">
                     <h6 className="popular-item-card__title mb-0">
-                      <a href="product-details.html" className="link">
+                      <Link href="/product-details" className="link">
                         zirtrust - Fintech SaaS Ui kit
-                      </a>
+                      </Link>
                     </h6>
-                    <a
-                      href="product-details.html"
+                    <Link
+                      href="/product-details"
                       className="btn-link line-height-1 flex-shrink-0"
                     >
                       <img
@@ -3003,19 +3005,19 @@ const PopularTwo = () => {
                         alt=""
                         className="dark-version"
                       />
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
               <div className="col-xl-3 col-lg-4 col-sm-6 col-xs-6">
                 <div className="popular-item-card">
                   <div className="popular-item-card__thumb">
-                    <a href="product-details.html" className="link w-100">
+                    <Link href="/product-details" className="link w-100">
                       <img
                         src="assets/images/thumbs/popular-item3.png"
                         alt=""
                       />
-                    </a>
+                    </Link>
                     <div className="product-item__bottom flx-between gap-2">
                       <div>
                         <span className="product-item__sales font-14 mb-0 text-white">
@@ -3046,23 +3048,23 @@ const PopularTwo = () => {
                       </div>
                       <span className="product-item__author">
                         by
-                        <a
-                          href="profile.html"
+                        <Link
+                          href="/profile"
                           className="link text-decoration-underline"
                         >
                           themepix
-                        </a>
+                        </Link>
                       </span>
                     </div>
                   </div>
                   <div className="popular-item-card__content d-flex align-items-center justify-content-between gap-2 text-start">
                     <h6 className="popular-item-card__title mb-0">
-                      <a href="product-details.html" className="link">
+                      <Link href="/product-details" className="link">
                         yolla - CRM Software Landingpage
-                      </a>
+                      </Link>
                     </h6>
-                    <a
-                      href="product-details.html"
+                    <Link
+                      href="/product-details"
                       className="btn-link line-height-1 flex-shrink-0"
                     >
                       <img
@@ -3075,19 +3077,19 @@ const PopularTwo = () => {
                         alt=""
                         className="dark-version"
                       />
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
               <div className="col-xl-3 col-lg-4 col-sm-6 col-xs-6">
                 <div className="popular-item-card">
                   <div className="popular-item-card__thumb">
-                    <a href="product-details.html" className="link w-100">
+                    <Link href="/product-details" className="link w-100">
                       <img
                         src="assets/images/thumbs/popular-item4.png"
                         alt=""
                       />
-                    </a>
+                    </Link>
                     <div className="product-item__bottom flx-between gap-2">
                       <div>
                         <span className="product-item__sales font-14 mb-0 text-white">
@@ -3118,23 +3120,23 @@ const PopularTwo = () => {
                       </div>
                       <span className="product-item__author">
                         by
-                        <a
-                          href="profile.html"
+                        <Link
+                          href="/profile"
                           className="link text-decoration-underline"
                         >
                           themepix
-                        </a>
+                        </Link>
                       </span>
                     </div>
                   </div>
                   <div className="popular-item-card__content d-flex align-items-center justify-content-between gap-2 text-start">
                     <h6 className="popular-item-card__title mb-0">
-                      <a href="product-details.html" className="link">
+                      <Link href="/product-details" className="link">
                         Business point - HR UX-UI design Template
-                      </a>
+                      </Link>
                     </h6>
-                    <a
-                      href="product-details.html"
+                    <Link
+                      href="/product-details"
                       className="btn-link line-height-1 flex-shrink-0"
                     >
                       <img
@@ -3147,19 +3149,19 @@ const PopularTwo = () => {
                         alt=""
                         className="dark-version"
                       />
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
               <div className="col-xl-3 col-lg-4 col-sm-6 col-xs-6">
                 <div className="popular-item-card">
                   <div className="popular-item-card__thumb">
-                    <a href="product-details.html" className="link w-100">
+                    <Link href="/product-details" className="link w-100">
                       <img
                         src="assets/images/thumbs/popular-item5.png"
                         alt=""
                       />
-                    </a>
+                    </Link>
                     <div className="product-item__bottom flx-between gap-2">
                       <div>
                         <span className="product-item__sales font-14 mb-0 text-white">
@@ -3190,23 +3192,23 @@ const PopularTwo = () => {
                       </div>
                       <span className="product-item__author">
                         by
-                        <a
-                          href="profile.html"
+                        <Link
+                          href="/profile"
                           className="link text-decoration-underline"
                         >
                           themepix
-                        </a>
+                        </Link>
                       </span>
                     </div>
                   </div>
                   <div className="popular-item-card__content d-flex align-items-center justify-content-between gap-2 text-start">
                     <h6 className="popular-item-card__title mb-0">
-                      <a href="product-details.html" className="link">
+                      <Link href="/product-details" className="link">
                         Wonder AI Landing Page Template
-                      </a>
+                      </Link>
                     </h6>
-                    <a
-                      href="product-details.html"
+                    <Link
+                      href="/product-details"
                       className="btn-link line-height-1 flex-shrink-0"
                     >
                       <img
@@ -3219,19 +3221,19 @@ const PopularTwo = () => {
                         alt=""
                         className="dark-version"
                       />
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
               <div className="col-xl-3 col-lg-4 col-sm-6 col-xs-6">
                 <div className="popular-item-card">
                   <div className="popular-item-card__thumb">
-                    <a href="product-details.html" className="link w-100">
+                    <Link href="/product-details" className="link w-100">
                       <img
                         src="assets/images/thumbs/popular-item6.png"
                         alt=""
                       />
-                    </a>
+                    </Link>
                     <div className="product-item__bottom flx-between gap-2">
                       <div>
                         <span className="product-item__sales font-14 mb-0 text-white">
@@ -3262,23 +3264,23 @@ const PopularTwo = () => {
                       </div>
                       <span className="product-item__author">
                         by
-                        <a
-                          href="profile.html"
+                        <Link
+                          href="/profile"
                           className="link text-decoration-underline"
                         >
                           themepix
-                        </a>
+                        </Link>
                       </span>
                     </div>
                   </div>
                   <div className="popular-item-card__content d-flex align-items-center justify-content-between gap-2 text-start">
                     <h6 className="popular-item-card__title mb-0">
-                      <a href="product-details.html" className="link">
+                      <Link href="/product-details" className="link">
                         turing UI Kit: AI Smart Healthcare App&nbsp;
-                      </a>
+                      </Link>
                     </h6>
-                    <a
-                      href="product-details.html"
+                    <Link
+                      href="/product-details"
                       className="btn-link line-height-1 flex-shrink-0"
                     >
                       <img
@@ -3291,19 +3293,19 @@ const PopularTwo = () => {
                         alt=""
                         className="dark-version"
                       />
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
               <div className="col-xl-3 col-lg-4 col-sm-6 col-xs-6">
                 <div className="popular-item-card">
                   <div className="popular-item-card__thumb">
-                    <a href="product-details.html" className="link w-100">
+                    <Link href="/product-details" className="link w-100">
                       <img
                         src="assets/images/thumbs/popular-item7.png"
                         alt=""
                       />
-                    </a>
+                    </Link>
                     <div className="product-item__bottom flx-between gap-2">
                       <div>
                         <span className="product-item__sales font-14 mb-0 text-white">
@@ -3334,23 +3336,23 @@ const PopularTwo = () => {
                       </div>
                       <span className="product-item__author">
                         by
-                        <a
-                          href="profile.html"
+                        <Link
+                          href="/profile"
                           className="link text-decoration-underline"
                         >
                           themepix
-                        </a>
+                        </Link>
                       </span>
                     </div>
                   </div>
                   <div className="popular-item-card__content d-flex align-items-center justify-content-between gap-2 text-start">
                     <h6 className="popular-item-card__title mb-0">
-                      <a href="product-details.html" className="link">
+                      <Link href="/product-details" className="link">
                         FinTrust - Fintech SAAS Ui kit
-                      </a>
+                      </Link>
                     </h6>
-                    <a
-                      href="product-details.html"
+                    <Link
+                      href="/product-details"
                       className="btn-link line-height-1 flex-shrink-0"
                     >
                       <img
@@ -3363,19 +3365,19 @@ const PopularTwo = () => {
                         alt=""
                         className="dark-version"
                       />
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
               <div className="col-xl-3 col-lg-4 col-sm-6 col-xs-6">
                 <div className="popular-item-card">
                   <div className="popular-item-card__thumb">
-                    <a href="product-details.html" className="link w-100">
+                    <Link href="/product-details" className="link w-100">
                       <img
                         src="assets/images/thumbs/popular-item2.png"
                         alt=""
                       />
-                    </a>
+                    </Link>
                     <div className="product-item__bottom flx-between gap-2">
                       <div>
                         <span className="product-item__sales font-14 mb-0 text-white">
@@ -3406,23 +3408,23 @@ const PopularTwo = () => {
                       </div>
                       <span className="product-item__author">
                         by
-                        <a
-                          href="profile.html"
+                        <Link
+                          href="/profile"
                           className="link text-decoration-underline"
                         >
                           themepix
-                        </a>
+                        </Link>
                       </span>
                     </div>
                   </div>
                   <div className="popular-item-card__content d-flex align-items-center justify-content-between gap-2 text-start">
                     <h6 className="popular-item-card__title mb-0">
-                      <a href="product-details.html" className="link">
+                      <Link href="/product-details" className="link">
                         SaaS for Finance Management
-                      </a>
+                      </Link>
                     </h6>
-                    <a
-                      href="product-details.html"
+                    <Link
+                      href="/product-details"
                       className="btn-link line-height-1 flex-shrink-0"
                     >
                       <img
@@ -3435,19 +3437,19 @@ const PopularTwo = () => {
                         alt=""
                         className="dark-version"
                       />
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
               <div className="col-xl-3 col-lg-4 col-sm-6 col-xs-6">
                 <div className="popular-item-card">
                   <div className="popular-item-card__thumb">
-                    <a href="product-details.html" className="link w-100">
+                    <Link href="/product-details" className="link w-100">
                       <img
                         src="assets/images/thumbs/popular-item9.png"
                         alt=""
                       />
-                    </a>
+                    </Link>
                     <div className="product-item__bottom flx-between gap-2">
                       <div>
                         <span className="product-item__sales font-14 mb-0 text-white">
@@ -3478,23 +3480,23 @@ const PopularTwo = () => {
                       </div>
                       <span className="product-item__author">
                         by
-                        <a
-                          href="profile.html"
+                        <Link
+                          href="/profile"
                           className="link text-decoration-underline"
                         >
                           themepix
-                        </a>
+                        </Link>
                       </span>
                     </div>
                   </div>
                   <div className="popular-item-card__content d-flex align-items-center justify-content-between gap-2 text-start">
                     <h6 className="popular-item-card__title mb-0">
-                      <a href="product-details.html" className="link">
+                      <Link href="/product-details" className="link">
                         SaaS for Finance Management
-                      </a>
+                      </Link>
                     </h6>
-                    <a
-                      href="product-details.html"
+                    <Link
+                      href="/product-details"
                       className="btn-link line-height-1 flex-shrink-0"
                     >
                       <img
@@ -3507,19 +3509,19 @@ const PopularTwo = () => {
                         alt=""
                         className="dark-version"
                       />
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
               <div className="col-xl-3 col-lg-4 col-sm-6 col-xs-6">
                 <div className="popular-item-card">
                   <div className="popular-item-card__thumb">
-                    <a href="product-details.html" className="link w-100">
+                    <Link href="/product-details" className="link w-100">
                       <img
                         src="assets/images/thumbs/popular-item10.png"
                         alt=""
                       />
-                    </a>
+                    </Link>
                     <div className="product-item__bottom flx-between gap-2">
                       <div>
                         <span className="product-item__sales font-14 mb-0 text-white">
@@ -3550,23 +3552,23 @@ const PopularTwo = () => {
                       </div>
                       <span className="product-item__author">
                         by
-                        <a
-                          href="profile.html"
+                        <Link
+                          href="/profile"
                           className="link text-decoration-underline"
                         >
                           themepix
-                        </a>
+                        </Link>
                       </span>
                     </div>
                   </div>
                   <div className="popular-item-card__content d-flex align-items-center justify-content-between gap-2 text-start">
                     <h6 className="popular-item-card__title mb-0">
-                      <a href="product-details.html" className="link">
+                      <Link href="/product-details" className="link">
                         SaaS for Finance Management
-                      </a>
+                      </Link>
                     </h6>
-                    <a
-                      href="product-details.html"
+                    <Link
+                      href="/product-details"
                       className="btn-link line-height-1 flex-shrink-0"
                     >
                       <img
@@ -3579,19 +3581,19 @@ const PopularTwo = () => {
                         alt=""
                         className="dark-version"
                       />
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
               <div className="col-xl-3 col-lg-4 col-sm-6 col-xs-6">
                 <div className="popular-item-card">
                   <div className="popular-item-card__thumb">
-                    <a href="product-details.html" className="link w-100">
+                    <Link href="/product-details" className="link w-100">
                       <img
                         src="assets/images/thumbs/popular-item11.png"
                         alt=""
                       />
-                    </a>
+                    </Link>
                     <div className="product-item__bottom flx-between gap-2">
                       <div>
                         <span className="product-item__sales font-14 mb-0 text-white">
@@ -3622,23 +3624,23 @@ const PopularTwo = () => {
                       </div>
                       <span className="product-item__author">
                         by
-                        <a
-                          href="profile.html"
+                        <Link
+                          href="/profile"
                           className="link text-decoration-underline"
                         >
                           themepix
-                        </a>
+                        </Link>
                       </span>
                     </div>
                   </div>
                   <div className="popular-item-card__content d-flex align-items-center justify-content-between gap-2 text-start">
                     <h6 className="popular-item-card__title mb-0">
-                      <a href="product-details.html" className="link">
+                      <Link href="/product-details" className="link">
                         SaaS for Finance Management
-                      </a>
+                      </Link>
                     </h6>
-                    <a
-                      href="product-details.html"
+                    <Link
+                      href="/product-details"
                       className="btn-link line-height-1 flex-shrink-0"
                     >
                       <img
@@ -3651,19 +3653,19 @@ const PopularTwo = () => {
                         alt=""
                         className="dark-version"
                       />
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
               <div className="col-xl-3 col-lg-4 col-sm-6 col-xs-6">
                 <div className="popular-item-card">
                   <div className="popular-item-card__thumb">
-                    <a href="product-details.html" className="link w-100">
+                    <Link href="/product-details" className="link w-100">
                       <img
                         src="assets/images/thumbs/popular-item11.png"
                         alt=""
                       />
-                    </a>
+                    </Link>
                     <div className="product-item__bottom flx-between gap-2">
                       <div>
                         <span className="product-item__sales font-14 mb-0 text-white">
@@ -3694,23 +3696,23 @@ const PopularTwo = () => {
                       </div>
                       <span className="product-item__author">
                         by
-                        <a
-                          href="profile.html"
+                        <Link
+                          href="/profile"
                           className="link text-decoration-underline"
                         >
                           themepix
-                        </a>
+                        </Link>
                       </span>
                     </div>
                   </div>
                   <div className="popular-item-card__content d-flex align-items-center justify-content-between gap-2 text-start">
                     <h6 className="popular-item-card__title mb-0">
-                      <a href="product-details.html" className="link">
+                      <Link href="/product-details" className="link">
                         amiz - SaaS customer Website Template
-                      </a>
+                      </Link>
                     </h6>
-                    <a
-                      href="product-details.html"
+                    <Link
+                      href="/product-details"
                       className="btn-link line-height-1 flex-shrink-0"
                     >
                       <img
@@ -3723,7 +3725,7 @@ const PopularTwo = () => {
                         alt=""
                         className="dark-version"
                       />
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -3740,12 +3742,12 @@ const PopularTwo = () => {
               <div className="col-xl-3 col-lg-4 col-sm-6 col-xs-6">
                 <div className="popular-item-card">
                   <div className="popular-item-card__thumb">
-                    <a href="product-details.html" className="link w-100">
+                    <Link href="/product-details" className="link w-100">
                       <img
                         src="assets/images/thumbs/popular-item1.png"
                         alt=""
                       />
-                    </a>
+                    </Link>
                     <div className="product-item__bottom flx-between gap-2">
                       <div>
                         <span className="product-item__sales font-14 mb-0 text-white">
@@ -3776,23 +3778,23 @@ const PopularTwo = () => {
                       </div>
                       <span className="product-item__author">
                         by
-                        <a
-                          href="profile.html"
+                        <Link
+                          href="/profile"
                           className="link text-decoration-underline"
                         >
                           themepix
-                        </a>
+                        </Link>
                       </span>
                     </div>
                   </div>
                   <div className="popular-item-card__content d-flex align-items-center justify-content-between gap-2 text-start">
                     <h6 className="popular-item-card__title mb-0">
-                      <a href="product-details.html" className="link">
+                      <Link href="/product-details" className="link">
                         SaaS for Finance Management
-                      </a>
+                      </Link>
                     </h6>
-                    <a
-                      href="product-details.html"
+                    <Link
+                      href="/product-details"
                       className="btn-link line-height-1 flex-shrink-0"
                     >
                       <img
@@ -3805,19 +3807,19 @@ const PopularTwo = () => {
                         alt=""
                         className="dark-version"
                       />
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
               <div className="col-xl-3 col-lg-4 col-sm-6 col-xs-6">
                 <div className="popular-item-card">
                   <div className="popular-item-card__thumb">
-                    <a href="product-details.html" className="link w-100">
+                    <Link href="/product-details" className="link w-100">
                       <img
                         src="assets/images/thumbs/popular-item2.png"
                         alt=""
                       />
-                    </a>
+                    </Link>
                     <div className="product-item__bottom flx-between gap-2">
                       <div>
                         <span className="product-item__sales font-14 mb-0 text-white">
@@ -3848,23 +3850,23 @@ const PopularTwo = () => {
                       </div>
                       <span className="product-item__author">
                         by
-                        <a
-                          href="profile.html"
+                        <Link
+                          href="/profile"
                           className="link text-decoration-underline"
                         >
                           themepix
-                        </a>
+                        </Link>
                       </span>
                     </div>
                   </div>
                   <div className="popular-item-card__content d-flex align-items-center justify-content-between gap-2 text-start">
                     <h6 className="popular-item-card__title mb-0">
-                      <a href="product-details.html" className="link">
+                      <Link href="/product-details" className="link">
                         zirtrust - Fintech SaaS Ui kit
-                      </a>
+                      </Link>
                     </h6>
-                    <a
-                      href="product-details.html"
+                    <Link
+                      href="/product-details"
                       className="btn-link line-height-1 flex-shrink-0"
                     >
                       <img
@@ -3877,19 +3879,19 @@ const PopularTwo = () => {
                         alt=""
                         className="dark-version"
                       />
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
               <div className="col-xl-3 col-lg-4 col-sm-6 col-xs-6">
                 <div className="popular-item-card">
                   <div className="popular-item-card__thumb">
-                    <a href="product-details.html" className="link w-100">
+                    <Link href="/product-details" className="link w-100">
                       <img
                         src="assets/images/thumbs/popular-item3.png"
                         alt=""
                       />
-                    </a>
+                    </Link>
                     <div className="product-item__bottom flx-between gap-2">
                       <div>
                         <span className="product-item__sales font-14 mb-0 text-white">
@@ -3920,23 +3922,23 @@ const PopularTwo = () => {
                       </div>
                       <span className="product-item__author">
                         by
-                        <a
-                          href="profile.html"
+                        <Link
+                          href="/profile"
                           className="link text-decoration-underline"
                         >
                           themepix
-                        </a>
+                        </Link>
                       </span>
                     </div>
                   </div>
                   <div className="popular-item-card__content d-flex align-items-center justify-content-between gap-2 text-start">
                     <h6 className="popular-item-card__title mb-0">
-                      <a href="product-details.html" className="link">
+                      <Link href="/product-details" className="link">
                         yolla - CRM Software Landingpage
-                      </a>
+                      </Link>
                     </h6>
-                    <a
-                      href="product-details.html"
+                    <Link
+                      href="/product-details"
                       className="btn-link line-height-1 flex-shrink-0"
                     >
                       <img
@@ -3949,19 +3951,19 @@ const PopularTwo = () => {
                         alt=""
                         className="dark-version"
                       />
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
               <div className="col-xl-3 col-lg-4 col-sm-6 col-xs-6">
                 <div className="popular-item-card">
                   <div className="popular-item-card__thumb">
-                    <a href="product-details.html" className="link w-100">
+                    <Link href="/product-details" className="link w-100">
                       <img
                         src="assets/images/thumbs/popular-item4.png"
                         alt=""
                       />
-                    </a>
+                    </Link>
                     <div className="product-item__bottom flx-between gap-2">
                       <div>
                         <span className="product-item__sales font-14 mb-0 text-white">
@@ -3992,23 +3994,23 @@ const PopularTwo = () => {
                       </div>
                       <span className="product-item__author">
                         by
-                        <a
-                          href="profile.html"
+                        <Link
+                          href="/profile"
                           className="link text-decoration-underline"
                         >
                           themepix
-                        </a>
+                        </Link>
                       </span>
                     </div>
                   </div>
                   <div className="popular-item-card__content d-flex align-items-center justify-content-between gap-2 text-start">
                     <h6 className="popular-item-card__title mb-0">
-                      <a href="product-details.html" className="link">
+                      <Link href="/product-details" className="link">
                         Business point - HR UX-UI design Template
-                      </a>
+                      </Link>
                     </h6>
-                    <a
-                      href="product-details.html"
+                    <Link
+                      href="/product-details"
                       className="btn-link line-height-1 flex-shrink-0"
                     >
                       <img
@@ -4021,19 +4023,19 @@ const PopularTwo = () => {
                         alt=""
                         className="dark-version"
                       />
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
               <div className="col-xl-3 col-lg-4 col-sm-6 col-xs-6">
                 <div className="popular-item-card">
                   <div className="popular-item-card__thumb">
-                    <a href="product-details.html" className="link w-100">
+                    <Link href="/product-details" className="link w-100">
                       <img
                         src="assets/images/thumbs/popular-item5.png"
                         alt=""
                       />
-                    </a>
+                    </Link>
                     <div className="product-item__bottom flx-between gap-2">
                       <div>
                         <span className="product-item__sales font-14 mb-0 text-white">
@@ -4064,23 +4066,23 @@ const PopularTwo = () => {
                       </div>
                       <span className="product-item__author">
                         by
-                        <a
-                          href="profile.html"
+                        <Link
+                          href="/profile"
                           className="link text-decoration-underline"
                         >
                           themepix
-                        </a>
+                        </Link>
                       </span>
                     </div>
                   </div>
                   <div className="popular-item-card__content d-flex align-items-center justify-content-between gap-2 text-start">
                     <h6 className="popular-item-card__title mb-0">
-                      <a href="product-details.html" className="link">
+                      <Link href="/product-details" className="link">
                         Wonder AI Landing Page Template
-                      </a>
+                      </Link>
                     </h6>
-                    <a
-                      href="product-details.html"
+                    <Link
+                      href="/product-details"
                       className="btn-link line-height-1 flex-shrink-0"
                     >
                       <img
@@ -4093,19 +4095,19 @@ const PopularTwo = () => {
                         alt=""
                         className="dark-version"
                       />
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
               <div className="col-xl-3 col-lg-4 col-sm-6 col-xs-6">
                 <div className="popular-item-card">
                   <div className="popular-item-card__thumb">
-                    <a href="product-details.html" className="link w-100">
+                    <Link href="/product-details" className="link w-100">
                       <img
                         src="assets/images/thumbs/popular-item6.png"
                         alt=""
                       />
-                    </a>
+                    </Link>
                     <div className="product-item__bottom flx-between gap-2">
                       <div>
                         <span className="product-item__sales font-14 mb-0 text-white">
@@ -4136,23 +4138,23 @@ const PopularTwo = () => {
                       </div>
                       <span className="product-item__author">
                         by
-                        <a
-                          href="profile.html"
+                        <Link
+                          href="/profile"
                           className="link text-decoration-underline"
                         >
                           themepix
-                        </a>
+                        </Link>
                       </span>
                     </div>
                   </div>
                   <div className="popular-item-card__content d-flex align-items-center justify-content-between gap-2 text-start">
                     <h6 className="popular-item-card__title mb-0">
-                      <a href="product-details.html" className="link">
+                      <Link href="/product-details" className="link">
                         turing UI Kit: AI Smart Healthcare App&nbsp;
-                      </a>
+                      </Link>
                     </h6>
-                    <a
-                      href="product-details.html"
+                    <Link
+                      href="/product-details"
                       className="btn-link line-height-1 flex-shrink-0"
                     >
                       <img
@@ -4165,19 +4167,19 @@ const PopularTwo = () => {
                         alt=""
                         className="dark-version"
                       />
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
               <div className="col-xl-3 col-lg-4 col-sm-6 col-xs-6">
                 <div className="popular-item-card">
                   <div className="popular-item-card__thumb">
-                    <a href="product-details.html" className="link w-100">
+                    <Link href="/product-details" className="link w-100">
                       <img
                         src="assets/images/thumbs/popular-item7.png"
                         alt=""
                       />
-                    </a>
+                    </Link>
                     <div className="product-item__bottom flx-between gap-2">
                       <div>
                         <span className="product-item__sales font-14 mb-0 text-white">
@@ -4208,23 +4210,23 @@ const PopularTwo = () => {
                       </div>
                       <span className="product-item__author">
                         by
-                        <a
-                          href="profile.html"
+                        <Link
+                          href="/profile"
                           className="link text-decoration-underline"
                         >
                           themepix
-                        </a>
+                        </Link>
                       </span>
                     </div>
                   </div>
                   <div className="popular-item-card__content d-flex align-items-center justify-content-between gap-2 text-start">
                     <h6 className="popular-item-card__title mb-0">
-                      <a href="product-details.html" className="link">
+                      <Link href="/product-details" className="link">
                         FinTrust - Fintech SAAS Ui kit
-                      </a>
+                      </Link>
                     </h6>
-                    <a
-                      href="product-details.html"
+                    <Link
+                      href="/product-details"
                       className="btn-link line-height-1 flex-shrink-0"
                     >
                       <img
@@ -4237,19 +4239,19 @@ const PopularTwo = () => {
                         alt=""
                         className="dark-version"
                       />
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
               <div className="col-xl-3 col-lg-4 col-sm-6 col-xs-6">
                 <div className="popular-item-card">
                   <div className="popular-item-card__thumb">
-                    <a href="product-details.html" className="link w-100">
+                    <Link href="/product-details" className="link w-100">
                       <img
                         src="assets/images/thumbs/popular-item2.png"
                         alt=""
                       />
-                    </a>
+                    </Link>
                     <div className="product-item__bottom flx-between gap-2">
                       <div>
                         <span className="product-item__sales font-14 mb-0 text-white">
@@ -4280,23 +4282,23 @@ const PopularTwo = () => {
                       </div>
                       <span className="product-item__author">
                         by
-                        <a
-                          href="profile.html"
+                        <Link
+                          href="/profile"
                           className="link text-decoration-underline"
                         >
                           themepix
-                        </a>
+                        </Link>
                       </span>
                     </div>
                   </div>
                   <div className="popular-item-card__content d-flex align-items-center justify-content-between gap-2 text-start">
                     <h6 className="popular-item-card__title mb-0">
-                      <a href="product-details.html" className="link">
+                      <Link href="/product-details" className="link">
                         SaaS for Finance Management
-                      </a>
+                      </Link>
                     </h6>
-                    <a
-                      href="product-details.html"
+                    <Link
+                      href="/product-details"
                       className="btn-link line-height-1 flex-shrink-0"
                     >
                       <img
@@ -4309,19 +4311,19 @@ const PopularTwo = () => {
                         alt=""
                         className="dark-version"
                       />
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
               <div className="col-xl-3 col-lg-4 col-sm-6 col-xs-6">
                 <div className="popular-item-card">
                   <div className="popular-item-card__thumb">
-                    <a href="product-details.html" className="link w-100">
+                    <Link href="/product-details" className="link w-100">
                       <img
                         src="assets/images/thumbs/popular-item9.png"
                         alt=""
                       />
-                    </a>
+                    </Link>
                     <div className="product-item__bottom flx-between gap-2">
                       <div>
                         <span className="product-item__sales font-14 mb-0 text-white">
@@ -4352,23 +4354,23 @@ const PopularTwo = () => {
                       </div>
                       <span className="product-item__author">
                         by
-                        <a
-                          href="profile.html"
+                        <Link
+                          href="/profile"
                           className="link text-decoration-underline"
                         >
                           themepix
-                        </a>
+                        </Link>
                       </span>
                     </div>
                   </div>
                   <div className="popular-item-card__content d-flex align-items-center justify-content-between gap-2 text-start">
                     <h6 className="popular-item-card__title mb-0">
-                      <a href="product-details.html" className="link">
+                      <Link href="/product-details" className="link">
                         SaaS for Finance Management
-                      </a>
+                      </Link>
                     </h6>
-                    <a
-                      href="product-details.html"
+                    <Link
+                      href="/product-details"
                       className="btn-link line-height-1 flex-shrink-0"
                     >
                       <img
@@ -4381,19 +4383,19 @@ const PopularTwo = () => {
                         alt=""
                         className="dark-version"
                       />
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
               <div className="col-xl-3 col-lg-4 col-sm-6 col-xs-6">
                 <div className="popular-item-card">
                   <div className="popular-item-card__thumb">
-                    <a href="product-details.html" className="link w-100">
+                    <Link href="/product-details" className="link w-100">
                       <img
                         src="assets/images/thumbs/popular-item10.png"
                         alt=""
                       />
-                    </a>
+                    </Link>
                     <div className="product-item__bottom flx-between gap-2">
                       <div>
                         <span className="product-item__sales font-14 mb-0 text-white">
@@ -4424,23 +4426,23 @@ const PopularTwo = () => {
                       </div>
                       <span className="product-item__author">
                         by
-                        <a
-                          href="profile.html"
+                        <Link
+                          href="/profile"
                           className="link text-decoration-underline"
                         >
                           themepix
-                        </a>
+                        </Link>
                       </span>
                     </div>
                   </div>
                   <div className="popular-item-card__content d-flex align-items-center justify-content-between gap-2 text-start">
                     <h6 className="popular-item-card__title mb-0">
-                      <a href="product-details.html" className="link">
+                      <Link href="/product-details" className="link">
                         SaaS for Finance Management
-                      </a>
+                      </Link>
                     </h6>
-                    <a
-                      href="product-details.html"
+                    <Link
+                      href="/product-details"
                       className="btn-link line-height-1 flex-shrink-0"
                     >
                       <img
@@ -4453,19 +4455,19 @@ const PopularTwo = () => {
                         alt=""
                         className="dark-version"
                       />
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
               <div className="col-xl-3 col-lg-4 col-sm-6 col-xs-6">
                 <div className="popular-item-card">
                   <div className="popular-item-card__thumb">
-                    <a href="product-details.html" className="link w-100">
+                    <Link href="/product-details" className="link w-100">
                       <img
                         src="assets/images/thumbs/popular-item11.png"
                         alt=""
                       />
-                    </a>
+                    </Link>
                     <div className="product-item__bottom flx-between gap-2">
                       <div>
                         <span className="product-item__sales font-14 mb-0 text-white">
@@ -4496,23 +4498,23 @@ const PopularTwo = () => {
                       </div>
                       <span className="product-item__author">
                         by
-                        <a
-                          href="profile.html"
+                        <Link
+                          href="/profile"
                           className="link text-decoration-underline"
                         >
                           themepix
-                        </a>
+                        </Link>
                       </span>
                     </div>
                   </div>
                   <div className="popular-item-card__content d-flex align-items-center justify-content-between gap-2 text-start">
                     <h6 className="popular-item-card__title mb-0">
-                      <a href="product-details.html" className="link">
+                      <Link href="/product-details" className="link">
                         SaaS for Finance Management
-                      </a>
+                      </Link>
                     </h6>
-                    <a
-                      href="product-details.html"
+                    <Link
+                      href="/product-details"
                       className="btn-link line-height-1 flex-shrink-0"
                     >
                       <img
@@ -4525,19 +4527,19 @@ const PopularTwo = () => {
                         alt=""
                         className="dark-version"
                       />
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
               <div className="col-xl-3 col-lg-4 col-sm-6 col-xs-6">
                 <div className="popular-item-card">
                   <div className="popular-item-card__thumb">
-                    <a href="product-details.html" className="link w-100">
+                    <Link href="/product-details" className="link w-100">
                       <img
                         src="assets/images/thumbs/popular-item11.png"
                         alt=""
                       />
-                    </a>
+                    </Link>
                     <div className="product-item__bottom flx-between gap-2">
                       <div>
                         <span className="product-item__sales font-14 mb-0 text-white">
@@ -4568,23 +4570,23 @@ const PopularTwo = () => {
                       </div>
                       <span className="product-item__author">
                         by
-                        <a
-                          href="profile.html"
+                        <Link
+                          href="/profile"
                           className="link text-decoration-underline"
                         >
                           themepix
-                        </a>
+                        </Link>
                       </span>
                     </div>
                   </div>
                   <div className="popular-item-card__content d-flex align-items-center justify-content-between gap-2 text-start">
                     <h6 className="popular-item-card__title mb-0">
-                      <a href="product-details.html" className="link">
+                      <Link href="/product-details" className="link">
                         amiz - SaaS customer Website Template
-                      </a>
+                      </Link>
                     </h6>
-                    <a
-                      href="product-details.html"
+                    <Link
+                      href="/product-details"
                       className="btn-link line-height-1 flex-shrink-0"
                     >
                       <img
@@ -4597,7 +4599,7 @@ const PopularTwo = () => {
                         alt=""
                         className="dark-version"
                       />
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -4614,12 +4616,12 @@ const PopularTwo = () => {
               <div className="col-xl-3 col-lg-4 col-sm-6 col-xs-6">
                 <div className="popular-item-card">
                   <div className="popular-item-card__thumb">
-                    <a href="product-details.html" className="link w-100">
+                    <Link href="/product-details" className="link w-100">
                       <img
                         src="assets/images/thumbs/popular-item1.png"
                         alt=""
                       />
-                    </a>
+                    </Link>
                     <div className="product-item__bottom flx-between gap-2">
                       <div>
                         <span className="product-item__sales font-14 mb-0 text-white">
@@ -4650,23 +4652,23 @@ const PopularTwo = () => {
                       </div>
                       <span className="product-item__author">
                         by
-                        <a
-                          href="profile.html"
+                        <Link
+                          href="/profile"
                           className="link text-decoration-underline"
                         >
                           themepix
-                        </a>
+                        </Link>
                       </span>
                     </div>
                   </div>
                   <div className="popular-item-card__content d-flex align-items-center justify-content-between gap-2 text-start">
                     <h6 className="popular-item-card__title mb-0">
-                      <a href="product-details.html" className="link">
+                      <Link href="/product-details" className="link">
                         SaaS for Finance Management
-                      </a>
+                      </Link>
                     </h6>
-                    <a
-                      href="product-details.html"
+                    <Link
+                      href="/product-details"
                       className="btn-link line-height-1 flex-shrink-0"
                     >
                       <img
@@ -4679,19 +4681,19 @@ const PopularTwo = () => {
                         alt=""
                         className="dark-version"
                       />
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
               <div className="col-xl-3 col-lg-4 col-sm-6 col-xs-6">
                 <div className="popular-item-card">
                   <div className="popular-item-card__thumb">
-                    <a href="product-details.html" className="link w-100">
+                    <Link href="/product-details" className="link w-100">
                       <img
                         src="assets/images/thumbs/popular-item2.png"
                         alt=""
                       />
-                    </a>
+                    </Link>
                     <div className="product-item__bottom flx-between gap-2">
                       <div>
                         <span className="product-item__sales font-14 mb-0 text-white">
@@ -4722,23 +4724,23 @@ const PopularTwo = () => {
                       </div>
                       <span className="product-item__author">
                         by
-                        <a
-                          href="profile.html"
+                        <Link
+                          href="/profile"
                           className="link text-decoration-underline"
                         >
                           themepix
-                        </a>
+                        </Link>
                       </span>
                     </div>
                   </div>
                   <div className="popular-item-card__content d-flex align-items-center justify-content-between gap-2 text-start">
                     <h6 className="popular-item-card__title mb-0">
-                      <a href="product-details.html" className="link">
+                      <Link href="/product-details" className="link">
                         zirtrust - Fintech SaaS Ui kit
-                      </a>
+                      </Link>
                     </h6>
-                    <a
-                      href="product-details.html"
+                    <Link
+                      href="/product-details"
                       className="btn-link line-height-1 flex-shrink-0"
                     >
                       <img
@@ -4751,19 +4753,19 @@ const PopularTwo = () => {
                         alt=""
                         className="dark-version"
                       />
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
               <div className="col-xl-3 col-lg-4 col-sm-6 col-xs-6">
                 <div className="popular-item-card">
                   <div className="popular-item-card__thumb">
-                    <a href="product-details.html" className="link w-100">
+                    <Link href="/product-details" className="link w-100">
                       <img
                         src="assets/images/thumbs/popular-item3.png"
                         alt=""
                       />
-                    </a>
+                    </Link>
                     <div className="product-item__bottom flx-between gap-2">
                       <div>
                         <span className="product-item__sales font-14 mb-0 text-white">
@@ -4794,23 +4796,23 @@ const PopularTwo = () => {
                       </div>
                       <span className="product-item__author">
                         by
-                        <a
-                          href="profile.html"
+                        <Link
+                          href="/profile"
                           className="link text-decoration-underline"
                         >
                           themepix
-                        </a>
+                        </Link>
                       </span>
                     </div>
                   </div>
                   <div className="popular-item-card__content d-flex align-items-center justify-content-between gap-2 text-start">
                     <h6 className="popular-item-card__title mb-0">
-                      <a href="product-details.html" className="link">
+                      <Link href="/product-details" className="link">
                         yolla - CRM Software Landingpage
-                      </a>
+                      </Link>
                     </h6>
-                    <a
-                      href="product-details.html"
+                    <Link
+                      href="/product-details"
                       className="btn-link line-height-1 flex-shrink-0"
                     >
                       <img
@@ -4823,19 +4825,19 @@ const PopularTwo = () => {
                         alt=""
                         className="dark-version"
                       />
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
               <div className="col-xl-3 col-lg-4 col-sm-6 col-xs-6">
                 <div className="popular-item-card">
                   <div className="popular-item-card__thumb">
-                    <a href="product-details.html" className="link w-100">
+                    <Link href="/product-details" className="link w-100">
                       <img
                         src="assets/images/thumbs/popular-item4.png"
                         alt=""
                       />
-                    </a>
+                    </Link>
                     <div className="product-item__bottom flx-between gap-2">
                       <div>
                         <span className="product-item__sales font-14 mb-0 text-white">
@@ -4866,23 +4868,23 @@ const PopularTwo = () => {
                       </div>
                       <span className="product-item__author">
                         by
-                        <a
-                          href="profile.html"
+                        <Link
+                          href="/profile"
                           className="link text-decoration-underline"
                         >
                           themepix
-                        </a>
+                        </Link>
                       </span>
                     </div>
                   </div>
                   <div className="popular-item-card__content d-flex align-items-center justify-content-between gap-2 text-start">
                     <h6 className="popular-item-card__title mb-0">
-                      <a href="product-details.html" className="link">
+                      <Link href="/product-details" className="link">
                         Business point - HR UX-UI design Template
-                      </a>
+                      </Link>
                     </h6>
-                    <a
-                      href="product-details.html"
+                    <Link
+                      href="/product-details"
                       className="btn-link line-height-1 flex-shrink-0"
                     >
                       <img
@@ -4895,19 +4897,19 @@ const PopularTwo = () => {
                         alt=""
                         className="dark-version"
                       />
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
               <div className="col-xl-3 col-lg-4 col-sm-6 col-xs-6">
                 <div className="popular-item-card">
                   <div className="popular-item-card__thumb">
-                    <a href="product-details.html" className="link w-100">
+                    <Link href="/product-details" className="link w-100">
                       <img
                         src="assets/images/thumbs/popular-item5.png"
                         alt=""
                       />
-                    </a>
+                    </Link>
                     <div className="product-item__bottom flx-between gap-2">
                       <div>
                         <span className="product-item__sales font-14 mb-0 text-white">
@@ -4938,23 +4940,23 @@ const PopularTwo = () => {
                       </div>
                       <span className="product-item__author">
                         by
-                        <a
-                          href="profile.html"
+                        <Link
+                          href="/profile"
                           className="link text-decoration-underline"
                         >
                           themepix
-                        </a>
+                        </Link>
                       </span>
                     </div>
                   </div>
                   <div className="popular-item-card__content d-flex align-items-center justify-content-between gap-2 text-start">
                     <h6 className="popular-item-card__title mb-0">
-                      <a href="product-details.html" className="link">
+                      <Link href="/product-details" className="link">
                         Wonder AI Landing Page Template
-                      </a>
+                      </Link>
                     </h6>
-                    <a
-                      href="product-details.html"
+                    <Link
+                      href="/product-details"
                       className="btn-link line-height-1 flex-shrink-0"
                     >
                       <img
@@ -4967,19 +4969,19 @@ const PopularTwo = () => {
                         alt=""
                         className="dark-version"
                       />
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
               <div className="col-xl-3 col-lg-4 col-sm-6 col-xs-6">
                 <div className="popular-item-card">
                   <div className="popular-item-card__thumb">
-                    <a href="product-details.html" className="link w-100">
+                    <Link href="/product-details" className="link w-100">
                       <img
                         src="assets/images/thumbs/popular-item6.png"
                         alt=""
                       />
-                    </a>
+                    </Link>
                     <div className="product-item__bottom flx-between gap-2">
                       <div>
                         <span className="product-item__sales font-14 mb-0 text-white">
@@ -5010,23 +5012,23 @@ const PopularTwo = () => {
                       </div>
                       <span className="product-item__author">
                         by
-                        <a
-                          href="profile.html"
+                        <Link
+                          href="/profile"
                           className="link text-decoration-underline"
                         >
                           themepix
-                        </a>
+                        </Link>
                       </span>
                     </div>
                   </div>
                   <div className="popular-item-card__content d-flex align-items-center justify-content-between gap-2 text-start">
                     <h6 className="popular-item-card__title mb-0">
-                      <a href="product-details.html" className="link">
+                      <Link href="/product-details" className="link">
                         turing UI Kit: AI Smart Healthcare App&nbsp;
-                      </a>
+                      </Link>
                     </h6>
-                    <a
-                      href="product-details.html"
+                    <Link
+                      href="/product-details"
                       className="btn-link line-height-1 flex-shrink-0"
                     >
                       <img
@@ -5039,19 +5041,19 @@ const PopularTwo = () => {
                         alt=""
                         className="dark-version"
                       />
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
               <div className="col-xl-3 col-lg-4 col-sm-6 col-xs-6">
                 <div className="popular-item-card">
                   <div className="popular-item-card__thumb">
-                    <a href="product-details.html" className="link w-100">
+                    <Link href="/product-details" className="link w-100">
                       <img
                         src="assets/images/thumbs/popular-item7.png"
                         alt=""
                       />
-                    </a>
+                    </Link>
                     <div className="product-item__bottom flx-between gap-2">
                       <div>
                         <span className="product-item__sales font-14 mb-0 text-white">
@@ -5082,23 +5084,23 @@ const PopularTwo = () => {
                       </div>
                       <span className="product-item__author">
                         by
-                        <a
-                          href="profile.html"
+                        <Link
+                          href="/profile"
                           className="link text-decoration-underline"
                         >
                           themepix
-                        </a>
+                        </Link>
                       </span>
                     </div>
                   </div>
                   <div className="popular-item-card__content d-flex align-items-center justify-content-between gap-2 text-start">
                     <h6 className="popular-item-card__title mb-0">
-                      <a href="product-details.html" className="link">
+                      <Link href="/product-details" className="link">
                         FinTrust - Fintech SAAS Ui kit
-                      </a>
+                      </Link>
                     </h6>
-                    <a
-                      href="product-details.html"
+                    <Link
+                      href="/product-details"
                       className="btn-link line-height-1 flex-shrink-0"
                     >
                       <img
@@ -5111,19 +5113,19 @@ const PopularTwo = () => {
                         alt=""
                         className="dark-version"
                       />
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
               <div className="col-xl-3 col-lg-4 col-sm-6 col-xs-6">
                 <div className="popular-item-card">
                   <div className="popular-item-card__thumb">
-                    <a href="product-details.html" className="link w-100">
+                    <Link href="/product-details" className="link w-100">
                       <img
                         src="assets/images/thumbs/popular-item2.png"
                         alt=""
                       />
-                    </a>
+                    </Link>
                     <div className="product-item__bottom flx-between gap-2">
                       <div>
                         <span className="product-item__sales font-14 mb-0 text-white">
@@ -5154,23 +5156,23 @@ const PopularTwo = () => {
                       </div>
                       <span className="product-item__author">
                         by
-                        <a
-                          href="profile.html"
+                        <Link
+                          href="/profile"
                           className="link text-decoration-underline"
                         >
                           themepix
-                        </a>
+                        </Link>
                       </span>
                     </div>
                   </div>
                   <div className="popular-item-card__content d-flex align-items-center justify-content-between gap-2 text-start">
                     <h6 className="popular-item-card__title mb-0">
-                      <a href="product-details.html" className="link">
+                      <Link href="/product-details" className="link">
                         SaaS for Finance Management
-                      </a>
+                      </Link>
                     </h6>
-                    <a
-                      href="product-details.html"
+                    <Link
+                      href="/product-details"
                       className="btn-link line-height-1 flex-shrink-0"
                     >
                       <img
@@ -5183,19 +5185,19 @@ const PopularTwo = () => {
                         alt=""
                         className="dark-version"
                       />
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
               <div className="col-xl-3 col-lg-4 col-sm-6 col-xs-6">
                 <div className="popular-item-card">
                   <div className="popular-item-card__thumb">
-                    <a href="product-details.html" className="link w-100">
+                    <Link href="/product-details" className="link w-100">
                       <img
                         src="assets/images/thumbs/popular-item9.png"
                         alt=""
                       />
-                    </a>
+                    </Link>
                     <div className="product-item__bottom flx-between gap-2">
                       <div>
                         <span className="product-item__sales font-14 mb-0 text-white">
@@ -5226,23 +5228,23 @@ const PopularTwo = () => {
                       </div>
                       <span className="product-item__author">
                         by
-                        <a
-                          href="profile.html"
+                        <Link
+                          href="/profile"
                           className="link text-decoration-underline"
                         >
                           themepix
-                        </a>
+                        </Link>
                       </span>
                     </div>
                   </div>
                   <div className="popular-item-card__content d-flex align-items-center justify-content-between gap-2 text-start">
                     <h6 className="popular-item-card__title mb-0">
-                      <a href="product-details.html" className="link">
+                      <Link href="/product-details" className="link">
                         SaaS for Finance Management
-                      </a>
+                      </Link>
                     </h6>
-                    <a
-                      href="product-details.html"
+                    <Link
+                      href="/product-details"
                       className="btn-link line-height-1 flex-shrink-0"
                     >
                       <img
@@ -5255,19 +5257,19 @@ const PopularTwo = () => {
                         alt=""
                         className="dark-version"
                       />
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
               <div className="col-xl-3 col-lg-4 col-sm-6 col-xs-6">
                 <div className="popular-item-card">
                   <div className="popular-item-card__thumb">
-                    <a href="product-details.html" className="link w-100">
+                    <Link href="/product-details" className="link w-100">
                       <img
                         src="assets/images/thumbs/popular-item10.png"
                         alt=""
                       />
-                    </a>
+                    </Link>
                     <div className="product-item__bottom flx-between gap-2">
                       <div>
                         <span className="product-item__sales font-14 mb-0 text-white">
@@ -5298,23 +5300,23 @@ const PopularTwo = () => {
                       </div>
                       <span className="product-item__author">
                         by
-                        <a
-                          href="profile.html"
+                        <Link
+                          href="/profile"
                           className="link text-decoration-underline"
                         >
                           themepix
-                        </a>
+                        </Link>
                       </span>
                     </div>
                   </div>
                   <div className="popular-item-card__content d-flex align-items-center justify-content-between gap-2 text-start">
                     <h6 className="popular-item-card__title mb-0">
-                      <a href="product-details.html" className="link">
+                      <Link href="/product-details" className="link">
                         SaaS for Finance Management
-                      </a>
+                      </Link>
                     </h6>
-                    <a
-                      href="product-details.html"
+                    <Link
+                      href="/product-details"
                       className="btn-link line-height-1 flex-shrink-0"
                     >
                       <img
@@ -5327,19 +5329,19 @@ const PopularTwo = () => {
                         alt=""
                         className="dark-version"
                       />
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
               <div className="col-xl-3 col-lg-4 col-sm-6 col-xs-6">
                 <div className="popular-item-card">
                   <div className="popular-item-card__thumb">
-                    <a href="product-details.html" className="link w-100">
+                    <Link href="/product-details" className="link w-100">
                       <img
                         src="assets/images/thumbs/popular-item11.png"
                         alt=""
                       />
-                    </a>
+                    </Link>
                     <div className="product-item__bottom flx-between gap-2">
                       <div>
                         <span className="product-item__sales font-14 mb-0 text-white">
@@ -5370,23 +5372,23 @@ const PopularTwo = () => {
                       </div>
                       <span className="product-item__author">
                         by
-                        <a
-                          href="profile.html"
+                        <Link
+                          href="/profile"
                           className="link text-decoration-underline"
                         >
                           themepix
-                        </a>
+                        </Link>
                       </span>
                     </div>
                   </div>
                   <div className="popular-item-card__content d-flex align-items-center justify-content-between gap-2 text-start">
                     <h6 className="popular-item-card__title mb-0">
-                      <a href="product-details.html" className="link">
+                      <Link href="/product-details" className="link">
                         SaaS for Finance Management
-                      </a>
+                      </Link>
                     </h6>
-                    <a
-                      href="product-details.html"
+                    <Link
+                      href="/product-details"
                       className="btn-link line-height-1 flex-shrink-0"
                     >
                       <img
@@ -5399,19 +5401,19 @@ const PopularTwo = () => {
                         alt=""
                         className="dark-version"
                       />
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
               <div className="col-xl-3 col-lg-4 col-sm-6 col-xs-6">
                 <div className="popular-item-card">
                   <div className="popular-item-card__thumb">
-                    <a href="product-details.html" className="link w-100">
+                    <Link href="/product-details" className="link w-100">
                       <img
                         src="assets/images/thumbs/popular-item11.png"
                         alt=""
                       />
-                    </a>
+                    </Link>
                     <div className="product-item__bottom flx-between gap-2">
                       <div>
                         <span className="product-item__sales font-14 mb-0 text-white">
@@ -5442,23 +5444,23 @@ const PopularTwo = () => {
                       </div>
                       <span className="product-item__author">
                         by
-                        <a
-                          href="profile.html"
+                        <Link
+                          href="/profile"
                           className="link text-decoration-underline"
                         >
                           themepix
-                        </a>
+                        </Link>
                       </span>
                     </div>
                   </div>
                   <div className="popular-item-card__content d-flex align-items-center justify-content-between gap-2 text-start">
                     <h6 className="popular-item-card__title mb-0">
-                      <a href="product-details.html" className="link">
+                      <Link href="/product-details" className="link">
                         amiz - SaaS customer Website Template
-                      </a>
+                      </Link>
                     </h6>
-                    <a
-                      href="product-details.html"
+                    <Link
+                      href="/product-details"
                       className="btn-link line-height-1 flex-shrink-0"
                     >
                       <img
@@ -5471,7 +5473,7 @@ const PopularTwo = () => {
                         alt=""
                         className="dark-version"
                       />
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -5488,12 +5490,12 @@ const PopularTwo = () => {
               <div className="col-xl-3 col-lg-4 col-sm-6 col-xs-6">
                 <div className="popular-item-card">
                   <div className="popular-item-card__thumb">
-                    <a href="product-details.html" className="link w-100">
+                    <Link href="/product-details" className="link w-100">
                       <img
                         src="assets/images/thumbs/popular-item1.png"
                         alt=""
                       />
-                    </a>
+                    </Link>
                     <div className="product-item__bottom flx-between gap-2">
                       <div>
                         <span className="product-item__sales font-14 mb-0 text-white">
@@ -5524,23 +5526,23 @@ const PopularTwo = () => {
                       </div>
                       <span className="product-item__author">
                         by
-                        <a
-                          href="profile.html"
+                        <Link
+                          href="/profile"
                           className="link text-decoration-underline"
                         >
                           themepix
-                        </a>
+                        </Link>
                       </span>
                     </div>
                   </div>
                   <div className="popular-item-card__content d-flex align-items-center justify-content-between gap-2 text-start">
                     <h6 className="popular-item-card__title mb-0">
-                      <a href="product-details.html" className="link">
+                      <Link href="/product-details" className="link">
                         SaaS for Finance Management
-                      </a>
+                      </Link>
                     </h6>
-                    <a
-                      href="product-details.html"
+                    <Link
+                      href="/product-details"
                       className="btn-link line-height-1 flex-shrink-0"
                     >
                       <img
@@ -5553,19 +5555,19 @@ const PopularTwo = () => {
                         alt=""
                         className="dark-version"
                       />
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
               <div className="col-xl-3 col-lg-4 col-sm-6 col-xs-6">
                 <div className="popular-item-card">
                   <div className="popular-item-card__thumb">
-                    <a href="product-details.html" className="link w-100">
+                    <Link href="/product-details" className="link w-100">
                       <img
                         src="assets/images/thumbs/popular-item2.png"
                         alt=""
                       />
-                    </a>
+                    </Link>
                     <div className="product-item__bottom flx-between gap-2">
                       <div>
                         <span className="product-item__sales font-14 mb-0 text-white">
@@ -5596,23 +5598,23 @@ const PopularTwo = () => {
                       </div>
                       <span className="product-item__author">
                         by
-                        <a
-                          href="profile.html"
+                        <Link
+                          href="/profile"
                           className="link text-decoration-underline"
                         >
                           themepix
-                        </a>
+                        </Link>
                       </span>
                     </div>
                   </div>
                   <div className="popular-item-card__content d-flex align-items-center justify-content-between gap-2 text-start">
                     <h6 className="popular-item-card__title mb-0">
-                      <a href="product-details.html" className="link">
+                      <Link href="/product-details" className="link">
                         zirtrust - Fintech SaaS Ui kit
-                      </a>
+                      </Link>
                     </h6>
-                    <a
-                      href="product-details.html"
+                    <Link
+                      href="/product-details"
                       className="btn-link line-height-1 flex-shrink-0"
                     >
                       <img
@@ -5625,19 +5627,19 @@ const PopularTwo = () => {
                         alt=""
                         className="dark-version"
                       />
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
               <div className="col-xl-3 col-lg-4 col-sm-6 col-xs-6">
                 <div className="popular-item-card">
                   <div className="popular-item-card__thumb">
-                    <a href="product-details.html" className="link w-100">
+                    <Link href="/product-details" className="link w-100">
                       <img
                         src="assets/images/thumbs/popular-item3.png"
                         alt=""
                       />
-                    </a>
+                    </Link>
                     <div className="product-item__bottom flx-between gap-2">
                       <div>
                         <span className="product-item__sales font-14 mb-0 text-white">
@@ -5668,23 +5670,23 @@ const PopularTwo = () => {
                       </div>
                       <span className="product-item__author">
                         by
-                        <a
-                          href="profile.html"
+                        <Link
+                          href="/profile"
                           className="link text-decoration-underline"
                         >
                           themepix
-                        </a>
+                        </Link>
                       </span>
                     </div>
                   </div>
                   <div className="popular-item-card__content d-flex align-items-center justify-content-between gap-2 text-start">
                     <h6 className="popular-item-card__title mb-0">
-                      <a href="product-details.html" className="link">
+                      <Link href="/product-details" className="link">
                         yolla - CRM Software Landingpage
-                      </a>
+                      </Link>
                     </h6>
-                    <a
-                      href="product-details.html"
+                    <Link
+                      href="/product-details"
                       className="btn-link line-height-1 flex-shrink-0"
                     >
                       <img
@@ -5697,19 +5699,19 @@ const PopularTwo = () => {
                         alt=""
                         className="dark-version"
                       />
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
               <div className="col-xl-3 col-lg-4 col-sm-6 col-xs-6">
                 <div className="popular-item-card">
                   <div className="popular-item-card__thumb">
-                    <a href="product-details.html" className="link w-100">
+                    <Link href="/product-details" className="link w-100">
                       <img
                         src="assets/images/thumbs/popular-item4.png"
                         alt=""
                       />
-                    </a>
+                    </Link>
                     <div className="product-item__bottom flx-between gap-2">
                       <div>
                         <span className="product-item__sales font-14 mb-0 text-white">
@@ -5740,23 +5742,23 @@ const PopularTwo = () => {
                       </div>
                       <span className="product-item__author">
                         by
-                        <a
-                          href="profile.html"
+                        <Link
+                          href="/profile"
                           className="link text-decoration-underline"
                         >
                           themepix
-                        </a>
+                        </Link>
                       </span>
                     </div>
                   </div>
                   <div className="popular-item-card__content d-flex align-items-center justify-content-between gap-2 text-start">
                     <h6 className="popular-item-card__title mb-0">
-                      <a href="product-details.html" className="link">
+                      <Link href="/product-details" className="link">
                         Business point - HR UX-UI design Template
-                      </a>
+                      </Link>
                     </h6>
-                    <a
-                      href="product-details.html"
+                    <Link
+                      href="/product-details"
                       className="btn-link line-height-1 flex-shrink-0"
                     >
                       <img
@@ -5769,19 +5771,19 @@ const PopularTwo = () => {
                         alt=""
                         className="dark-version"
                       />
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
               <div className="col-xl-3 col-lg-4 col-sm-6 col-xs-6">
                 <div className="popular-item-card">
                   <div className="popular-item-card__thumb">
-                    <a href="product-details.html" className="link w-100">
+                    <Link href="/product-details" className="link w-100">
                       <img
                         src="assets/images/thumbs/popular-item5.png"
                         alt=""
                       />
-                    </a>
+                    </Link>
                     <div className="product-item__bottom flx-between gap-2">
                       <div>
                         <span className="product-item__sales font-14 mb-0 text-white">
@@ -5812,23 +5814,23 @@ const PopularTwo = () => {
                       </div>
                       <span className="product-item__author">
                         by
-                        <a
-                          href="profile.html"
+                        <Link
+                          href="/profile"
                           className="link text-decoration-underline"
                         >
                           themepix
-                        </a>
+                        </Link>
                       </span>
                     </div>
                   </div>
                   <div className="popular-item-card__content d-flex align-items-center justify-content-between gap-2 text-start">
                     <h6 className="popular-item-card__title mb-0">
-                      <a href="product-details.html" className="link">
+                      <Link href="/product-details" className="link">
                         Wonder AI Landing Page Template
-                      </a>
+                      </Link>
                     </h6>
-                    <a
-                      href="product-details.html"
+                    <Link
+                      href="/product-details"
                       className="btn-link line-height-1 flex-shrink-0"
                     >
                       <img
@@ -5841,19 +5843,19 @@ const PopularTwo = () => {
                         alt=""
                         className="dark-version"
                       />
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
               <div className="col-xl-3 col-lg-4 col-sm-6 col-xs-6">
                 <div className="popular-item-card">
                   <div className="popular-item-card__thumb">
-                    <a href="product-details.html" className="link w-100">
+                    <Link href="/product-details" className="link w-100">
                       <img
                         src="assets/images/thumbs/popular-item6.png"
                         alt=""
                       />
-                    </a>
+                    </Link>
                     <div className="product-item__bottom flx-between gap-2">
                       <div>
                         <span className="product-item__sales font-14 mb-0 text-white">
@@ -5884,23 +5886,23 @@ const PopularTwo = () => {
                       </div>
                       <span className="product-item__author">
                         by
-                        <a
-                          href="profile.html"
+                        <Link
+                          href="/profile"
                           className="link text-decoration-underline"
                         >
                           themepix
-                        </a>
+                        </Link>
                       </span>
                     </div>
                   </div>
                   <div className="popular-item-card__content d-flex align-items-center justify-content-between gap-2 text-start">
                     <h6 className="popular-item-card__title mb-0">
-                      <a href="product-details.html" className="link">
+                      <Link href="/product-details" className="link">
                         turing UI Kit: AI Smart Healthcare App&nbsp;
-                      </a>
+                      </Link>
                     </h6>
-                    <a
-                      href="product-details.html"
+                    <Link
+                      href="/product-details"
                       className="btn-link line-height-1 flex-shrink-0"
                     >
                       <img
@@ -5913,19 +5915,19 @@ const PopularTwo = () => {
                         alt=""
                         className="dark-version"
                       />
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
               <div className="col-xl-3 col-lg-4 col-sm-6 col-xs-6">
                 <div className="popular-item-card">
                   <div className="popular-item-card__thumb">
-                    <a href="product-details.html" className="link w-100">
+                    <Link href="/product-details" className="link w-100">
                       <img
                         src="assets/images/thumbs/popular-item7.png"
                         alt=""
                       />
-                    </a>
+                    </Link>
                     <div className="product-item__bottom flx-between gap-2">
                       <div>
                         <span className="product-item__sales font-14 mb-0 text-white">
@@ -5956,23 +5958,23 @@ const PopularTwo = () => {
                       </div>
                       <span className="product-item__author">
                         by
-                        <a
-                          href="profile.html"
+                        <Link
+                          href="/profile"
                           className="link text-decoration-underline"
                         >
                           themepix
-                        </a>
+                        </Link>
                       </span>
                     </div>
                   </div>
                   <div className="popular-item-card__content d-flex align-items-center justify-content-between gap-2 text-start">
                     <h6 className="popular-item-card__title mb-0">
-                      <a href="product-details.html" className="link">
+                      <Link href="/product-details" className="link">
                         FinTrust - Fintech SAAS Ui kit
-                      </a>
+                      </Link>
                     </h6>
-                    <a
-                      href="product-details.html"
+                    <Link
+                      href="/product-details"
                       className="btn-link line-height-1 flex-shrink-0"
                     >
                       <img
@@ -5985,19 +5987,19 @@ const PopularTwo = () => {
                         alt=""
                         className="dark-version"
                       />
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
               <div className="col-xl-3 col-lg-4 col-sm-6 col-xs-6">
                 <div className="popular-item-card">
                   <div className="popular-item-card__thumb">
-                    <a href="product-details.html" className="link w-100">
+                    <Link href="/product-details" className="link w-100">
                       <img
                         src="assets/images/thumbs/popular-item2.png"
                         alt=""
                       />
-                    </a>
+                    </Link>
                     <div className="product-item__bottom flx-between gap-2">
                       <div>
                         <span className="product-item__sales font-14 mb-0 text-white">
@@ -6028,23 +6030,23 @@ const PopularTwo = () => {
                       </div>
                       <span className="product-item__author">
                         by
-                        <a
-                          href="profile.html"
+                        <Link
+                          href="/profile"
                           className="link text-decoration-underline"
                         >
                           themepix
-                        </a>
+                        </Link>
                       </span>
                     </div>
                   </div>
                   <div className="popular-item-card__content d-flex align-items-center justify-content-between gap-2 text-start">
                     <h6 className="popular-item-card__title mb-0">
-                      <a href="product-details.html" className="link">
+                      <Link href="/product-details" className="link">
                         SaaS for Finance Management
-                      </a>
+                      </Link>
                     </h6>
-                    <a
-                      href="product-details.html"
+                    <Link
+                      href="/product-details"
                       className="btn-link line-height-1 flex-shrink-0"
                     >
                       <img
@@ -6057,19 +6059,19 @@ const PopularTwo = () => {
                         alt=""
                         className="dark-version"
                       />
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
               <div className="col-xl-3 col-lg-4 col-sm-6 col-xs-6">
                 <div className="popular-item-card">
                   <div className="popular-item-card__thumb">
-                    <a href="product-details.html" className="link w-100">
+                    <Link href="/product-details" className="link w-100">
                       <img
                         src="assets/images/thumbs/popular-item9.png"
                         alt=""
                       />
-                    </a>
+                    </Link>
                     <div className="product-item__bottom flx-between gap-2">
                       <div>
                         <span className="product-item__sales font-14 mb-0 text-white">
@@ -6100,23 +6102,23 @@ const PopularTwo = () => {
                       </div>
                       <span className="product-item__author">
                         by
-                        <a
-                          href="profile.html"
+                        <Link
+                          href="/profile"
                           className="link text-decoration-underline"
                         >
                           themepix
-                        </a>
+                        </Link>
                       </span>
                     </div>
                   </div>
                   <div className="popular-item-card__content d-flex align-items-center justify-content-between gap-2 text-start">
                     <h6 className="popular-item-card__title mb-0">
-                      <a href="product-details.html" className="link">
+                      <Link href="/product-details" className="link">
                         SaaS for Finance Management
-                      </a>
+                      </Link>
                     </h6>
-                    <a
-                      href="product-details.html"
+                    <Link
+                      href="/product-details"
                       className="btn-link line-height-1 flex-shrink-0"
                     >
                       <img
@@ -6129,19 +6131,19 @@ const PopularTwo = () => {
                         alt=""
                         className="dark-version"
                       />
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
               <div className="col-xl-3 col-lg-4 col-sm-6 col-xs-6">
                 <div className="popular-item-card">
                   <div className="popular-item-card__thumb">
-                    <a href="product-details.html" className="link w-100">
+                    <Link href="/product-details" className="link w-100">
                       <img
                         src="assets/images/thumbs/popular-item10.png"
                         alt=""
                       />
-                    </a>
+                    </Link>
                     <div className="product-item__bottom flx-between gap-2">
                       <div>
                         <span className="product-item__sales font-14 mb-0 text-white">
@@ -6172,23 +6174,23 @@ const PopularTwo = () => {
                       </div>
                       <span className="product-item__author">
                         by
-                        <a
-                          href="profile.html"
+                        <Link
+                          href="/profile"
                           className="link text-decoration-underline"
                         >
                           themepix
-                        </a>
+                        </Link>
                       </span>
                     </div>
                   </div>
                   <div className="popular-item-card__content d-flex align-items-center justify-content-between gap-2 text-start">
                     <h6 className="popular-item-card__title mb-0">
-                      <a href="product-details.html" className="link">
+                      <Link href="/product-details" className="link">
                         SaaS for Finance Management
-                      </a>
+                      </Link>
                     </h6>
-                    <a
-                      href="product-details.html"
+                    <Link
+                      href="/product-details"
                       className="btn-link line-height-1 flex-shrink-0"
                     >
                       <img
@@ -6201,19 +6203,19 @@ const PopularTwo = () => {
                         alt=""
                         className="dark-version"
                       />
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
               <div className="col-xl-3 col-lg-4 col-sm-6 col-xs-6">
                 <div className="popular-item-card">
                   <div className="popular-item-card__thumb">
-                    <a href="product-details.html" className="link w-100">
+                    <Link href="/product-details" className="link w-100">
                       <img
                         src="assets/images/thumbs/popular-item11.png"
                         alt=""
                       />
-                    </a>
+                    </Link>
                     <div className="product-item__bottom flx-between gap-2">
                       <div>
                         <span className="product-item__sales font-14 mb-0 text-white">
@@ -6244,23 +6246,23 @@ const PopularTwo = () => {
                       </div>
                       <span className="product-item__author">
                         by
-                        <a
-                          href="profile.html"
+                        <Link
+                          href="/profile"
                           className="link text-decoration-underline"
                         >
                           themepix
-                        </a>
+                        </Link>
                       </span>
                     </div>
                   </div>
                   <div className="popular-item-card__content d-flex align-items-center justify-content-between gap-2 text-start">
                     <h6 className="popular-item-card__title mb-0">
-                      <a href="product-details.html" className="link">
+                      <Link href="/product-details" className="link">
                         SaaS for Finance Management
-                      </a>
+                      </Link>
                     </h6>
-                    <a
-                      href="product-details.html"
+                    <Link
+                      href="/product-details"
                       className="btn-link line-height-1 flex-shrink-0"
                     >
                       <img
@@ -6273,19 +6275,19 @@ const PopularTwo = () => {
                         alt=""
                         className="dark-version"
                       />
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
               <div className="col-xl-3 col-lg-4 col-sm-6 col-xs-6">
                 <div className="popular-item-card">
                   <div className="popular-item-card__thumb">
-                    <a href="product-details.html" className="link w-100">
+                    <Link href="/product-details" className="link w-100">
                       <img
                         src="assets/images/thumbs/popular-item11.png"
                         alt=""
                       />
-                    </a>
+                    </Link>
                     <div className="product-item__bottom flx-between gap-2">
                       <div>
                         <span className="product-item__sales font-14 mb-0 text-white">
@@ -6316,23 +6318,23 @@ const PopularTwo = () => {
                       </div>
                       <span className="product-item__author">
                         by
-                        <a
-                          href="profile.html"
+                        <Link
+                          href="/profile"
                           className="link text-decoration-underline"
                         >
                           themepix
-                        </a>
+                        </Link>
                       </span>
                     </div>
                   </div>
                   <div className="popular-item-card__content d-flex align-items-center justify-content-between gap-2 text-start">
                     <h6 className="popular-item-card__title mb-0">
-                      <a href="product-details.html" className="link">
+                      <Link href="/product-details" className="link">
                         amiz - SaaS customer Website Template
-                      </a>
+                      </Link>
                     </h6>
-                    <a
-                      href="product-details.html"
+                    <Link
+                      href="/product-details"
                       className="btn-link line-height-1 flex-shrink-0"
                     >
                       <img
@@ -6345,7 +6347,7 @@ const PopularTwo = () => {
                         alt=""
                         className="dark-version"
                       />
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -6362,12 +6364,12 @@ const PopularTwo = () => {
               <div className="col-xl-3 col-lg-4 col-sm-6 col-xs-6">
                 <div className="popular-item-card">
                   <div className="popular-item-card__thumb">
-                    <a href="product-details.html" className="link w-100">
+                    <Link href="/product-details" className="link w-100">
                       <img
                         src="assets/images/thumbs/popular-item1.png"
                         alt=""
                       />
-                    </a>
+                    </Link>
                     <div className="product-item__bottom flx-between gap-2">
                       <div>
                         <span className="product-item__sales font-14 mb-0 text-white">
@@ -6398,23 +6400,23 @@ const PopularTwo = () => {
                       </div>
                       <span className="product-item__author">
                         by
-                        <a
-                          href="profile.html"
+                        <Link
+                          href="/profile"
                           className="link text-decoration-underline"
                         >
                           themepix
-                        </a>
+                        </Link>
                       </span>
                     </div>
                   </div>
                   <div className="popular-item-card__content d-flex align-items-center justify-content-between gap-2 text-start">
                     <h6 className="popular-item-card__title mb-0">
-                      <a href="product-details.html" className="link">
+                      <Link href="/product-details" className="link">
                         SaaS for Finance Management
-                      </a>
+                      </Link>
                     </h6>
-                    <a
-                      href="product-details.html"
+                    <Link
+                      href="/product-details"
                       className="btn-link line-height-1 flex-shrink-0"
                     >
                       <img
@@ -6427,19 +6429,19 @@ const PopularTwo = () => {
                         alt=""
                         className="dark-version"
                       />
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
               <div className="col-xl-3 col-lg-4 col-sm-6 col-xs-6">
                 <div className="popular-item-card">
                   <div className="popular-item-card__thumb">
-                    <a href="product-details.html" className="link w-100">
+                    <Link href="/product-details" className="link w-100">
                       <img
                         src="assets/images/thumbs/popular-item2.png"
                         alt=""
                       />
-                    </a>
+                    </Link>
                     <div className="product-item__bottom flx-between gap-2">
                       <div>
                         <span className="product-item__sales font-14 mb-0 text-white">
@@ -6470,23 +6472,23 @@ const PopularTwo = () => {
                       </div>
                       <span className="product-item__author">
                         by
-                        <a
-                          href="profile.html"
+                        <Link
+                          href="/profile"
                           className="link text-decoration-underline"
                         >
                           themepix
-                        </a>
+                        </Link>
                       </span>
                     </div>
                   </div>
                   <div className="popular-item-card__content d-flex align-items-center justify-content-between gap-2 text-start">
                     <h6 className="popular-item-card__title mb-0">
-                      <a href="product-details.html" className="link">
+                      <Link href="/product-details" className="link">
                         zirtrust - Fintech SaaS Ui kit
-                      </a>
+                      </Link>
                     </h6>
-                    <a
-                      href="product-details.html"
+                    <Link
+                      href="/product-details"
                       className="btn-link line-height-1 flex-shrink-0"
                     >
                       <img
@@ -6499,19 +6501,19 @@ const PopularTwo = () => {
                         alt=""
                         className="dark-version"
                       />
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
               <div className="col-xl-3 col-lg-4 col-sm-6 col-xs-6">
                 <div className="popular-item-card">
                   <div className="popular-item-card__thumb">
-                    <a href="product-details.html" className="link w-100">
+                    <Link href="/product-details" className="link w-100">
                       <img
                         src="assets/images/thumbs/popular-item3.png"
                         alt=""
                       />
-                    </a>
+                    </Link>
                     <div className="product-item__bottom flx-between gap-2">
                       <div>
                         <span className="product-item__sales font-14 mb-0 text-white">
@@ -6542,23 +6544,23 @@ const PopularTwo = () => {
                       </div>
                       <span className="product-item__author">
                         by
-                        <a
-                          href="profile.html"
+                        <Link
+                          href="/profile"
                           className="link text-decoration-underline"
                         >
                           themepix
-                        </a>
+                        </Link>
                       </span>
                     </div>
                   </div>
                   <div className="popular-item-card__content d-flex align-items-center justify-content-between gap-2 text-start">
                     <h6 className="popular-item-card__title mb-0">
-                      <a href="product-details.html" className="link">
+                      <Link href="/product-details" className="link">
                         yolla - CRM Software Landingpage
-                      </a>
+                      </Link>
                     </h6>
-                    <a
-                      href="product-details.html"
+                    <Link
+                      href="/product-details"
                       className="btn-link line-height-1 flex-shrink-0"
                     >
                       <img
@@ -6571,19 +6573,19 @@ const PopularTwo = () => {
                         alt=""
                         className="dark-version"
                       />
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
               <div className="col-xl-3 col-lg-4 col-sm-6 col-xs-6">
                 <div className="popular-item-card">
                   <div className="popular-item-card__thumb">
-                    <a href="product-details.html" className="link w-100">
+                    <Link href="/product-details" className="link w-100">
                       <img
                         src="assets/images/thumbs/popular-item4.png"
                         alt=""
                       />
-                    </a>
+                    </Link>
                     <div className="product-item__bottom flx-between gap-2">
                       <div>
                         <span className="product-item__sales font-14 mb-0 text-white">
@@ -6614,23 +6616,23 @@ const PopularTwo = () => {
                       </div>
                       <span className="product-item__author">
                         by
-                        <a
-                          href="profile.html"
+                        <Link
+                          href="/profile"
                           className="link text-decoration-underline"
                         >
                           themepix
-                        </a>
+                        </Link>
                       </span>
                     </div>
                   </div>
                   <div className="popular-item-card__content d-flex align-items-center justify-content-between gap-2 text-start">
                     <h6 className="popular-item-card__title mb-0">
-                      <a href="product-details.html" className="link">
+                      <Link href="/product-details" className="link">
                         Business point - HR UX-UI design Template
-                      </a>
+                      </Link>
                     </h6>
-                    <a
-                      href="product-details.html"
+                    <Link
+                      href="/product-details"
                       className="btn-link line-height-1 flex-shrink-0"
                     >
                       <img
@@ -6643,19 +6645,19 @@ const PopularTwo = () => {
                         alt=""
                         className="dark-version"
                       />
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
               <div className="col-xl-3 col-lg-4 col-sm-6 col-xs-6">
                 <div className="popular-item-card">
                   <div className="popular-item-card__thumb">
-                    <a href="product-details.html" className="link w-100">
+                    <Link href="/product-details" className="link w-100">
                       <img
                         src="assets/images/thumbs/popular-item5.png"
                         alt=""
                       />
-                    </a>
+                    </Link>
                     <div className="product-item__bottom flx-between gap-2">
                       <div>
                         <span className="product-item__sales font-14 mb-0 text-white">
@@ -6686,23 +6688,23 @@ const PopularTwo = () => {
                       </div>
                       <span className="product-item__author">
                         by
-                        <a
-                          href="profile.html"
+                        <Link
+                          href="/profile"
                           className="link text-decoration-underline"
                         >
                           themepix
-                        </a>
+                        </Link>
                       </span>
                     </div>
                   </div>
                   <div className="popular-item-card__content d-flex align-items-center justify-content-between gap-2 text-start">
                     <h6 className="popular-item-card__title mb-0">
-                      <a href="product-details.html" className="link">
+                      <Link href="/product-details" className="link">
                         Wonder AI Landing Page Template
-                      </a>
+                      </Link>
                     </h6>
-                    <a
-                      href="product-details.html"
+                    <Link
+                      href="/product-details"
                       className="btn-link line-height-1 flex-shrink-0"
                     >
                       <img
@@ -6715,19 +6717,19 @@ const PopularTwo = () => {
                         alt=""
                         className="dark-version"
                       />
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
               <div className="col-xl-3 col-lg-4 col-sm-6 col-xs-6">
                 <div className="popular-item-card">
                   <div className="popular-item-card__thumb">
-                    <a href="product-details.html" className="link w-100">
+                    <Link href="/product-details" className="link w-100">
                       <img
                         src="assets/images/thumbs/popular-item6.png"
                         alt=""
                       />
-                    </a>
+                    </Link>
                     <div className="product-item__bottom flx-between gap-2">
                       <div>
                         <span className="product-item__sales font-14 mb-0 text-white">
@@ -6758,23 +6760,23 @@ const PopularTwo = () => {
                       </div>
                       <span className="product-item__author">
                         by
-                        <a
-                          href="profile.html"
+                        <Link
+                          href="/profile"
                           className="link text-decoration-underline"
                         >
                           themepix
-                        </a>
+                        </Link>
                       </span>
                     </div>
                   </div>
                   <div className="popular-item-card__content d-flex align-items-center justify-content-between gap-2 text-start">
                     <h6 className="popular-item-card__title mb-0">
-                      <a href="product-details.html" className="link">
+                      <Link href="/product-details" className="link">
                         turing UI Kit: AI Smart Healthcare App&nbsp;
-                      </a>
+                      </Link>
                     </h6>
-                    <a
-                      href="product-details.html"
+                    <Link
+                      href="/product-details"
                       className="btn-link line-height-1 flex-shrink-0"
                     >
                       <img
@@ -6787,19 +6789,19 @@ const PopularTwo = () => {
                         alt=""
                         className="dark-version"
                       />
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
               <div className="col-xl-3 col-lg-4 col-sm-6 col-xs-6">
                 <div className="popular-item-card">
                   <div className="popular-item-card__thumb">
-                    <a href="product-details.html" className="link w-100">
+                    <Link href="/product-details" className="link w-100">
                       <img
                         src="assets/images/thumbs/popular-item7.png"
                         alt=""
                       />
-                    </a>
+                    </Link>
                     <div className="product-item__bottom flx-between gap-2">
                       <div>
                         <span className="product-item__sales font-14 mb-0 text-white">
@@ -6830,23 +6832,23 @@ const PopularTwo = () => {
                       </div>
                       <span className="product-item__author">
                         by
-                        <a
-                          href="profile.html"
+                        <Link
+                          href="/profile"
                           className="link text-decoration-underline"
                         >
                           themepix
-                        </a>
+                        </Link>
                       </span>
                     </div>
                   </div>
                   <div className="popular-item-card__content d-flex align-items-center justify-content-between gap-2 text-start">
                     <h6 className="popular-item-card__title mb-0">
-                      <a href="product-details.html" className="link">
+                      <Link href="/product-details" className="link">
                         FinTrust - Fintech SAAS Ui kit
-                      </a>
+                      </Link>
                     </h6>
-                    <a
-                      href="product-details.html"
+                    <Link
+                      href="/product-details"
                       className="btn-link line-height-1 flex-shrink-0"
                     >
                       <img
@@ -6859,19 +6861,19 @@ const PopularTwo = () => {
                         alt=""
                         className="dark-version"
                       />
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
               <div className="col-xl-3 col-lg-4 col-sm-6 col-xs-6">
                 <div className="popular-item-card">
                   <div className="popular-item-card__thumb">
-                    <a href="product-details.html" className="link w-100">
+                    <Link href="/product-details" className="link w-100">
                       <img
                         src="assets/images/thumbs/popular-item2.png"
                         alt=""
                       />
-                    </a>
+                    </Link>
                     <div className="product-item__bottom flx-between gap-2">
                       <div>
                         <span className="product-item__sales font-14 mb-0 text-white">
@@ -6902,23 +6904,23 @@ const PopularTwo = () => {
                       </div>
                       <span className="product-item__author">
                         by
-                        <a
-                          href="profile.html"
+                        <Link
+                          href="/profile"
                           className="link text-decoration-underline"
                         >
                           themepix
-                        </a>
+                        </Link>
                       </span>
                     </div>
                   </div>
                   <div className="popular-item-card__content d-flex align-items-center justify-content-between gap-2 text-start">
                     <h6 className="popular-item-card__title mb-0">
-                      <a href="product-details.html" className="link">
+                      <Link href="/product-details" className="link">
                         SaaS for Finance Management
-                      </a>
+                      </Link>
                     </h6>
-                    <a
-                      href="product-details.html"
+                    <Link
+                      href="/product-details"
                       className="btn-link line-height-1 flex-shrink-0"
                     >
                       <img
@@ -6931,19 +6933,19 @@ const PopularTwo = () => {
                         alt=""
                         className="dark-version"
                       />
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
               <div className="col-xl-3 col-lg-4 col-sm-6 col-xs-6">
                 <div className="popular-item-card">
                   <div className="popular-item-card__thumb">
-                    <a href="product-details.html" className="link w-100">
+                    <Link href="/product-details" className="link w-100">
                       <img
                         src="assets/images/thumbs/popular-item9.png"
                         alt=""
                       />
-                    </a>
+                    </Link>
                     <div className="product-item__bottom flx-between gap-2">
                       <div>
                         <span className="product-item__sales font-14 mb-0 text-white">
@@ -6974,23 +6976,23 @@ const PopularTwo = () => {
                       </div>
                       <span className="product-item__author">
                         by
-                        <a
-                          href="profile.html"
+                        <Link
+                          href="/profile"
                           className="link text-decoration-underline"
                         >
                           themepix
-                        </a>
+                        </Link>
                       </span>
                     </div>
                   </div>
                   <div className="popular-item-card__content d-flex align-items-center justify-content-between gap-2 text-start">
                     <h6 className="popular-item-card__title mb-0">
-                      <a href="product-details.html" className="link">
+                      <Link href="/product-details" className="link">
                         SaaS for Finance Management
-                      </a>
+                      </Link>
                     </h6>
-                    <a
-                      href="product-details.html"
+                    <Link
+                      href="/product-details"
                       className="btn-link line-height-1 flex-shrink-0"
                     >
                       <img
@@ -7003,19 +7005,19 @@ const PopularTwo = () => {
                         alt=""
                         className="dark-version"
                       />
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
               <div className="col-xl-3 col-lg-4 col-sm-6 col-xs-6">
                 <div className="popular-item-card">
                   <div className="popular-item-card__thumb">
-                    <a href="product-details.html" className="link w-100">
+                    <Link href="/product-details" className="link w-100">
                       <img
                         src="assets/images/thumbs/popular-item10.png"
                         alt=""
                       />
-                    </a>
+                    </Link>
                     <div className="product-item__bottom flx-between gap-2">
                       <div>
                         <span className="product-item__sales font-14 mb-0 text-white">
@@ -7046,23 +7048,23 @@ const PopularTwo = () => {
                       </div>
                       <span className="product-item__author">
                         by
-                        <a
-                          href="profile.html"
+                        <Link
+                          href="/profile"
                           className="link text-decoration-underline"
                         >
                           themepix
-                        </a>
+                        </Link>
                       </span>
                     </div>
                   </div>
                   <div className="popular-item-card__content d-flex align-items-center justify-content-between gap-2 text-start">
                     <h6 className="popular-item-card__title mb-0">
-                      <a href="product-details.html" className="link">
+                      <Link href="/product-details" className="link">
                         SaaS for Finance Management
-                      </a>
+                      </Link>
                     </h6>
-                    <a
-                      href="product-details.html"
+                    <Link
+                      href="/product-details"
                       className="btn-link line-height-1 flex-shrink-0"
                     >
                       <img
@@ -7075,19 +7077,19 @@ const PopularTwo = () => {
                         alt=""
                         className="dark-version"
                       />
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
               <div className="col-xl-3 col-lg-4 col-sm-6 col-xs-6">
                 <div className="popular-item-card">
                   <div className="popular-item-card__thumb">
-                    <a href="product-details.html" className="link w-100">
+                    <Link href="/product-details" className="link w-100">
                       <img
                         src="assets/images/thumbs/popular-item11.png"
                         alt=""
                       />
-                    </a>
+                    </Link>
                     <div className="product-item__bottom flx-between gap-2">
                       <div>
                         <span className="product-item__sales font-14 mb-0 text-white">
@@ -7118,23 +7120,23 @@ const PopularTwo = () => {
                       </div>
                       <span className="product-item__author">
                         by
-                        <a
-                          href="profile.html"
+                        <Link
+                          href="/profile"
                           className="link text-decoration-underline"
                         >
                           themepix
-                        </a>
+                        </Link>
                       </span>
                     </div>
                   </div>
                   <div className="popular-item-card__content d-flex align-items-center justify-content-between gap-2 text-start">
                     <h6 className="popular-item-card__title mb-0">
-                      <a href="product-details.html" className="link">
+                      <Link href="/product-details" className="link">
                         SaaS for Finance Management
-                      </a>
+                      </Link>
                     </h6>
-                    <a
-                      href="product-details.html"
+                    <Link
+                      href="/product-details"
                       className="btn-link line-height-1 flex-shrink-0"
                     >
                       <img
@@ -7147,19 +7149,19 @@ const PopularTwo = () => {
                         alt=""
                         className="dark-version"
                       />
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
               <div className="col-xl-3 col-lg-4 col-sm-6 col-xs-6">
                 <div className="popular-item-card">
                   <div className="popular-item-card__thumb">
-                    <a href="product-details.html" className="link w-100">
+                    <Link href="/product-details" className="link w-100">
                       <img
                         src="assets/images/thumbs/popular-item11.png"
                         alt=""
                       />
-                    </a>
+                    </Link>
                     <div className="product-item__bottom flx-between gap-2">
                       <div>
                         <span className="product-item__sales font-14 mb-0 text-white">
@@ -7190,23 +7192,23 @@ const PopularTwo = () => {
                       </div>
                       <span className="product-item__author">
                         by
-                        <a
-                          href="profile.html"
+                        <Link
+                          href="/profile"
                           className="link text-decoration-underline"
                         >
                           themepix
-                        </a>
+                        </Link>
                       </span>
                     </div>
                   </div>
                   <div className="popular-item-card__content d-flex align-items-center justify-content-between gap-2 text-start">
                     <h6 className="popular-item-card__title mb-0">
-                      <a href="product-details.html" className="link">
+                      <Link href="/product-details" className="link">
                         amiz - SaaS customer Website Template
-                      </a>
+                      </Link>
                     </h6>
-                    <a
-                      href="product-details.html"
+                    <Link
+                      href="/product-details"
                       className="btn-link line-height-1 flex-shrink-0"
                     >
                       <img
@@ -7219,7 +7221,7 @@ const PopularTwo = () => {
                         alt=""
                         className="dark-version"
                       />
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -7236,12 +7238,12 @@ const PopularTwo = () => {
               <div className="col-xl-3 col-lg-4 col-sm-6 col-xs-6">
                 <div className="popular-item-card">
                   <div className="popular-item-card__thumb">
-                    <a href="product-details.html" className="link w-100">
+                    <Link href="/product-details" className="link w-100">
                       <img
                         src="assets/images/thumbs/popular-item1.png"
                         alt=""
                       />
-                    </a>
+                    </Link>
                     <div className="product-item__bottom flx-between gap-2">
                       <div>
                         <span className="product-item__sales font-14 mb-0 text-white">
@@ -7272,23 +7274,23 @@ const PopularTwo = () => {
                       </div>
                       <span className="product-item__author">
                         by
-                        <a
-                          href="profile.html"
+                        <Link
+                          href="/profile"
                           className="link text-decoration-underline"
                         >
                           themepix
-                        </a>
+                        </Link>
                       </span>
                     </div>
                   </div>
                   <div className="popular-item-card__content d-flex align-items-center justify-content-between gap-2 text-start">
                     <h6 className="popular-item-card__title mb-0">
-                      <a href="product-details.html" className="link">
+                      <Link href="/product-details" className="link">
                         SaaS for Finance Management
-                      </a>
+                      </Link>
                     </h6>
-                    <a
-                      href="product-details.html"
+                    <Link
+                      href="/product-details"
                       className="btn-link line-height-1 flex-shrink-0"
                     >
                       <img
@@ -7301,19 +7303,19 @@ const PopularTwo = () => {
                         alt=""
                         className="dark-version"
                       />
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
               <div className="col-xl-3 col-lg-4 col-sm-6 col-xs-6">
                 <div className="popular-item-card">
                   <div className="popular-item-card__thumb">
-                    <a href="product-details.html" className="link w-100">
+                    <Link href="/product-details" className="link w-100">
                       <img
                         src="assets/images/thumbs/popular-item2.png"
                         alt=""
                       />
-                    </a>
+                    </Link>
                     <div className="product-item__bottom flx-between gap-2">
                       <div>
                         <span className="product-item__sales font-14 mb-0 text-white">
@@ -7344,23 +7346,23 @@ const PopularTwo = () => {
                       </div>
                       <span className="product-item__author">
                         by
-                        <a
-                          href="profile.html"
+                        <Link
+                          href="/profile"
                           className="link text-decoration-underline"
                         >
                           themepix
-                        </a>
+                        </Link>
                       </span>
                     </div>
                   </div>
                   <div className="popular-item-card__content d-flex align-items-center justify-content-between gap-2 text-start">
                     <h6 className="popular-item-card__title mb-0">
-                      <a href="product-details.html" className="link">
+                      <Link href="/product-details" className="link">
                         zirtrust - Fintech SaaS Ui kit
-                      </a>
+                      </Link>
                     </h6>
-                    <a
-                      href="product-details.html"
+                    <Link
+                      href="/product-details"
                       className="btn-link line-height-1 flex-shrink-0"
                     >
                       <img
@@ -7373,19 +7375,19 @@ const PopularTwo = () => {
                         alt=""
                         className="dark-version"
                       />
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
               <div className="col-xl-3 col-lg-4 col-sm-6 col-xs-6">
                 <div className="popular-item-card">
                   <div className="popular-item-card__thumb">
-                    <a href="product-details.html" className="link w-100">
+                    <Link href="/product-details" className="link w-100">
                       <img
                         src="assets/images/thumbs/popular-item3.png"
                         alt=""
                       />
-                    </a>
+                    </Link>
                     <div className="product-item__bottom flx-between gap-2">
                       <div>
                         <span className="product-item__sales font-14 mb-0 text-white">
@@ -7416,23 +7418,23 @@ const PopularTwo = () => {
                       </div>
                       <span className="product-item__author">
                         by
-                        <a
-                          href="profile.html"
+                        <Link
+                          href="/profile"
                           className="link text-decoration-underline"
                         >
                           themepix
-                        </a>
+                        </Link>
                       </span>
                     </div>
                   </div>
                   <div className="popular-item-card__content d-flex align-items-center justify-content-between gap-2 text-start">
                     <h6 className="popular-item-card__title mb-0">
-                      <a href="product-details.html" className="link">
+                      <Link href="/product-details" className="link">
                         yolla - CRM Software Landingpage
-                      </a>
+                      </Link>
                     </h6>
-                    <a
-                      href="product-details.html"
+                    <Link
+                      href="/product-details"
                       className="btn-link line-height-1 flex-shrink-0"
                     >
                       <img
@@ -7445,19 +7447,19 @@ const PopularTwo = () => {
                         alt=""
                         className="dark-version"
                       />
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
               <div className="col-xl-3 col-lg-4 col-sm-6 col-xs-6">
                 <div className="popular-item-card">
                   <div className="popular-item-card__thumb">
-                    <a href="product-details.html" className="link w-100">
+                    <Link href="/product-details" className="link w-100">
                       <img
                         src="assets/images/thumbs/popular-item4.png"
                         alt=""
                       />
-                    </a>
+                    </Link>
                     <div className="product-item__bottom flx-between gap-2">
                       <div>
                         <span className="product-item__sales font-14 mb-0 text-white">
@@ -7488,23 +7490,23 @@ const PopularTwo = () => {
                       </div>
                       <span className="product-item__author">
                         by
-                        <a
-                          href="profile.html"
+                        <Link
+                          href="/profile"
                           className="link text-decoration-underline"
                         >
                           themepix
-                        </a>
+                        </Link>
                       </span>
                     </div>
                   </div>
                   <div className="popular-item-card__content d-flex align-items-center justify-content-between gap-2 text-start">
                     <h6 className="popular-item-card__title mb-0">
-                      <a href="product-details.html" className="link">
+                      <Link href="/product-details" className="link">
                         Business point - HR UX-UI design Template
-                      </a>
+                      </Link>
                     </h6>
-                    <a
-                      href="product-details.html"
+                    <Link
+                      href="/product-details"
                       className="btn-link line-height-1 flex-shrink-0"
                     >
                       <img
@@ -7517,19 +7519,19 @@ const PopularTwo = () => {
                         alt=""
                         className="dark-version"
                       />
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
               <div className="col-xl-3 col-lg-4 col-sm-6 col-xs-6">
                 <div className="popular-item-card">
                   <div className="popular-item-card__thumb">
-                    <a href="product-details.html" className="link w-100">
+                    <Link href="/product-details" className="link w-100">
                       <img
                         src="assets/images/thumbs/popular-item5.png"
                         alt=""
                       />
-                    </a>
+                    </Link>
                     <div className="product-item__bottom flx-between gap-2">
                       <div>
                         <span className="product-item__sales font-14 mb-0 text-white">
@@ -7560,23 +7562,23 @@ const PopularTwo = () => {
                       </div>
                       <span className="product-item__author">
                         by
-                        <a
-                          href="profile.html"
+                        <Link
+                          href="/profile"
                           className="link text-decoration-underline"
                         >
                           themepix
-                        </a>
+                        </Link>
                       </span>
                     </div>
                   </div>
                   <div className="popular-item-card__content d-flex align-items-center justify-content-between gap-2 text-start">
                     <h6 className="popular-item-card__title mb-0">
-                      <a href="product-details.html" className="link">
+                      <Link href="/product-details" className="link">
                         Wonder AI Landing Page Template
-                      </a>
+                      </Link>
                     </h6>
-                    <a
-                      href="product-details.html"
+                    <Link
+                      href="/product-details"
                       className="btn-link line-height-1 flex-shrink-0"
                     >
                       <img
@@ -7589,19 +7591,19 @@ const PopularTwo = () => {
                         alt=""
                         className="dark-version"
                       />
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
               <div className="col-xl-3 col-lg-4 col-sm-6 col-xs-6">
                 <div className="popular-item-card">
                   <div className="popular-item-card__thumb">
-                    <a href="product-details.html" className="link w-100">
+                    <Link href="/product-details" className="link w-100">
                       <img
                         src="assets/images/thumbs/popular-item6.png"
                         alt=""
                       />
-                    </a>
+                    </Link>
                     <div className="product-item__bottom flx-between gap-2">
                       <div>
                         <span className="product-item__sales font-14 mb-0 text-white">
@@ -7632,23 +7634,23 @@ const PopularTwo = () => {
                       </div>
                       <span className="product-item__author">
                         by
-                        <a
-                          href="profile.html"
+                        <Link
+                          href="/profile"
                           className="link text-decoration-underline"
                         >
                           themepix
-                        </a>
+                        </Link>
                       </span>
                     </div>
                   </div>
                   <div className="popular-item-card__content d-flex align-items-center justify-content-between gap-2 text-start">
                     <h6 className="popular-item-card__title mb-0">
-                      <a href="product-details.html" className="link">
+                      <Link href="/product-details" className="link">
                         turing UI Kit: AI Smart Healthcare App&nbsp;
-                      </a>
+                      </Link>
                     </h6>
-                    <a
-                      href="product-details.html"
+                    <Link
+                      href="/product-details"
                       className="btn-link line-height-1 flex-shrink-0"
                     >
                       <img
@@ -7661,19 +7663,19 @@ const PopularTwo = () => {
                         alt=""
                         className="dark-version"
                       />
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
               <div className="col-xl-3 col-lg-4 col-sm-6 col-xs-6">
                 <div className="popular-item-card">
                   <div className="popular-item-card__thumb">
-                    <a href="product-details.html" className="link w-100">
+                    <Link href="/product-details" className="link w-100">
                       <img
                         src="assets/images/thumbs/popular-item7.png"
                         alt=""
                       />
-                    </a>
+                    </Link>
                     <div className="product-item__bottom flx-between gap-2">
                       <div>
                         <span className="product-item__sales font-14 mb-0 text-white">
@@ -7704,23 +7706,23 @@ const PopularTwo = () => {
                       </div>
                       <span className="product-item__author">
                         by
-                        <a
-                          href="profile.html"
+                        <Link
+                          href="/profile"
                           className="link text-decoration-underline"
                         >
                           themepix
-                        </a>
+                        </Link>
                       </span>
                     </div>
                   </div>
                   <div className="popular-item-card__content d-flex align-items-center justify-content-between gap-2 text-start">
                     <h6 className="popular-item-card__title mb-0">
-                      <a href="product-details.html" className="link">
+                      <Link href="/product-details" className="link">
                         FinTrust - Fintech SAAS Ui kit
-                      </a>
+                      </Link>
                     </h6>
-                    <a
-                      href="product-details.html"
+                    <Link
+                      href="/product-details"
                       className="btn-link line-height-1 flex-shrink-0"
                     >
                       <img
@@ -7733,19 +7735,19 @@ const PopularTwo = () => {
                         alt=""
                         className="dark-version"
                       />
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
               <div className="col-xl-3 col-lg-4 col-sm-6 col-xs-6">
                 <div className="popular-item-card">
                   <div className="popular-item-card__thumb">
-                    <a href="product-details.html" className="link w-100">
+                    <Link href="/product-details" className="link w-100">
                       <img
                         src="assets/images/thumbs/popular-item2.png"
                         alt=""
                       />
-                    </a>
+                    </Link>
                     <div className="product-item__bottom flx-between gap-2">
                       <div>
                         <span className="product-item__sales font-14 mb-0 text-white">
@@ -7776,23 +7778,23 @@ const PopularTwo = () => {
                       </div>
                       <span className="product-item__author">
                         by
-                        <a
-                          href="profile.html"
+                        <Link
+                          href="/profile"
                           className="link text-decoration-underline"
                         >
                           themepix
-                        </a>
+                        </Link>
                       </span>
                     </div>
                   </div>
                   <div className="popular-item-card__content d-flex align-items-center justify-content-between gap-2 text-start">
                     <h6 className="popular-item-card__title mb-0">
-                      <a href="product-details.html" className="link">
+                      <Link href="/product-details" className="link">
                         SaaS for Finance Management
-                      </a>
+                      </Link>
                     </h6>
-                    <a
-                      href="product-details.html"
+                    <Link
+                      href="/product-details"
                       className="btn-link line-height-1 flex-shrink-0"
                     >
                       <img
@@ -7805,19 +7807,19 @@ const PopularTwo = () => {
                         alt=""
                         className="dark-version"
                       />
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
               <div className="col-xl-3 col-lg-4 col-sm-6 col-xs-6">
                 <div className="popular-item-card">
                   <div className="popular-item-card__thumb">
-                    <a href="product-details.html" className="link w-100">
+                    <Link href="/product-details" className="link w-100">
                       <img
                         src="assets/images/thumbs/popular-item9.png"
                         alt=""
                       />
-                    </a>
+                    </Link>
                     <div className="product-item__bottom flx-between gap-2">
                       <div>
                         <span className="product-item__sales font-14 mb-0 text-white">
@@ -7848,23 +7850,23 @@ const PopularTwo = () => {
                       </div>
                       <span className="product-item__author">
                         by
-                        <a
-                          href="profile.html"
+                        <Link
+                          href="/profile"
                           className="link text-decoration-underline"
                         >
                           themepix
-                        </a>
+                        </Link>
                       </span>
                     </div>
                   </div>
                   <div className="popular-item-card__content d-flex align-items-center justify-content-between gap-2 text-start">
                     <h6 className="popular-item-card__title mb-0">
-                      <a href="product-details.html" className="link">
+                      <Link href="/product-details" className="link">
                         SaaS for Finance Management
-                      </a>
+                      </Link>
                     </h6>
-                    <a
-                      href="product-details.html"
+                    <Link
+                      href="/product-details"
                       className="btn-link line-height-1 flex-shrink-0"
                     >
                       <img
@@ -7877,19 +7879,19 @@ const PopularTwo = () => {
                         alt=""
                         className="dark-version"
                       />
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
               <div className="col-xl-3 col-lg-4 col-sm-6 col-xs-6">
                 <div className="popular-item-card">
                   <div className="popular-item-card__thumb">
-                    <a href="product-details.html" className="link w-100">
+                    <Link href="/product-details" className="link w-100">
                       <img
                         src="assets/images/thumbs/popular-item10.png"
                         alt=""
                       />
-                    </a>
+                    </Link>
                     <div className="product-item__bottom flx-between gap-2">
                       <div>
                         <span className="product-item__sales font-14 mb-0 text-white">
@@ -7920,23 +7922,23 @@ const PopularTwo = () => {
                       </div>
                       <span className="product-item__author">
                         by
-                        <a
-                          href="profile.html"
+                        <Link
+                          href="/profile"
                           className="link text-decoration-underline"
                         >
                           themepix
-                        </a>
+                        </Link>
                       </span>
                     </div>
                   </div>
                   <div className="popular-item-card__content d-flex align-items-center justify-content-between gap-2 text-start">
                     <h6 className="popular-item-card__title mb-0">
-                      <a href="product-details.html" className="link">
+                      <Link href="/product-details" className="link">
                         SaaS for Finance Management
-                      </a>
+                      </Link>
                     </h6>
-                    <a
-                      href="product-details.html"
+                    <Link
+                      href="/product-details"
                       className="btn-link line-height-1 flex-shrink-0"
                     >
                       <img
@@ -7949,19 +7951,19 @@ const PopularTwo = () => {
                         alt=""
                         className="dark-version"
                       />
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
               <div className="col-xl-3 col-lg-4 col-sm-6 col-xs-6">
                 <div className="popular-item-card">
                   <div className="popular-item-card__thumb">
-                    <a href="product-details.html" className="link w-100">
+                    <Link href="/product-details" className="link w-100">
                       <img
                         src="assets/images/thumbs/popular-item11.png"
                         alt=""
                       />
-                    </a>
+                    </Link>
                     <div className="product-item__bottom flx-between gap-2">
                       <div>
                         <span className="product-item__sales font-14 mb-0 text-white">
@@ -7992,23 +7994,23 @@ const PopularTwo = () => {
                       </div>
                       <span className="product-item__author">
                         by
-                        <a
-                          href="profile.html"
+                        <Link
+                          href="/profile"
                           className="link text-decoration-underline"
                         >
                           themepix
-                        </a>
+                        </Link>
                       </span>
                     </div>
                   </div>
                   <div className="popular-item-card__content d-flex align-items-center justify-content-between gap-2 text-start">
                     <h6 className="popular-item-card__title mb-0">
-                      <a href="product-details.html" className="link">
+                      <Link href="/product-details" className="link">
                         SaaS for Finance Management
-                      </a>
+                      </Link>
                     </h6>
-                    <a
-                      href="product-details.html"
+                    <Link
+                      href="/product-details"
                       className="btn-link line-height-1 flex-shrink-0"
                     >
                       <img
@@ -8021,19 +8023,19 @@ const PopularTwo = () => {
                         alt=""
                         className="dark-version"
                       />
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
               <div className="col-xl-3 col-lg-4 col-sm-6 col-xs-6">
                 <div className="popular-item-card">
                   <div className="popular-item-card__thumb">
-                    <a href="product-details.html" className="link w-100">
+                    <Link href="/product-details" className="link w-100">
                       <img
                         src="assets/images/thumbs/popular-item11.png"
                         alt=""
                       />
-                    </a>
+                    </Link>
                     <div className="product-item__bottom flx-between gap-2">
                       <div>
                         <span className="product-item__sales font-14 mb-0 text-white">
@@ -8064,23 +8066,23 @@ const PopularTwo = () => {
                       </div>
                       <span className="product-item__author">
                         by
-                        <a
-                          href="profile.html"
+                        <Link
+                          href="/profile"
                           className="link text-decoration-underline"
                         >
                           themepix
-                        </a>
+                        </Link>
                       </span>
                     </div>
                   </div>
                   <div className="popular-item-card__content d-flex align-items-center justify-content-between gap-2 text-start">
                     <h6 className="popular-item-card__title mb-0">
-                      <a href="product-details.html" className="link">
+                      <Link href="/product-details" className="link">
                         amiz - SaaS customer Website Template
-                      </a>
+                      </Link>
                     </h6>
-                    <a
-                      href="product-details.html"
+                    <Link
+                      href="/product-details"
                       className="btn-link line-height-1 flex-shrink-0"
                     >
                       <img
@@ -8093,7 +8095,7 @@ const PopularTwo = () => {
                         alt=""
                         className="dark-version"
                       />
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>

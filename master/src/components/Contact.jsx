@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 const Contact = () => {
     return (
         <section className="contact padding-t-120 padding-b-60 section-bg position-relative z-index-1 overflow-hidden">
@@ -26,70 +28,70 @@ const Contact = () => {
                     <span className="contact-info__text text-capitalize d-block mb-1">
                       Give Us A Call
                     </span>
-                    <a
+                    <Link
                       href="tel:01812345678"
                       className="contact-info__link font-24 fw-500 text-heading hover-text-main"
                     >
                       01812345678
-                    </a>
+                    </Link>
                   </div>
                   <div className="contact-info__item">
                     <span className="contact-info__text text-capitalize d-block mb-1">
                       Give Us An Email
                     </span>
-                    <a
+                    <Link
                       href="tel:dpmarket@gmail.com"
                       className="contact-info__link font-24 fw-500 text-heading hover-text-main"
                     >
                       dpmarket@gmail.com
-                    </a>
+                    </Link>
                   </div>
                 </div>
                 <div className="mt-24">
                   <ul className="social-icon-list">
                     <li className="social-icon-list__item">
-                      <a
+                      <Link
                         href="https://www.facebook.com"
                         className="social-icon-list__link text-heading flx-center"
                       >
                         <i className="fab fa-facebook-f" />
-                      </a>
+                      </Link>
                     </li>
                     <li className="social-icon-list__item">
-                      <a
+                      <Link
                         href="https://www.twitter.com"
                         className="social-icon-list__link text-heading flx-center"
                       >
                         {" "}
                         <i className="fab fa-twitter" />
-                      </a>
+                      </Link>
                     </li>
                     <li className="social-icon-list__item">
-                      <a
+                      <Link
                         href="https://www.linkedin.com"
                         className="social-icon-list__link text-heading flx-center"
                       >
                         {" "}
                         <i className="fab fa-linkedin-in" />
-                      </a>
+                      </Link>
                     </li>
                     <li className="social-icon-list__item">
-                      <a
+                      <Link
                         href="https://www.pinterest.com"
                         className="social-icon-list__link text-heading flx-center"
                       >
                         {" "}
                         <i className="fab fa-pinterest-p" />
-                      </a>
+                      </Link>
                     </li>
                     <li className="social-icon-list__item">
-                      <a
+                      <Link
                         href="https://www.pinterest.com"
                         className="social-icon-list__link text-heading flx-center"
                       >
                         {" "}
                         <i className="fab fa-youtube" />
-                      </a>
+                      </Link>
                     </li>
                   </ul>
                 </div>

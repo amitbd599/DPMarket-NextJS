@@ -1,6 +1,7 @@
 "use client";
 import { useEffect, useState } from "react";
 import ThemeToggle from "./ThemeToggle";
+import Link from "next/link";
 
 const HeaderOne = () => {
   const [active, setActive] = useState(false);
@@ -51,135 +52,135 @@ const HeaderOne = () => {
           <nav className="header-inner flx-between">
             {/* Logo Start */}
             <div className="logo">
-              <a href="index.html" className="link white-version">
+              <Link href="/" className="link white-version">
                 <img src="assets/images/logo/logo-two.png" alt="Logo" />
-              </a>
-              <a href="index.html" className="link dark-version">
+              </Link>
+              <Link href="/" className="link dark-version">
                 <img src="assets/images/logo/white-logo.png" alt="Logo" />
-              </a>
+              </Link>
             </div>
             {/* Logo End  */}
             {/* Menu Start  */}
             <div className="header-menu d-lg-block d-none">
               <ul className="nav-menu flx-align">
                 <li className="nav-menu__item has-submenu">
-                  <a href="javascript:void(0)" className="nav-menu__link">
+                  <Link href="#" className="nav-menu__link">
                     Home
-                  </a>
+                  </Link>
                   <ul className="nav-submenu">
                     <li className="nav-submenu__item">
-                      <a href="index.html" className="nav-submenu__link">
+                      <Link href="/" className="nav-submenu__link">
                         Home One
-                      </a>
+                      </Link>
                     </li>
                     <li className="nav-submenu__item">
-                      <a href="index-two.html" className="nav-submenu__link">
+                      <Link href="/index-two" className="nav-submenu__link">
                         Home Two
-                      </a>
+                      </Link>
                     </li>
                   </ul>
                 </li>
                 <li className="nav-menu__item has-submenu">
-                  <a href="javascript:void(0)" className="nav-menu__link">
+                  <Link href="#" className="nav-menu__link">
                     Products
-                  </a>
+                  </Link>
                   <ul className="nav-submenu">
                     <li className="nav-submenu__item">
-                      <a href="all-product.html" className="nav-submenu__link">
+                      <Link href="/all-product" className="nav-submenu__link">
                         All Products
-                      </a>
+                      </Link>
                     </li>
                     <li className="nav-submenu__item">
-                      <a
-                        href="product-details.html"
+                      <Link
+                        href="/product-details"
                         className="nav-submenu__link"
                       >
                         Product Details
-                      </a>
+                      </Link>
                     </li>
                   </ul>
                 </li>
                 <li className="nav-menu__item has-submenu">
-                  <a href="javascript:void(0)" className="nav-menu__link">
+                  <Link href="#" className="nav-menu__link">
                     Pages
-                  </a>
+                  </Link>
                   <ul className="nav-submenu">
                     <li className="nav-submenu__item">
-                      <a href="profile.html" className="nav-submenu__link">
+                      <Link href="/profile" className="nav-submenu__link">
                         Profile
-                      </a>
+                      </Link>
                     </li>
                     <li className="nav-submenu__item">
-                      <a href="cart.html" className="nav-submenu__link">
+                      <Link href="/cart" className="nav-submenu__link">
                         Shopping Cart
-                      </a>
+                      </Link>
                     </li>
                     <li className="nav-submenu__item">
-                      <a
-                        href="cart-personal.html"
+                      <Link
+                        href="/cart-personal"
                         className="nav-submenu__link"
                       >
                         Mailing Address
-                      </a>
+                      </Link>
                     </li>
                     <li className="nav-submenu__item">
-                      <a href="cart-payment.html" className="nav-submenu__link">
+                      <Link href="/cart-payment" className="nav-submenu__link">
                         Payment Method
-                      </a>
+                      </Link>
                     </li>
                     <li className="nav-submenu__item">
-                      <a
-                        href="cart-thank-you.html"
+                      <Link
+                        href="/cart-thank-you"
                         className="nav-submenu__link"
                       >
                         Preview Order
-                      </a>
+                      </Link>
                     </li>
                     <li className="nav-submenu__item">
-                      <a href="dashboard.html" className="nav-submenu__link">
+                      <Link href="/dashboard" className="nav-submenu__link">
                         Dashboard
-                      </a>
+                      </Link>
                     </li>
                   </ul>
                 </li>
                 <li className="nav-menu__item has-submenu">
-                  <a href="javascript:void(0)" className="nav-menu__link">
+                  <Link href="#" className="nav-menu__link">
                     Blog
-                  </a>
+                  </Link>
                   <ul className="nav-submenu">
                     <li className="nav-submenu__item">
-                      <a href="blog.html" className="nav-submenu__link">
+                      <Link href="/blog" className="nav-submenu__link">
                         {" "}
                         Blog
-                      </a>
+                      </Link>
                     </li>
                     <li className="nav-submenu__item">
-                      <a href="blog-details.html" className="nav-submenu__link">
+                      <Link href="/blog-details" className="nav-submenu__link">
                         Blog Details
-                      </a>
+                      </Link>
                     </li>
                     <li className="nav-submenu__item">
-                      <a
-                        href="blog-details-sidebar.html"
+                      <Link
+                        href="/blog-details-sidebar"
                         className="nav-submenu__link"
                       >
                         Blog Details Sidebar
-                      </a>
+                      </Link>
                     </li>
                   </ul>
                 </li>
                 <li className="nav-menu__item">
-                  <a href="contact.html" className="nav-menu__link">
+                  <Link href="/contact" className="nav-menu__link">
                     Contact
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>
             {/* Menu End  */}
             {/* Header Right start */}
             <div className="header-right flx-align">
-              <a
-                href="cart.html"
+              <Link
+                href="/cart"
                 className="header-right__button cart-btn position-relative"
               >
                 <img
@@ -193,17 +194,17 @@ const HeaderOne = () => {
                   className="dark-version"
                 />
                 <span className="qty-badge font-12">0</span>
-              </a>
+              </Link>
               {/* Light Dark Mode */}
               <ThemeToggle />
               {/* Light Dark Mode */}
               <div className="header-right__inner gap-3 flx-align d-lg-flex d-none">
-                <a href="register.html" className="btn btn-main pill">
+                <Link href="/register" className="btn btn-main pill">
                   <span className="icon-left icon">
                     <img src="assets/images/icons/user.svg" alt="" />{" "}
                   </span>
                   Create Account
-                </a>
+                </Link>
                 <div className="language-select flx-align select-has-icon">
                   <img
                     src="assets/images/icons/globe.svg"
@@ -242,7 +243,7 @@ const HeaderOne = () => {
           <i className="las la-times" />
         </button>
         <div className="mobile-menu__inner">
-          <a href="index.html" className="mobile-menu__logo">
+          <Link href="/" className="mobile-menu__logo">
             <img
               src="assets/images/logo/logo.png"
               alt="Logo"
@@ -253,127 +254,127 @@ const HeaderOne = () => {
               alt="Logo"
               className="dark-version"
             />
-          </a>
+          </Link>
           <div className="mobile-menu__menu">
             <ul
               className="nav-menu flx-align nav-menu--mobile"
               id="offcanvas-navigation"
             >
               <li className="nav-menu__item has-submenu ">
-                <a href="javascript:void(0)" className="nav-menu__link">
+                <Link href="#" className="nav-menu__link">
                   Home
-                </a>
+                </Link>
                 <ul className="nav-submenu">
                   <li className="nav-submenu__item">
-                    <a href="index.html" className="nav-submenu__link">
+                    <Link href="/" className="nav-submenu__link">
                       {" "}
                       Home One
-                    </a>
+                    </Link>
                   </li>
                   <li className="nav-submenu__item">
-                    <a href="index-two.html" className="nav-submenu__link">
+                    <Link href="/index-two" className="nav-submenu__link">
                       Home Two
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </li>
               <li className="nav-menu__item has-submenu">
-                <a href="javascript:void(0)" className="nav-menu__link">
+                <Link href="#" className="nav-menu__link">
                   Products
-                </a>
+                </Link>
                 <ul className="nav-submenu">
                   <li className="nav-submenu__item">
-                    <a href="all-product.html" className="nav-submenu__link">
+                    <Link href="/all-product" className="nav-submenu__link">
                       All Products
-                    </a>
+                    </Link>
                   </li>
                   <li className="nav-submenu__item">
-                    <a
-                      href="product-details.html"
+                    <Link
+                      href="/product-details"
                       className="nav-submenu__link"
                     >
                       Product Details
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </li>
               <li className="nav-menu__item has-submenu">
-                <a href="javascript:void(0)" className="nav-menu__link">
+                <Link href="#" className="nav-menu__link">
                   Pages
-                </a>
+                </Link>
                 <ul className="nav-submenu">
                   <li className="nav-submenu__item">
-                    <a href="profile.html" className="nav-submenu__link">
+                    <Link href="/profile" className="nav-submenu__link">
                       {" "}
                       Profile
-                    </a>
+                    </Link>
                   </li>
                   <li className="nav-submenu__item">
-                    <a href="cart.html" className="nav-submenu__link">
+                    <Link href="/cart" className="nav-submenu__link">
                       Shopping Cart
-                    </a>
+                    </Link>
                   </li>
                   <li className="nav-submenu__item">
-                    <a href="cart-personal.html" className="nav-submenu__link">
+                    <Link href="/cart-personal" className="nav-submenu__link">
                       Mailing Address
-                    </a>
+                    </Link>
                   </li>
                   <li className="nav-submenu__item">
-                    <a href="cart-payment.html" className="nav-submenu__link">
+                    <Link href="/cart-payment" className="nav-submenu__link">
                       Payment Method
-                    </a>
+                    </Link>
                   </li>
                   <li className="nav-submenu__item">
-                    <a href="cart-thank-you.html" className="nav-submenu__link">
+                    <Link href="/cart-thank-you" className="nav-submenu__link">
                       Preview Order
-                    </a>
+                    </Link>
                   </li>
                   <li className="nav-submenu__item">
-                    <a href="dashboard.html" className="nav-submenu__link">
+                    <Link href="/dashboard" className="nav-submenu__link">
                       Dashboard
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </li>
               <li className="nav-menu__item has-submenu">
-                <a href="javascript:void(0)" className="nav-menu__link">
+                <Link href="#" className="nav-menu__link">
                   Blog
-                </a>
+                </Link>
                 <ul className="nav-submenu">
                   <li className="nav-submenu__item">
-                    <a href="blog.html" className="nav-submenu__link">
+                    <Link href="/blog" className="nav-submenu__link">
                       {" "}
                       Blog
-                    </a>
+                    </Link>
                   </li>
                   <li className="nav-submenu__item">
-                    <a href="blog-details.html" className="nav-submenu__link">
+                    <Link href="/blog-details" className="nav-submenu__link">
                       Blog Details
-                    </a>
+                    </Link>
                   </li>
                   <li className="nav-submenu__item">
-                    <a
-                      href="blog-details-sidebar.html"
+                    <Link
+                      href="/blog-details-sidebar"
                       className="nav-submenu__link"
                     >
                       Blog Details Sidebar
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </li>
               <li className="nav-menu__item">
-                <a href="contact.html" className="nav-menu__link">
+                <Link href="/contact" className="nav-menu__link">
                   Contact
-                </a>
+                </Link>
               </li>
             </ul>
             <div className="header-right__inner d-lg-none my-3 gap-1 d-flex flx-align">
-              <a href="register.html" className="btn btn-main pill">
+              <Link href="/register" className="btn btn-main pill">
                 <span className="icon-left icon">
                   <img src="assets/images/icons/user.svg" alt="" />{" "}
                 </span>
                 Create Account
-              </a>
+              </Link>
               <div className="language-select flx-align select-has-icon">
                 <img
                   src="assets/images/icons/globe.svg"

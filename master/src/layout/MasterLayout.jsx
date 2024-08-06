@@ -26,7 +26,7 @@ let [show, setShow] = useState(false)
                     <i className="las la-times" />{" "}
                 </button>
                 <div className="mobile-menu__inner">
-                    <Link href="/index" className="mobile-menu__logo">
+                    <Link href="/" className="mobile-menu__logo">
                         <img
                             src="assets/images/logo/logo.png"
                             alt="Logo"
@@ -46,7 +46,7 @@ let [show, setShow] = useState(false)
                                 </Link>
                                 <ul className="nav-submenu">
                                     <li className="nav-submenu__item">
-                                        <Link href="/index" className="nav-submenu__link">
+                                        <Link href="/" className="nav-submenu__link">
                                             {" "}
                                             Home One
                                         </Link>
@@ -194,7 +194,7 @@ let [show, setShow] = useState(false)
                             <i className="las la-times" />
                         </button>
                         <div className="dashboard-sidebar__inner">
-                            <Link href="/index" className="logo mb-48">
+                            <Link href="/" className="logo mb-48">
                                 <img
                                     src="assets/images/logo/logo.png"
                                     alt=""
@@ -206,7 +206,7 @@ let [show, setShow] = useState(false)
                                     className="dark-version"
                                 />
                             </Link>
-                            <Link href="/index" className="logo favicon mb-48">
+                            <Link href="/" className="logo favicon mb-48">
                                 <img src="assets/images/logo/favicon.png" alt="" />
                             </Link>
                             {/* Sidebar List Start */}

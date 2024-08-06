@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 const CartPersonal = () => {
     return (
         <section className="cart-personal padding-y-120">
@@ -99,21 +101,21 @@ const CartPersonal = () => {
                 </button>
               </form>
               <div className="cart-content__bottom flx-between gap-2">
-                <a
-                  href="cart.html"
+                <Link
+                  href="/cart"
                   className="btn btn-outline-light flx-align gap-2 pill btn-lg"
                 >
                   <span className="icon line-height-1 font-20">
                     <i className="las la-arrow-left" />
                   </span>
                   Back
-                </a>
-                <a
-                  href="cart-payment.html"
+                </Link>
+                <Link
+                  href="/cart-payment"
                   className="btn btn-main flx-align gap-2 pill btn-lg"
                 >
                   Proceed To Payment
-                </a>
+                </Link>
               </div>
             </div>
             <div className="col-lg-4">

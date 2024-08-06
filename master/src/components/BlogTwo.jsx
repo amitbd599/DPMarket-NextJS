@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 const BlogTwo = () => {
   return (
     <section className="article padding-y-120">
@@ -8,9 +10,9 @@ const BlogTwo = () => {
               Browse all latest blogs and articles
             </h3>
           </div>
-          <a href="blog.html" className="btn btn-outline-light btn-lg pill">
+          <Link href="/blog" className="btn btn-outline-light btn-lg pill">
             Browse All Articles
-          </a>
+          </Link>
         </div>
         <div className="article-item-wrapper">
           <div className="article-item">
@@ -31,20 +33,20 @@ const BlogTwo = () => {
               <div className="article-item__center d-flex align-items-center">
                 <div className="article-item__content">
                   <div className="article-item__top flx-align">
-                    <a href="blog.html" className="article-item__tag font-14">
+                    <Link href="/blog" className="article-item__tag font-14">
                       Startup
-                    </a>
-                    <a href="blog.html" className="article-item__tag font-14">
+                    </Link>
+                    <Link href="/blog" className="article-item__tag font-14">
                       Marketing
-                    </a>
+                    </Link>
                     <span className="text-heading font-16 fw-500">
                       June 24, 2024
                     </span>
                   </div>
                   <h4 className="article-item__title mb-3">
-                    <a href="blog-details.html" className="link">
+                    <Link href="/blog-details" className="link">
                       Data-Driven Insights Unlock The Hidden Potential
-                    </a>
+                    </Link>
                   </h4>
                   <p className="article-item__desc">
                     Etiam id euismod odio. Ut euismod sem a lacus ringill a
@@ -57,12 +59,12 @@ const BlogTwo = () => {
               </div>
             </div>
             <div className="article-item__end flex-shrink-0">
-              <a href="blog-details.html" className="btn-simple">
+              <Link href="/blog-details" className="btn-simple">
                 Read More
                 <span className="icon font-26">
                   <i className="las la-arrow-right" />
                 </span>
-              </a>
+              </Link>
             </div>
           </div>
           <div className="article-item">
@@ -83,20 +85,20 @@ const BlogTwo = () => {
               <div className="article-item__center d-flex align-items-center">
                 <div className="article-item__content">
                   <div className="article-item__top flx-align">
-                    <a href="blog.html" className="article-item__tag font-14">
+                    <Link href="/blog" className="article-item__tag font-14">
                       Startup
-                    </a>
-                    <a href="blog.html" className="article-item__tag font-14">
+                    </Link>
+                    <Link href="/blog" className="article-item__tag font-14">
                       Marketing
-                    </a>
+                    </Link>
                     <span className="text-heading font-16 fw-500">
                       June 24, 2024
                     </span>
                   </div>
                   <h4 className="article-item__title mb-3">
-                    <a href="blog-details.html" className="link">
+                    <Link href="/blog-details" className="link">
                       we offer best training for individuals and teams
-                    </a>
+                    </Link>
                   </h4>
                   <p className="article-item__desc">
                     Etiam id euismod odio. Ut euismod sem a lacus ringill a
@@ -109,12 +111,12 @@ const BlogTwo = () => {
               </div>
             </div>
             <div className="article-item__end flex-shrink-0">
-              <a href="blog-details.html" className="btn-simple">
+              <Link href="/blog-details" className="btn-simple">
                 Read More
                 <span className="icon font-26">
                   <i className="las la-arrow-right" />
                 </span>
-              </a>
+              </Link>
             </div>
           </div>
           <div className="article-item">
@@ -135,20 +137,20 @@ const BlogTwo = () => {
               <div className="article-item__center d-flex align-items-center">
                 <div className="article-item__content">
                   <div className="article-item__top flx-align">
-                    <a href="blog.html" className="article-item__tag font-14">
+                    <Link href="/blog" className="article-item__tag font-14">
                       Startup
-                    </a>
-                    <a href="blog.html" className="article-item__tag font-14">
+                    </Link>
+                    <Link href="/blog" className="article-item__tag font-14">
                       Marketing
-                    </a>
+                    </Link>
                     <span className="text-heading font-16 fw-500">
                       June 24, 2024
                     </span>
                   </div>
                   <h4 className="article-item__title mb-3">
-                    <a href="blog-details.html" className="link">
+                    <Link href="/blog-details" className="link">
                       The analytics feature is like having a personal fortune.
-                    </a>
+                    </Link>
                   </h4>
                   <p className="article-item__desc">
                     Etiam id euismod odio. Ut euismod sem a lacus ringill a
@@ -161,12 +163,12 @@ const BlogTwo = () => {
               </div>
             </div>
             <div className="article-item__end flex-shrink-0">
-              <a href="blog-details.html" className="btn-simple">
+              <Link href="/blog-details" className="btn-simple">
                 Read More
                 <span className="icon font-26">
                   <i className="las la-arrow-right" />
                 </span>
-              </a>
+              </Link>
             </div>
           </div>
         </div>

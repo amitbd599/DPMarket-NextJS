@@ -1,5 +1,6 @@
 'use client'
 import dynamic from 'next/dynamic';
+import Link from 'next/link';
 
 const Chart = dynamic(() => import('react-apexcharts'), { ssr: false });
 
@@ -111,85 +112,85 @@ const Profile = () => {
                     <div className="follower-item">
                       <div className="flx-between mb-4">
                         <h5 className="follower-item__title mb-0">1285 Followers</h5>
-                        <a
-                          href="profile.html"
+                        <Link
+                          href="/profile"
                           className="text-body fw-500 hover-text-decoration-underline"
                         >
                           View All Followers
-                        </a>
+                        </Link>
                       </div>
                       <div className="follower-item__content flx-align">
                         <div className="follower-item__item">
-                          <a
-                            href="all-product.html"
+                          <Link
+                            href="/all-product"
                             className="link w-100 h-100 d-block"
                           >
                             <img src="assets/images/thumbs/follower1.png" alt="" />
-                          </a>
+                          </Link>
                         </div>
                         <div className="follower-item__item">
-                          <a
-                            href="all-product.html"
+                          <Link
+                            href="/all-product"
                             className="link w-100 h-100 d-block"
                           >
                             <img src="assets/images/thumbs/follower2.png" alt="" />
-                          </a>
+                          </Link>
                         </div>
                         <div className="follower-item__item">
-                          <a
-                            href="all-product.html"
+                          <Link
+                            href="/all-product"
                             className="link w-100 h-100 d-block"
                           >
                             <img src="assets/images/thumbs/follower3.png" alt="" />
-                          </a>
+                          </Link>
                         </div>
                         <div className="follower-item__item">
-                          <a
-                            href="all-product.html"
+                          <Link
+                            href="/all-product"
                             className="link w-100 h-100 d-block"
                           >
                             <img src="assets/images/thumbs/follower4.png" alt="" />
-                          </a>
+                          </Link>
                         </div>
                         <div className="follower-item__item">
-                          <a
-                            href="all-product.html"
+                          <Link
+                            href="/all-product"
                             className="link w-100 h-100 d-block"
                           >
                             <img src="assets/images/thumbs/follower5.png" alt="" />
-                          </a>
+                          </Link>
                         </div>
                         <div className="follower-item__item">
-                          <a
-                            href="all-product.html"
+                          <Link
+                            href="/all-product"
                             className="link w-100 h-100 d-block"
                           >
                             <img src="assets/images/thumbs/follower6.png" alt="" />
-                          </a>
+                          </Link>
                         </div>
                         <div className="follower-item__item">
-                          <a
-                            href="all-product.html"
+                          <Link
+                            href="/all-product"
                             className="link w-100 h-100 d-block"
                           >
                             <img src="assets/images/thumbs/follower7.png" alt="" />
-                          </a>
+                          </Link>
                         </div>
                         <div className="follower-item__item">
-                          <a
-                            href="all-product.html"
+                          <Link
+                            href="/all-product"
                             className="link w-100 h-100 d-block"
                           >
                             <img src="assets/images/thumbs/follower8.png" alt="" />
-                          </a>
+                          </Link>
                         </div>
                         <div className="follower-item__item">
-                          <a
-                            href="all-product.html"
+                          <Link
+                            href="/all-product"
                             className="link w-100 h-100 d-block"
                           >
                             <img src="assets/images/thumbs/follower3.png" alt="" />
-                          </a>
+                          </Link>
                         </div>
                       </div>
                     </div>
@@ -201,18 +202,18 @@ const Profile = () => {
                     <h5 className="mb-4">Featured Items</h5>
                     <div className="featured-item d-flex align-items-center gap-4">
                       <div className="featured-item__thumb">
-                        <a href="product-details.html" className="link">
+                        <Link href="/product-details" className="link">
                           <img
                             src="assets/images/thumbs/featured-item-img.png"
                             alt=""
                           />
-                        </a>
+                        </Link>
                       </div>
                       <div className="featured-item__content">
                         <h6 className="featured-item__title mb-2">
-                          <a href="product-details.html" className="link">
+                          <Link href="/product-details" className="link">
                             Personal portfolio one page template
-                          </a>
+                          </Link>
                         </h6>
                         <span className="featured-item__text mb-2 text-heading fw-500">
                           250 Purchases
@@ -350,12 +351,12 @@ const Profile = () => {
                             <img src="assets/images/thumbs/badge8.png" alt="" />
                           </li>
                         </ul>
-                        <a
-                          href="profile.html"
+                        <Link
+                          href="/profile"
                           className="btn btn-outline-light w-100 pill mt-32 fw-600"
                         >
                           Total 89 Items
-                        </a>
+                        </Link>
                       </div>
                     </div>
                   </div>
@@ -403,48 +404,48 @@ const Profile = () => {
                     <h5 className="profile-sidebar__title">Social Profile</h5>
                     <ul className="social-icon-list">
                       <li className="social-icon-list__item">
-                        <a
+                        <Link
                           href="https://www.facebook.com"
                           className="social-icon-list__link flx-center bg-white border-white text-heading font-18"
                         >
                           <i className="fab fa-facebook-f" />
-                        </a>
+                        </Link>
                       </li>
                       <li className="social-icon-list__item">
-                        <a
+                        <Link
                           href="https://www.twitter.com"
                           className="social-icon-list__link flx-center bg-white border-white text-heading font-18"
                         >
                           {" "}
                           <i className="fab fa-twitter" />
-                        </a>
+                        </Link>
                       </li>
                       <li className="social-icon-list__item">
-                        <a
+                        <Link
                           href="https://www.linkedin.com"
                           className="social-icon-list__link flx-center bg-white border-white text-heading font-18"
                         >
                           {" "}
                           <i className="fab fa-linkedin-in" />
-                        </a>
+                        </Link>
                       </li>
                       <li className="social-icon-list__item">
-                        <a
+                        <Link
                           href="https://www.pinterest.com"
                           className="social-icon-list__link flx-center bg-white border-white text-heading font-18"
                         >
                           {" "}
                           <i className="fab fa-pinterest-p" />
-                        </a>
+                        </Link>
                       </li>
                       <li className="social-icon-list__item">
-                        <a
+                        <Link
                           href="https://www.pinterest.com"
                           className="social-icon-list__link flx-center bg-white border-white text-heading font-18"
                         >
                           {" "}
                           <i className="fab fa-youtube" />
-                        </a>
+                        </Link>
                       </li>
                     </ul>
                   </div>
@@ -589,33 +590,33 @@ const Profile = () => {
                     <div className="col-xl-3 col-lg-4 col-sm-6">
                       <div className="product-item section-bg">
                         <div className="product-item__thumb d-flex">
-                          <a href="product-details.html" className="link w-100">
+                          <Link href="/product-details" className="link w-100">
                             <img
                               src="assets/images/thumbs/product-img1.png"
                               alt=""
                               className="cover-img"
                             />
-                          </a>
+                          </Link>
                           <button type="button" className="product-item__wishlist">
                             <i className="fas fa-heart" />
                           </button>
                         </div>
                         <div className="product-item__content">
                           <h6 className="product-item__title">
-                            <a href="product-details.html" className="link">
+                            <Link href="/product-details" className="link">
                               SaaS dashboard digital products Title here
-                            </a>
+                            </Link>
                           </h6>
                           <div className="product-item__info flx-between gap-2">
                             <span className="product-item__author">
                               by
-                              <a
-                                href="profile.html"
+                              <Link
+                                href="/profile"
                                 className="link hover-text-decoration-underline"
                               >
                                 {" "}
                                 themepix
-                              </a>
+                              </Link>
                             </span>
                             <div className="flx-align gap-2">
                               <h6 className="product-item__price mb-0">$120</h6>
@@ -653,12 +654,12 @@ const Profile = () => {
                                 </span>
                               </div>
                             </div>
-                            <a
-                              href="product-details.html"
+                            <Link
+                              href="/product-details"
                               className="btn btn-outline-light btn-sm pill"
                             >
                               Live Demo
-                            </a>
+                            </Link>
                           </div>
                         </div>
                       </div>
@@ -666,33 +667,33 @@ const Profile = () => {
                     <div className="col-xl-3 col-lg-4 col-sm-6">
                       <div className="product-item section-bg">
                         <div className="product-item__thumb d-flex">
-                          <a href="product-details.html" className="link w-100">
+                          <Link href="/product-details" className="link w-100">
                             <img
                               src="assets/images/thumbs/product-img2.png"
                               alt=""
                               className="cover-img"
                             />
-                          </a>
+                          </Link>
                           <button type="button" className="product-item__wishlist">
                             <i className="fas fa-heart" />
                           </button>
                         </div>
                         <div className="product-item__content">
                           <h6 className="product-item__title">
-                            <a href="product-details.html" className="link">
+                            <Link href="/product-details" className="link">
                               SaaS dashboard digital products Title here
-                            </a>
+                            </Link>
                           </h6>
                           <div className="product-item__info flx-between gap-2">
                             <span className="product-item__author">
                               by
-                              <a
-                                href="profile.html"
+                              <Link
+                                href="/profile"
                                 className="link hover-text-decoration-underline"
                               >
                                 {" "}
                                 themepix
-                              </a>
+                              </Link>
                             </span>
                             <div className="flx-align gap-2">
                               <h6 className="product-item__price mb-0">$129</h6>
@@ -730,12 +731,12 @@ const Profile = () => {
                                 </span>
                               </div>
                             </div>
-                            <a
-                              href="product-details.html"
+                            <Link
+                              href="/product-details"
                               className="btn btn-outline-light btn-sm pill"
                             >
                               Live Demo
-                            </a>
+                            </Link>
                           </div>
                         </div>
                       </div>
@@ -743,33 +744,33 @@ const Profile = () => {
                     <div className="col-xl-3 col-lg-4 col-sm-6">
                       <div className="product-item section-bg">
                         <div className="product-item__thumb d-flex">
-                          <a href="product-details.html" className="link w-100">
+                          <Link href="/product-details" className="link w-100">
                             <img
                               src="assets/images/thumbs/product-img3.png"
                               alt=""
                               className="cover-img"
                             />
-                          </a>
+                          </Link>
                           <button type="button" className="product-item__wishlist">
                             <i className="fas fa-heart" />
                           </button>
                         </div>
                         <div className="product-item__content">
                           <h6 className="product-item__title">
-                            <a href="product-details.html" className="link">
+                            <Link href="/product-details" className="link">
                               SaaS dashboard digital products Title here
-                            </a>
+                            </Link>
                           </h6>
                           <div className="product-item__info flx-between gap-2">
                             <span className="product-item__author">
                               by
-                              <a
-                                href="profile.html"
+                              <Link
+                                href="/profile"
                                 className="link hover-text-decoration-underline"
                               >
                                 {" "}
                                 themepix
-                              </a>
+                              </Link>
                             </span>
                             <div className="flx-align gap-2">
                               <h6 className="product-item__price mb-0">$79</h6>
@@ -807,12 +808,12 @@ const Profile = () => {
                                 </span>
                               </div>
                             </div>
-                            <a
-                              href="product-details.html"
+                            <Link
+                              href="/product-details"
                               className="btn btn-outline-light btn-sm pill"
                             >
                               Live Demo
-                            </a>
+                            </Link>
                           </div>
                         </div>
                       </div>
@@ -820,33 +821,33 @@ const Profile = () => {
                     <div className="col-xl-3 col-lg-4 col-sm-6">
                       <div className="product-item section-bg">
                         <div className="product-item__thumb d-flex">
-                          <a href="product-details.html" className="link w-100">
+                          <Link href="/product-details" className="link w-100">
                             <img
                               src="assets/images/thumbs/product-img4.png"
                               alt=""
                               className="cover-img"
                             />
-                          </a>
+                          </Link>
                           <button type="button" className="product-item__wishlist">
                             <i className="fas fa-heart" />
                           </button>
                         </div>
                         <div className="product-item__content">
                           <h6 className="product-item__title">
-                            <a href="product-details.html" className="link">
+                            <Link href="/product-details" className="link">
                               SaaS dashboard digital products Title here
-                            </a>
+                            </Link>
                           </h6>
                           <div className="product-item__info flx-between gap-2">
                             <span className="product-item__author">
                               by
-                              <a
-                                href="profile.html"
+                              <Link
+                                href="/profile"
                                 className="link hover-text-decoration-underline"
                               >
                                 {" "}
                                 themepix
-                              </a>
+                              </Link>
                             </span>
                             <div className="flx-align gap-2">
                               <h6 className="product-item__price mb-0">$59</h6>
@@ -884,12 +885,12 @@ const Profile = () => {
                                 </span>
                               </div>
                             </div>
-                            <a
-                              href="product-details.html"
+                            <Link
+                              href="/product-details"
                               className="btn btn-outline-light btn-sm pill"
                             >
                               Live Demo
-                            </a>
+                            </Link>
                           </div>
                         </div>
                       </div>
@@ -897,33 +898,33 @@ const Profile = () => {
                     <div className="col-xl-3 col-lg-4 col-sm-6">
                       <div className="product-item section-bg">
                         <div className="product-item__thumb d-flex">
-                          <a href="product-details.html" className="link w-100">
+                          <Link href="/product-details" className="link w-100">
                             <img
                               src="assets/images/thumbs/product-img5.png"
                               alt=""
                               className="cover-img"
                             />
-                          </a>
+                          </Link>
                           <button type="button" className="product-item__wishlist">
                             <i className="fas fa-heart" />
                           </button>
                         </div>
                         <div className="product-item__content">
                           <h6 className="product-item__title">
-                            <a href="product-details.html" className="link">
+                            <Link href="/product-details" className="link">
                               SaaS dashboard digital products Title here
-                            </a>
+                            </Link>
                           </h6>
                           <div className="product-item__info flx-between gap-2">
                             <span className="product-item__author">
                               by
-                              <a
-                                href="profile.html"
+                              <Link
+                                href="/profile"
                                 className="link hover-text-decoration-underline"
                               >
                                 {" "}
                                 themepix
-                              </a>
+                              </Link>
                             </span>
                             <div className="flx-align gap-2">
                               <h6 className="product-item__price mb-0">$99</h6>
@@ -961,12 +962,12 @@ const Profile = () => {
                                 </span>
                               </div>
                             </div>
-                            <a
-                              href="product-details.html"
+                            <Link
+                              href="/product-details"
                               className="btn btn-outline-light btn-sm pill"
                             >
                               Live Demo
-                            </a>
+                            </Link>
                           </div>
                         </div>
                       </div>
@@ -974,33 +975,33 @@ const Profile = () => {
                     <div className="col-xl-3 col-lg-4 col-sm-6">
                       <div className="product-item section-bg">
                         <div className="product-item__thumb d-flex">
-                          <a href="product-details.html" className="link w-100">
+                          <Link href="/product-details" className="link w-100">
                             <img
                               src="assets/images/thumbs/product-img6.png"
                               alt=""
                               className="cover-img"
                             />
-                          </a>
+                          </Link>
                           <button type="button" className="product-item__wishlist">
                             <i className="fas fa-heart" />
                           </button>
                         </div>
                         <div className="product-item__content">
                           <h6 className="product-item__title">
-                            <a href="product-details.html" className="link">
+                            <Link href="/product-details" className="link">
                               SaaS dashboard digital products Title here
-                            </a>
+                            </Link>
                           </h6>
                           <div className="product-item__info flx-between gap-2">
                             <span className="product-item__author">
                               by
-                              <a
-                                href="profile.html"
+                              <Link
+                                href="/profile"
                                 className="link hover-text-decoration-underline"
                               >
                                 {" "}
                                 themepix
-                              </a>
+                              </Link>
                             </span>
                             <div className="flx-align gap-2">
                               <h6 className="product-item__price mb-0">$129</h6>
@@ -1038,12 +1039,12 @@ const Profile = () => {
                                 </span>
                               </div>
                             </div>
-                            <a
-                              href="product-details.html"
+                            <Link
+                              href="/product-details"
                               className="btn btn-outline-light btn-sm pill"
                             >
                               Live Demo
-                            </a>
+                            </Link>
                           </div>
                         </div>
                       </div>
@@ -1051,33 +1052,33 @@ const Profile = () => {
                     <div className="col-xl-3 col-lg-4 col-sm-6">
                       <div className="product-item section-bg">
                         <div className="product-item__thumb d-flex">
-                          <a href="product-details.html" className="link w-100">
+                          <Link href="/product-details" className="link w-100">
                             <img
                               src="assets/images/thumbs/product-img7.png"
                               alt=""
                               className="cover-img"
                             />
-                          </a>
+                          </Link>
                           <button type="button" className="product-item__wishlist">
                             <i className="fas fa-heart" />
                           </button>
                         </div>
                         <div className="product-item__content">
                           <h6 className="product-item__title">
-                            <a href="product-details.html" className="link">
+                            <Link href="/product-details" className="link">
                               SaaS dashboard digital products Title here
-                            </a>
+                            </Link>
                           </h6>
                           <div className="product-item__info flx-between gap-2">
                             <span className="product-item__author">
                               by
-                              <a
-                                href="profile.html"
+                              <Link
+                                href="/profile"
                                 className="link hover-text-decoration-underline"
                               >
                                 {" "}
                                 themepix
-                              </a>
+                              </Link>
                             </span>
                             <div className="flx-align gap-2">
                               <h6 className="product-item__price mb-0">$129</h6>
@@ -1115,12 +1116,12 @@ const Profile = () => {
                                 </span>
                               </div>
                             </div>
-                            <a
-                              href="product-details.html"
+                            <Link
+                              href="/product-details"
                               className="btn btn-outline-light btn-sm pill"
                             >
                               Live Demo
-                            </a>
+                            </Link>
                           </div>
                         </div>
                       </div>
@@ -1128,33 +1129,33 @@ const Profile = () => {
                     <div className="col-xl-3 col-lg-4 col-sm-6">
                       <div className="product-item section-bg">
                         <div className="product-item__thumb d-flex">
-                          <a href="product-details.html" className="link w-100">
+                          <Link href="/product-details" className="link w-100">
                             <img
                               src="assets/images/thumbs/product-img8.png"
                               alt=""
                               className="cover-img"
                             />
-                          </a>
+                          </Link>
                           <button type="button" className="product-item__wishlist">
                             <i className="fas fa-heart" />
                           </button>
                         </div>
                         <div className="product-item__content">
                           <h6 className="product-item__title">
-                            <a href="product-details.html" className="link">
+                            <Link href="/product-details" className="link">
                               SaaS dashboard digital products Title here
-                            </a>
+                            </Link>
                           </h6>
                           <div className="product-item__info flx-between gap-2">
                             <span className="product-item__author">
                               by
-                              <a
-                                href="profile.html"
+                              <Link
+                                href="/profile"
                                 className="link hover-text-decoration-underline"
                               >
                                 {" "}
                                 themepix
-                              </a>
+                              </Link>
                             </span>
                             <div className="flx-align gap-2">
                               <h6 className="product-item__price mb-0">$79</h6>
@@ -1192,12 +1193,12 @@ const Profile = () => {
                                 </span>
                               </div>
                             </div>
-                            <a
-                              href="product-details.html"
+                            <Link
+                              href="/product-details"
                               className="btn btn-outline-light btn-sm pill"
                             >
                               Live Demo
-                            </a>
+                            </Link>
                           </div>
                         </div>
                       </div>
@@ -1205,33 +1206,33 @@ const Profile = () => {
                     <div className="col-xl-3 col-lg-4 col-sm-6">
                       <div className="product-item section-bg">
                         <div className="product-item__thumb d-flex">
-                          <a href="product-details.html" className="link w-100">
+                          <Link href="/product-details" className="link w-100">
                             <img
                               src="assets/images/thumbs/product-img9.png"
                               alt=""
                               className="cover-img"
                             />
-                          </a>
+                          </Link>
                           <button type="button" className="product-item__wishlist">
                             <i className="fas fa-heart" />
                           </button>
                         </div>
                         <div className="product-item__content">
                           <h6 className="product-item__title">
-                            <a href="product-details.html" className="link">
+                            <Link href="/product-details" className="link">
                               SaaS dashboard digital products Title here
-                            </a>
+                            </Link>
                           </h6>
                           <div className="product-item__info flx-between gap-2">
                             <span className="product-item__author">
                               by
-                              <a
-                                href="profile.html"
+                              <Link
+                                href="/profile"
                                 className="link hover-text-decoration-underline"
                               >
                                 {" "}
                                 themepix
-                              </a>
+                              </Link>
                             </span>
                             <div className="flx-align gap-2">
                               <h6 className="product-item__price mb-0">$79</h6>
@@ -1269,12 +1270,12 @@ const Profile = () => {
                                 </span>
                               </div>
                             </div>
-                            <a
-                              href="product-details.html"
+                            <Link
+                              href="/product-details"
                               className="btn btn-outline-light btn-sm pill"
                             >
                               Live Demo
-                            </a>
+                            </Link>
                           </div>
                         </div>
                       </div>
@@ -1282,33 +1283,33 @@ const Profile = () => {
                     <div className="col-xl-3 col-lg-4 col-sm-6">
                       <div className="product-item section-bg">
                         <div className="product-item__thumb d-flex">
-                          <a href="product-details.html" className="link w-100">
+                          <Link href="/product-details" className="link w-100">
                             <img
                               src="assets/images/thumbs/product-img10.png"
                               alt=""
                               className="cover-img"
                             />
-                          </a>
+                          </Link>
                           <button type="button" className="product-item__wishlist">
                             <i className="fas fa-heart" />
                           </button>
                         </div>
                         <div className="product-item__content">
                           <h6 className="product-item__title">
-                            <a href="product-details.html" className="link">
+                            <Link href="/product-details" className="link">
                               SaaS dashboard digital products Title here
-                            </a>
+                            </Link>
                           </h6>
                           <div className="product-item__info flx-between gap-2">
                             <span className="product-item__author">
                               by
-                              <a
-                                href="profile.html"
+                              <Link
+                                href="/profile"
                                 className="link hover-text-decoration-underline"
                               >
                                 {" "}
                                 themepix
-                              </a>
+                              </Link>
                             </span>
                             <div className="flx-align gap-2">
                               <h6 className="product-item__price mb-0">$79</h6>
@@ -1346,12 +1347,12 @@ const Profile = () => {
                                 </span>
                               </div>
                             </div>
-                            <a
-                              href="product-details.html"
+                            <Link
+                              href="/product-details"
                               className="btn btn-outline-light btn-sm pill"
                             >
                               Live Demo
-                            </a>
+                            </Link>
                           </div>
                         </div>
                       </div>
@@ -1359,33 +1360,33 @@ const Profile = () => {
                     <div className="col-xl-3 col-lg-4 col-sm-6">
                       <div className="product-item section-bg">
                         <div className="product-item__thumb d-flex">
-                          <a href="product-details.html" className="link w-100">
+                          <Link href="/product-details" className="link w-100">
                             <img
                               src="assets/images/thumbs/product-img11.png"
                               alt=""
                               className="cover-img"
                             />
-                          </a>
+                          </Link>
                           <button type="button" className="product-item__wishlist">
                             <i className="fas fa-heart" />
                           </button>
                         </div>
                         <div className="product-item__content">
                           <h6 className="product-item__title">
-                            <a href="product-details.html" className="link">
+                            <Link href="/product-details" className="link">
                               SaaS dashboard digital products Title here
-                            </a>
+                            </Link>
                           </h6>
                           <div className="product-item__info flx-between gap-2">
                             <span className="product-item__author">
                               by
-                              <a
-                                href="profile.html"
+                              <Link
+                                href="/profile"
                                 className="link hover-text-decoration-underline"
                               >
                                 {" "}
                                 themepix
-                              </a>
+                              </Link>
                             </span>
                             <div className="flx-align gap-2">
                               <h6 className="product-item__price mb-0">$79</h6>
@@ -1423,12 +1424,12 @@ const Profile = () => {
                                 </span>
                               </div>
                             </div>
-                            <a
-                              href="product-details.html"
+                            <Link
+                              href="/product-details"
                               className="btn btn-outline-light btn-sm pill"
                             >
                               Live Demo
-                            </a>
+                            </Link>
                           </div>
                         </div>
                       </div>
@@ -1436,33 +1437,33 @@ const Profile = () => {
                     <div className="col-xl-3 col-lg-4 col-sm-6">
                       <div className="product-item section-bg">
                         <div className="product-item__thumb d-flex">
-                          <a href="product-details.html" className="link w-100">
+                          <Link href="/product-details" className="link w-100">
                             <img
                               src="assets/images/thumbs/product-img12.png"
                               alt=""
                               className="cover-img"
                             />
-                          </a>
+                          </Link>
                           <button type="button" className="product-item__wishlist">
                             <i className="fas fa-heart" />
                           </button>
                         </div>
                         <div className="product-item__content">
                           <h6 className="product-item__title">
-                            <a href="product-details.html" className="link">
+                            <Link href="/product-details" className="link">
                               SaaS dashboard digital products Title here
-                            </a>
+                            </Link>
                           </h6>
                           <div className="product-item__info flx-between gap-2">
                             <span className="product-item__author">
                               by
-                              <a
-                                href="profile.html"
+                              <Link
+                                href="/profile"
                                 className="link hover-text-decoration-underline"
                               >
                                 {" "}
                                 themepix
-                              </a>
+                              </Link>
                             </span>
                             <div className="flx-align gap-2">
                               <h6 className="product-item__price mb-0">$79</h6>
@@ -1500,12 +1501,12 @@ const Profile = () => {
                                 </span>
                               </div>
                             </div>
-                            <a
-                              href="product-details.html"
+                            <Link
+                              href="/product-details"
                               className="btn btn-outline-light btn-sm pill"
                             >
                               Live Demo
-                            </a>
+                            </Link>
                           </div>
                         </div>
                       </div>
@@ -1515,37 +1516,37 @@ const Profile = () => {
                   <nav aria-label="Page navigation example">
                     <ul className="pagination common-pagination">
                       <li className="page-item">
-                        <a className="page-link" href="#">
+                        <Link className="page-link" href="#">
                           1
-                        </a>
+                        </Link>
                       </li>
                       <li className="page-item">
-                        <a className="page-link" href="#">
+                        <Link className="page-link" href="#">
                           2
-                        </a>
+                        </Link>
                       </li>
                       <li className="page-item">
-                        <a className="page-link" href="#">
+                        <Link className="page-link" href="#">
                           3
-                        </a>
+                        </Link>
                       </li>
                       <li className="page-item">
-                        <a className="page-link" href="#">
+                        <Link className="page-link" href="#">
                           4
-                        </a>
+                        </Link>
                       </li>
                       <li className="page-item">
-                        <a className="page-link" href="#">
+                        <Link className="page-link" href="#">
                           5
-                        </a>
+                        </Link>
                       </li>
                       <li className="page-item">
-                        <a className="page-link flx-align gap-2 flex-nowrap" href="#">
+                        <Link className="page-link flx-align gap-2 flex-nowrap" href="#">
                           Next
                           <span className="icon line-height-1 font-20">
                             <i className="las la-arrow-right" />
                           </span>
-                        </a>
+                        </Link>
                       </li>
                     </ul>
                   </nav>
@@ -1562,33 +1563,33 @@ const Profile = () => {
                     <div className="col-xl-3 col-lg-4 col-sm-6">
                       <div className="product-item section-bg">
                         <div className="product-item__thumb d-flex">
-                          <a href="product-details.html" className="link w-100">
+                          <Link href="/product-details" className="link w-100">
                             <img
                               src="assets/images/thumbs/product-img1.png"
                               alt=""
                               className="cover-img"
                             />
-                          </a>
+                          </Link>
                           <button type="button" className="product-item__wishlist">
                             <i className="fas fa-heart" />
                           </button>
                         </div>
                         <div className="product-item__content">
                           <h6 className="product-item__title">
-                            <a href="product-details.html" className="link">
+                            <Link href="/product-details" className="link">
                               SaaS dashboard digital products Title here
-                            </a>
+                            </Link>
                           </h6>
                           <div className="product-item__info flx-between gap-2">
                             <span className="product-item__author">
                               by
-                              <a
-                                href="profile.html"
+                              <Link
+                                href="/profile"
                                 className="link hover-text-decoration-underline"
                               >
                                 {" "}
                                 themepix
-                              </a>
+                              </Link>
                             </span>
                             <div className="flx-align gap-2">
                               <h6 className="product-item__price mb-0">$120</h6>
@@ -1626,12 +1627,12 @@ const Profile = () => {
                                 </span>
                               </div>
                             </div>
-                            <a
-                              href="product-details.html"
+                            <Link
+                              href="/product-details"
                               className="btn btn-outline-light btn-sm pill"
                             >
                               Live Demo
-                            </a>
+                            </Link>
                           </div>
                         </div>
                       </div>
@@ -1639,33 +1640,33 @@ const Profile = () => {
                     <div className="col-xl-3 col-lg-4 col-sm-6">
                       <div className="product-item section-bg">
                         <div className="product-item__thumb d-flex">
-                          <a href="product-details.html" className="link w-100">
+                          <Link href="/product-details" className="link w-100">
                             <img
                               src="assets/images/thumbs/product-img2.png"
                               alt=""
                               className="cover-img"
                             />
-                          </a>
+                          </Link>
                           <button type="button" className="product-item__wishlist">
                             <i className="fas fa-heart" />
                           </button>
                         </div>
                         <div className="product-item__content">
                           <h6 className="product-item__title">
-                            <a href="product-details.html" className="link">
+                            <Link href="/product-details" className="link">
                               SaaS dashboard digital products Title here
-                            </a>
+                            </Link>
                           </h6>
                           <div className="product-item__info flx-between gap-2">
                             <span className="product-item__author">
                               by
-                              <a
-                                href="profile.html"
+                              <Link
+                                href="/profile"
                                 className="link hover-text-decoration-underline"
                               >
                                 {" "}
                                 themepix
-                              </a>
+                              </Link>
                             </span>
                             <div className="flx-align gap-2">
                               <h6 className="product-item__price mb-0">$129</h6>
@@ -1703,12 +1704,12 @@ const Profile = () => {
                                 </span>
                               </div>
                             </div>
-                            <a
-                              href="product-details.html"
+                            <Link
+                              href="/product-details"
                               className="btn btn-outline-light btn-sm pill"
                             >
                               Live Demo
-                            </a>
+                            </Link>
                           </div>
                         </div>
                       </div>
@@ -1716,33 +1717,33 @@ const Profile = () => {
                     <div className="col-xl-3 col-lg-4 col-sm-6">
                       <div className="product-item section-bg">
                         <div className="product-item__thumb d-flex">
-                          <a href="product-details.html" className="link w-100">
+                          <Link href="/product-details" className="link w-100">
                             <img
                               src="assets/images/thumbs/product-img3.png"
                               alt=""
                               className="cover-img"
                             />
-                          </a>
+                          </Link>
                           <button type="button" className="product-item__wishlist">
                             <i className="fas fa-heart" />
                           </button>
                         </div>
                         <div className="product-item__content">
                           <h6 className="product-item__title">
-                            <a href="product-details.html" className="link">
+                            <Link href="/product-details" className="link">
                               SaaS dashboard digital products Title here
-                            </a>
+                            </Link>
                           </h6>
                           <div className="product-item__info flx-between gap-2">
                             <span className="product-item__author">
                               by
-                              <a
-                                href="profile.html"
+                              <Link
+                                href="/profile"
                                 className="link hover-text-decoration-underline"
                               >
                                 {" "}
                                 themepix
-                              </a>
+                              </Link>
                             </span>
                             <div className="flx-align gap-2">
                               <h6 className="product-item__price mb-0">$79</h6>
@@ -1780,12 +1781,12 @@ const Profile = () => {
                                 </span>
                               </div>
                             </div>
-                            <a
-                              href="product-details.html"
+                            <Link
+                              href="/product-details"
                               className="btn btn-outline-light btn-sm pill"
                             >
                               Live Demo
-                            </a>
+                            </Link>
                           </div>
                         </div>
                       </div>
@@ -1793,33 +1794,33 @@ const Profile = () => {
                     <div className="col-xl-3 col-lg-4 col-sm-6">
                       <div className="product-item section-bg">
                         <div className="product-item__thumb d-flex">
-                          <a href="product-details.html" className="link w-100">
+                          <Link href="/product-details" className="link w-100">
                             <img
                               src="assets/images/thumbs/product-img4.png"
                               alt=""
                               className="cover-img"
                             />
-                          </a>
+                          </Link>
                           <button type="button" className="product-item__wishlist">
                             <i className="fas fa-heart" />
                           </button>
                         </div>
                         <div className="product-item__content">
                           <h6 className="product-item__title">
-                            <a href="product-details.html" className="link">
+                            <Link href="/product-details" className="link">
                               SaaS dashboard digital products Title here
-                            </a>
+                            </Link>
                           </h6>
                           <div className="product-item__info flx-between gap-2">
                             <span className="product-item__author">
                               by
-                              <a
-                                href="profile.html"
+                              <Link
+                                href="/profile"
                                 className="link hover-text-decoration-underline"
                               >
                                 {" "}
                                 themepix
-                              </a>
+                              </Link>
                             </span>
                             <div className="flx-align gap-2">
                               <h6 className="product-item__price mb-0">$59</h6>
@@ -1857,12 +1858,12 @@ const Profile = () => {
                                 </span>
                               </div>
                             </div>
-                            <a
-                              href="product-details.html"
+                            <Link
+                              href="/product-details"
                               className="btn btn-outline-light btn-sm pill"
                             >
                               Live Demo
-                            </a>
+                            </Link>
                           </div>
                         </div>
                       </div>
@@ -1870,33 +1871,33 @@ const Profile = () => {
                     <div className="col-xl-3 col-lg-4 col-sm-6">
                       <div className="product-item section-bg">
                         <div className="product-item__thumb d-flex">
-                          <a href="product-details.html" className="link w-100">
+                          <Link href="/product-details" className="link w-100">
                             <img
                               src="assets/images/thumbs/product-img5.png"
                               alt=""
                               className="cover-img"
                             />
-                          </a>
+                          </Link>
                           <button type="button" className="product-item__wishlist">
                             <i className="fas fa-heart" />
                           </button>
                         </div>
                         <div className="product-item__content">
                           <h6 className="product-item__title">
-                            <a href="product-details.html" className="link">
+                            <Link href="/product-details" className="link">
                               SaaS dashboard digital products Title here
-                            </a>
+                            </Link>
                           </h6>
                           <div className="product-item__info flx-between gap-2">
                             <span className="product-item__author">
                               by
-                              <a
-                                href="profile.html"
+                              <Link
+                                href="/profile"
                                 className="link hover-text-decoration-underline"
                               >
                                 {" "}
                                 themepix
-                              </a>
+                              </Link>
                             </span>
                             <div className="flx-align gap-2">
                               <h6 className="product-item__price mb-0">$99</h6>
@@ -1934,12 +1935,12 @@ const Profile = () => {
                                 </span>
                               </div>
                             </div>
-                            <a
-                              href="product-details.html"
+                            <Link
+                              href="/product-details"
                               className="btn btn-outline-light btn-sm pill"
                             >
                               Live Demo
-                            </a>
+                            </Link>
                           </div>
                         </div>
                       </div>
@@ -1947,33 +1948,33 @@ const Profile = () => {
                     <div className="col-xl-3 col-lg-4 col-sm-6">
                       <div className="product-item section-bg">
                         <div className="product-item__thumb d-flex">
-                          <a href="product-details.html" className="link w-100">
+                          <Link href="/product-details" className="link w-100">
                             <img
                               src="assets/images/thumbs/product-img6.png"
                               alt=""
                               className="cover-img"
                             />
-                          </a>
+                          </Link>
                           <button type="button" className="product-item__wishlist">
                             <i className="fas fa-heart" />
                           </button>
                         </div>
                         <div className="product-item__content">
                           <h6 className="product-item__title">
-                            <a href="product-details.html" className="link">
+                            <Link href="/product-details" className="link">
                               SaaS dashboard digital products Title here
-                            </a>
+                            </Link>
                           </h6>
                           <div className="product-item__info flx-between gap-2">
                             <span className="product-item__author">
                               by
-                              <a
-                                href="profile.html"
+                              <Link
+                                href="/profile"
                                 className="link hover-text-decoration-underline"
                               >
                                 {" "}
                                 themepix
-                              </a>
+                              </Link>
                             </span>
                             <div className="flx-align gap-2">
                               <h6 className="product-item__price mb-0">$129</h6>
@@ -2011,12 +2012,12 @@ const Profile = () => {
                                 </span>
                               </div>
                             </div>
-                            <a
-                              href="product-details.html"
+                            <Link
+                              href="/product-details"
                               className="btn btn-outline-light btn-sm pill"
                             >
                               Live Demo
-                            </a>
+                            </Link>
                           </div>
                         </div>
                       </div>
@@ -2024,33 +2025,33 @@ const Profile = () => {
                     <div className="col-xl-3 col-lg-4 col-sm-6">
                       <div className="product-item section-bg">
                         <div className="product-item__thumb d-flex">
-                          <a href="product-details.html" className="link w-100">
+                          <Link href="/product-details" className="link w-100">
                             <img
                               src="assets/images/thumbs/product-img7.png"
                               alt=""
                               className="cover-img"
                             />
-                          </a>
+                          </Link>
                           <button type="button" className="product-item__wishlist">
                             <i className="fas fa-heart" />
                           </button>
                         </div>
                         <div className="product-item__content">
                           <h6 className="product-item__title">
-                            <a href="product-details.html" className="link">
+                            <Link href="/product-details" className="link">
                               SaaS dashboard digital products Title here
-                            </a>
+                            </Link>
                           </h6>
                           <div className="product-item__info flx-between gap-2">
                             <span className="product-item__author">
                               by
-                              <a
-                                href="profile.html"
+                              <Link
+                                href="/profile"
                                 className="link hover-text-decoration-underline"
                               >
                                 {" "}
                                 themepix
-                              </a>
+                              </Link>
                             </span>
                             <div className="flx-align gap-2">
                               <h6 className="product-item__price mb-0">$129</h6>
@@ -2088,12 +2089,12 @@ const Profile = () => {
                                 </span>
                               </div>
                             </div>
-                            <a
-                              href="product-details.html"
+                            <Link
+                              href="/product-details"
                               className="btn btn-outline-light btn-sm pill"
                             >
                               Live Demo
-                            </a>
+                            </Link>
                           </div>
                         </div>
                       </div>
@@ -2101,33 +2102,33 @@ const Profile = () => {
                     <div className="col-xl-3 col-lg-4 col-sm-6">
                       <div className="product-item section-bg">
                         <div className="product-item__thumb d-flex">
-                          <a href="product-details.html" className="link w-100">
+                          <Link href="/product-details" className="link w-100">
                             <img
                               src="assets/images/thumbs/product-img8.png"
                               alt=""
                               className="cover-img"
                             />
-                          </a>
+                          </Link>
                           <button type="button" className="product-item__wishlist">
                             <i className="fas fa-heart" />
                           </button>
                         </div>
                         <div className="product-item__content">
                           <h6 className="product-item__title">
-                            <a href="product-details.html" className="link">
+                            <Link href="/product-details" className="link">
                               SaaS dashboard digital products Title here
-                            </a>
+                            </Link>
                           </h6>
                           <div className="product-item__info flx-between gap-2">
                             <span className="product-item__author">
                               by
-                              <a
-                                href="profile.html"
+                              <Link
+                                href="/profile"
                                 className="link hover-text-decoration-underline"
                               >
                                 {" "}
                                 themepix
-                              </a>
+                              </Link>
                             </span>
                             <div className="flx-align gap-2">
                               <h6 className="product-item__price mb-0">$79</h6>
@@ -2165,12 +2166,12 @@ const Profile = () => {
                                 </span>
                               </div>
                             </div>
-                            <a
-                              href="product-details.html"
+                            <Link
+                              href="/product-details"
                               className="btn btn-outline-light btn-sm pill"
                             >
                               Live Demo
-                            </a>
+                            </Link>
                           </div>
                         </div>
                       </div>
@@ -2178,33 +2179,33 @@ const Profile = () => {
                     <div className="col-xl-3 col-lg-4 col-sm-6">
                       <div className="product-item section-bg">
                         <div className="product-item__thumb d-flex">
-                          <a href="product-details.html" className="link w-100">
+                          <Link href="/product-details" className="link w-100">
                             <img
                               src="assets/images/thumbs/product-img9.png"
                               alt=""
                               className="cover-img"
                             />
-                          </a>
+                          </Link>
                           <button type="button" className="product-item__wishlist">
                             <i className="fas fa-heart" />
                           </button>
                         </div>
                         <div className="product-item__content">
                           <h6 className="product-item__title">
-                            <a href="product-details.html" className="link">
+                            <Link href="/product-details" className="link">
                               SaaS dashboard digital products Title here
-                            </a>
+                            </Link>
                           </h6>
                           <div className="product-item__info flx-between gap-2">
                             <span className="product-item__author">
                               by
-                              <a
-                                href="profile.html"
+                              <Link
+                                href="/profile"
                                 className="link hover-text-decoration-underline"
                               >
                                 {" "}
                                 themepix
-                              </a>
+                              </Link>
                             </span>
                             <div className="flx-align gap-2">
                               <h6 className="product-item__price mb-0">$79</h6>
@@ -2242,12 +2243,12 @@ const Profile = () => {
                                 </span>
                               </div>
                             </div>
-                            <a
-                              href="product-details.html"
+                            <Link
+                              href="/product-details"
                               className="btn btn-outline-light btn-sm pill"
                             >
                               Live Demo
-                            </a>
+                            </Link>
                           </div>
                         </div>
                       </div>
@@ -2255,33 +2256,33 @@ const Profile = () => {
                     <div className="col-xl-3 col-lg-4 col-sm-6">
                       <div className="product-item section-bg">
                         <div className="product-item__thumb d-flex">
-                          <a href="product-details.html" className="link w-100">
+                          <Link href="/product-details" className="link w-100">
                             <img
                               src="assets/images/thumbs/product-img10.png"
                               alt=""
                               className="cover-img"
                             />
-                          </a>
+                          </Link>
                           <button type="button" className="product-item__wishlist">
                             <i className="fas fa-heart" />
                           </button>
                         </div>
                         <div className="product-item__content">
                           <h6 className="product-item__title">
-                            <a href="product-details.html" className="link">
+                            <Link href="/product-details" className="link">
                               SaaS dashboard digital products Title here
-                            </a>
+                            </Link>
                           </h6>
                           <div className="product-item__info flx-between gap-2">
                             <span className="product-item__author">
                               by
-                              <a
-                                href="profile.html"
+                              <Link
+                                href="/profile"
                                 className="link hover-text-decoration-underline"
                               >
                                 {" "}
                                 themepix
-                              </a>
+                              </Link>
                             </span>
                             <div className="flx-align gap-2">
                               <h6 className="product-item__price mb-0">$79</h6>
@@ -2319,12 +2320,12 @@ const Profile = () => {
                                 </span>
                               </div>
                             </div>
-                            <a
-                              href="product-details.html"
+                            <Link
+                              href="/product-details"
                               className="btn btn-outline-light btn-sm pill"
                             >
                               Live Demo
-                            </a>
+                            </Link>
                           </div>
                         </div>
                       </div>
@@ -2332,33 +2333,33 @@ const Profile = () => {
                     <div className="col-xl-3 col-lg-4 col-sm-6">
                       <div className="product-item section-bg">
                         <div className="product-item__thumb d-flex">
-                          <a href="product-details.html" className="link w-100">
+                          <Link href="/product-details" className="link w-100">
                             <img
                               src="assets/images/thumbs/product-img11.png"
                               alt=""
                               className="cover-img"
                             />
-                          </a>
+                          </Link>
                           <button type="button" className="product-item__wishlist">
                             <i className="fas fa-heart" />
                           </button>
                         </div>
                         <div className="product-item__content">
                           <h6 className="product-item__title">
-                            <a href="product-details.html" className="link">
+                            <Link href="/product-details" className="link">
                               SaaS dashboard digital products Title here
-                            </a>
+                            </Link>
                           </h6>
                           <div className="product-item__info flx-between gap-2">
                             <span className="product-item__author">
                               by
-                              <a
-                                href="profile.html"
+                              <Link
+                                href="/profile"
                                 className="link hover-text-decoration-underline"
                               >
                                 {" "}
                                 themepix
-                              </a>
+                              </Link>
                             </span>
                             <div className="flx-align gap-2">
                               <h6 className="product-item__price mb-0">$79</h6>
@@ -2396,12 +2397,12 @@ const Profile = () => {
                                 </span>
                               </div>
                             </div>
-                            <a
-                              href="product-details.html"
+                            <Link
+                              href="/product-details"
                               className="btn btn-outline-light btn-sm pill"
                             >
                               Live Demo
-                            </a>
+                            </Link>
                           </div>
                         </div>
                       </div>
@@ -2409,33 +2410,33 @@ const Profile = () => {
                     <div className="col-xl-3 col-lg-4 col-sm-6">
                       <div className="product-item section-bg">
                         <div className="product-item__thumb d-flex">
-                          <a href="product-details.html" className="link w-100">
+                          <Link href="/product-details" className="link w-100">
                             <img
                               src="assets/images/thumbs/product-img12.png"
                               alt=""
                               className="cover-img"
                             />
-                          </a>
+                          </Link>
                           <button type="button" className="product-item__wishlist">
                             <i className="fas fa-heart" />
                           </button>
                         </div>
                         <div className="product-item__content">
                           <h6 className="product-item__title">
-                            <a href="product-details.html" className="link">
+                            <Link href="/product-details" className="link">
                               SaaS dashboard digital products Title here
-                            </a>
+                            </Link>
                           </h6>
                           <div className="product-item__info flx-between gap-2">
                             <span className="product-item__author">
                               by
-                              <a
-                                href="profile.html"
+                              <Link
+                                href="/profile"
                                 className="link hover-text-decoration-underline"
                               >
                                 {" "}
                                 themepix
-                              </a>
+                              </Link>
                             </span>
                             <div className="flx-align gap-2">
                               <h6 className="product-item__price mb-0">$79</h6>
@@ -2473,12 +2474,12 @@ const Profile = () => {
                                 </span>
                               </div>
                             </div>
-                            <a
-                              href="product-details.html"
+                            <Link
+                              href="/product-details"
                               className="btn btn-outline-light btn-sm pill"
                             >
                               Live Demo
-                            </a>
+                            </Link>
                           </div>
                         </div>
                       </div>
@@ -2488,37 +2489,37 @@ const Profile = () => {
                   <nav aria-label="Page navigation example">
                     <ul className="pagination common-pagination">
                       <li className="page-item">
-                        <a className="page-link" href="#">
+                        <Link className="page-link" href="#">
                           1
-                        </a>
+                        </Link>
                       </li>
                       <li className="page-item">
-                        <a className="page-link" href="#">
+                        <Link className="page-link" href="#">
                           2
-                        </a>
+                        </Link>
                       </li>
                       <li className="page-item">
-                        <a className="page-link" href="#">
+                        <Link className="page-link" href="#">
                           3
-                        </a>
+                        </Link>
                       </li>
                       <li className="page-item">
-                        <a className="page-link" href="#">
+                        <Link className="page-link" href="#">
                           4
-                        </a>
+                        </Link>
                       </li>
                       <li className="page-item">
-                        <a className="page-link" href="#">
+                        <Link className="page-link" href="#">
                           5
-                        </a>
+                        </Link>
                       </li>
                       <li className="page-item">
-                        <a className="page-link flx-align gap-2 flex-nowrap" href="#">
+                        <Link className="page-link flx-align gap-2 flex-nowrap" href="#">
                           Next
                           <span className="icon line-height-1 font-20">
                             <i className="las la-arrow-right" />
                           </span>
-                        </a>
+                        </Link>
                       </li>
                     </ul>
                   </nav>
@@ -2535,33 +2536,33 @@ const Profile = () => {
                     <div className="col-xl-3 col-lg-4 col-sm-6">
                       <div className="product-item section-bg">
                         <div className="product-item__thumb d-flex">
-                          <a href="product-details.html" className="link w-100">
+                          <Link href="/product-details" className="link w-100">
                             <img
                               src="assets/images/thumbs/product-img1.png"
                               alt=""
                               className="cover-img"
                             />
-                          </a>
+                          </Link>
                           <button type="button" className="product-item__wishlist">
                             <i className="fas fa-heart" />
                           </button>
                         </div>
                         <div className="product-item__content">
                           <h6 className="product-item__title">
-                            <a href="product-details.html" className="link">
+                            <Link href="/product-details" className="link">
                               SaaS dashboard digital products Title here
-                            </a>
+                            </Link>
                           </h6>
                           <div className="product-item__info flx-between gap-2">
                             <span className="product-item__author">
                               by
-                              <a
-                                href="profile.html"
+                              <Link
+                                href="/profile"
                                 className="link hover-text-decoration-underline"
                               >
                                 {" "}
                                 themepix
-                              </a>
+                              </Link>
                             </span>
                             <div className="flx-align gap-2">
                               <h6 className="product-item__price mb-0">$120</h6>
@@ -2599,12 +2600,12 @@ const Profile = () => {
                                 </span>
                               </div>
                             </div>
-                            <a
-                              href="product-details.html"
+                            <Link
+                              href="/product-details"
                               className="btn btn-outline-light btn-sm pill"
                             >
                               Live Demo
-                            </a>
+                            </Link>
                           </div>
                         </div>
                       </div>
@@ -2612,33 +2613,33 @@ const Profile = () => {
                     <div className="col-xl-3 col-lg-4 col-sm-6">
                       <div className="product-item section-bg">
                         <div className="product-item__thumb d-flex">
-                          <a href="product-details.html" className="link w-100">
+                          <Link href="/product-details" className="link w-100">
                             <img
                               src="assets/images/thumbs/product-img2.png"
                               alt=""
                               className="cover-img"
                             />
-                          </a>
+                          </Link>
                           <button type="button" className="product-item__wishlist">
                             <i className="fas fa-heart" />
                           </button>
                         </div>
                         <div className="product-item__content">
                           <h6 className="product-item__title">
-                            <a href="product-details.html" className="link">
+                            <Link href="/product-details" className="link">
                               SaaS dashboard digital products Title here
-                            </a>
+                            </Link>
                           </h6>
                           <div className="product-item__info flx-between gap-2">
                             <span className="product-item__author">
                               by
-                              <a
-                                href="profile.html"
+                              <Link
+                                href="/profile"
                                 className="link hover-text-decoration-underline"
                               >
                                 {" "}
                                 themepix
-                              </a>
+                              </Link>
                             </span>
                             <div className="flx-align gap-2">
                               <h6 className="product-item__price mb-0">$129</h6>
@@ -2676,12 +2677,12 @@ const Profile = () => {
                                 </span>
                               </div>
                             </div>
-                            <a
-                              href="product-details.html"
+                            <Link
+                              href="/product-details"
                               className="btn btn-outline-light btn-sm pill"
                             >
                               Live Demo
-                            </a>
+                            </Link>
                           </div>
                         </div>
                       </div>
@@ -2689,33 +2690,33 @@ const Profile = () => {
                     <div className="col-xl-3 col-lg-4 col-sm-6">
                       <div className="product-item section-bg">
                         <div className="product-item__thumb d-flex">
-                          <a href="product-details.html" className="link w-100">
+                          <Link href="/product-details" className="link w-100">
                             <img
                               src="assets/images/thumbs/product-img3.png"
                               alt=""
                               className="cover-img"
                             />
-                          </a>
+                          </Link>
                           <button type="button" className="product-item__wishlist">
                             <i className="fas fa-heart" />
                           </button>
                         </div>
                         <div className="product-item__content">
                           <h6 className="product-item__title">
-                            <a href="product-details.html" className="link">
+                            <Link href="/product-details" className="link">
                               SaaS dashboard digital products Title here
-                            </a>
+                            </Link>
                           </h6>
                           <div className="product-item__info flx-between gap-2">
                             <span className="product-item__author">
                               by
-                              <a
-                                href="profile.html"
+                              <Link
+                                href="/profile"
                                 className="link hover-text-decoration-underline"
                               >
                                 {" "}
                                 themepix
-                              </a>
+                              </Link>
                             </span>
                             <div className="flx-align gap-2">
                               <h6 className="product-item__price mb-0">$79</h6>
@@ -2753,12 +2754,12 @@ const Profile = () => {
                                 </span>
                               </div>
                             </div>
-                            <a
-                              href="product-details.html"
+                            <Link
+                              href="/product-details"
                               className="btn btn-outline-light btn-sm pill"
                             >
                               Live Demo
-                            </a>
+                            </Link>
                           </div>
                         </div>
                       </div>
@@ -2766,33 +2767,33 @@ const Profile = () => {
                     <div className="col-xl-3 col-lg-4 col-sm-6">
                       <div className="product-item section-bg">
                         <div className="product-item__thumb d-flex">
-                          <a href="product-details.html" className="link w-100">
+                          <Link href="/product-details" className="link w-100">
                             <img
                               src="assets/images/thumbs/product-img4.png"
                               alt=""
                               className="cover-img"
                             />
-                          </a>
+                          </Link>
                           <button type="button" className="product-item__wishlist">
                             <i className="fas fa-heart" />
                           </button>
                         </div>
                         <div className="product-item__content">
                           <h6 className="product-item__title">
-                            <a href="product-details.html" className="link">
+                            <Link href="/product-details" className="link">
                               SaaS dashboard digital products Title here
-                            </a>
+                            </Link>
                           </h6>
                           <div className="product-item__info flx-between gap-2">
                             <span className="product-item__author">
                               by
-                              <a
-                                href="profile.html"
+                              <Link
+                                href="/profile"
                                 className="link hover-text-decoration-underline"
                               >
                                 {" "}
                                 themepix
-                              </a>
+                              </Link>
                             </span>
                             <div className="flx-align gap-2">
                               <h6 className="product-item__price mb-0">$59</h6>
@@ -2830,12 +2831,12 @@ const Profile = () => {
                                 </span>
                               </div>
                             </div>
-                            <a
-                              href="product-details.html"
+                            <Link
+                              href="/product-details"
                               className="btn btn-outline-light btn-sm pill"
                             >
                               Live Demo
-                            </a>
+                            </Link>
                           </div>
                         </div>
                       </div>
@@ -2843,33 +2844,33 @@ const Profile = () => {
                     <div className="col-xl-3 col-lg-4 col-sm-6">
                       <div className="product-item section-bg">
                         <div className="product-item__thumb d-flex">
-                          <a href="product-details.html" className="link w-100">
+                          <Link href="/product-details" className="link w-100">
                             <img
                               src="assets/images/thumbs/product-img5.png"
                               alt=""
                               className="cover-img"
                             />
-                          </a>
+                          </Link>
                           <button type="button" className="product-item__wishlist">
                             <i className="fas fa-heart" />
                           </button>
                         </div>
                         <div className="product-item__content">
                           <h6 className="product-item__title">
-                            <a href="product-details.html" className="link">
+                            <Link href="/product-details" className="link">
                               SaaS dashboard digital products Title here
-                            </a>
+                            </Link>
                           </h6>
                           <div className="product-item__info flx-between gap-2">
                             <span className="product-item__author">
                               by
-                              <a
-                                href="profile.html"
+                              <Link
+                                href="/profile"
                                 className="link hover-text-decoration-underline"
                               >
                                 {" "}
                                 themepix
-                              </a>
+                              </Link>
                             </span>
                             <div className="flx-align gap-2">
                               <h6 className="product-item__price mb-0">$99</h6>
@@ -2907,12 +2908,12 @@ const Profile = () => {
                                 </span>
                               </div>
                             </div>
-                            <a
-                              href="product-details.html"
+                            <Link
+                              href="/product-details"
                               className="btn btn-outline-light btn-sm pill"
                             >
                               Live Demo
-                            </a>
+                            </Link>
                           </div>
                         </div>
                       </div>
@@ -2920,33 +2921,33 @@ const Profile = () => {
                     <div className="col-xl-3 col-lg-4 col-sm-6">
                       <div className="product-item section-bg">
                         <div className="product-item__thumb d-flex">
-                          <a href="product-details.html" className="link w-100">
+                          <Link href="/product-details" className="link w-100">
                             <img
                               src="assets/images/thumbs/product-img6.png"
                               alt=""
                               className="cover-img"
                             />
-                          </a>
+                          </Link>
                           <button type="button" className="product-item__wishlist">
                             <i className="fas fa-heart" />
                           </button>
                         </div>
                         <div className="product-item__content">
                           <h6 className="product-item__title">
-                            <a href="product-details.html" className="link">
+                            <Link href="/product-details" className="link">
                               SaaS dashboard digital products Title here
-                            </a>
+                            </Link>
                           </h6>
                           <div className="product-item__info flx-between gap-2">
                             <span className="product-item__author">
                               by
-                              <a
-                                href="profile.html"
+                              <Link
+                                href="/profile"
                                 className="link hover-text-decoration-underline"
                               >
                                 {" "}
                                 themepix
-                              </a>
+                              </Link>
                             </span>
                             <div className="flx-align gap-2">
                               <h6 className="product-item__price mb-0">$129</h6>
@@ -2984,12 +2985,12 @@ const Profile = () => {
                                 </span>
                               </div>
                             </div>
-                            <a
-                              href="product-details.html"
+                            <Link
+                              href="/product-details"
                               className="btn btn-outline-light btn-sm pill"
                             >
                               Live Demo
-                            </a>
+                            </Link>
                           </div>
                         </div>
                       </div>
@@ -2997,33 +2998,33 @@ const Profile = () => {
                     <div className="col-xl-3 col-lg-4 col-sm-6">
                       <div className="product-item section-bg">
                         <div className="product-item__thumb d-flex">
-                          <a href="product-details.html" className="link w-100">
+                          <Link href="/product-details" className="link w-100">
                             <img
                               src="assets/images/thumbs/product-img7.png"
                               alt=""
                               className="cover-img"
                             />
-                          </a>
+                          </Link>
                           <button type="button" className="product-item__wishlist">
                             <i className="fas fa-heart" />
                           </button>
                         </div>
                         <div className="product-item__content">
                           <h6 className="product-item__title">
-                            <a href="product-details.html" className="link">
+                            <Link href="/product-details" className="link">
                               SaaS dashboard digital products Title here
-                            </a>
+                            </Link>
                           </h6>
                           <div className="product-item__info flx-between gap-2">
                             <span className="product-item__author">
                               by
-                              <a
-                                href="profile.html"
+                              <Link
+                                href="/profile"
                                 className="link hover-text-decoration-underline"
                               >
                                 {" "}
                                 themepix
-                              </a>
+                              </Link>
                             </span>
                             <div className="flx-align gap-2">
                               <h6 className="product-item__price mb-0">$129</h6>
@@ -3061,12 +3062,12 @@ const Profile = () => {
                                 </span>
                               </div>
                             </div>
-                            <a
-                              href="product-details.html"
+                            <Link
+                              href="/product-details"
                               className="btn btn-outline-light btn-sm pill"
                             >
                               Live Demo
-                            </a>
+                            </Link>
                           </div>
                         </div>
                       </div>
@@ -3074,33 +3075,33 @@ const Profile = () => {
                     <div className="col-xl-3 col-lg-4 col-sm-6">
                       <div className="product-item section-bg">
                         <div className="product-item__thumb d-flex">
-                          <a href="product-details.html" className="link w-100">
+                          <Link href="/product-details" className="link w-100">
                             <img
                               src="assets/images/thumbs/product-img8.png"
                               alt=""
                               className="cover-img"
                             />
-                          </a>
+                          </Link>
                           <button type="button" className="product-item__wishlist">
                             <i className="fas fa-heart" />
                           </button>
                         </div>
                         <div className="product-item__content">
                           <h6 className="product-item__title">
-                            <a href="product-details.html" className="link">
+                            <Link href="/product-details" className="link">
                               SaaS dashboard digital products Title here
-                            </a>
+                            </Link>
                           </h6>
                           <div className="product-item__info flx-between gap-2">
                             <span className="product-item__author">
                               by
-                              <a
-                                href="profile.html"
+                              <Link
+                                href="/profile"
                                 className="link hover-text-decoration-underline"
                               >
                                 {" "}
                                 themepix
-                              </a>
+                              </Link>
                             </span>
                             <div className="flx-align gap-2">
                               <h6 className="product-item__price mb-0">$79</h6>
@@ -3138,12 +3139,12 @@ const Profile = () => {
                                 </span>
                               </div>
                             </div>
-                            <a
-                              href="product-details.html"
+                            <Link
+                              href="/product-details"
                               className="btn btn-outline-light btn-sm pill"
                             >
                               Live Demo
-                            </a>
+                            </Link>
                           </div>
                         </div>
                       </div>
@@ -3151,33 +3152,33 @@ const Profile = () => {
                     <div className="col-xl-3 col-lg-4 col-sm-6">
                       <div className="product-item section-bg">
                         <div className="product-item__thumb d-flex">
-                          <a href="product-details.html" className="link w-100">
+                          <Link href="/product-details" className="link w-100">
                             <img
                               src="assets/images/thumbs/product-img9.png"
                               alt=""
                               className="cover-img"
                             />
-                          </a>
+                          </Link>
                           <button type="button" className="product-item__wishlist">
                             <i className="fas fa-heart" />
                           </button>
                         </div>
                         <div className="product-item__content">
                           <h6 className="product-item__title">
-                            <a href="product-details.html" className="link">
+                            <Link href="/product-details" className="link">
                               SaaS dashboard digital products Title here
-                            </a>
+                            </Link>
                           </h6>
                           <div className="product-item__info flx-between gap-2">
                             <span className="product-item__author">
                               by
-                              <a
-                                href="profile.html"
+                              <Link
+                                href="/profile"
                                 className="link hover-text-decoration-underline"
                               >
                                 {" "}
                                 themepix
-                              </a>
+                              </Link>
                             </span>
                             <div className="flx-align gap-2">
                               <h6 className="product-item__price mb-0">$79</h6>
@@ -3215,12 +3216,12 @@ const Profile = () => {
                                 </span>
                               </div>
                             </div>
-                            <a
-                              href="product-details.html"
+                            <Link
+                              href="/product-details"
                               className="btn btn-outline-light btn-sm pill"
                             >
                               Live Demo
-                            </a>
+                            </Link>
                           </div>
                         </div>
                       </div>
@@ -3228,33 +3229,33 @@ const Profile = () => {
                     <div className="col-xl-3 col-lg-4 col-sm-6">
                       <div className="product-item section-bg">
                         <div className="product-item__thumb d-flex">
-                          <a href="product-details.html" className="link w-100">
+                          <Link href="/product-details" className="link w-100">
                             <img
                               src="assets/images/thumbs/product-img10.png"
                               alt=""
                               className="cover-img"
                             />
-                          </a>
+                          </Link>
                           <button type="button" className="product-item__wishlist">
                             <i className="fas fa-heart" />
                           </button>
                         </div>
                         <div className="product-item__content">
                           <h6 className="product-item__title">
-                            <a href="product-details.html" className="link">
+                            <Link href="/product-details" className="link">
                               SaaS dashboard digital products Title here
-                            </a>
+                            </Link>
                           </h6>
                           <div className="product-item__info flx-between gap-2">
                             <span className="product-item__author">
                               by
-                              <a
-                                href="profile.html"
+                              <Link
+                                href="/profile"
                                 className="link hover-text-decoration-underline"
                               >
                                 {" "}
                                 themepix
-                              </a>
+                              </Link>
                             </span>
                             <div className="flx-align gap-2">
                               <h6 className="product-item__price mb-0">$79</h6>
@@ -3292,12 +3293,12 @@ const Profile = () => {
                                 </span>
                               </div>
                             </div>
-                            <a
-                              href="product-details.html"
+                            <Link
+                              href="/product-details"
                               className="btn btn-outline-light btn-sm pill"
                             >
                               Live Demo
-                            </a>
+                            </Link>
                           </div>
                         </div>
                       </div>
@@ -3305,33 +3306,33 @@ const Profile = () => {
                     <div className="col-xl-3 col-lg-4 col-sm-6">
                       <div className="product-item section-bg">
                         <div className="product-item__thumb d-flex">
-                          <a href="product-details.html" className="link w-100">
+                          <Link href="/product-details" className="link w-100">
                             <img
                               src="assets/images/thumbs/product-img11.png"
                               alt=""
                               className="cover-img"
                             />
-                          </a>
+                          </Link>
                           <button type="button" className="product-item__wishlist">
                             <i className="fas fa-heart" />
                           </button>
                         </div>
                         <div className="product-item__content">
                           <h6 className="product-item__title">
-                            <a href="product-details.html" className="link">
+                            <Link href="/product-details" className="link">
                               SaaS dashboard digital products Title here
-                            </a>
+                            </Link>
                           </h6>
                           <div className="product-item__info flx-between gap-2">
                             <span className="product-item__author">
                               by
-                              <a
-                                href="profile.html"
+                              <Link
+                                href="/profile"
                                 className="link hover-text-decoration-underline"
                               >
                                 {" "}
                                 themepix
-                              </a>
+                              </Link>
                             </span>
                             <div className="flx-align gap-2">
                               <h6 className="product-item__price mb-0">$79</h6>
@@ -3369,12 +3370,12 @@ const Profile = () => {
                                 </span>
                               </div>
                             </div>
-                            <a
-                              href="product-details.html"
+                            <Link
+                              href="/product-details"
                               className="btn btn-outline-light btn-sm pill"
                             >
                               Live Demo
-                            </a>
+                            </Link>
                           </div>
                         </div>
                       </div>
@@ -3382,33 +3383,33 @@ const Profile = () => {
                     <div className="col-xl-3 col-lg-4 col-sm-6">
                       <div className="product-item section-bg">
                         <div className="product-item__thumb d-flex">
-                          <a href="product-details.html" className="link w-100">
+                          <Link href="/product-details" className="link w-100">
                             <img
                               src="assets/images/thumbs/product-img12.png"
                               alt=""
                               className="cover-img"
                             />
-                          </a>
+                          </Link>
                           <button type="button" className="product-item__wishlist">
                             <i className="fas fa-heart" />
                           </button>
                         </div>
                         <div className="product-item__content">
                           <h6 className="product-item__title">
-                            <a href="product-details.html" className="link">
+                            <Link href="/product-details" className="link">
                               SaaS dashboard digital products Title here
-                            </a>
+                            </Link>
                           </h6>
                           <div className="product-item__info flx-between gap-2">
                             <span className="product-item__author">
                               by
-                              <a
-                                href="profile.html"
+                              <Link
+                                href="/profile"
                                 className="link hover-text-decoration-underline"
                               >
                                 {" "}
                                 themepix
-                              </a>
+                              </Link>
                             </span>
                             <div className="flx-align gap-2">
                               <h6 className="product-item__price mb-0">$79</h6>
@@ -3446,12 +3447,12 @@ const Profile = () => {
                                 </span>
                               </div>
                             </div>
-                            <a
-                              href="product-details.html"
+                            <Link
+                              href="/product-details"
                               className="btn btn-outline-light btn-sm pill"
                             >
                               Live Demo
-                            </a>
+                            </Link>
                           </div>
                         </div>
                       </div>
@@ -3461,37 +3462,37 @@ const Profile = () => {
                   <nav aria-label="Page navigation example">
                     <ul className="pagination common-pagination">
                       <li className="page-item">
-                        <a className="page-link" href="#">
+                        <Link className="page-link" href="#">
                           1
-                        </a>
+                        </Link>
                       </li>
                       <li className="page-item">
-                        <a className="page-link" href="#">
+                        <Link className="page-link" href="#">
                           2
-                        </a>
+                        </Link>
                       </li>
                       <li className="page-item">
-                        <a className="page-link" href="#">
+                        <Link className="page-link" href="#">
                           3
-                        </a>
+                        </Link>
                       </li>
                       <li className="page-item">
-                        <a className="page-link" href="#">
+                        <Link className="page-link" href="#">
                           4
-                        </a>
+                        </Link>
                       </li>
                       <li className="page-item">
-                        <a className="page-link" href="#">
+                        <Link className="page-link" href="#">
                           5
-                        </a>
+                        </Link>
                       </li>
                       <li className="page-item">
-                        <a className="page-link flx-align gap-2 flex-nowrap" href="#">
+                        <Link className="page-link flx-align gap-2 flex-nowrap" href="#">
                           Next
                           <span className="icon line-height-1 font-20">
                             <i className="las la-arrow-right" />
                           </span>
-                        </a>
+                        </Link>
                       </li>
                     </ul>
                   </nav>
@@ -3508,33 +3509,33 @@ const Profile = () => {
                     <div className="col-xl-3 col-lg-4 col-sm-6">
                       <div className="product-item section-bg">
                         <div className="product-item__thumb d-flex">
-                          <a href="product-details.html" className="link w-100">
+                          <Link href="/product-details" className="link w-100">
                             <img
                               src="assets/images/thumbs/product-img1.png"
                               alt=""
                               className="cover-img"
                             />
-                          </a>
+                          </Link>
                           <button type="button" className="product-item__wishlist">
                             <i className="fas fa-heart" />
                           </button>
                         </div>
                         <div className="product-item__content">
                           <h6 className="product-item__title">
-                            <a href="product-details.html" className="link">
+                            <Link href="/product-details" className="link">
                               SaaS dashboard digital products Title here
-                            </a>
+                            </Link>
                           </h6>
                           <div className="product-item__info flx-between gap-2">
                             <span className="product-item__author">
                               by
-                              <a
-                                href="profile.html"
+                              <Link
+                                href="/profile"
                                 className="link hover-text-decoration-underline"
                               >
                                 {" "}
                                 themepix
-                              </a>
+                              </Link>
                             </span>
                             <div className="flx-align gap-2">
                               <h6 className="product-item__price mb-0">$120</h6>
@@ -3572,12 +3573,12 @@ const Profile = () => {
                                 </span>
                               </div>
                             </div>
-                            <a
-                              href="product-details.html"
+                            <Link
+                              href="/product-details"
                               className="btn btn-outline-light btn-sm pill"
                             >
                               Live Demo
-                            </a>
+                            </Link>
                           </div>
                         </div>
                       </div>
@@ -3585,33 +3586,33 @@ const Profile = () => {
                     <div className="col-xl-3 col-lg-4 col-sm-6">
                       <div className="product-item section-bg">
                         <div className="product-item__thumb d-flex">
-                          <a href="product-details.html" className="link w-100">
+                          <Link href="/product-details" className="link w-100">
                             <img
                               src="assets/images/thumbs/product-img2.png"
                               alt=""
                               className="cover-img"
                             />
-                          </a>
+                          </Link>
                           <button type="button" className="product-item__wishlist">
                             <i className="fas fa-heart" />
                           </button>
                         </div>
                         <div className="product-item__content">
                           <h6 className="product-item__title">
-                            <a href="product-details.html" className="link">
+                            <Link href="/product-details" className="link">
                               SaaS dashboard digital products Title here
-                            </a>
+                            </Link>
                           </h6>
                           <div className="product-item__info flx-between gap-2">
                             <span className="product-item__author">
                               by
-                              <a
-                                href="profile.html"
+                              <Link
+                                href="/profile"
                                 className="link hover-text-decoration-underline"
                               >
                                 {" "}
                                 themepix
-                              </a>
+                              </Link>
                             </span>
                             <div className="flx-align gap-2">
                               <h6 className="product-item__price mb-0">$129</h6>
@@ -3649,12 +3650,12 @@ const Profile = () => {
                                 </span>
                               </div>
                             </div>
-                            <a
-                              href="product-details.html"
+                            <Link
+                              href="/product-details"
                               className="btn btn-outline-light btn-sm pill"
                             >
                               Live Demo
-                            </a>
+                            </Link>
                           </div>
                         </div>
                       </div>
@@ -3662,33 +3663,33 @@ const Profile = () => {
                     <div className="col-xl-3 col-lg-4 col-sm-6">
                       <div className="product-item section-bg">
                         <div className="product-item__thumb d-flex">
-                          <a href="product-details.html" className="link w-100">
+                          <Link href="/product-details" className="link w-100">
                             <img
                               src="assets/images/thumbs/product-img3.png"
                               alt=""
                               className="cover-img"
                             />
-                          </a>
+                          </Link>
                           <button type="button" className="product-item__wishlist">
                             <i className="fas fa-heart" />
                           </button>
                         </div>
                         <div className="product-item__content">
                           <h6 className="product-item__title">
-                            <a href="product-details.html" className="link">
+                            <Link href="/product-details" className="link">
                               SaaS dashboard digital products Title here
-                            </a>
+                            </Link>
                           </h6>
                           <div className="product-item__info flx-between gap-2">
                             <span className="product-item__author">
                               by
-                              <a
-                                href="profile.html"
+                              <Link
+                                href="/profile"
                                 className="link hover-text-decoration-underline"
                               >
                                 {" "}
                                 themepix
-                              </a>
+                              </Link>
                             </span>
                             <div className="flx-align gap-2">
                               <h6 className="product-item__price mb-0">$79</h6>
@@ -3726,12 +3727,12 @@ const Profile = () => {
                                 </span>
                               </div>
                             </div>
-                            <a
-                              href="product-details.html"
+                            <Link
+                              href="/product-details"
                               className="btn btn-outline-light btn-sm pill"
                             >
                               Live Demo
-                            </a>
+                            </Link>
                           </div>
                         </div>
                       </div>
@@ -3739,33 +3740,33 @@ const Profile = () => {
                     <div className="col-xl-3 col-lg-4 col-sm-6">
                       <div className="product-item section-bg">
                         <div className="product-item__thumb d-flex">
-                          <a href="product-details.html" className="link w-100">
+                          <Link href="/product-details" className="link w-100">
                             <img
                               src="assets/images/thumbs/product-img4.png"
                               alt=""
                               className="cover-img"
                             />
-                          </a>
+                          </Link>
                           <button type="button" className="product-item__wishlist">
                             <i className="fas fa-heart" />
                           </button>
                         </div>
                         <div className="product-item__content">
                           <h6 className="product-item__title">
-                            <a href="product-details.html" className="link">
+                            <Link href="/product-details" className="link">
                               SaaS dashboard digital products Title here
-                            </a>
+                            </Link>
                           </h6>
                           <div className="product-item__info flx-between gap-2">
                             <span className="product-item__author">
                               by
-                              <a
-                                href="profile.html"
+                              <Link
+                                href="/profile"
                                 className="link hover-text-decoration-underline"
                               >
                                 {" "}
                                 themepix
-                              </a>
+                              </Link>
                             </span>
                             <div className="flx-align gap-2">
                               <h6 className="product-item__price mb-0">$59</h6>
@@ -3803,12 +3804,12 @@ const Profile = () => {
                                 </span>
                               </div>
                             </div>
-                            <a
-                              href="product-details.html"
+                            <Link
+                              href="/product-details"
                               className="btn btn-outline-light btn-sm pill"
                             >
                               Live Demo
-                            </a>
+                            </Link>
                           </div>
                         </div>
                       </div>
@@ -3816,33 +3817,33 @@ const Profile = () => {
                     <div className="col-xl-3 col-lg-4 col-sm-6">
                       <div className="product-item section-bg">
                         <div className="product-item__thumb d-flex">
-                          <a href="product-details.html" className="link w-100">
+                          <Link href="/product-details" className="link w-100">
                             <img
                               src="assets/images/thumbs/product-img5.png"
                               alt=""
                               className="cover-img"
                             />
-                          </a>
+                          </Link>
                           <button type="button" className="product-item__wishlist">
                             <i className="fas fa-heart" />
                           </button>
                         </div>
                         <div className="product-item__content">
                           <h6 className="product-item__title">
-                            <a href="product-details.html" className="link">
+                            <Link href="/product-details" className="link">
                               SaaS dashboard digital products Title here
-                            </a>
+                            </Link>
                           </h6>
                           <div className="product-item__info flx-between gap-2">
                             <span className="product-item__author">
                               by
-                              <a
-                                href="profile.html"
+                              <Link
+                                href="/profile"
                                 className="link hover-text-decoration-underline"
                               >
                                 {" "}
                                 themepix
-                              </a>
+                              </Link>
                             </span>
                             <div className="flx-align gap-2">
                               <h6 className="product-item__price mb-0">$99</h6>
@@ -3880,12 +3881,12 @@ const Profile = () => {
                                 </span>
                               </div>
                             </div>
-                            <a
-                              href="product-details.html"
+                            <Link
+                              href="/product-details"
                               className="btn btn-outline-light btn-sm pill"
                             >
                               Live Demo
-                            </a>
+                            </Link>
                           </div>
                         </div>
                       </div>
@@ -3893,33 +3894,33 @@ const Profile = () => {
                     <div className="col-xl-3 col-lg-4 col-sm-6">
                       <div className="product-item section-bg">
                         <div className="product-item__thumb d-flex">
-                          <a href="product-details.html" className="link w-100">
+                          <Link href="/product-details" className="link w-100">
                             <img
                               src="assets/images/thumbs/product-img6.png"
                               alt=""
                               className="cover-img"
                             />
-                          </a>
+                          </Link>
                           <button type="button" className="product-item__wishlist">
                             <i className="fas fa-heart" />
                           </button>
                         </div>
                         <div className="product-item__content">
                           <h6 className="product-item__title">
-                            <a href="product-details.html" className="link">
+                            <Link href="/product-details" className="link">
                               SaaS dashboard digital products Title here
-                            </a>
+                            </Link>
                           </h6>
                           <div className="product-item__info flx-between gap-2">
                             <span className="product-item__author">
                               by
-                              <a
-                                href="profile.html"
+                              <Link
+                                href="/profile"
                                 className="link hover-text-decoration-underline"
                               >
                                 {" "}
                                 themepix
-                              </a>
+                              </Link>
                             </span>
                             <div className="flx-align gap-2">
                               <h6 className="product-item__price mb-0">$129</h6>
@@ -3957,12 +3958,12 @@ const Profile = () => {
                                 </span>
                               </div>
                             </div>
-                            <a
-                              href="product-details.html"
+                            <Link
+                              href="/product-details"
                               className="btn btn-outline-light btn-sm pill"
                             >
                               Live Demo
-                            </a>
+                            </Link>
                           </div>
                         </div>
                       </div>
@@ -3970,33 +3971,33 @@ const Profile = () => {
                     <div className="col-xl-3 col-lg-4 col-sm-6">
                       <div className="product-item section-bg">
                         <div className="product-item__thumb d-flex">
-                          <a href="product-details.html" className="link w-100">
+                          <Link href="/product-details" className="link w-100">
                             <img
                               src="assets/images/thumbs/product-img7.png"
                               alt=""
                               className="cover-img"
                             />
-                          </a>
+                          </Link>
                           <button type="button" className="product-item__wishlist">
                             <i className="fas fa-heart" />
                           </button>
                         </div>
                         <div className="product-item__content">
                           <h6 className="product-item__title">
-                            <a href="product-details.html" className="link">
+                            <Link href="/product-details" className="link">
                               SaaS dashboard digital products Title here
-                            </a>
+                            </Link>
                           </h6>
                           <div className="product-item__info flx-between gap-2">
                             <span className="product-item__author">
                               by
-                              <a
-                                href="profile.html"
+                              <Link
+                                href="/profile"
                                 className="link hover-text-decoration-underline"
                               >
                                 {" "}
                                 themepix
-                              </a>
+                              </Link>
                             </span>
                             <div className="flx-align gap-2">
                               <h6 className="product-item__price mb-0">$129</h6>
@@ -4034,12 +4035,12 @@ const Profile = () => {
                                 </span>
                               </div>
                             </div>
-                            <a
-                              href="product-details.html"
+                            <Link
+                              href="/product-details"
                               className="btn btn-outline-light btn-sm pill"
                             >
                               Live Demo
-                            </a>
+                            </Link>
                           </div>
                         </div>
                       </div>
@@ -4047,33 +4048,33 @@ const Profile = () => {
                     <div className="col-xl-3 col-lg-4 col-sm-6">
                       <div className="product-item section-bg">
                         <div className="product-item__thumb d-flex">
-                          <a href="product-details.html" className="link w-100">
+                          <Link href="/product-details" className="link w-100">
                             <img
                               src="assets/images/thumbs/product-img8.png"
                               alt=""
                               className="cover-img"
                             />
-                          </a>
+                          </Link>
                           <button type="button" className="product-item__wishlist">
                             <i className="fas fa-heart" />
                           </button>
                         </div>
                         <div className="product-item__content">
                           <h6 className="product-item__title">
-                            <a href="product-details.html" className="link">
+                            <Link href="/product-details" className="link">
                               SaaS dashboard digital products Title here
-                            </a>
+                            </Link>
                           </h6>
                           <div className="product-item__info flx-between gap-2">
                             <span className="product-item__author">
                               by
-                              <a
-                                href="profile.html"
+                              <Link
+                                href="/profile"
                                 className="link hover-text-decoration-underline"
                               >
                                 {" "}
                                 themepix
-                              </a>
+                              </Link>
                             </span>
                             <div className="flx-align gap-2">
                               <h6 className="product-item__price mb-0">$79</h6>
@@ -4111,12 +4112,12 @@ const Profile = () => {
                                 </span>
                               </div>
                             </div>
-                            <a
-                              href="product-details.html"
+                            <Link
+                              href="/product-details"
                               className="btn btn-outline-light btn-sm pill"
                             >
                               Live Demo
-                            </a>
+                            </Link>
                           </div>
                         </div>
                       </div>
@@ -4124,33 +4125,33 @@ const Profile = () => {
                     <div className="col-xl-3 col-lg-4 col-sm-6">
                       <div className="product-item section-bg">
                         <div className="product-item__thumb d-flex">
-                          <a href="product-details.html" className="link w-100">
+                          <Link href="/product-details" className="link w-100">
                             <img
                               src="assets/images/thumbs/product-img9.png"
                               alt=""
                               className="cover-img"
                             />
-                          </a>
+                          </Link>
                           <button type="button" className="product-item__wishlist">
                             <i className="fas fa-heart" />
                           </button>
                         </div>
                         <div className="product-item__content">
                           <h6 className="product-item__title">
-                            <a href="product-details.html" className="link">
+                            <Link href="/product-details" className="link">
                               SaaS dashboard digital products Title here
-                            </a>
+                            </Link>
                           </h6>
                           <div className="product-item__info flx-between gap-2">
                             <span className="product-item__author">
                               by
-                              <a
-                                href="profile.html"
+                              <Link
+                                href="/profile"
                                 className="link hover-text-decoration-underline"
                               >
                                 {" "}
                                 themepix
-                              </a>
+                              </Link>
                             </span>
                             <div className="flx-align gap-2">
                               <h6 className="product-item__price mb-0">$79</h6>
@@ -4188,12 +4189,12 @@ const Profile = () => {
                                 </span>
                               </div>
                             </div>
-                            <a
-                              href="product-details.html"
+                            <Link
+                              href="/product-details"
                               className="btn btn-outline-light btn-sm pill"
                             >
                               Live Demo
-                            </a>
+                            </Link>
                           </div>
                         </div>
                       </div>
@@ -4201,33 +4202,33 @@ const Profile = () => {
                     <div className="col-xl-3 col-lg-4 col-sm-6">
                       <div className="product-item section-bg">
                         <div className="product-item__thumb d-flex">
-                          <a href="product-details.html" className="link w-100">
+                          <Link href="/product-details" className="link w-100">
                             <img
                               src="assets/images/thumbs/product-img10.png"
                               alt=""
                               className="cover-img"
                             />
-                          </a>
+                          </Link>
                           <button type="button" className="product-item__wishlist">
                             <i className="fas fa-heart" />
                           </button>
                         </div>
                         <div className="product-item__content">
                           <h6 className="product-item__title">
-                            <a href="product-details.html" className="link">
+                            <Link href="/product-details" className="link">
                               SaaS dashboard digital products Title here
-                            </a>
+                            </Link>
                           </h6>
                           <div className="product-item__info flx-between gap-2">
                             <span className="product-item__author">
                               by
-                              <a
-                                href="profile.html"
+                              <Link
+                                href="/profile"
                                 className="link hover-text-decoration-underline"
                               >
                                 {" "}
                                 themepix
-                              </a>
+                              </Link>
                             </span>
                             <div className="flx-align gap-2">
                               <h6 className="product-item__price mb-0">$79</h6>
@@ -4265,12 +4266,12 @@ const Profile = () => {
                                 </span>
                               </div>
                             </div>
-                            <a
-                              href="product-details.html"
+                            <Link
+                              href="/product-details"
                               className="btn btn-outline-light btn-sm pill"
                             >
                               Live Demo
-                            </a>
+                            </Link>
                           </div>
                         </div>
                       </div>
@@ -4278,33 +4279,33 @@ const Profile = () => {
                     <div className="col-xl-3 col-lg-4 col-sm-6">
                       <div className="product-item section-bg">
                         <div className="product-item__thumb d-flex">
-                          <a href="product-details.html" className="link w-100">
+                          <Link href="/product-details" className="link w-100">
                             <img
                               src="assets/images/thumbs/product-img11.png"
                               alt=""
                               className="cover-img"
                             />
-                          </a>
+                          </Link>
                           <button type="button" className="product-item__wishlist">
                             <i className="fas fa-heart" />
                           </button>
                         </div>
                         <div className="product-item__content">
                           <h6 className="product-item__title">
-                            <a href="product-details.html" className="link">
+                            <Link href="/product-details" className="link">
                               SaaS dashboard digital products Title here
-                            </a>
+                            </Link>
                           </h6>
                           <div className="product-item__info flx-between gap-2">
                             <span className="product-item__author">
                               by
-                              <a
-                                href="profile.html"
+                              <Link
+                                href="/profile"
                                 className="link hover-text-decoration-underline"
                               >
                                 {" "}
                                 themepix
-                              </a>
+                              </Link>
                             </span>
                             <div className="flx-align gap-2">
                               <h6 className="product-item__price mb-0">$79</h6>
@@ -4342,12 +4343,12 @@ const Profile = () => {
                                 </span>
                               </div>
                             </div>
-                            <a
-                              href="product-details.html"
+                            <Link
+                              href="/product-details"
                               className="btn btn-outline-light btn-sm pill"
                             >
                               Live Demo
-                            </a>
+                            </Link>
                           </div>
                         </div>
                       </div>
@@ -4355,33 +4356,33 @@ const Profile = () => {
                     <div className="col-xl-3 col-lg-4 col-sm-6">
                       <div className="product-item section-bg">
                         <div className="product-item__thumb d-flex">
-                          <a href="product-details.html" className="link w-100">
+                          <Link href="/product-details" className="link w-100">
                             <img
                               src="assets/images/thumbs/product-img12.png"
                               alt=""
                               className="cover-img"
                             />
-                          </a>
+                          </Link>
                           <button type="button" className="product-item__wishlist">
                             <i className="fas fa-heart" />
                           </button>
                         </div>
                         <div className="product-item__content">
                           <h6 className="product-item__title">
-                            <a href="product-details.html" className="link">
+                            <Link href="/product-details" className="link">
                               SaaS dashboard digital products Title here
-                            </a>
+                            </Link>
                           </h6>
                           <div className="product-item__info flx-between gap-2">
                             <span className="product-item__author">
                               by
-                              <a
-                                href="profile.html"
+                              <Link
+                                href="/profile"
                                 className="link hover-text-decoration-underline"
                               >
                                 {" "}
                                 themepix
-                              </a>
+                              </Link>
                             </span>
                             <div className="flx-align gap-2">
                               <h6 className="product-item__price mb-0">$79</h6>
@@ -4419,12 +4420,12 @@ const Profile = () => {
                                 </span>
                               </div>
                             </div>
-                            <a
-                              href="product-details.html"
+                            <Link
+                              href="/product-details"
                               className="btn btn-outline-light btn-sm pill"
                             >
                               Live Demo
-                            </a>
+                            </Link>
                           </div>
                         </div>
                       </div>
@@ -4434,37 +4435,37 @@ const Profile = () => {
                   <nav aria-label="Page navigation example">
                     <ul className="pagination common-pagination">
                       <li className="page-item">
-                        <a className="page-link" href="#">
+                        <Link className="page-link" href="#">
                           1
-                        </a>
+                        </Link>
                       </li>
                       <li className="page-item">
-                        <a className="page-link" href="#">
+                        <Link className="page-link" href="#">
                           2
-                        </a>
+                        </Link>
                       </li>
                       <li className="page-item">
-                        <a className="page-link" href="#">
+                        <Link className="page-link" href="#">
                           3
-                        </a>
+                        </Link>
                       </li>
                       <li className="page-item">
-                        <a className="page-link" href="#">
+                        <Link className="page-link" href="#">
                           4
-                        </a>
+                        </Link>
                       </li>
                       <li className="page-item">
-                        <a className="page-link" href="#">
+                        <Link className="page-link" href="#">
                           5
-                        </a>
+                        </Link>
                       </li>
                       <li className="page-item">
-                        <a className="page-link flx-align gap-2 flex-nowrap" href="#">
+                        <Link className="page-link flx-align gap-2 flex-nowrap" href="#">
                           Next
                           <span className="icon line-height-1 font-20">
                             <i className="las la-arrow-right" />
                           </span>
-                        </a>
+                        </Link>
                       </li>
                     </ul>
                   </nav>
@@ -4481,33 +4482,33 @@ const Profile = () => {
                     <div className="col-xl-3 col-lg-4 col-sm-6">
                       <div className="product-item section-bg">
                         <div className="product-item__thumb d-flex">
-                          <a href="product-details.html" className="link w-100">
+                          <Link href="/product-details" className="link w-100">
                             <img
                               src="assets/images/thumbs/product-img1.png"
                               alt=""
                               className="cover-img"
                             />
-                          </a>
+                          </Link>
                           <button type="button" className="product-item__wishlist">
                             <i className="fas fa-heart" />
                           </button>
                         </div>
                         <div className="product-item__content">
                           <h6 className="product-item__title">
-                            <a href="product-details.html" className="link">
+                            <Link href="/product-details" className="link">
                               SaaS dashboard digital products Title here
-                            </a>
+                            </Link>
                           </h6>
                           <div className="product-item__info flx-between gap-2">
                             <span className="product-item__author">
                               by
-                              <a
-                                href="profile.html"
+                              <Link
+                                href="/profile"
                                 className="link hover-text-decoration-underline"
                               >
                                 {" "}
                                 themepix
-                              </a>
+                              </Link>
                             </span>
                             <div className="flx-align gap-2">
                               <h6 className="product-item__price mb-0">$120</h6>
@@ -4545,12 +4546,12 @@ const Profile = () => {
                                 </span>
                               </div>
                             </div>
-                            <a
-                              href="product-details.html"
+                            <Link
+                              href="/product-details"
                               className="btn btn-outline-light btn-sm pill"
                             >
                               Live Demo
-                            </a>
+                            </Link>
                           </div>
                         </div>
                       </div>
@@ -4558,33 +4559,33 @@ const Profile = () => {
                     <div className="col-xl-3 col-lg-4 col-sm-6">
                       <div className="product-item section-bg">
                         <div className="product-item__thumb d-flex">
-                          <a href="product-details.html" className="link w-100">
+                          <Link href="/product-details" className="link w-100">
                             <img
                               src="assets/images/thumbs/product-img2.png"
                               alt=""
                               className="cover-img"
                             />
-                          </a>
+                          </Link>
                           <button type="button" className="product-item__wishlist">
                             <i className="fas fa-heart" />
                           </button>
                         </div>
                         <div className="product-item__content">
                           <h6 className="product-item__title">
-                            <a href="product-details.html" className="link">
+                            <Link href="/product-details" className="link">
                               SaaS dashboard digital products Title here
-                            </a>
+                            </Link>
                           </h6>
                           <div className="product-item__info flx-between gap-2">
                             <span className="product-item__author">
                               by
-                              <a
-                                href="profile.html"
+                              <Link
+                                href="/profile"
                                 className="link hover-text-decoration-underline"
                               >
                                 {" "}
                                 themepix
-                              </a>
+                              </Link>
                             </span>
                             <div className="flx-align gap-2">
                               <h6 className="product-item__price mb-0">$129</h6>
@@ -4622,12 +4623,12 @@ const Profile = () => {
                                 </span>
                               </div>
                             </div>
-                            <a
-                              href="product-details.html"
+                            <Link
+                              href="/product-details"
                               className="btn btn-outline-light btn-sm pill"
                             >
                               Live Demo
-                            </a>
+                            </Link>
                           </div>
                         </div>
                       </div>
@@ -4635,33 +4636,33 @@ const Profile = () => {
                     <div className="col-xl-3 col-lg-4 col-sm-6">
                       <div className="product-item section-bg">
                         <div className="product-item__thumb d-flex">
-                          <a href="product-details.html" className="link w-100">
+                          <Link href="/product-details" className="link w-100">
                             <img
                               src="assets/images/thumbs/product-img3.png"
                               alt=""
                               className="cover-img"
                             />
-                          </a>
+                          </Link>
                           <button type="button" className="product-item__wishlist">
                             <i className="fas fa-heart" />
                           </button>
                         </div>
                         <div className="product-item__content">
                           <h6 className="product-item__title">
-                            <a href="product-details.html" className="link">
+                            <Link href="/product-details" className="link">
                               SaaS dashboard digital products Title here
-                            </a>
+                            </Link>
                           </h6>
                           <div className="product-item__info flx-between gap-2">
                             <span className="product-item__author">
                               by
-                              <a
-                                href="profile.html"
+                              <Link
+                                href="/profile"
                                 className="link hover-text-decoration-underline"
                               >
                                 {" "}
                                 themepix
-                              </a>
+                              </Link>
                             </span>
                             <div className="flx-align gap-2">
                               <h6 className="product-item__price mb-0">$79</h6>
@@ -4699,12 +4700,12 @@ const Profile = () => {
                                 </span>
                               </div>
                             </div>
-                            <a
-                              href="product-details.html"
+                            <Link
+                              href="/product-details"
                               className="btn btn-outline-light btn-sm pill"
                             >
                               Live Demo
-                            </a>
+                            </Link>
                           </div>
                         </div>
                       </div>
@@ -4712,33 +4713,33 @@ const Profile = () => {
                     <div className="col-xl-3 col-lg-4 col-sm-6">
                       <div className="product-item section-bg">
                         <div className="product-item__thumb d-flex">
-                          <a href="product-details.html" className="link w-100">
+                          <Link href="/product-details" className="link w-100">
                             <img
                               src="assets/images/thumbs/product-img4.png"
                               alt=""
                               className="cover-img"
                             />
-                          </a>
+                          </Link>
                           <button type="button" className="product-item__wishlist">
                             <i className="fas fa-heart" />
                           </button>
                         </div>
                         <div className="product-item__content">
                           <h6 className="product-item__title">
-                            <a href="product-details.html" className="link">
+                            <Link href="/product-details" className="link">
                               SaaS dashboard digital products Title here
-                            </a>
+                            </Link>
                           </h6>
                           <div className="product-item__info flx-between gap-2">
                             <span className="product-item__author">
                               by
-                              <a
-                                href="profile.html"
+                              <Link
+                                href="/profile"
                                 className="link hover-text-decoration-underline"
                               >
                                 {" "}
                                 themepix
-                              </a>
+                              </Link>
                             </span>
                             <div className="flx-align gap-2">
                               <h6 className="product-item__price mb-0">$59</h6>
@@ -4776,12 +4777,12 @@ const Profile = () => {
                                 </span>
                               </div>
                             </div>
-                            <a
-                              href="product-details.html"
+                            <Link
+                              href="/product-details"
                               className="btn btn-outline-light btn-sm pill"
                             >
                               Live Demo
-                            </a>
+                            </Link>
                           </div>
                         </div>
                       </div>
@@ -4789,33 +4790,33 @@ const Profile = () => {
                     <div className="col-xl-3 col-lg-4 col-sm-6">
                       <div className="product-item section-bg">
                         <div className="product-item__thumb d-flex">
-                          <a href="product-details.html" className="link w-100">
+                          <Link href="/product-details" className="link w-100">
                             <img
                               src="assets/images/thumbs/product-img5.png"
                               alt=""
                               className="cover-img"
                             />
-                          </a>
+                          </Link>
                           <button type="button" className="product-item__wishlist">
                             <i className="fas fa-heart" />
                           </button>
                         </div>
                         <div className="product-item__content">
                           <h6 className="product-item__title">
-                            <a href="product-details.html" className="link">
+                            <Link href="/product-details" className="link">
                               SaaS dashboard digital products Title here
-                            </a>
+                            </Link>
                           </h6>
                           <div className="product-item__info flx-between gap-2">
                             <span className="product-item__author">
                               by
-                              <a
-                                href="profile.html"
+                              <Link
+                                href="/profile"
                                 className="link hover-text-decoration-underline"
                               >
                                 {" "}
                                 themepix
-                              </a>
+                              </Link>
                             </span>
                             <div className="flx-align gap-2">
                               <h6 className="product-item__price mb-0">$99</h6>
@@ -4853,12 +4854,12 @@ const Profile = () => {
                                 </span>
                               </div>
                             </div>
-                            <a
-                              href="product-details.html"
+                            <Link
+                              href="/product-details"
                               className="btn btn-outline-light btn-sm pill"
                             >
                               Live Demo
-                            </a>
+                            </Link>
                           </div>
                         </div>
                       </div>
@@ -4866,33 +4867,33 @@ const Profile = () => {
                     <div className="col-xl-3 col-lg-4 col-sm-6">
                       <div className="product-item section-bg">
                         <div className="product-item__thumb d-flex">
-                          <a href="product-details.html" className="link w-100">
+                          <Link href="/product-details" className="link w-100">
                             <img
                               src="assets/images/thumbs/product-img6.png"
                               alt=""
                               className="cover-img"
                             />
-                          </a>
+                          </Link>
                           <button type="button" className="product-item__wishlist">
                             <i className="fas fa-heart" />
                           </button>
                         </div>
                         <div className="product-item__content">
                           <h6 className="product-item__title">
-                            <a href="product-details.html" className="link">
+                            <Link href="/product-details" className="link">
                               SaaS dashboard digital products Title here
-                            </a>
+                            </Link>
                           </h6>
                           <div className="product-item__info flx-between gap-2">
                             <span className="product-item__author">
                               by
-                              <a
-                                href="profile.html"
+                              <Link
+                                href="/profile"
                                 className="link hover-text-decoration-underline"
                               >
                                 {" "}
                                 themepix
-                              </a>
+                              </Link>
                             </span>
                             <div className="flx-align gap-2">
                               <h6 className="product-item__price mb-0">$129</h6>
@@ -4930,12 +4931,12 @@ const Profile = () => {
                                 </span>
                               </div>
                             </div>
-                            <a
-                              href="product-details.html"
+                            <Link
+                              href="/product-details"
                               className="btn btn-outline-light btn-sm pill"
                             >
                               Live Demo
-                            </a>
+                            </Link>
                           </div>
                         </div>
                       </div>
@@ -4943,33 +4944,33 @@ const Profile = () => {
                     <div className="col-xl-3 col-lg-4 col-sm-6">
                       <div className="product-item section-bg">
                         <div className="product-item__thumb d-flex">
-                          <a href="product-details.html" className="link w-100">
+                          <Link href="/product-details" className="link w-100">
                             <img
                               src="assets/images/thumbs/product-img7.png"
                               alt=""
                               className="cover-img"
                             />
-                          </a>
+                          </Link>
                           <button type="button" className="product-item__wishlist">
                             <i className="fas fa-heart" />
                           </button>
                         </div>
                         <div className="product-item__content">
                           <h6 className="product-item__title">
-                            <a href="product-details.html" className="link">
+                            <Link href="/product-details" className="link">
                               SaaS dashboard digital products Title here
-                            </a>
+                            </Link>
                           </h6>
                           <div className="product-item__info flx-between gap-2">
                             <span className="product-item__author">
                               by
-                              <a
-                                href="profile.html"
+                              <Link
+                                href="/profile"
                                 className="link hover-text-decoration-underline"
                               >
                                 {" "}
                                 themepix
-                              </a>
+                              </Link>
                             </span>
                             <div className="flx-align gap-2">
                               <h6 className="product-item__price mb-0">$129</h6>
@@ -5007,12 +5008,12 @@ const Profile = () => {
                                 </span>
                               </div>
                             </div>
-                            <a
-                              href="product-details.html"
+                            <Link
+                              href="/product-details"
                               className="btn btn-outline-light btn-sm pill"
                             >
                               Live Demo
-                            </a>
+                            </Link>
                           </div>
                         </div>
                       </div>
@@ -5020,33 +5021,33 @@ const Profile = () => {
                     <div className="col-xl-3 col-lg-4 col-sm-6">
                       <div className="product-item section-bg">
                         <div className="product-item__thumb d-flex">
-                          <a href="product-details.html" className="link w-100">
+                          <Link href="/product-details" className="link w-100">
                             <img
                               src="assets/images/thumbs/product-img8.png"
                               alt=""
                               className="cover-img"
                             />
-                          </a>
+                          </Link>
                           <button type="button" className="product-item__wishlist">
                             <i className="fas fa-heart" />
                           </button>
                         </div>
                         <div className="product-item__content">
                           <h6 className="product-item__title">
-                            <a href="product-details.html" className="link">
+                            <Link href="/product-details" className="link">
                               SaaS dashboard digital products Title here
-                            </a>
+                            </Link>
                           </h6>
                           <div className="product-item__info flx-between gap-2">
                             <span className="product-item__author">
                               by
-                              <a
-                                href="profile.html"
+                              <Link
+                                href="/profile"
                                 className="link hover-text-decoration-underline"
                               >
                                 {" "}
                                 themepix
-                              </a>
+                              </Link>
                             </span>
                             <div className="flx-align gap-2">
                               <h6 className="product-item__price mb-0">$79</h6>
@@ -5084,12 +5085,12 @@ const Profile = () => {
                                 </span>
                               </div>
                             </div>
-                            <a
-                              href="product-details.html"
+                            <Link
+                              href="/product-details"
                               className="btn btn-outline-light btn-sm pill"
                             >
                               Live Demo
-                            </a>
+                            </Link>
                           </div>
                         </div>
                       </div>
@@ -5097,33 +5098,33 @@ const Profile = () => {
                     <div className="col-xl-3 col-lg-4 col-sm-6">
                       <div className="product-item section-bg">
                         <div className="product-item__thumb d-flex">
-                          <a href="product-details.html" className="link w-100">
+                          <Link href="/product-details" className="link w-100">
                             <img
                               src="assets/images/thumbs/product-img9.png"
                               alt=""
                               className="cover-img"
                             />
-                          </a>
+                          </Link>
                           <button type="button" className="product-item__wishlist">
                             <i className="fas fa-heart" />
                           </button>
                         </div>
                         <div className="product-item__content">
                           <h6 className="product-item__title">
-                            <a href="product-details.html" className="link">
+                            <Link href="/product-details" className="link">
                               SaaS dashboard digital products Title here
-                            </a>
+                            </Link>
                           </h6>
                           <div className="product-item__info flx-between gap-2">
                             <span className="product-item__author">
                               by
-                              <a
-                                href="profile.html"
+                              <Link
+                                href="/profile"
                                 className="link hover-text-decoration-underline"
                               >
                                 {" "}
                                 themepix
-                              </a>
+                              </Link>
                             </span>
                             <div className="flx-align gap-2">
                               <h6 className="product-item__price mb-0">$79</h6>
@@ -5161,12 +5162,12 @@ const Profile = () => {
                                 </span>
                               </div>
                             </div>
-                            <a
-                              href="product-details.html"
+                            <Link
+                              href="/product-details"
                               className="btn btn-outline-light btn-sm pill"
                             >
                               Live Demo
-                            </a>
+                            </Link>
                           </div>
                         </div>
                       </div>
@@ -5174,33 +5175,33 @@ const Profile = () => {
                     <div className="col-xl-3 col-lg-4 col-sm-6">
                       <div className="product-item section-bg">
                         <div className="product-item__thumb d-flex">
-                          <a href="product-details.html" className="link w-100">
+                          <Link href="/product-details" className="link w-100">
                             <img
                               src="assets/images/thumbs/product-img10.png"
                               alt=""
                               className="cover-img"
                             />
-                          </a>
+                          </Link>
                           <button type="button" className="product-item__wishlist">
                             <i className="fas fa-heart" />
                           </button>
                         </div>
                         <div className="product-item__content">
                           <h6 className="product-item__title">
-                            <a href="product-details.html" className="link">
+                            <Link href="/product-details" className="link">
                               SaaS dashboard digital products Title here
-                            </a>
+                            </Link>
                           </h6>
                           <div className="product-item__info flx-between gap-2">
                             <span className="product-item__author">
                               by
-                              <a
-                                href="profile.html"
+                              <Link
+                                href="/profile"
                                 className="link hover-text-decoration-underline"
                               >
                                 {" "}
                                 themepix
-                              </a>
+                              </Link>
                             </span>
                             <div className="flx-align gap-2">
                               <h6 className="product-item__price mb-0">$79</h6>
@@ -5238,12 +5239,12 @@ const Profile = () => {
                                 </span>
                               </div>
                             </div>
-                            <a
-                              href="product-details.html"
+                            <Link
+                              href="/product-details"
                               className="btn btn-outline-light btn-sm pill"
                             >
                               Live Demo
-                            </a>
+                            </Link>
                           </div>
                         </div>
                       </div>
@@ -5251,33 +5252,33 @@ const Profile = () => {
                     <div className="col-xl-3 col-lg-4 col-sm-6">
                       <div className="product-item section-bg">
                         <div className="product-item__thumb d-flex">
-                          <a href="product-details.html" className="link w-100">
+                          <Link href="/product-details" className="link w-100">
                             <img
                               src="assets/images/thumbs/product-img11.png"
                               alt=""
                               className="cover-img"
                             />
-                          </a>
+                          </Link>
                           <button type="button" className="product-item__wishlist">
                             <i className="fas fa-heart" />
                           </button>
                         </div>
                         <div className="product-item__content">
                           <h6 className="product-item__title">
-                            <a href="product-details.html" className="link">
+                            <Link href="/product-details" className="link">
                               SaaS dashboard digital products Title here
-                            </a>
+                            </Link>
                           </h6>
                           <div className="product-item__info flx-between gap-2">
                             <span className="product-item__author">
                               by
-                              <a
-                                href="profile.html"
+                              <Link
+                                href="/profile"
                                 className="link hover-text-decoration-underline"
                               >
                                 {" "}
                                 themepix
-                              </a>
+                              </Link>
                             </span>
                             <div className="flx-align gap-2">
                               <h6 className="product-item__price mb-0">$79</h6>
@@ -5315,12 +5316,12 @@ const Profile = () => {
                                 </span>
                               </div>
                             </div>
-                            <a
-                              href="product-details.html"
+                            <Link
+                              href="/product-details"
                               className="btn btn-outline-light btn-sm pill"
                             >
                               Live Demo
-                            </a>
+                            </Link>
                           </div>
                         </div>
                       </div>
@@ -5328,33 +5329,33 @@ const Profile = () => {
                     <div className="col-xl-3 col-lg-4 col-sm-6">
                       <div className="product-item section-bg">
                         <div className="product-item__thumb d-flex">
-                          <a href="product-details.html" className="link w-100">
+                          <Link href="/product-details" className="link w-100">
                             <img
                               src="assets/images/thumbs/product-img12.png"
                               alt=""
                               className="cover-img"
                             />
-                          </a>
+                          </Link>
                           <button type="button" className="product-item__wishlist">
                             <i className="fas fa-heart" />
                           </button>
                         </div>
                         <div className="product-item__content">
                           <h6 className="product-item__title">
-                            <a href="product-details.html" className="link">
+                            <Link href="/product-details" className="link">
                               SaaS dashboard digital products Title here
-                            </a>
+                            </Link>
                           </h6>
                           <div className="product-item__info flx-between gap-2">
                             <span className="product-item__author">
                               by
-                              <a
-                                href="profile.html"
+                              <Link
+                                href="/profile"
                                 className="link hover-text-decoration-underline"
                               >
                                 {" "}
                                 themepix
-                              </a>
+                              </Link>
                             </span>
                             <div className="flx-align gap-2">
                               <h6 className="product-item__price mb-0">$79</h6>
@@ -5392,12 +5393,12 @@ const Profile = () => {
                                 </span>
                               </div>
                             </div>
-                            <a
-                              href="product-details.html"
+                            <Link
+                              href="/product-details"
                               className="btn btn-outline-light btn-sm pill"
                             >
                               Live Demo
-                            </a>
+                            </Link>
                           </div>
                         </div>
                       </div>
@@ -5407,37 +5408,37 @@ const Profile = () => {
                   <nav aria-label="Page navigation example">
                     <ul className="pagination common-pagination">
                       <li className="page-item">
-                        <a className="page-link" href="#">
+                        <Link className="page-link" href="#">
                           1
-                        </a>
+                        </Link>
                       </li>
                       <li className="page-item">
-                        <a className="page-link" href="#">
+                        <Link className="page-link" href="#">
                           2
-                        </a>
+                        </Link>
                       </li>
                       <li className="page-item">
-                        <a className="page-link" href="#">
+                        <Link className="page-link" href="#">
                           3
-                        </a>
+                        </Link>
                       </li>
                       <li className="page-item">
-                        <a className="page-link" href="#">
+                        <Link className="page-link" href="#">
                           4
-                        </a>
+                        </Link>
                       </li>
                       <li className="page-item">
-                        <a className="page-link" href="#">
+                        <Link className="page-link" href="#">
                           5
-                        </a>
+                        </Link>
                       </li>
                       <li className="page-item">
-                        <a className="page-link flx-align gap-2 flex-nowrap" href="#">
+                        <Link className="page-link flx-align gap-2 flex-nowrap" href="#">
                           Next
                           <span className="icon line-height-1 font-20">
                             <i className="las la-arrow-right" />
                           </span>
-                        </a>
+                        </Link>
                       </li>
                     </ul>
                   </nav>
@@ -5454,33 +5455,33 @@ const Profile = () => {
                     <div className="col-xl-3 col-lg-4 col-sm-6">
                       <div className="product-item section-bg">
                         <div className="product-item__thumb d-flex">
-                          <a href="product-details.html" className="link w-100">
+                          <Link href="/product-details" className="link w-100">
                             <img
                               src="assets/images/thumbs/product-img1.png"
                               alt=""
                               className="cover-img"
                             />
-                          </a>
+                          </Link>
                           <button type="button" className="product-item__wishlist">
                             <i className="fas fa-heart" />
                           </button>
                         </div>
                         <div className="product-item__content">
                           <h6 className="product-item__title">
-                            <a href="product-details.html" className="link">
+                            <Link href="/product-details" className="link">
                               SaaS dashboard digital products Title here
-                            </a>
+                            </Link>
                           </h6>
                           <div className="product-item__info flx-between gap-2">
                             <span className="product-item__author">
                               by
-                              <a
-                                href="profile.html"
+                              <Link
+                                href="/profile"
                                 className="link hover-text-decoration-underline"
                               >
                                 {" "}
                                 themepix
-                              </a>
+                              </Link>
                             </span>
                             <div className="flx-align gap-2">
                               <h6 className="product-item__price mb-0">$120</h6>
@@ -5518,12 +5519,12 @@ const Profile = () => {
                                 </span>
                               </div>
                             </div>
-                            <a
-                              href="product-details.html"
+                            <Link
+                              href="/product-details"
                               className="btn btn-outline-light btn-sm pill"
                             >
                               Live Demo
-                            </a>
+                            </Link>
                           </div>
                         </div>
                       </div>
@@ -5531,33 +5532,33 @@ const Profile = () => {
                     <div className="col-xl-3 col-lg-4 col-sm-6">
                       <div className="product-item section-bg">
                         <div className="product-item__thumb d-flex">
-                          <a href="product-details.html" className="link w-100">
+                          <Link href="/product-details" className="link w-100">
                             <img
                               src="assets/images/thumbs/product-img2.png"
                               alt=""
                               className="cover-img"
                             />
-                          </a>
+                          </Link>
                           <button type="button" className="product-item__wishlist">
                             <i className="fas fa-heart" />
                           </button>
                         </div>
                         <div className="product-item__content">
                           <h6 className="product-item__title">
-                            <a href="product-details.html" className="link">
+                            <Link href="/product-details" className="link">
                               SaaS dashboard digital products Title here
-                            </a>
+                            </Link>
                           </h6>
                           <div className="product-item__info flx-between gap-2">
                             <span className="product-item__author">
                               by
-                              <a
-                                href="profile.html"
+                              <Link
+                                href="/profile"
                                 className="link hover-text-decoration-underline"
                               >
                                 {" "}
                                 themepix
-                              </a>
+                              </Link>
                             </span>
                             <div className="flx-align gap-2">
                               <h6 className="product-item__price mb-0">$129</h6>
@@ -5595,12 +5596,12 @@ const Profile = () => {
                                 </span>
                               </div>
                             </div>
-                            <a
-                              href="product-details.html"
+                            <Link
+                              href="/product-details"
                               className="btn btn-outline-light btn-sm pill"
                             >
                               Live Demo
-                            </a>
+                            </Link>
                           </div>
                         </div>
                       </div>
@@ -5608,33 +5609,33 @@ const Profile = () => {
                     <div className="col-xl-3 col-lg-4 col-sm-6">
                       <div className="product-item section-bg">
                         <div className="product-item__thumb d-flex">
-                          <a href="product-details.html" className="link w-100">
+                          <Link href="/product-details" className="link w-100">
                             <img
                               src="assets/images/thumbs/product-img3.png"
                               alt=""
                               className="cover-img"
                             />
-                          </a>
+                          </Link>
                           <button type="button" className="product-item__wishlist">
                             <i className="fas fa-heart" />
                           </button>
                         </div>
                         <div className="product-item__content">
                           <h6 className="product-item__title">
-                            <a href="product-details.html" className="link">
+                            <Link href="/product-details" className="link">
                               SaaS dashboard digital products Title here
-                            </a>
+                            </Link>
                           </h6>
                           <div className="product-item__info flx-between gap-2">
                             <span className="product-item__author">
                               by
-                              <a
-                                href="profile.html"
+                              <Link
+                                href="/profile"
                                 className="link hover-text-decoration-underline"
                               >
                                 {" "}
                                 themepix
-                              </a>
+                              </Link>
                             </span>
                             <div className="flx-align gap-2">
                               <h6 className="product-item__price mb-0">$79</h6>
@@ -5672,12 +5673,12 @@ const Profile = () => {
                                 </span>
                               </div>
                             </div>
-                            <a
-                              href="product-details.html"
+                            <Link
+                              href="/product-details"
                               className="btn btn-outline-light btn-sm pill"
                             >
                               Live Demo
-                            </a>
+                            </Link>
                           </div>
                         </div>
                       </div>
@@ -5685,33 +5686,33 @@ const Profile = () => {
                     <div className="col-xl-3 col-lg-4 col-sm-6">
                       <div className="product-item section-bg">
                         <div className="product-item__thumb d-flex">
-                          <a href="product-details.html" className="link w-100">
+                          <Link href="/product-details" className="link w-100">
                             <img
                               src="assets/images/thumbs/product-img4.png"
                               alt=""
                               className="cover-img"
                             />
-                          </a>
+                          </Link>
                           <button type="button" className="product-item__wishlist">
                             <i className="fas fa-heart" />
                           </button>
                         </div>
                         <div className="product-item__content">
                           <h6 className="product-item__title">
-                            <a href="product-details.html" className="link">
+                            <Link href="/product-details" className="link">
                               SaaS dashboard digital products Title here
-                            </a>
+                            </Link>
                           </h6>
                           <div className="product-item__info flx-between gap-2">
                             <span className="product-item__author">
                               by
-                              <a
-                                href="profile.html"
+                              <Link
+                                href="/profile"
                                 className="link hover-text-decoration-underline"
                               >
                                 {" "}
                                 themepix
-                              </a>
+                              </Link>
                             </span>
                             <div className="flx-align gap-2">
                               <h6 className="product-item__price mb-0">$59</h6>
@@ -5749,12 +5750,12 @@ const Profile = () => {
                                 </span>
                               </div>
                             </div>
-                            <a
-                              href="product-details.html"
+                            <Link
+                              href="/product-details"
                               className="btn btn-outline-light btn-sm pill"
                             >
                               Live Demo
-                            </a>
+                            </Link>
                           </div>
                         </div>
                       </div>
@@ -5762,33 +5763,33 @@ const Profile = () => {
                     <div className="col-xl-3 col-lg-4 col-sm-6">
                       <div className="product-item section-bg">
                         <div className="product-item__thumb d-flex">
-                          <a href="product-details.html" className="link w-100">
+                          <Link href="/product-details" className="link w-100">
                             <img
                               src="assets/images/thumbs/product-img5.png"
                               alt=""
                               className="cover-img"
                             />
-                          </a>
+                          </Link>
                           <button type="button" className="product-item__wishlist">
                             <i className="fas fa-heart" />
                           </button>
                         </div>
                         <div className="product-item__content">
                           <h6 className="product-item__title">
-                            <a href="product-details.html" className="link">
+                            <Link href="/product-details" className="link">
                               SaaS dashboard digital products Title here
-                            </a>
+                            </Link>
                           </h6>
                           <div className="product-item__info flx-between gap-2">
                             <span className="product-item__author">
                               by
-                              <a
-                                href="profile.html"
+                              <Link
+                                href="/profile"
                                 className="link hover-text-decoration-underline"
                               >
                                 {" "}
                                 themepix
-                              </a>
+                              </Link>
                             </span>
                             <div className="flx-align gap-2">
                               <h6 className="product-item__price mb-0">$99</h6>
@@ -5826,12 +5827,12 @@ const Profile = () => {
                                 </span>
                               </div>
                             </div>
-                            <a
-                              href="product-details.html"
+                            <Link
+                              href="/product-details"
                               className="btn btn-outline-light btn-sm pill"
                             >
                               Live Demo
-                            </a>
+                            </Link>
                           </div>
                         </div>
                       </div>
@@ -5839,33 +5840,33 @@ const Profile = () => {
                     <div className="col-xl-3 col-lg-4 col-sm-6">
                       <div className="product-item section-bg">
                         <div className="product-item__thumb d-flex">
-                          <a href="product-details.html" className="link w-100">
+                          <Link href="/product-details" className="link w-100">
                             <img
                               src="assets/images/thumbs/product-img6.png"
                               alt=""
                               className="cover-img"
                             />
-                          </a>
+                          </Link>
                           <button type="button" className="product-item__wishlist">
                             <i className="fas fa-heart" />
                           </button>
                         </div>
                         <div className="product-item__content">
                           <h6 className="product-item__title">
-                            <a href="product-details.html" className="link">
+                            <Link href="/product-details" className="link">
                               SaaS dashboard digital products Title here
-                            </a>
+                            </Link>
                           </h6>
                           <div className="product-item__info flx-between gap-2">
                             <span className="product-item__author">
                               by
-                              <a
-                                href="profile.html"
+                              <Link
+                                href="/profile"
                                 className="link hover-text-decoration-underline"
                               >
                                 {" "}
                                 themepix
-                              </a>
+                              </Link>
                             </span>
                             <div className="flx-align gap-2">
                               <h6 className="product-item__price mb-0">$129</h6>
@@ -5903,12 +5904,12 @@ const Profile = () => {
                                 </span>
                               </div>
                             </div>
-                            <a
-                              href="product-details.html"
+                            <Link
+                              href="/product-details"
                               className="btn btn-outline-light btn-sm pill"
                             >
                               Live Demo
-                            </a>
+                            </Link>
                           </div>
                         </div>
                       </div>
@@ -5916,33 +5917,33 @@ const Profile = () => {
                     <div className="col-xl-3 col-lg-4 col-sm-6">
                       <div className="product-item section-bg">
                         <div className="product-item__thumb d-flex">
-                          <a href="product-details.html" className="link w-100">
+                          <Link href="/product-details" className="link w-100">
                             <img
                               src="assets/images/thumbs/product-img7.png"
                               alt=""
                               className="cover-img"
                             />
-                          </a>
+                          </Link>
                           <button type="button" className="product-item__wishlist">
                             <i className="fas fa-heart" />
                           </button>
                         </div>
                         <div className="product-item__content">
                           <h6 className="product-item__title">
-                            <a href="product-details.html" className="link">
+                            <Link href="/product-details" className="link">
                               SaaS dashboard digital products Title here
-                            </a>
+                            </Link>
                           </h6>
                           <div className="product-item__info flx-between gap-2">
                             <span className="product-item__author">
                               by
-                              <a
-                                href="profile.html"
+                              <Link
+                                href="/profile"
                                 className="link hover-text-decoration-underline"
                               >
                                 {" "}
                                 themepix
-                              </a>
+                              </Link>
                             </span>
                             <div className="flx-align gap-2">
                               <h6 className="product-item__price mb-0">$129</h6>
@@ -5980,12 +5981,12 @@ const Profile = () => {
                                 </span>
                               </div>
                             </div>
-                            <a
-                              href="product-details.html"
+                            <Link
+                              href="/product-details"
                               className="btn btn-outline-light btn-sm pill"
                             >
                               Live Demo
-                            </a>
+                            </Link>
                           </div>
                         </div>
                       </div>
@@ -5993,33 +5994,33 @@ const Profile = () => {
                     <div className="col-xl-3 col-lg-4 col-sm-6">
                       <div className="product-item section-bg">
                         <div className="product-item__thumb d-flex">
-                          <a href="product-details.html" className="link w-100">
+                          <Link href="/product-details" className="link w-100">
                             <img
                               src="assets/images/thumbs/product-img8.png"
                               alt=""
                               className="cover-img"
                             />
-                          </a>
+                          </Link>
                           <button type="button" className="product-item__wishlist">
                             <i className="fas fa-heart" />
                           </button>
                         </div>
                         <div className="product-item__content">
                           <h6 className="product-item__title">
-                            <a href="product-details.html" className="link">
+                            <Link href="/product-details" className="link">
                               SaaS dashboard digital products Title here
-                            </a>
+                            </Link>
                           </h6>
                           <div className="product-item__info flx-between gap-2">
                             <span className="product-item__author">
                               by
-                              <a
-                                href="profile.html"
+                              <Link
+                                href="/profile"
                                 className="link hover-text-decoration-underline"
                               >
                                 {" "}
                                 themepix
-                              </a>
+                              </Link>
                             </span>
                             <div className="flx-align gap-2">
                               <h6 className="product-item__price mb-0">$79</h6>
@@ -6057,12 +6058,12 @@ const Profile = () => {
                                 </span>
                               </div>
                             </div>
-                            <a
-                              href="product-details.html"
+                            <Link
+                              href="/product-details"
                               className="btn btn-outline-light btn-sm pill"
                             >
                               Live Demo
-                            </a>
+                            </Link>
                           </div>
                         </div>
                       </div>
@@ -6070,33 +6071,33 @@ const Profile = () => {
                     <div className="col-xl-3 col-lg-4 col-sm-6">
                       <div className="product-item section-bg">
                         <div className="product-item__thumb d-flex">
-                          <a href="product-details.html" className="link w-100">
+                          <Link href="/product-details" className="link w-100">
                             <img
                               src="assets/images/thumbs/product-img9.png"
                               alt=""
                               className="cover-img"
                             />
-                          </a>
+                          </Link>
                           <button type="button" className="product-item__wishlist">
                             <i className="fas fa-heart" />
                           </button>
                         </div>
                         <div className="product-item__content">
                           <h6 className="product-item__title">
-                            <a href="product-details.html" className="link">
+                            <Link href="/product-details" className="link">
                               SaaS dashboard digital products Title here
-                            </a>
+                            </Link>
                           </h6>
                           <div className="product-item__info flx-between gap-2">
                             <span className="product-item__author">
                               by
-                              <a
-                                href="profile.html"
+                              <Link
+                                href="/profile"
                                 className="link hover-text-decoration-underline"
                               >
                                 {" "}
                                 themepix
-                              </a>
+                              </Link>
                             </span>
                             <div className="flx-align gap-2">
                               <h6 className="product-item__price mb-0">$79</h6>
@@ -6134,12 +6135,12 @@ const Profile = () => {
                                 </span>
                               </div>
                             </div>
-                            <a
-                              href="product-details.html"
+                            <Link
+                              href="/product-details"
                               className="btn btn-outline-light btn-sm pill"
                             >
                               Live Demo
-                            </a>
+                            </Link>
                           </div>
                         </div>
                       </div>
@@ -6147,33 +6148,33 @@ const Profile = () => {
                     <div className="col-xl-3 col-lg-4 col-sm-6">
                       <div className="product-item section-bg">
                         <div className="product-item__thumb d-flex">
-                          <a href="product-details.html" className="link w-100">
+                          <Link href="/product-details" className="link w-100">
                             <img
                               src="assets/images/thumbs/product-img10.png"
                               alt=""
                               className="cover-img"
                             />
-                          </a>
+                          </Link>
                           <button type="button" className="product-item__wishlist">
                             <i className="fas fa-heart" />
                           </button>
                         </div>
                         <div className="product-item__content">
                           <h6 className="product-item__title">
-                            <a href="product-details.html" className="link">
+                            <Link href="/product-details" className="link">
                               SaaS dashboard digital products Title here
-                            </a>
+                            </Link>
                           </h6>
                           <div className="product-item__info flx-between gap-2">
                             <span className="product-item__author">
                               by
-                              <a
-                                href="profile.html"
+                              <Link
+                                href="/profile"
                                 className="link hover-text-decoration-underline"
                               >
                                 {" "}
                                 themepix
-                              </a>
+                              </Link>
                             </span>
                             <div className="flx-align gap-2">
                               <h6 className="product-item__price mb-0">$79</h6>
@@ -6211,12 +6212,12 @@ const Profile = () => {
                                 </span>
                               </div>
                             </div>
-                            <a
-                              href="product-details.html"
+                            <Link
+                              href="/product-details"
                               className="btn btn-outline-light btn-sm pill"
                             >
                               Live Demo
-                            </a>
+                            </Link>
                           </div>
                         </div>
                       </div>
@@ -6224,33 +6225,33 @@ const Profile = () => {
                     <div className="col-xl-3 col-lg-4 col-sm-6">
                       <div className="product-item section-bg">
                         <div className="product-item__thumb d-flex">
-                          <a href="product-details.html" className="link w-100">
+                          <Link href="/product-details" className="link w-100">
                             <img
                               src="assets/images/thumbs/product-img11.png"
                               alt=""
                               className="cover-img"
                             />
-                          </a>
+                          </Link>
                           <button type="button" className="product-item__wishlist">
                             <i className="fas fa-heart" />
                           </button>
                         </div>
                         <div className="product-item__content">
                           <h6 className="product-item__title">
-                            <a href="product-details.html" className="link">
+                            <Link href="/product-details" className="link">
                               SaaS dashboard digital products Title here
-                            </a>
+                            </Link>
                           </h6>
                           <div className="product-item__info flx-between gap-2">
                             <span className="product-item__author">
                               by
-                              <a
-                                href="profile.html"
+                              <Link
+                                href="/profile"
                                 className="link hover-text-decoration-underline"
                               >
                                 {" "}
                                 themepix
-                              </a>
+                              </Link>
                             </span>
                             <div className="flx-align gap-2">
                               <h6 className="product-item__price mb-0">$79</h6>
@@ -6288,12 +6289,12 @@ const Profile = () => {
                                 </span>
                               </div>
                             </div>
-                            <a
-                              href="product-details.html"
+                            <Link
+                              href="/product-details"
                               className="btn btn-outline-light btn-sm pill"
                             >
                               Live Demo
-                            </a>
+                            </Link>
                           </div>
                         </div>
                       </div>
@@ -6301,33 +6302,33 @@ const Profile = () => {
                     <div className="col-xl-3 col-lg-4 col-sm-6">
                       <div className="product-item section-bg">
                         <div className="product-item__thumb d-flex">
-                          <a href="product-details.html" className="link w-100">
+                          <Link href="/product-details" className="link w-100">
                             <img
                               src="assets/images/thumbs/product-img12.png"
                               alt=""
                               className="cover-img"
                             />
-                          </a>
+                          </Link>
                           <button type="button" className="product-item__wishlist">
                             <i className="fas fa-heart" />
                           </button>
                         </div>
                         <div className="product-item__content">
                           <h6 className="product-item__title">
-                            <a href="product-details.html" className="link">
+                            <Link href="/product-details" className="link">
                               SaaS dashboard digital products Title here
-                            </a>
+                            </Link>
                           </h6>
                           <div className="product-item__info flx-between gap-2">
                             <span className="product-item__author">
                               by
-                              <a
-                                href="profile.html"
+                              <Link
+                                href="/profile"
                                 className="link hover-text-decoration-underline"
                               >
                                 {" "}
                                 themepix
-                              </a>
+                              </Link>
                             </span>
                             <div className="flx-align gap-2">
                               <h6 className="product-item__price mb-0">$79</h6>
@@ -6365,12 +6366,12 @@ const Profile = () => {
                                 </span>
                               </div>
                             </div>
-                            <a
-                              href="product-details.html"
+                            <Link
+                              href="/product-details"
                               className="btn btn-outline-light btn-sm pill"
                             >
                               Live Demo
-                            </a>
+                            </Link>
                           </div>
                         </div>
                       </div>
@@ -6380,37 +6381,37 @@ const Profile = () => {
                   <nav aria-label="Page navigation example">
                     <ul className="pagination common-pagination">
                       <li className="page-item">
-                        <a className="page-link" href="#">
+                        <Link className="page-link" href="#">
                           1
-                        </a>
+                        </Link>
                       </li>
                       <li className="page-item">
-                        <a className="page-link" href="#">
+                        <Link className="page-link" href="#">
                           2
-                        </a>
+                        </Link>
                       </li>
                       <li className="page-item">
-                        <a className="page-link" href="#">
+                        <Link className="page-link" href="#">
                           3
-                        </a>
+                        </Link>
                       </li>
                       <li className="page-item">
-                        <a className="page-link" href="#">
+                        <Link className="page-link" href="#">
                           4
-                        </a>
+                        </Link>
                       </li>
                       <li className="page-item">
-                        <a className="page-link" href="#">
+                        <Link className="page-link" href="#">
                           5
-                        </a>
+                        </Link>
                       </li>
                       <li className="page-item">
-                        <a className="page-link flx-align gap-2 flex-nowrap" href="#">
+                        <Link className="page-link flx-align gap-2 flex-nowrap" href="#">
                           Next
                           <span className="icon line-height-1 font-20">
                             <i className="las la-arrow-right" />
                           </span>
-                        </a>
+                        </Link>
                       </li>
                     </ul>
                   </nav>
@@ -7445,18 +7446,18 @@ const Profile = () => {
                     <h5 className="mb-4">Featured Items</h5>
                     <div className="featured-item d-flex align-items-center gap-4">
                       <div className="featured-item__thumb">
-                        <a href="product-details.html" className="link">
+                        <Link href="/product-details" className="link">
                           <img
                             src="assets/images/thumbs/featured-item-img.png"
                             alt=""
                           />
-                        </a>
+                        </Link>
                       </div>
                       <div className="featured-item__content">
                         <h6 className="featured-item__title mb-2">
-                          <a href="product-details.html" className="link">
+                          <Link href="/product-details" className="link">
                             Personal portfolio one page template
-                          </a>
+                          </Link>
                         </h6>
                         <span className="featured-item__text mb-2 text-heading fw-500">
                           250 Purchases
@@ -7594,12 +7595,12 @@ const Profile = () => {
                             <img src="assets/images/thumbs/badge8.png" alt="" />
                           </li>
                         </ul>
-                        <a
-                          href="profile.html"
+                        <Link
+                          href="/profile"
                           className="btn btn-outline-light w-100 pill mt-32 fw-600"
                         >
                           Total 89 Items
-                        </a>
+                        </Link>
                       </div>
                     </div>
                   </div>
@@ -7647,48 +7648,48 @@ const Profile = () => {
                     <h5 className="profile-sidebar__title">Social Profile</h5>
                     <ul className="social-icon-list">
                       <li className="social-icon-list__item">
-                        <a
+                        <Link
                           href="https://www.facebook.com"
                           className="social-icon-list__link flx-center bg-white border-white text-heading font-18"
                         >
                           <i className="fab fa-facebook-f" />
-                        </a>
+                        </Link>
                       </li>
                       <li className="social-icon-list__item">
-                        <a
+                        <Link
                           href="https://www.twitter.com"
                           className="social-icon-list__link flx-center bg-white border-white text-heading font-18"
                         >
                           {" "}
                           <i className="fab fa-twitter" />
-                        </a>
+                        </Link>
                       </li>
                       <li className="social-icon-list__item">
-                        <a
+                        <Link
                           href="https://www.linkedin.com"
                           className="social-icon-list__link flx-center bg-white border-white text-heading font-18"
                         >
                           {" "}
                           <i className="fab fa-linkedin-in" />
-                        </a>
+                        </Link>
                       </li>
                       <li className="social-icon-list__item">
-                        <a
+                        <Link
                           href="https://www.pinterest.com"
                           className="social-icon-list__link flx-center bg-white border-white text-heading font-18"
                         >
                           {" "}
                           <i className="fab fa-pinterest-p" />
-                        </a>
+                        </Link>
                       </li>
                       <li className="social-icon-list__item">
-                        <a
+                        <Link
                           href="https://www.pinterest.com"
                           className="social-icon-list__link flx-center bg-white border-white text-heading font-18"
                         >
                           {" "}
                           <i className="fab fa-youtube" />
-                        </a>
+                        </Link>
                       </li>
                     </ul>
                   </div>
@@ -8722,18 +8723,18 @@ const Profile = () => {
                     <h5 className="mb-4">Featured Items</h5>
                     <div className="featured-item d-flex align-items-center gap-4">
                       <div className="featured-item__thumb">
-                        <a href="product-details.html" className="link">
+                        <Link href="/product-details" className="link">
                           <img
                             src="assets/images/thumbs/featured-item-img.png"
                             alt=""
                           />
-                        </a>
+                        </Link>
                       </div>
                       <div className="featured-item__content">
                         <h6 className="featured-item__title mb-2">
-                          <a href="product-details.html" className="link">
+                          <Link href="/product-details" className="link">
                             Personal portfolio one page template
-                          </a>
+                          </Link>
                         </h6>
                         <span className="featured-item__text mb-2 text-heading fw-500">
                           250 Purchases
@@ -8871,12 +8872,12 @@ const Profile = () => {
                             <img src="assets/images/thumbs/badge8.png" alt="" />
                           </li>
                         </ul>
-                        <a
-                          href="profile.html"
+                        <Link
+                          href="/profile"
                           className="btn btn-outline-light w-100 pill mt-32 fw-600"
                         >
                           Total 89 Items
-                        </a>
+                        </Link>
                       </div>
                     </div>
                   </div>
@@ -8924,48 +8925,48 @@ const Profile = () => {
                     <h5 className="profile-sidebar__title">Social Profile</h5>
                     <ul className="social-icon-list">
                       <li className="social-icon-list__item">
-                        <a
+                        <Link
                           href="https://www.facebook.com"
                           className="social-icon-list__link flx-center bg-white border-white text-heading font-18"
                         >
                           <i className="fab fa-facebook-f" />
-                        </a>
+                        </Link>
                       </li>
                       <li className="social-icon-list__item">
-                        <a
+                        <Link
                           href="https://www.twitter.com"
                           className="social-icon-list__link flx-center bg-white border-white text-heading font-18"
                         >
                           {" "}
                           <i className="fab fa-twitter" />
-                        </a>
+                        </Link>
                       </li>
                       <li className="social-icon-list__item">
-                        <a
+                        <Link
                           href="https://www.linkedin.com"
                           className="social-icon-list__link flx-center bg-white border-white text-heading font-18"
                         >
                           {" "}
                           <i className="fab fa-linkedin-in" />
-                        </a>
+                        </Link>
                       </li>
                       <li className="social-icon-list__item">
-                        <a
+                        <Link
                           href="https://www.pinterest.com"
                           className="social-icon-list__link flx-center bg-white border-white text-heading font-18"
                         >
                           {" "}
                           <i className="fab fa-pinterest-p" />
-                        </a>
+                        </Link>
                       </li>
                       <li className="social-icon-list__item">
-                        <a
+                        <Link
                           href="https://www.pinterest.com"
                           className="social-icon-list__link flx-center bg-white border-white text-heading font-18"
                         >
                           {" "}
                           <i className="fab fa-youtube" />
-                        </a>
+                        </Link>
                       </li>
                     </ul>
                   </div>
@@ -8987,41 +8988,41 @@ const Profile = () => {
                     <h6 className="setting-sidebar__title">Your Details</h6>
                     <ul className="setting-sidebar-list">
                       <li className="setting-sidebar-list__item">
-                        <a
+                        <Link
                           href="#personalInfo"
                           className="setting-sidebar-list__link active"
                         >
                           Personal Information
-                        </a>
+                        </Link>
                       </li>
                       <li className="setting-sidebar-list__item">
-                        <a href="#profile" className="setting-sidebar-list__link">
+                        <Link href="#profile" className="setting-sidebar-list__link">
                           Profile
-                        </a>
+                        </Link>
                       </li>
                       <li className="setting-sidebar-list__item">
-                        <a
+                        <Link
                           href="#paymentSystem"
                           className="setting-sidebar-list__link"
                         >
                           Setup Payment System
-                        </a>
+                        </Link>
                       </li>
                       <li className="setting-sidebar-list__item">
-                        <a
+                        <Link
                           href="#emailSetting"
                           className="setting-sidebar-list__link"
                         >
                           Email Setting
-                        </a>
+                        </Link>
                       </li>
                       <li className="setting-sidebar-list__item">
-                        <a
+                        <Link
                           href="#socialNetwork"
                           className="setting-sidebar-list__link"
                         >
                           Social Networks
-                        </a>
+                        </Link>
                       </li>
                     </ul>
                   </div>
@@ -10192,9 +10193,9 @@ const Profile = () => {
                               <td data-label="Type"> WordPress</td>
                               <td data-label="Price"> 59.00 USD</td>
                               <td data-label="Details">
-                                <a href="#" className="btn btn-main">
+                                <Link href="#" className="btn btn-main">
                                   <i className="far fa-eye" />
-                                </a>
+                                </Link>
                               </td>
                             </tr>
                             <tr>
@@ -10203,9 +10204,9 @@ const Profile = () => {
                               <td data-label="Type"> WordPress</td>
                               <td data-label="Price"> 59.00 USD</td>
                               <td data-label="Details">
-                                <a href="#" className="btn btn-main">
+                                <Link href="#" className="btn btn-main">
                                   <i className="far fa-eye" />
-                                </a>
+                                </Link>
                               </td>
                             </tr>
                             <tr>
@@ -10214,9 +10215,9 @@ const Profile = () => {
                               <td data-label="Type"> WordPress</td>
                               <td data-label="Price"> 59.00 USD</td>
                               <td data-label="Details">
-                                <a href="#" className="btn btn-main">
+                                <Link href="#" className="btn btn-main">
                                   <i className="far fa-eye" />
-                                </a>
+                                </Link>
                               </td>
                             </tr>
                             <tr>
@@ -10225,9 +10226,9 @@ const Profile = () => {
                               <td data-label="Type"> WordPress</td>
                               <td data-label="Price"> 59.00 USD</td>
                               <td data-label="Details">
-                                <a href="#" className="btn btn-main">
+                                <Link href="#" className="btn btn-main">
                                   <i className="far fa-eye" />
-                                </a>
+                                </Link>
                               </td>
                             </tr>
                             <tr>
@@ -10236,9 +10237,9 @@ const Profile = () => {
                               <td data-label="Type"> WordPress</td>
                               <td data-label="Price"> 59.00 USD</td>
                               <td data-label="Details">
-                                <a href="#" className="btn btn-main">
+                                <Link href="#" className="btn btn-main">
                                   <i className="far fa-eye" />
-                                </a>
+                                </Link>
                               </td>
                             </tr>
                             <tr>
@@ -10247,9 +10248,9 @@ const Profile = () => {
                               <td data-label="Type"> WordPress</td>
                               <td data-label="Price"> 59.00 USD</td>
                               <td data-label="Details">
-                                <a href="#" className="btn btn-main">
+                                <Link href="#" className="btn btn-main">
                                   <i className="far fa-eye" />
-                                </a>
+                                </Link>
                               </td>
                             </tr>
                             <tr>
@@ -10258,9 +10259,9 @@ const Profile = () => {
                               <td data-label="Type"> WordPress</td>
                               <td data-label="Price"> 59.00 USD</td>
                               <td data-label="Details">
-                                <a href="#" className="btn btn-main">
+                                <Link href="#" className="btn btn-main">
                                   <i className="far fa-eye" />
-                                </a>
+                                </Link>
                               </td>
                             </tr>
                             <tr>
@@ -10269,9 +10270,9 @@ const Profile = () => {
                               <td data-label="Type"> WordPress</td>
                               <td data-label="Price"> 59.00 USD</td>
                               <td data-label="Details">
-                                <a href="#" className="btn btn-main">
+                                <Link href="#" className="btn btn-main">
                                   <i className="far fa-eye" />
-                                </a>
+                                </Link>
                               </td>
                             </tr>
                             <tr>
@@ -10280,9 +10281,9 @@ const Profile = () => {
                               <td data-label="Type"> WordPress</td>
                               <td data-label="Price"> 59.00 USD</td>
                               <td data-label="Details">
-                                <a href="#" className="btn btn-main">
+                                <Link href="#" className="btn btn-main">
                                   <i className="far fa-eye" />
-                                </a>
+                                </Link>
                               </td>
                             </tr>
                           </tbody>
@@ -10308,27 +10309,27 @@ const Profile = () => {
                           <nav aria-label="Page navigation example">
                             <ul className="pagination common-pagination mt-0">
                               <li className="page-item">
-                                <a className="page-link" href="#">
+                                <Link className="page-link" href="#">
                                   1
-                                </a>
+                                </Link>
                               </li>
                               <li className="page-item active">
-                                <a className="page-link" href="#">
+                                <Link className="page-link" href="#">
                                   2
-                                </a>
+                                </Link>
                               </li>
                               <li className="page-item">
-                                <a className="page-link" href="#">
+                                <Link className="page-link" href="#">
                                   3
-                                </a>
+                                </Link>
                               </li>
                               <li className="page-item">
-                                <a className="page-link" href="#">
+                                <Link className="page-link" href="#">
                                   4
-                                </a>
+                                </Link>
                               </li>
                               <li className="page-item">
-                                <a
+                                <Link
                                   className="page-link flx-align gap-2 flex-nowrap"
                                   href="#"
                                 >
@@ -10336,7 +10337,7 @@ const Profile = () => {
                                   <span className="icon line-height-1 font-20">
                                     <i className="las la-arrow-right" />
                                   </span>
-                                </a>
+                                </Link>
                               </li>
                             </ul>
                           </nav>
@@ -10380,9 +10381,9 @@ const Profile = () => {
                               </div>
                               <div className="review-product__content">
                                 <h6 className="review-product__name font-15 fw-500 mb-0">
-                                  <a href="profile.html" className="link">
+                                  <Link href="/profile" className="link">
                                     CityScape - Real Estate{" "}
-                                  </a>
+                                  </Link>
                                 </h6>
                                 <span className="review-product__date font-12">
                                   2024-03-13 04:50 pm
@@ -10418,9 +10419,9 @@ const Profile = () => {
                             </ul>
                           </td>
                           <td>
-                            <a href="#" className="btn btn-main">
+                            <Link href="#" className="btn btn-main">
                               <i className="fa fa-reply" />
-                            </a>
+                            </Link>
                           </td>
                         </tr>
                         <tr>
@@ -10434,9 +10435,9 @@ const Profile = () => {
                               </div>
                               <div className="review-product__content">
                                 <h6 className="review-product__name font-15 fw-500 mb-0">
-                                  <a href="profile.html" className="link">
+                                  <Link href="/profile" className="link">
                                     FixTurbo - Car Repair{" "}
-                                  </a>
+                                  </Link>
                                 </h6>
                                 <span className="review-product__date font-12">
                                   2024-02-10 04:50 pm
@@ -10472,9 +10473,9 @@ const Profile = () => {
                             </ul>
                           </td>
                           <td>
-                            <a href="#" className="btn btn-main">
+                            <Link href="#" className="btn btn-main">
                               <i className="fa fa-reply" />
-                            </a>
+                            </Link>
                           </td>
                         </tr>
                         <tr>
@@ -10488,9 +10489,9 @@ const Profile = () => {
                               </div>
                               <div className="review-product__content">
                                 <h6 className="review-product__name font-15 fw-500 mb-0">
-                                  <a href="profile.html" className="link">
+                                  <Link href="/profile" className="link">
                                     CityScape - Real Estate{" "}
-                                  </a>
+                                  </Link>
                                 </h6>
                                 <span className="review-product__date font-12">
                                   2024-03-13 04:50 pm
@@ -10526,9 +10527,9 @@ const Profile = () => {
                             </ul>
                           </td>
                           <td>
-                            <a href="#" className="btn btn-main">
+                            <Link href="#" className="btn btn-main">
                               <i className="fa fa-reply" />
-                            </a>
+                            </Link>
                           </td>
                         </tr>
                         <tr>
@@ -10542,9 +10543,9 @@ const Profile = () => {
                               </div>
                               <div className="review-product__content">
                                 <h6 className="review-product__name font-15 fw-500 mb-0">
-                                  <a href="profile.html" className="link">
+                                  <Link href="/profile" className="link">
                                     FixTurbo - Car Repair{" "}
-                                  </a>
+                                  </Link>
                                 </h6>
                                 <span className="review-product__date font-12">
                                   2024-02-10 04:50 pm
@@ -10580,9 +10581,9 @@ const Profile = () => {
                             </ul>
                           </td>
                           <td>
-                            <a href="#" className="btn btn-main">
+                            <Link href="#" className="btn btn-main">
                               <i className="fa fa-reply" />
-                            </a>
+                            </Link>
                           </td>
                         </tr>
                         <tr>
@@ -10596,9 +10597,9 @@ const Profile = () => {
                               </div>
                               <div className="review-product__content">
                                 <h6 className="review-product__name font-15 fw-500 mb-0">
-                                  <a href="profile.html" className="link">
+                                  <Link href="/profile" className="link">
                                     CityScape - Real Estate{" "}
-                                  </a>
+                                  </Link>
                                 </h6>
                                 <span className="review-product__date font-12">
                                   2024-03-13 04:50 pm
@@ -10634,9 +10635,9 @@ const Profile = () => {
                             </ul>
                           </td>
                           <td>
-                            <a href="#" className="btn btn-main">
+                            <Link href="#" className="btn btn-main">
                               <i className="fa fa-reply" />
-                            </a>
+                            </Link>
                           </td>
                         </tr>
                         <tr>
@@ -10650,9 +10651,9 @@ const Profile = () => {
                               </div>
                               <div className="review-product__content">
                                 <h6 className="review-product__name font-15 fw-500 mb-0">
-                                  <a href="profile.html" className="link">
+                                  <Link href="/profile" className="link">
                                     FixTurbo - Car Repair{" "}
-                                  </a>
+                                  </Link>
                                 </h6>
                                 <span className="review-product__date font-12">
                                   2024-02-10 04:50 pm
@@ -10688,9 +10689,9 @@ const Profile = () => {
                             </ul>
                           </td>
                           <td>
-                            <a href="#" className="btn btn-main">
+                            <Link href="#" className="btn btn-main">
                               <i className="fa fa-reply" />
-                            </a>
+                            </Link>
                           </td>
                         </tr>
                       </tbody>
@@ -10716,27 +10717,27 @@ const Profile = () => {
                       <nav aria-label="Page navigation example">
                         <ul className="pagination common-pagination mt-0">
                           <li className="page-item">
-                            <a className="page-link" href="#">
+                            <Link className="page-link" href="#">
                               1
-                            </a>
+                            </Link>
                           </li>
                           <li className="page-item active">
-                            <a className="page-link" href="#">
+                            <Link className="page-link" href="#">
                               2
-                            </a>
+                            </Link>
                           </li>
                           <li className="page-item">
-                            <a className="page-link" href="#">
+                            <Link className="page-link" href="#">
                               3
-                            </a>
+                            </Link>
                           </li>
                           <li className="page-item">
-                            <a className="page-link" href="#">
+                            <Link className="page-link" href="#">
                               4
-                            </a>
+                            </Link>
                           </li>
                           <li className="page-item">
-                            <a
+                            <Link
                               className="page-link flx-align gap-2 flex-nowrap"
                               href="#"
                             >
@@ -10744,7 +10745,7 @@ const Profile = () => {
                               <span className="icon line-height-1 font-20">
                                 <i className="las la-arrow-right" />
                               </span>
-                            </a>
+                            </Link>
                           </li>
                         </ul>
                       </nav>
@@ -10787,16 +10788,16 @@ const Profile = () => {
                         </div>
                         <div className="download-item__info">
                           <h6 className="download-item__title mb-1">
-                            <a href="#" className="link">
+                            <Link href="#" className="link">
                               CityScape - Real Estate HTML Template
-                            </a>
+                            </Link>
                           </h6>
-                          <a
+                          <Link
                             href="#"
                             className="download-item__text text-main mb-3 font-12 hover-text-decoration-underline"
                           >
                             Tools License
-                          </a>
+                          </Link>
                           <div className="common-check">
                             <input
                               className="form-check-input"
@@ -10849,16 +10850,16 @@ const Profile = () => {
                         </div>
                         <div className="download-item__info">
                           <h6 className="download-item__title mb-1">
-                            <a href="#" className="link">
+                            <Link href="#" className="link">
                               FixTurbo - Car Repairing HTML Template
-                            </a>
+                            </Link>
                           </h6>
-                          <a
+                          <Link
                             href="#"
                             className="download-item__text text-main mb-3 font-12 hover-text-decoration-underline"
                           >
                             Tools License
-                          </a>
+                          </Link>
                           <div className="common-check">
                             <input
                               className="form-check-input"
@@ -10911,16 +10912,16 @@ const Profile = () => {
                         </div>
                         <div className="download-item__info">
                           <h6 className="download-item__title mb-1">
-                            <a href="#" className="link">
+                            <Link href="#" className="link">
                               CityScape - Real Estate HTML Template
-                            </a>
+                            </Link>
                           </h6>
-                          <a
+                          <Link
                             href="#"
                             className="download-item__text text-main mb-3 font-12 hover-text-decoration-underline"
                           >
                             Tools License
-                          </a>
+                          </Link>
                           <div className="common-check">
                             <input
                               className="form-check-input"
@@ -10973,16 +10974,16 @@ const Profile = () => {
                         </div>
                         <div className="download-item__info">
                           <h6 className="download-item__title mb-1">
-                            <a href="#" className="link">
+                            <Link href="#" className="link">
                               FixTurbo - Car Repairing HTML Template
-                            </a>
+                            </Link>
                           </h6>
-                          <a
+                          <Link
                             href="#"
                             className="download-item__text text-main mb-3 font-12 hover-text-decoration-underline"
                           >
                             Tools License
-                          </a>
+                          </Link>
                           <div className="common-check">
                             <input
                               className="form-check-input"

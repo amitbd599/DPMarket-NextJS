@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 const FooterOne = () => {
   return (
     <>
@@ -27,9 +29,9 @@ const FooterOne = () => {
             <div className="col-xl-3 col-sm-6">
               <div className="footer-widget">
                 <div className="footer-widget__logo">
-                  <a href="index.html">
+                  <Link href="/">
                     <img src="assets/images/logo/white-logo.png" alt="" />
-                  </a>
+                  </Link>
                 </div>
                 <p className="footer-widget__desc">
                   Lorem consultancy elitsed do eiusmod tempor inci didunt ut
@@ -38,44 +40,44 @@ const FooterOne = () => {
                 <div className="footer-widget__social">
                   <ul className="social-icon-list">
                     <li className="social-icon-list__item">
-                      <a
+                      <Link
                         href="https://www.facebook.com"
                         className="social-icon-list__link flx-center"
                       >
                         <i className="fab fa-facebook-f" />
-                      </a>
+                      </Link>
                     </li>
                     <li className="social-icon-list__item">
-                      <a
+                      <Link
                         href="https://www.twitter.com"
                         className="social-icon-list__link flx-center"
                       >
                         <i className="fab fa-twitter" />
-                      </a>
+                      </Link>
                     </li>
                     <li className="social-icon-list__item">
-                      <a
+                      <Link
                         href="https://www.linkedin.com"
                         className="social-icon-list__link flx-center"
                       >
                         <i className="fab fa-linkedin-in" />
-                      </a>
+                      </Link>
                     </li>
                     <li className="social-icon-list__item">
-                      <a
+                      <Link
                         href="https://www.pinterest.com"
                         className="social-icon-list__link flx-center"
                       >
                         <i className="fab fa-pinterest-p" />
-                      </a>
+                      </Link>
                     </li>
                     <li className="social-icon-list__item">
-                      <a
+                      <Link
                         href="https://www.pinterest.com"
                         className="social-icon-list__link flx-center"
                       >
                         <i className="fab fa-youtube" />
-                      </a>
+                      </Link>
                     </li>
                   </ul>
                 </div>
@@ -86,32 +88,32 @@ const FooterOne = () => {
                 <h5 className="footer-widget__title text-white">Useful Link</h5>
                 <ul className="footer-lists">
                   <li className="footer-lists__item">
-                    <a href="all-product.html" className="footer-lists__link">
+                    <Link href="/all-product" className="footer-lists__link">
                       Product
-                    </a>
+                    </Link>
                   </li>
                   <li className="footer-lists__item">
-                    <a
-                      href="product-details.html"
+                    <Link
+                      href="/product-details"
                       className="footer-lists__link"
                     >
                       Product Details
-                    </a>
+                    </Link>
                   </li>
                   <li className="footer-lists__item">
-                    <a href="profile.html" className="footer-lists__link">
+                    <Link href="/profile" className="footer-lists__link">
                       Profile
-                    </a>
+                    </Link>
                   </li>
                   <li className="footer-lists__item">
-                    <a href="cart.html" className="footer-lists__link">
+                    <Link href="/cart" className="footer-lists__link">
                       Shopping Cart
-                    </a>
+                    </Link>
                   </li>
                   <li className="footer-lists__item">
-                    <a href="dashboard.html" className="footer-lists__link">
+                    <Link href="/dashboard" className="footer-lists__link">
                       Dashboard
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </div>
@@ -121,29 +123,29 @@ const FooterOne = () => {
                 <h5 className="footer-widget__title text-white">Quick Links</h5>
                 <ul className="footer-lists">
                   <li className="footer-lists__item">
-                    <a href="dashboard.html" className="footer-lists__link">
+                    <Link href="/dashboard" className="footer-lists__link">
                       Dashboard
-                    </a>
+                    </Link>
                   </li>
                   <li className="footer-lists__item">
-                    <a href="login.html" className="footer-lists__link">
+                    <Link href="/login" className="footer-lists__link">
                       Login{" "}
-                    </a>
+                    </Link>
                   </li>
                   <li className="footer-lists__item">
-                    <a href="register.html" className="footer-lists__link">
+                    <Link href="/register" className="footer-lists__link">
                       Register
-                    </a>
+                    </Link>
                   </li>
                   <li className="footer-lists__item">
-                    <a href="blog.html" className="footer-lists__link">
+                    <Link href="/blog" className="footer-lists__link">
                       Blog{" "}
-                    </a>
+                    </Link>
                   </li>
                   <li className="footer-lists__item">
-                    <a href="blog-details.html" className="footer-lists__link">
+                    <Link href="/blog-details" className="footer-lists__link">
                       Blog Details
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </div>
@@ -183,15 +185,15 @@ const FooterOne = () => {
               Copyright © 2024 DPmarket, All rights reserved.
             </p>
             <div className="footer-links">
-              <a href="#" className="footer-link font-14">
+              <Link href="#" className="footer-link font-14">
                 Terms of service
-              </a>
-              <a href="#" className="footer-link font-14">
+              </Link>
+              <Link href="#" className="footer-link font-14">
                 Privacy Policy
-              </a>
-              <a href="contact.html" className="footer-link font-14">
+              </Link>
+              <Link href="/contact" className="footer-link font-14">
                 cookies
-              </a>
+              </Link>
             </div>
           </div>
         </div>

@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 const ArrivalTwo = () => {
   return (
     <section className="arrival-product padding-y-120 section-bg position-relative z-index-1">
@@ -145,32 +147,32 @@ const ArrivalTwo = () => {
               <div className="col-xl-3 col-lg-4 col-sm-6">
                 <div className="product-item">
                   <div className="product-item__thumb d-flex">
-                    <a href="product-details.html" className="link w-100">
+                    <Link href="/product-details" className="link w-100">
                       <img
                         src="assets/images/thumbs/product-img1.png"
                         alt=""
                         className="cover-img"
                       />
-                    </a>
+                    </Link>
                     <button type="button" className="product-item__wishlist">
                       <i className="fas fa-heart" />
                     </button>
                   </div>
                   <div className="product-item__content">
                     <h6 className="product-item__title">
-                      <a href="product-details.html" className="link">
+                      <Link href="/product-details" className="link">
                         SaaS dashboard digital products Title here
-                      </a>
+                      </Link>
                     </h6>
                     <div className="product-item__info flx-between gap-2">
                       <span className="product-item__author">
                         by
-                        <a
-                          href="profile.html"
+                        <Link
+                          href="/profile"
                           className="link hover-text-decoration-underline"
                         >
                           themepix
-                        </a>
+                        </Link>
                       </span>
                       <div className="flx-align gap-2">
                         <h6 className="product-item__price mb-0">$120</h6>
@@ -207,12 +209,12 @@ const ArrivalTwo = () => {
                           </span>
                         </div>
                       </div>
-                      <a
-                        href="product-details.html"
+                      <Link
+                        href="/product-details"
                         className="btn btn-outline-light btn-sm pill"
                       >
                         Live Demo
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -220,32 +222,32 @@ const ArrivalTwo = () => {
               <div className="col-xl-3 col-lg-4 col-sm-6">
                 <div className="product-item">
                   <div className="product-item__thumb d-flex">
-                    <a href="product-details.html" className="link w-100">
+                    <Link href="/product-details" className="link w-100">
                       <img
                         src="assets/images/thumbs/product-img2.png"
                         alt=""
                         className="cover-img"
                       />
-                    </a>
+                    </Link>
                     <button type="button" className="product-item__wishlist">
                       <i className="fas fa-heart" />
                     </button>
                   </div>
                   <div className="product-item__content">
                     <h6 className="product-item__title">
-                      <a href="product-details.html" className="link">
+                      <Link href="/product-details" className="link">
                         SaaS dashboard digital products Title here
-                      </a>
+                      </Link>
                     </h6>
                     <div className="product-item__info flx-between gap-2">
                       <span className="product-item__author">
                         by
-                        <a
-                          href="profile.html"
+                        <Link
+                          href="/profile"
                           className="link hover-text-decoration-underline"
                         >
                           themepix
-                        </a>
+                        </Link>
                       </span>
                       <div className="flx-align gap-2">
                         <h6 className="product-item__price mb-0">$129</h6>
@@ -282,12 +284,12 @@ const ArrivalTwo = () => {
                           </span>
                         </div>
                       </div>
-                      <a
-                        href="product-details.html"
+                      <Link
+                        href="/product-details"
                         className="btn btn-outline-light btn-sm pill"
                       >
                         Live Demo
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -295,32 +297,32 @@ const ArrivalTwo = () => {
               <div className="col-xl-3 col-lg-4 col-sm-6">
                 <div className="product-item">
                   <div className="product-item__thumb d-flex">
-                    <a href="product-details.html" className="link w-100">
+                    <Link href="/product-details" className="link w-100">
                       <img
                         src="assets/images/thumbs/product-img3.png"
                         alt=""
                         className="cover-img"
                       />
-                    </a>
+                    </Link>
                     <button type="button" className="product-item__wishlist">
                       <i className="fas fa-heart" />
                     </button>
                   </div>
                   <div className="product-item__content">
                     <h6 className="product-item__title">
-                      <a href="product-details.html" className="link">
+                      <Link href="/product-details" className="link">
                         SaaS dashboard digital products Title here
-                      </a>
+                      </Link>
                     </h6>
                     <div className="product-item__info flx-between gap-2">
                       <span className="product-item__author">
                         by
-                        <a
-                          href="profile.html"
+                        <Link
+                          href="/profile"
                           className="link hover-text-decoration-underline"
                         >
                           themepix
-                        </a>
+                        </Link>
                       </span>
                       <div className="flx-align gap-2">
                         <h6 className="product-item__price mb-0">$79</h6>
@@ -357,12 +359,12 @@ const ArrivalTwo = () => {
                           </span>
                         </div>
                       </div>
-                      <a
-                        href="product-details.html"
+                      <Link
+                        href="/product-details"
                         className="btn btn-outline-light btn-sm pill"
                       >
                         Live Demo
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -370,32 +372,32 @@ const ArrivalTwo = () => {
               <div className="col-xl-3 col-lg-4 col-sm-6">
                 <div className="product-item">
                   <div className="product-item__thumb d-flex">
-                    <a href="product-details.html" className="link w-100">
+                    <Link href="/product-details" className="link w-100">
                       <img
                         src="assets/images/thumbs/product-img4.png"
                         alt=""
                         className="cover-img"
                       />
-                    </a>
+                    </Link>
                     <button type="button" className="product-item__wishlist">
                       <i className="fas fa-heart" />
                     </button>
                   </div>
                   <div className="product-item__content">
                     <h6 className="product-item__title">
-                      <a href="product-details.html" className="link">
+                      <Link href="/product-details" className="link">
                         SaaS dashboard digital products Title here
-                      </a>
+                      </Link>
                     </h6>
                     <div className="product-item__info flx-between gap-2">
                       <span className="product-item__author">
                         by
-                        <a
-                          href="profile.html"
+                        <Link
+                          href="/profile"
                           className="link hover-text-decoration-underline"
                         >
                           themepix
-                        </a>
+                        </Link>
                       </span>
                       <div className="flx-align gap-2">
                         <h6 className="product-item__price mb-0">$59</h6>
@@ -432,12 +434,12 @@ const ArrivalTwo = () => {
                           </span>
                         </div>
                       </div>
-                      <a
-                        href="product-details.html"
+                      <Link
+                        href="/product-details"
                         className="btn btn-outline-light btn-sm pill"
                       >
                         Live Demo
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -445,32 +447,32 @@ const ArrivalTwo = () => {
               <div className="col-xl-3 col-lg-4 col-sm-6">
                 <div className="product-item">
                   <div className="product-item__thumb d-flex">
-                    <a href="product-details.html" className="link w-100">
+                    <Link href="/product-details" className="link w-100">
                       <img
                         src="assets/images/thumbs/product-img5.png"
                         alt=""
                         className="cover-img"
                       />
-                    </a>
+                    </Link>
                     <button type="button" className="product-item__wishlist">
                       <i className="fas fa-heart" />
                     </button>
                   </div>
                   <div className="product-item__content">
                     <h6 className="product-item__title">
-                      <a href="product-details.html" className="link">
+                      <Link href="/product-details" className="link">
                         SaaS dashboard digital products Title here
-                      </a>
+                      </Link>
                     </h6>
                     <div className="product-item__info flx-between gap-2">
                       <span className="product-item__author">
                         by
-                        <a
-                          href="profile.html"
+                        <Link
+                          href="/profile"
                           className="link hover-text-decoration-underline"
                         >
                           themepix
-                        </a>
+                        </Link>
                       </span>
                       <div className="flx-align gap-2">
                         <h6 className="product-item__price mb-0">$99</h6>
@@ -507,12 +509,12 @@ const ArrivalTwo = () => {
                           </span>
                         </div>
                       </div>
-                      <a
-                        href="product-details.html"
+                      <Link
+                        href="/product-details"
                         className="btn btn-outline-light btn-sm pill"
                       >
                         Live Demo
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -520,32 +522,32 @@ const ArrivalTwo = () => {
               <div className="col-xl-3 col-lg-4 col-sm-6">
                 <div className="product-item">
                   <div className="product-item__thumb d-flex">
-                    <a href="product-details.html" className="link w-100">
+                    <Link href="/product-details" className="link w-100">
                       <img
                         src="assets/images/thumbs/product-img6.png"
                         alt=""
                         className="cover-img"
                       />
-                    </a>
+                    </Link>
                     <button type="button" className="product-item__wishlist">
                       <i className="fas fa-heart" />
                     </button>
                   </div>
                   <div className="product-item__content">
                     <h6 className="product-item__title">
-                      <a href="product-details.html" className="link">
+                      <Link href="/product-details" className="link">
                         SaaS dashboard digital products Title here
-                      </a>
+                      </Link>
                     </h6>
                     <div className="product-item__info flx-between gap-2">
                       <span className="product-item__author">
                         by
-                        <a
-                          href="profile.html"
+                        <Link
+                          href="/profile"
                           className="link hover-text-decoration-underline"
                         >
                           themepix
-                        </a>
+                        </Link>
                       </span>
                       <div className="flx-align gap-2">
                         <h6 className="product-item__price mb-0">$129</h6>
@@ -582,12 +584,12 @@ const ArrivalTwo = () => {
                           </span>
                         </div>
                       </div>
-                      <a
-                        href="product-details.html"
+                      <Link
+                        href="/product-details"
                         className="btn btn-outline-light btn-sm pill"
                       >
                         Live Demo
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -595,32 +597,32 @@ const ArrivalTwo = () => {
               <div className="col-xl-3 col-lg-4 col-sm-6">
                 <div className="product-item">
                   <div className="product-item__thumb d-flex">
-                    <a href="product-details.html" className="link w-100">
+                    <Link href="/product-details" className="link w-100">
                       <img
                         src="assets/images/thumbs/product-img7.png"
                         alt=""
                         className="cover-img"
                       />
-                    </a>
+                    </Link>
                     <button type="button" className="product-item__wishlist">
                       <i className="fas fa-heart" />
                     </button>
                   </div>
                   <div className="product-item__content">
                     <h6 className="product-item__title">
-                      <a href="product-details.html" className="link">
+                      <Link href="/product-details" className="link">
                         SaaS dashboard digital products Title here
-                      </a>
+                      </Link>
                     </h6>
                     <div className="product-item__info flx-between gap-2">
                       <span className="product-item__author">
                         by
-                        <a
-                          href="profile.html"
+                        <Link
+                          href="/profile"
                           className="link hover-text-decoration-underline"
                         >
                           themepix
-                        </a>
+                        </Link>
                       </span>
                       <div className="flx-align gap-2">
                         <h6 className="product-item__price mb-0">$129</h6>
@@ -657,12 +659,12 @@ const ArrivalTwo = () => {
                           </span>
                         </div>
                       </div>
-                      <a
-                        href="product-details.html"
+                      <Link
+                        href="/product-details"
                         className="btn btn-outline-light btn-sm pill"
                       >
                         Live Demo
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -670,32 +672,32 @@ const ArrivalTwo = () => {
               <div className="col-xl-3 col-lg-4 col-sm-6">
                 <div className="product-item">
                   <div className="product-item__thumb d-flex">
-                    <a href="product-details.html" className="link w-100">
+                    <Link href="/product-details" className="link w-100">
                       <img
                         src="assets/images/thumbs/product-img8.png"
                         alt=""
                         className="cover-img"
                       />
-                    </a>
+                    </Link>
                     <button type="button" className="product-item__wishlist">
                       <i className="fas fa-heart" />
                     </button>
                   </div>
                   <div className="product-item__content">
                     <h6 className="product-item__title">
-                      <a href="product-details.html" className="link">
+                      <Link href="/product-details" className="link">
                         SaaS dashboard digital products Title here
-                      </a>
+                      </Link>
                     </h6>
                     <div className="product-item__info flx-between gap-2">
                       <span className="product-item__author">
                         by
-                        <a
-                          href="profile.html"
+                        <Link
+                          href="/profile"
                           className="link hover-text-decoration-underline"
                         >
                           themepix
-                        </a>
+                        </Link>
                       </span>
                       <div className="flx-align gap-2">
                         <h6 className="product-item__price mb-0">$79</h6>
@@ -732,12 +734,12 @@ const ArrivalTwo = () => {
                           </span>
                         </div>
                       </div>
-                      <a
-                        href="product-details.html"
+                      <Link
+                        href="/product-details"
                         className="btn btn-outline-light btn-sm pill"
                       >
                         Live Demo
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -755,32 +757,32 @@ const ArrivalTwo = () => {
               <div className="col-xl-3 col-lg-4 col-sm-6">
                 <div className="product-item">
                   <div className="product-item__thumb d-flex">
-                    <a href="product-details.html" className="link w-100">
+                    <Link href="/product-details" className="link w-100">
                       <img
                         src="assets/images/thumbs/product-img1.png"
                         alt=""
                         className="cover-img"
                       />
-                    </a>
+                    </Link>
                     <button type="button" className="product-item__wishlist">
                       <i className="fas fa-heart" />
                     </button>
                   </div>
                   <div className="product-item__content">
                     <h6 className="product-item__title">
-                      <a href="product-details.html" className="link">
+                      <Link href="/product-details" className="link">
                         SaaS dashboard digital products Title here
-                      </a>
+                      </Link>
                     </h6>
                     <div className="product-item__info flx-between gap-2">
                       <span className="product-item__author">
                         by
-                        <a
-                          href="profile.html"
+                        <Link
+                          href="/profile"
                           className="link hover-text-decoration-underline"
                         >
                           themepix
-                        </a>
+                        </Link>
                       </span>
                       <div className="flx-align gap-2">
                         <h6 className="product-item__price mb-0">$120</h6>
@@ -817,12 +819,12 @@ const ArrivalTwo = () => {
                           </span>
                         </div>
                       </div>
-                      <a
-                        href="product-details.html"
+                      <Link
+                        href="/product-details"
                         className="btn btn-outline-light btn-sm pill"
                       >
                         Live Demo
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -830,32 +832,32 @@ const ArrivalTwo = () => {
               <div className="col-xl-3 col-lg-4 col-sm-6">
                 <div className="product-item">
                   <div className="product-item__thumb d-flex">
-                    <a href="product-details.html" className="link w-100">
+                    <Link href="/product-details" className="link w-100">
                       <img
                         src="assets/images/thumbs/product-img2.png"
                         alt=""
                         className="cover-img"
                       />
-                    </a>
+                    </Link>
                     <button type="button" className="product-item__wishlist">
                       <i className="fas fa-heart" />
                     </button>
                   </div>
                   <div className="product-item__content">
                     <h6 className="product-item__title">
-                      <a href="product-details.html" className="link">
+                      <Link href="/product-details" className="link">
                         SaaS dashboard digital products Title here
-                      </a>
+                      </Link>
                     </h6>
                     <div className="product-item__info flx-between gap-2">
                       <span className="product-item__author">
                         by
-                        <a
-                          href="profile.html"
+                        <Link
+                          href="/profile"
                           className="link hover-text-decoration-underline"
                         >
                           themepix
-                        </a>
+                        </Link>
                       </span>
                       <div className="flx-align gap-2">
                         <h6 className="product-item__price mb-0">$129</h6>
@@ -892,12 +894,12 @@ const ArrivalTwo = () => {
                           </span>
                         </div>
                       </div>
-                      <a
-                        href="product-details.html"
+                      <Link
+                        href="/product-details"
                         className="btn btn-outline-light btn-sm pill"
                       >
                         Live Demo
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -905,32 +907,32 @@ const ArrivalTwo = () => {
               <div className="col-xl-3 col-lg-4 col-sm-6">
                 <div className="product-item">
                   <div className="product-item__thumb d-flex">
-                    <a href="product-details.html" className="link w-100">
+                    <Link href="/product-details" className="link w-100">
                       <img
                         src="assets/images/thumbs/product-img3.png"
                         alt=""
                         className="cover-img"
                       />
-                    </a>
+                    </Link>
                     <button type="button" className="product-item__wishlist">
                       <i className="fas fa-heart" />
                     </button>
                   </div>
                   <div className="product-item__content">
                     <h6 className="product-item__title">
-                      <a href="product-details.html" className="link">
+                      <Link href="/product-details" className="link">
                         SaaS dashboard digital products Title here
-                      </a>
+                      </Link>
                     </h6>
                     <div className="product-item__info flx-between gap-2">
                       <span className="product-item__author">
                         by
-                        <a
-                          href="profile.html"
+                        <Link
+                          href="/profile"
                           className="link hover-text-decoration-underline"
                         >
                           themepix
-                        </a>
+                        </Link>
                       </span>
                       <div className="flx-align gap-2">
                         <h6 className="product-item__price mb-0">$79</h6>
@@ -967,12 +969,12 @@ const ArrivalTwo = () => {
                           </span>
                         </div>
                       </div>
-                      <a
-                        href="product-details.html"
+                      <Link
+                        href="/product-details"
                         className="btn btn-outline-light btn-sm pill"
                       >
                         Live Demo
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -980,32 +982,32 @@ const ArrivalTwo = () => {
               <div className="col-xl-3 col-lg-4 col-sm-6">
                 <div className="product-item">
                   <div className="product-item__thumb d-flex">
-                    <a href="product-details.html" className="link w-100">
+                    <Link href="/product-details" className="link w-100">
                       <img
                         src="assets/images/thumbs/product-img4.png"
                         alt=""
                         className="cover-img"
                       />
-                    </a>
+                    </Link>
                     <button type="button" className="product-item__wishlist">
                       <i className="fas fa-heart" />
                     </button>
                   </div>
                   <div className="product-item__content">
                     <h6 className="product-item__title">
-                      <a href="product-details.html" className="link">
+                      <Link href="/product-details" className="link">
                         SaaS dashboard digital products Title here
-                      </a>
+                      </Link>
                     </h6>
                     <div className="product-item__info flx-between gap-2">
                       <span className="product-item__author">
                         by
-                        <a
-                          href="profile.html"
+                        <Link
+                          href="/profile"
                           className="link hover-text-decoration-underline"
                         >
                           themepix
-                        </a>
+                        </Link>
                       </span>
                       <div className="flx-align gap-2">
                         <h6 className="product-item__price mb-0">$59</h6>
@@ -1042,12 +1044,12 @@ const ArrivalTwo = () => {
                           </span>
                         </div>
                       </div>
-                      <a
-                        href="product-details.html"
+                      <Link
+                        href="/product-details"
                         className="btn btn-outline-light btn-sm pill"
                       >
                         Live Demo
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -1055,32 +1057,32 @@ const ArrivalTwo = () => {
               <div className="col-xl-3 col-lg-4 col-sm-6">
                 <div className="product-item">
                   <div className="product-item__thumb d-flex">
-                    <a href="product-details.html" className="link w-100">
+                    <Link href="/product-details" className="link w-100">
                       <img
                         src="assets/images/thumbs/product-img5.png"
                         alt=""
                         className="cover-img"
                       />
-                    </a>
+                    </Link>
                     <button type="button" className="product-item__wishlist">
                       <i className="fas fa-heart" />
                     </button>
                   </div>
                   <div className="product-item__content">
                     <h6 className="product-item__title">
-                      <a href="product-details.html" className="link">
+                      <Link href="/product-details" className="link">
                         SaaS dashboard digital products Title here
-                      </a>
+                      </Link>
                     </h6>
                     <div className="product-item__info flx-between gap-2">
                       <span className="product-item__author">
                         by
-                        <a
-                          href="profile.html"
+                        <Link
+                          href="/profile"
                           className="link hover-text-decoration-underline"
                         >
                           themepix
-                        </a>
+                        </Link>
                       </span>
                       <div className="flx-align gap-2">
                         <h6 className="product-item__price mb-0">$99</h6>
@@ -1117,12 +1119,12 @@ const ArrivalTwo = () => {
                           </span>
                         </div>
                       </div>
-                      <a
-                        href="product-details.html"
+                      <Link
+                        href="/product-details"
                         className="btn btn-outline-light btn-sm pill"
                       >
                         Live Demo
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -1130,32 +1132,32 @@ const ArrivalTwo = () => {
               <div className="col-xl-3 col-lg-4 col-sm-6">
                 <div className="product-item">
                   <div className="product-item__thumb d-flex">
-                    <a href="product-details.html" className="link w-100">
+                    <Link href="/product-details" className="link w-100">
                       <img
                         src="assets/images/thumbs/product-img6.png"
                         alt=""
                         className="cover-img"
                       />
-                    </a>
+                    </Link>
                     <button type="button" className="product-item__wishlist">
                       <i className="fas fa-heart" />
                     </button>
                   </div>
                   <div className="product-item__content">
                     <h6 className="product-item__title">
-                      <a href="product-details.html" className="link">
+                      <Link href="/product-details" className="link">
                         SaaS dashboard digital products Title here
-                      </a>
+                      </Link>
                     </h6>
                     <div className="product-item__info flx-between gap-2">
                       <span className="product-item__author">
                         by
-                        <a
-                          href="profile.html"
+                        <Link
+                          href="/profile"
                           className="link hover-text-decoration-underline"
                         >
                           themepix
-                        </a>
+                        </Link>
                       </span>
                       <div className="flx-align gap-2">
                         <h6 className="product-item__price mb-0">$129</h6>
@@ -1192,12 +1194,12 @@ const ArrivalTwo = () => {
                           </span>
                         </div>
                       </div>
-                      <a
-                        href="product-details.html"
+                      <Link
+                        href="/product-details"
                         className="btn btn-outline-light btn-sm pill"
                       >
                         Live Demo
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -1205,32 +1207,32 @@ const ArrivalTwo = () => {
               <div className="col-xl-3 col-lg-4 col-sm-6">
                 <div className="product-item">
                   <div className="product-item__thumb d-flex">
-                    <a href="product-details.html" className="link w-100">
+                    <Link href="/product-details" className="link w-100">
                       <img
                         src="assets/images/thumbs/product-img7.png"
                         alt=""
                         className="cover-img"
                       />
-                    </a>
+                    </Link>
                     <button type="button" className="product-item__wishlist">
                       <i className="fas fa-heart" />
                     </button>
                   </div>
                   <div className="product-item__content">
                     <h6 className="product-item__title">
-                      <a href="product-details.html" className="link">
+                      <Link href="/product-details" className="link">
                         SaaS dashboard digital products Title here
-                      </a>
+                      </Link>
                     </h6>
                     <div className="product-item__info flx-between gap-2">
                       <span className="product-item__author">
                         by
-                        <a
-                          href="profile.html"
+                        <Link
+                          href="/profile"
                           className="link hover-text-decoration-underline"
                         >
                           themepix
-                        </a>
+                        </Link>
                       </span>
                       <div className="flx-align gap-2">
                         <h6 className="product-item__price mb-0">$129</h6>
@@ -1267,12 +1269,12 @@ const ArrivalTwo = () => {
                           </span>
                         </div>
                       </div>
-                      <a
-                        href="product-details.html"
+                      <Link
+                        href="/product-details"
                         className="btn btn-outline-light btn-sm pill"
                       >
                         Live Demo
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -1280,32 +1282,32 @@ const ArrivalTwo = () => {
               <div className="col-xl-3 col-lg-4 col-sm-6">
                 <div className="product-item">
                   <div className="product-item__thumb d-flex">
-                    <a href="product-details.html" className="link w-100">
+                    <Link href="/product-details" className="link w-100">
                       <img
                         src="assets/images/thumbs/product-img8.png"
                         alt=""
                         className="cover-img"
                       />
-                    </a>
+                    </Link>
                     <button type="button" className="product-item__wishlist">
                       <i className="fas fa-heart" />
                     </button>
                   </div>
                   <div className="product-item__content">
                     <h6 className="product-item__title">
-                      <a href="product-details.html" className="link">
+                      <Link href="/product-details" className="link">
                         SaaS dashboard digital products Title here
-                      </a>
+                      </Link>
                     </h6>
                     <div className="product-item__info flx-between gap-2">
                       <span className="product-item__author">
                         by
-                        <a
-                          href="profile.html"
+                        <Link
+                          href="/profile"
                           className="link hover-text-decoration-underline"
                         >
                           themepix
-                        </a>
+                        </Link>
                       </span>
                       <div className="flx-align gap-2">
                         <h6 className="product-item__price mb-0">$79</h6>
@@ -1342,12 +1344,12 @@ const ArrivalTwo = () => {
                           </span>
                         </div>
                       </div>
-                      <a
-                        href="product-details.html"
+                      <Link
+                        href="/product-details"
                         className="btn btn-outline-light btn-sm pill"
                       >
                         Live Demo
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -1365,32 +1367,32 @@ const ArrivalTwo = () => {
               <div className="col-xl-3 col-lg-4 col-sm-6">
                 <div className="product-item">
                   <div className="product-item__thumb d-flex">
-                    <a href="product-details.html" className="link w-100">
+                    <Link href="/product-details" className="link w-100">
                       <img
                         src="assets/images/thumbs/product-img1.png"
                         alt=""
                         className="cover-img"
                       />
-                    </a>
+                    </Link>
                     <button type="button" className="product-item__wishlist">
                       <i className="fas fa-heart" />
                     </button>
                   </div>
                   <div className="product-item__content">
                     <h6 className="product-item__title">
-                      <a href="product-details.html" className="link">
+                      <Link href="/product-details" className="link">
                         SaaS dashboard digital products Title here
-                      </a>
+                      </Link>
                     </h6>
                     <div className="product-item__info flx-between gap-2">
                       <span className="product-item__author">
                         by
-                        <a
-                          href="profile.html"
+                        <Link
+                          href="/profile"
                           className="link hover-text-decoration-underline"
                         >
                           themepix
-                        </a>
+                        </Link>
                       </span>
                       <div className="flx-align gap-2">
                         <h6 className="product-item__price mb-0">$120</h6>
@@ -1427,12 +1429,12 @@ const ArrivalTwo = () => {
                           </span>
                         </div>
                       </div>
-                      <a
-                        href="product-details.html"
+                      <Link
+                        href="/product-details"
                         className="btn btn-outline-light btn-sm pill"
                       >
                         Live Demo
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -1440,32 +1442,32 @@ const ArrivalTwo = () => {
               <div className="col-xl-3 col-lg-4 col-sm-6">
                 <div className="product-item">
                   <div className="product-item__thumb d-flex">
-                    <a href="product-details.html" className="link w-100">
+                    <Link href="/product-details" className="link w-100">
                       <img
                         src="assets/images/thumbs/product-img2.png"
                         alt=""
                         className="cover-img"
                       />
-                    </a>
+                    </Link>
                     <button type="button" className="product-item__wishlist">
                       <i className="fas fa-heart" />
                     </button>
                   </div>
                   <div className="product-item__content">
                     <h6 className="product-item__title">
-                      <a href="product-details.html" className="link">
+                      <Link href="/product-details" className="link">
                         SaaS dashboard digital products Title here
-                      </a>
+                      </Link>
                     </h6>
                     <div className="product-item__info flx-between gap-2">
                       <span className="product-item__author">
                         by
-                        <a
-                          href="profile.html"
+                        <Link
+                          href="/profile"
                           className="link hover-text-decoration-underline"
                         >
                           themepix
-                        </a>
+                        </Link>
                       </span>
                       <div className="flx-align gap-2">
                         <h6 className="product-item__price mb-0">$129</h6>
@@ -1502,12 +1504,12 @@ const ArrivalTwo = () => {
                           </span>
                         </div>
                       </div>
-                      <a
-                        href="product-details.html"
+                      <Link
+                        href="/product-details"
                         className="btn btn-outline-light btn-sm pill"
                       >
                         Live Demo
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -1515,32 +1517,32 @@ const ArrivalTwo = () => {
               <div className="col-xl-3 col-lg-4 col-sm-6">
                 <div className="product-item">
                   <div className="product-item__thumb d-flex">
-                    <a href="product-details.html" className="link w-100">
+                    <Link href="/product-details" className="link w-100">
                       <img
                         src="assets/images/thumbs/product-img3.png"
                         alt=""
                         className="cover-img"
                       />
-                    </a>
+                    </Link>
                     <button type="button" className="product-item__wishlist">
                       <i className="fas fa-heart" />
                     </button>
                   </div>
                   <div className="product-item__content">
                     <h6 className="product-item__title">
-                      <a href="product-details.html" className="link">
+                      <Link href="/product-details" className="link">
                         SaaS dashboard digital products Title here
-                      </a>
+                      </Link>
                     </h6>
                     <div className="product-item__info flx-between gap-2">
                       <span className="product-item__author">
                         by
-                        <a
-                          href="profile.html"
+                        <Link
+                          href="/profile"
                           className="link hover-text-decoration-underline"
                         >
                           themepix
-                        </a>
+                        </Link>
                       </span>
                       <div className="flx-align gap-2">
                         <h6 className="product-item__price mb-0">$79</h6>
@@ -1577,12 +1579,12 @@ const ArrivalTwo = () => {
                           </span>
                         </div>
                       </div>
-                      <a
-                        href="product-details.html"
+                      <Link
+                        href="/product-details"
                         className="btn btn-outline-light btn-sm pill"
                       >
                         Live Demo
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -1590,32 +1592,32 @@ const ArrivalTwo = () => {
               <div className="col-xl-3 col-lg-4 col-sm-6">
                 <div className="product-item">
                   <div className="product-item__thumb d-flex">
-                    <a href="product-details.html" className="link w-100">
+                    <Link href="/product-details" className="link w-100">
                       <img
                         src="assets/images/thumbs/product-img4.png"
                         alt=""
                         className="cover-img"
                       />
-                    </a>
+                    </Link>
                     <button type="button" className="product-item__wishlist">
                       <i className="fas fa-heart" />
                     </button>
                   </div>
                   <div className="product-item__content">
                     <h6 className="product-item__title">
-                      <a href="product-details.html" className="link">
+                      <Link href="/product-details" className="link">
                         SaaS dashboard digital products Title here
-                      </a>
+                      </Link>
                     </h6>
                     <div className="product-item__info flx-between gap-2">
                       <span className="product-item__author">
                         by
-                        <a
-                          href="profile.html"
+                        <Link
+                          href="/profile"
                           className="link hover-text-decoration-underline"
                         >
                           themepix
-                        </a>
+                        </Link>
                       </span>
                       <div className="flx-align gap-2">
                         <h6 className="product-item__price mb-0">$59</h6>
@@ -1652,12 +1654,12 @@ const ArrivalTwo = () => {
                           </span>
                         </div>
                       </div>
-                      <a
-                        href="product-details.html"
+                      <Link
+                        href="/product-details"
                         className="btn btn-outline-light btn-sm pill"
                       >
                         Live Demo
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -1665,32 +1667,32 @@ const ArrivalTwo = () => {
               <div className="col-xl-3 col-lg-4 col-sm-6">
                 <div className="product-item">
                   <div className="product-item__thumb d-flex">
-                    <a href="product-details.html" className="link w-100">
+                    <Link href="/product-details" className="link w-100">
                       <img
                         src="assets/images/thumbs/product-img5.png"
                         alt=""
                         className="cover-img"
                       />
-                    </a>
+                    </Link>
                     <button type="button" className="product-item__wishlist">
                       <i className="fas fa-heart" />
                     </button>
                   </div>
                   <div className="product-item__content">
                     <h6 className="product-item__title">
-                      <a href="product-details.html" className="link">
+                      <Link href="/product-details" className="link">
                         SaaS dashboard digital products Title here
-                      </a>
+                      </Link>
                     </h6>
                     <div className="product-item__info flx-between gap-2">
                       <span className="product-item__author">
                         by
-                        <a
-                          href="profile.html"
+                        <Link
+                          href="/profile"
                           className="link hover-text-decoration-underline"
                         >
                           themepix
-                        </a>
+                        </Link>
                       </span>
                       <div className="flx-align gap-2">
                         <h6 className="product-item__price mb-0">$99</h6>
@@ -1727,12 +1729,12 @@ const ArrivalTwo = () => {
                           </span>
                         </div>
                       </div>
-                      <a
-                        href="product-details.html"
+                      <Link
+                        href="/product-details"
                         className="btn btn-outline-light btn-sm pill"
                       >
                         Live Demo
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -1740,32 +1742,32 @@ const ArrivalTwo = () => {
               <div className="col-xl-3 col-lg-4 col-sm-6">
                 <div className="product-item">
                   <div className="product-item__thumb d-flex">
-                    <a href="product-details.html" className="link w-100">
+                    <Link href="/product-details" className="link w-100">
                       <img
                         src="assets/images/thumbs/product-img6.png"
                         alt=""
                         className="cover-img"
                       />
-                    </a>
+                    </Link>
                     <button type="button" className="product-item__wishlist">
                       <i className="fas fa-heart" />
                     </button>
                   </div>
                   <div className="product-item__content">
                     <h6 className="product-item__title">
-                      <a href="product-details.html" className="link">
+                      <Link href="/product-details" className="link">
                         SaaS dashboard digital products Title here
-                      </a>
+                      </Link>
                     </h6>
                     <div className="product-item__info flx-between gap-2">
                       <span className="product-item__author">
                         by
-                        <a
-                          href="profile.html"
+                        <Link
+                          href="/profile"
                           className="link hover-text-decoration-underline"
                         >
                           themepix
-                        </a>
+                        </Link>
                       </span>
                       <div className="flx-align gap-2">
                         <h6 className="product-item__price mb-0">$129</h6>
@@ -1802,12 +1804,12 @@ const ArrivalTwo = () => {
                           </span>
                         </div>
                       </div>
-                      <a
-                        href="product-details.html"
+                      <Link
+                        href="/product-details"
                         className="btn btn-outline-light btn-sm pill"
                       >
                         Live Demo
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -1815,32 +1817,32 @@ const ArrivalTwo = () => {
               <div className="col-xl-3 col-lg-4 col-sm-6">
                 <div className="product-item">
                   <div className="product-item__thumb d-flex">
-                    <a href="product-details.html" className="link w-100">
+                    <Link href="/product-details" className="link w-100">
                       <img
                         src="assets/images/thumbs/product-img7.png"
                         alt=""
                         className="cover-img"
                       />
-                    </a>
+                    </Link>
                     <button type="button" className="product-item__wishlist">
                       <i className="fas fa-heart" />
                     </button>
                   </div>
                   <div className="product-item__content">
                     <h6 className="product-item__title">
-                      <a href="product-details.html" className="link">
+                      <Link href="/product-details" className="link">
                         SaaS dashboard digital products Title here
-                      </a>
+                      </Link>
                     </h6>
                     <div className="product-item__info flx-between gap-2">
                       <span className="product-item__author">
                         by
-                        <a
-                          href="profile.html"
+                        <Link
+                          href="/profile"
                           className="link hover-text-decoration-underline"
                         >
                           themepix
-                        </a>
+                        </Link>
                       </span>
                       <div className="flx-align gap-2">
                         <h6 className="product-item__price mb-0">$129</h6>
@@ -1877,12 +1879,12 @@ const ArrivalTwo = () => {
                           </span>
                         </div>
                       </div>
-                      <a
-                        href="product-details.html"
+                      <Link
+                        href="/product-details"
                         className="btn btn-outline-light btn-sm pill"
                       >
                         Live Demo
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -1890,32 +1892,32 @@ const ArrivalTwo = () => {
               <div className="col-xl-3 col-lg-4 col-sm-6">
                 <div className="product-item">
                   <div className="product-item__thumb d-flex">
-                    <a href="product-details.html" className="link w-100">
+                    <Link href="/product-details" className="link w-100">
                       <img
                         src="assets/images/thumbs/product-img8.png"
                         alt=""
                         className="cover-img"
                       />
-                    </a>
+                    </Link>
                     <button type="button" className="product-item__wishlist">
                       <i className="fas fa-heart" />
                     </button>
                   </div>
                   <div className="product-item__content">
                     <h6 className="product-item__title">
-                      <a href="product-details.html" className="link">
+                      <Link href="/product-details" className="link">
                         SaaS dashboard digital products Title here
-                      </a>
+                      </Link>
                     </h6>
                     <div className="product-item__info flx-between gap-2">
                       <span className="product-item__author">
                         by
-                        <a
-                          href="profile.html"
+                        <Link
+                          href="/profile"
                           className="link hover-text-decoration-underline"
                         >
                           themepix
-                        </a>
+                        </Link>
                       </span>
                       <div className="flx-align gap-2">
                         <h6 className="product-item__price mb-0">$79</h6>
@@ -1952,12 +1954,12 @@ const ArrivalTwo = () => {
                           </span>
                         </div>
                       </div>
-                      <a
-                        href="product-details.html"
+                      <Link
+                        href="/product-details"
                         className="btn btn-outline-light btn-sm pill"
                       >
                         Live Demo
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -1975,32 +1977,32 @@ const ArrivalTwo = () => {
               <div className="col-xl-3 col-lg-4 col-sm-6">
                 <div className="product-item">
                   <div className="product-item__thumb d-flex">
-                    <a href="product-details.html" className="link w-100">
+                    <Link href="/product-details" className="link w-100">
                       <img
                         src="assets/images/thumbs/product-img1.png"
                         alt=""
                         className="cover-img"
                       />
-                    </a>
+                    </Link>
                     <button type="button" className="product-item__wishlist">
                       <i className="fas fa-heart" />
                     </button>
                   </div>
                   <div className="product-item__content">
                     <h6 className="product-item__title">
-                      <a href="product-details.html" className="link">
+                      <Link href="/product-details" className="link">
                         SaaS dashboard digital products Title here
-                      </a>
+                      </Link>
                     </h6>
                     <div className="product-item__info flx-between gap-2">
                       <span className="product-item__author">
                         by
-                        <a
-                          href="profile.html"
+                        <Link
+                          href="/profile"
                           className="link hover-text-decoration-underline"
                         >
                           themepix
-                        </a>
+                        </Link>
                       </span>
                       <div className="flx-align gap-2">
                         <h6 className="product-item__price mb-0">$120</h6>
@@ -2037,12 +2039,12 @@ const ArrivalTwo = () => {
                           </span>
                         </div>
                       </div>
-                      <a
-                        href="product-details.html"
+                      <Link
+                        href="/product-details"
                         className="btn btn-outline-light btn-sm pill"
                       >
                         Live Demo
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -2050,32 +2052,32 @@ const ArrivalTwo = () => {
               <div className="col-xl-3 col-lg-4 col-sm-6">
                 <div className="product-item">
                   <div className="product-item__thumb d-flex">
-                    <a href="product-details.html" className="link w-100">
+                    <Link href="/product-details" className="link w-100">
                       <img
                         src="assets/images/thumbs/product-img2.png"
                         alt=""
                         className="cover-img"
                       />
-                    </a>
+                    </Link>
                     <button type="button" className="product-item__wishlist">
                       <i className="fas fa-heart" />
                     </button>
                   </div>
                   <div className="product-item__content">
                     <h6 className="product-item__title">
-                      <a href="product-details.html" className="link">
+                      <Link href="/product-details" className="link">
                         SaaS dashboard digital products Title here
-                      </a>
+                      </Link>
                     </h6>
                     <div className="product-item__info flx-between gap-2">
                       <span className="product-item__author">
                         by
-                        <a
-                          href="profile.html"
+                        <Link
+                          href="/profile"
                           className="link hover-text-decoration-underline"
                         >
                           themepix
-                        </a>
+                        </Link>
                       </span>
                       <div className="flx-align gap-2">
                         <h6 className="product-item__price mb-0">$129</h6>
@@ -2112,12 +2114,12 @@ const ArrivalTwo = () => {
                           </span>
                         </div>
                       </div>
-                      <a
-                        href="product-details.html"
+                      <Link
+                        href="/product-details"
                         className="btn btn-outline-light btn-sm pill"
                       >
                         Live Demo
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -2125,32 +2127,32 @@ const ArrivalTwo = () => {
               <div className="col-xl-3 col-lg-4 col-sm-6">
                 <div className="product-item">
                   <div className="product-item__thumb d-flex">
-                    <a href="product-details.html" className="link w-100">
+                    <Link href="/product-details" className="link w-100">
                       <img
                         src="assets/images/thumbs/product-img3.png"
                         alt=""
                         className="cover-img"
                       />
-                    </a>
+                    </Link>
                     <button type="button" className="product-item__wishlist">
                       <i className="fas fa-heart" />
                     </button>
                   </div>
                   <div className="product-item__content">
                     <h6 className="product-item__title">
-                      <a href="product-details.html" className="link">
+                      <Link href="/product-details" className="link">
                         SaaS dashboard digital products Title here
-                      </a>
+                      </Link>
                     </h6>
                     <div className="product-item__info flx-between gap-2">
                       <span className="product-item__author">
                         by
-                        <a
-                          href="profile.html"
+                        <Link
+                          href="/profile"
                           className="link hover-text-decoration-underline"
                         >
                           themepix
-                        </a>
+                        </Link>
                       </span>
                       <div className="flx-align gap-2">
                         <h6 className="product-item__price mb-0">$79</h6>
@@ -2187,12 +2189,12 @@ const ArrivalTwo = () => {
                           </span>
                         </div>
                       </div>
-                      <a
-                        href="product-details.html"
+                      <Link
+                        href="/product-details"
                         className="btn btn-outline-light btn-sm pill"
                       >
                         Live Demo
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -2200,32 +2202,32 @@ const ArrivalTwo = () => {
               <div className="col-xl-3 col-lg-4 col-sm-6">
                 <div className="product-item">
                   <div className="product-item__thumb d-flex">
-                    <a href="product-details.html" className="link w-100">
+                    <Link href="/product-details" className="link w-100">
                       <img
                         src="assets/images/thumbs/product-img4.png"
                         alt=""
                         className="cover-img"
                       />
-                    </a>
+                    </Link>
                     <button type="button" className="product-item__wishlist">
                       <i className="fas fa-heart" />
                     </button>
                   </div>
                   <div className="product-item__content">
                     <h6 className="product-item__title">
-                      <a href="product-details.html" className="link">
+                      <Link href="/product-details" className="link">
                         SaaS dashboard digital products Title here
-                      </a>
+                      </Link>
                     </h6>
                     <div className="product-item__info flx-between gap-2">
                       <span className="product-item__author">
                         by
-                        <a
-                          href="profile.html"
+                        <Link
+                          href="/profile"
                           className="link hover-text-decoration-underline"
                         >
                           themepix
-                        </a>
+                        </Link>
                       </span>
                       <div className="flx-align gap-2">
                         <h6 className="product-item__price mb-0">$59</h6>
@@ -2262,12 +2264,12 @@ const ArrivalTwo = () => {
                           </span>
                         </div>
                       </div>
-                      <a
-                        href="product-details.html"
+                      <Link
+                        href="/product-details"
                         className="btn btn-outline-light btn-sm pill"
                       >
                         Live Demo
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -2275,32 +2277,32 @@ const ArrivalTwo = () => {
               <div className="col-xl-3 col-lg-4 col-sm-6">
                 <div className="product-item">
                   <div className="product-item__thumb d-flex">
-                    <a href="product-details.html" className="link w-100">
+                    <Link href="/product-details" className="link w-100">
                       <img
                         src="assets/images/thumbs/product-img5.png"
                         alt=""
                         className="cover-img"
                       />
-                    </a>
+                    </Link>
                     <button type="button" className="product-item__wishlist">
                       <i className="fas fa-heart" />
                     </button>
                   </div>
                   <div className="product-item__content">
                     <h6 className="product-item__title">
-                      <a href="product-details.html" className="link">
+                      <Link href="/product-details" className="link">
                         SaaS dashboard digital products Title here
-                      </a>
+                      </Link>
                     </h6>
                     <div className="product-item__info flx-between gap-2">
                       <span className="product-item__author">
                         by
-                        <a
-                          href="profile.html"
+                        <Link
+                          href="/profile"
                           className="link hover-text-decoration-underline"
                         >
                           themepix
-                        </a>
+                        </Link>
                       </span>
                       <div className="flx-align gap-2">
                         <h6 className="product-item__price mb-0">$99</h6>
@@ -2337,12 +2339,12 @@ const ArrivalTwo = () => {
                           </span>
                         </div>
                       </div>
-                      <a
-                        href="product-details.html"
+                      <Link
+                        href="/product-details"
                         className="btn btn-outline-light btn-sm pill"
                       >
                         Live Demo
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -2350,32 +2352,32 @@ const ArrivalTwo = () => {
               <div className="col-xl-3 col-lg-4 col-sm-6">
                 <div className="product-item">
                   <div className="product-item__thumb d-flex">
-                    <a href="product-details.html" className="link w-100">
+                    <Link href="/product-details" className="link w-100">
                       <img
                         src="assets/images/thumbs/product-img6.png"
                         alt=""
                         className="cover-img"
                       />
-                    </a>
+                    </Link>
                     <button type="button" className="product-item__wishlist">
                       <i className="fas fa-heart" />
                     </button>
                   </div>
                   <div className="product-item__content">
                     <h6 className="product-item__title">
-                      <a href="product-details.html" className="link">
+                      <Link href="/product-details" className="link">
                         SaaS dashboard digital products Title here
-                      </a>
+                      </Link>
                     </h6>
                     <div className="product-item__info flx-between gap-2">
                       <span className="product-item__author">
                         by
-                        <a
-                          href="profile.html"
+                        <Link
+                          href="/profile"
                           className="link hover-text-decoration-underline"
                         >
                           themepix
-                        </a>
+                        </Link>
                       </span>
                       <div className="flx-align gap-2">
                         <h6 className="product-item__price mb-0">$129</h6>
@@ -2412,12 +2414,12 @@ const ArrivalTwo = () => {
                           </span>
                         </div>
                       </div>
-                      <a
-                        href="product-details.html"
+                      <Link
+                        href="/product-details"
                         className="btn btn-outline-light btn-sm pill"
                       >
                         Live Demo
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -2425,32 +2427,32 @@ const ArrivalTwo = () => {
               <div className="col-xl-3 col-lg-4 col-sm-6">
                 <div className="product-item">
                   <div className="product-item__thumb d-flex">
-                    <a href="product-details.html" className="link w-100">
+                    <Link href="/product-details" className="link w-100">
                       <img
                         src="assets/images/thumbs/product-img7.png"
                         alt=""
                         className="cover-img"
                       />
-                    </a>
+                    </Link>
                     <button type="button" className="product-item__wishlist">
                       <i className="fas fa-heart" />
                     </button>
                   </div>
                   <div className="product-item__content">
                     <h6 className="product-item__title">
-                      <a href="product-details.html" className="link">
+                      <Link href="/product-details" className="link">
                         SaaS dashboard digital products Title here
-                      </a>
+                      </Link>
                     </h6>
                     <div className="product-item__info flx-between gap-2">
                       <span className="product-item__author">
                         by
-                        <a
-                          href="profile.html"
+                        <Link
+                          href="/profile"
                           className="link hover-text-decoration-underline"
                         >
                           themepix
-                        </a>
+                        </Link>
                       </span>
                       <div className="flx-align gap-2">
                         <h6 className="product-item__price mb-0">$129</h6>
@@ -2487,12 +2489,12 @@ const ArrivalTwo = () => {
                           </span>
                         </div>
                       </div>
-                      <a
-                        href="product-details.html"
+                      <Link
+                        href="/product-details"
                         className="btn btn-outline-light btn-sm pill"
                       >
                         Live Demo
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -2500,32 +2502,32 @@ const ArrivalTwo = () => {
               <div className="col-xl-3 col-lg-4 col-sm-6">
                 <div className="product-item">
                   <div className="product-item__thumb d-flex">
-                    <a href="product-details.html" className="link w-100">
+                    <Link href="/product-details" className="link w-100">
                       <img
                         src="assets/images/thumbs/product-img8.png"
                         alt=""
                         className="cover-img"
                       />
-                    </a>
+                    </Link>
                     <button type="button" className="product-item__wishlist">
                       <i className="fas fa-heart" />
                     </button>
                   </div>
                   <div className="product-item__content">
                     <h6 className="product-item__title">
-                      <a href="product-details.html" className="link">
+                      <Link href="/product-details" className="link">
                         SaaS dashboard digital products Title here
-                      </a>
+                      </Link>
                     </h6>
                     <div className="product-item__info flx-between gap-2">
                       <span className="product-item__author">
                         by
-                        <a
-                          href="profile.html"
+                        <Link
+                          href="/profile"
                           className="link hover-text-decoration-underline"
                         >
                           themepix
-                        </a>
+                        </Link>
                       </span>
                       <div className="flx-align gap-2">
                         <h6 className="product-item__price mb-0">$79</h6>
@@ -2562,12 +2564,12 @@ const ArrivalTwo = () => {
                           </span>
                         </div>
                       </div>
-                      <a
-                        href="product-details.html"
+                      <Link
+                        href="/product-details"
                         className="btn btn-outline-light btn-sm pill"
                       >
                         Live Demo
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -2585,32 +2587,32 @@ const ArrivalTwo = () => {
               <div className="col-xl-3 col-lg-4 col-sm-6">
                 <div className="product-item">
                   <div className="product-item__thumb d-flex">
-                    <a href="product-details.html" className="link w-100">
+                    <Link href="/product-details" className="link w-100">
                       <img
                         src="assets/images/thumbs/product-img1.png"
                         alt=""
                         className="cover-img"
                       />
-                    </a>
+                    </Link>
                     <button type="button" className="product-item__wishlist">
                       <i className="fas fa-heart" />
                     </button>
                   </div>
                   <div className="product-item__content">
                     <h6 className="product-item__title">
-                      <a href="product-details.html" className="link">
+                      <Link href="/product-details" className="link">
                         SaaS dashboard digital products Title here
-                      </a>
+                      </Link>
                     </h6>
                     <div className="product-item__info flx-between gap-2">
                       <span className="product-item__author">
                         by
-                        <a
-                          href="profile.html"
+                        <Link
+                          href="/profile"
                           className="link hover-text-decoration-underline"
                         >
                           themepix
-                        </a>
+                        </Link>
                       </span>
                       <div className="flx-align gap-2">
                         <h6 className="product-item__price mb-0">$120</h6>
@@ -2647,12 +2649,12 @@ const ArrivalTwo = () => {
                           </span>
                         </div>
                       </div>
-                      <a
-                        href="product-details.html"
+                      <Link
+                        href="/product-details"
                         className="btn btn-outline-light btn-sm pill"
                       >
                         Live Demo
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -2660,32 +2662,32 @@ const ArrivalTwo = () => {
               <div className="col-xl-3 col-lg-4 col-sm-6">
                 <div className="product-item">
                   <div className="product-item__thumb d-flex">
-                    <a href="product-details.html" className="link w-100">
+                    <Link href="/product-details" className="link w-100">
                       <img
                         src="assets/images/thumbs/product-img2.png"
                         alt=""
                         className="cover-img"
                       />
-                    </a>
+                    </Link>
                     <button type="button" className="product-item__wishlist">
                       <i className="fas fa-heart" />
                     </button>
                   </div>
                   <div className="product-item__content">
                     <h6 className="product-item__title">
-                      <a href="product-details.html" className="link">
+                      <Link href="/product-details" className="link">
                         SaaS dashboard digital products Title here
-                      </a>
+                      </Link>
                     </h6>
                     <div className="product-item__info flx-between gap-2">
                       <span className="product-item__author">
                         by
-                        <a
-                          href="profile.html"
+                        <Link
+                          href="/profile"
                           className="link hover-text-decoration-underline"
                         >
                           themepix
-                        </a>
+                        </Link>
                       </span>
                       <div className="flx-align gap-2">
                         <h6 className="product-item__price mb-0">$129</h6>
@@ -2722,12 +2724,12 @@ const ArrivalTwo = () => {
                           </span>
                         </div>
                       </div>
-                      <a
-                        href="product-details.html"
+                      <Link
+                        href="/product-details"
                         className="btn btn-outline-light btn-sm pill"
                       >
                         Live Demo
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -2735,32 +2737,32 @@ const ArrivalTwo = () => {
               <div className="col-xl-3 col-lg-4 col-sm-6">
                 <div className="product-item">
                   <div className="product-item__thumb d-flex">
-                    <a href="product-details.html" className="link w-100">
+                    <Link href="/product-details" className="link w-100">
                       <img
                         src="assets/images/thumbs/product-img3.png"
                         alt=""
                         className="cover-img"
                       />
-                    </a>
+                    </Link>
                     <button type="button" className="product-item__wishlist">
                       <i className="fas fa-heart" />
                     </button>
                   </div>
                   <div className="product-item__content">
                     <h6 className="product-item__title">
-                      <a href="product-details.html" className="link">
+                      <Link href="/product-details" className="link">
                         SaaS dashboard digital products Title here
-                      </a>
+                      </Link>
                     </h6>
                     <div className="product-item__info flx-between gap-2">
                       <span className="product-item__author">
                         by
-                        <a
-                          href="profile.html"
+                        <Link
+                          href="/profile"
                           className="link hover-text-decoration-underline"
                         >
                           themepix
-                        </a>
+                        </Link>
                       </span>
                       <div className="flx-align gap-2">
                         <h6 className="product-item__price mb-0">$79</h6>
@@ -2797,12 +2799,12 @@ const ArrivalTwo = () => {
                           </span>
                         </div>
                       </div>
-                      <a
-                        href="product-details.html"
+                      <Link
+                        href="/product-details"
                         className="btn btn-outline-light btn-sm pill"
                       >
                         Live Demo
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -2810,32 +2812,32 @@ const ArrivalTwo = () => {
               <div className="col-xl-3 col-lg-4 col-sm-6">
                 <div className="product-item">
                   <div className="product-item__thumb d-flex">
-                    <a href="product-details.html" className="link w-100">
+                    <Link href="/product-details" className="link w-100">
                       <img
                         src="assets/images/thumbs/product-img4.png"
                         alt=""
                         className="cover-img"
                       />
-                    </a>
+                    </Link>
                     <button type="button" className="product-item__wishlist">
                       <i className="fas fa-heart" />
                     </button>
                   </div>
                   <div className="product-item__content">
                     <h6 className="product-item__title">
-                      <a href="product-details.html" className="link">
+                      <Link href="/product-details" className="link">
                         SaaS dashboard digital products Title here
-                      </a>
+                      </Link>
                     </h6>
                     <div className="product-item__info flx-between gap-2">
                       <span className="product-item__author">
                         by
-                        <a
-                          href="profile.html"
+                        <Link
+                          href="/profile"
                           className="link hover-text-decoration-underline"
                         >
                           themepix
-                        </a>
+                        </Link>
                       </span>
                       <div className="flx-align gap-2">
                         <h6 className="product-item__price mb-0">$59</h6>
@@ -2872,12 +2874,12 @@ const ArrivalTwo = () => {
                           </span>
                         </div>
                       </div>
-                      <a
-                        href="product-details.html"
+                      <Link
+                        href="/product-details"
                         className="btn btn-outline-light btn-sm pill"
                       >
                         Live Demo
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -2885,32 +2887,32 @@ const ArrivalTwo = () => {
               <div className="col-xl-3 col-lg-4 col-sm-6">
                 <div className="product-item">
                   <div className="product-item__thumb d-flex">
-                    <a href="product-details.html" className="link w-100">
+                    <Link href="/product-details" className="link w-100">
                       <img
                         src="assets/images/thumbs/product-img5.png"
                         alt=""
                         className="cover-img"
                       />
-                    </a>
+                    </Link>
                     <button type="button" className="product-item__wishlist">
                       <i className="fas fa-heart" />
                     </button>
                   </div>
                   <div className="product-item__content">
                     <h6 className="product-item__title">
-                      <a href="product-details.html" className="link">
+                      <Link href="/product-details" className="link">
                         SaaS dashboard digital products Title here
-                      </a>
+                      </Link>
                     </h6>
                     <div className="product-item__info flx-between gap-2">
                       <span className="product-item__author">
                         by
-                        <a
-                          href="profile.html"
+                        <Link
+                          href="/profile"
                           className="link hover-text-decoration-underline"
                         >
                           themepix
-                        </a>
+                        </Link>
                       </span>
                       <div className="flx-align gap-2">
                         <h6 className="product-item__price mb-0">$99</h6>
@@ -2947,12 +2949,12 @@ const ArrivalTwo = () => {
                           </span>
                         </div>
                       </div>
-                      <a
-                        href="product-details.html"
+                      <Link
+                        href="/product-details"
                         className="btn btn-outline-light btn-sm pill"
                       >
                         Live Demo
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -2960,32 +2962,32 @@ const ArrivalTwo = () => {
               <div className="col-xl-3 col-lg-4 col-sm-6">
                 <div className="product-item">
                   <div className="product-item__thumb d-flex">
-                    <a href="product-details.html" className="link w-100">
+                    <Link href="/product-details" className="link w-100">
                       <img
                         src="assets/images/thumbs/product-img6.png"
                         alt=""
                         className="cover-img"
                       />
-                    </a>
+                    </Link>
                     <button type="button" className="product-item__wishlist">
                       <i className="fas fa-heart" />
                     </button>
                   </div>
                   <div className="product-item__content">
                     <h6 className="product-item__title">
-                      <a href="product-details.html" className="link">
+                      <Link href="/product-details" className="link">
                         SaaS dashboard digital products Title here
-                      </a>
+                      </Link>
                     </h6>
                     <div className="product-item__info flx-between gap-2">
                       <span className="product-item__author">
                         by
-                        <a
-                          href="profile.html"
+                        <Link
+                          href="/profile"
                           className="link hover-text-decoration-underline"
                         >
                           themepix
-                        </a>
+                        </Link>
                       </span>
                       <div className="flx-align gap-2">
                         <h6 className="product-item__price mb-0">$129</h6>
@@ -3022,12 +3024,12 @@ const ArrivalTwo = () => {
                           </span>
                         </div>
                       </div>
-                      <a
-                        href="product-details.html"
+                      <Link
+                        href="/product-details"
                         className="btn btn-outline-light btn-sm pill"
                       >
                         Live Demo
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -3035,32 +3037,32 @@ const ArrivalTwo = () => {
               <div className="col-xl-3 col-lg-4 col-sm-6">
                 <div className="product-item">
                   <div className="product-item__thumb d-flex">
-                    <a href="product-details.html" className="link w-100">
+                    <Link href="/product-details" className="link w-100">
                       <img
                         src="assets/images/thumbs/product-img7.png"
                         alt=""
                         className="cover-img"
                       />
-                    </a>
+                    </Link>
                     <button type="button" className="product-item__wishlist">
                       <i className="fas fa-heart" />
                     </button>
                   </div>
                   <div className="product-item__content">
                     <h6 className="product-item__title">
-                      <a href="product-details.html" className="link">
+                      <Link href="/product-details" className="link">
                         SaaS dashboard digital products Title here
-                      </a>
+                      </Link>
                     </h6>
                     <div className="product-item__info flx-between gap-2">
                       <span className="product-item__author">
                         by
-                        <a
-                          href="profile.html"
+                        <Link
+                          href="/profile"
                           className="link hover-text-decoration-underline"
                         >
                           themepix
-                        </a>
+                        </Link>
                       </span>
                       <div className="flx-align gap-2">
                         <h6 className="product-item__price mb-0">$129</h6>
@@ -3097,12 +3099,12 @@ const ArrivalTwo = () => {
                           </span>
                         </div>
                       </div>
-                      <a
-                        href="product-details.html"
+                      <Link
+                        href="/product-details"
                         className="btn btn-outline-light btn-sm pill"
                       >
                         Live Demo
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -3110,32 +3112,32 @@ const ArrivalTwo = () => {
               <div className="col-xl-3 col-lg-4 col-sm-6">
                 <div className="product-item">
                   <div className="product-item__thumb d-flex">
-                    <a href="product-details.html" className="link w-100">
+                    <Link href="/product-details" className="link w-100">
                       <img
                         src="assets/images/thumbs/product-img8.png"
                         alt=""
                         className="cover-img"
                       />
-                    </a>
+                    </Link>
                     <button type="button" className="product-item__wishlist">
                       <i className="fas fa-heart" />
                     </button>
                   </div>
                   <div className="product-item__content">
                     <h6 className="product-item__title">
-                      <a href="product-details.html" className="link">
+                      <Link href="/product-details" className="link">
                         SaaS dashboard digital products Title here
-                      </a>
+                      </Link>
                     </h6>
                     <div className="product-item__info flx-between gap-2">
                       <span className="product-item__author">
                         by
-                        <a
-                          href="profile.html"
+                        <Link
+                          href="/profile"
                           className="link hover-text-decoration-underline"
                         >
                           themepix
-                        </a>
+                        </Link>
                       </span>
                       <div className="flx-align gap-2">
                         <h6 className="product-item__price mb-0">$79</h6>
@@ -3172,12 +3174,12 @@ const ArrivalTwo = () => {
                           </span>
                         </div>
                       </div>
-                      <a
-                        href="product-details.html"
+                      <Link
+                        href="/product-details"
                         className="btn btn-outline-light btn-sm pill"
                       >
                         Live Demo
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -3195,32 +3197,32 @@ const ArrivalTwo = () => {
               <div className="col-xl-3 col-lg-4 col-sm-6">
                 <div className="product-item">
                   <div className="product-item__thumb d-flex">
-                    <a href="product-details.html" className="link w-100">
+                    <Link href="/product-details" className="link w-100">
                       <img
                         src="assets/images/thumbs/product-img1.png"
                         alt=""
                         className="cover-img"
                       />
-                    </a>
+                    </Link>
                     <button type="button" className="product-item__wishlist">
                       <i className="fas fa-heart" />
                     </button>
                   </div>
                   <div className="product-item__content">
                     <h6 className="product-item__title">
-                      <a href="product-details.html" className="link">
+                      <Link href="/product-details" className="link">
                         SaaS dashboard digital products Title here
-                      </a>
+                      </Link>
                     </h6>
                     <div className="product-item__info flx-between gap-2">
                       <span className="product-item__author">
                         by
-                        <a
-                          href="profile.html"
+                        <Link
+                          href="/profile"
                           className="link hover-text-decoration-underline"
                         >
                           themepix
-                        </a>
+                        </Link>
                       </span>
                       <div className="flx-align gap-2">
                         <h6 className="product-item__price mb-0">$120</h6>
@@ -3257,12 +3259,12 @@ const ArrivalTwo = () => {
                           </span>
                         </div>
                       </div>
-                      <a
-                        href="product-details.html"
+                      <Link
+                        href="/product-details"
                         className="btn btn-outline-light btn-sm pill"
                       >
                         Live Demo
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -3270,32 +3272,32 @@ const ArrivalTwo = () => {
               <div className="col-xl-3 col-lg-4 col-sm-6">
                 <div className="product-item">
                   <div className="product-item__thumb d-flex">
-                    <a href="product-details.html" className="link w-100">
+                    <Link href="/product-details" className="link w-100">
                       <img
                         src="assets/images/thumbs/product-img2.png"
                         alt=""
                         className="cover-img"
                       />
-                    </a>
+                    </Link>
                     <button type="button" className="product-item__wishlist">
                       <i className="fas fa-heart" />
                     </button>
                   </div>
                   <div className="product-item__content">
                     <h6 className="product-item__title">
-                      <a href="product-details.html" className="link">
+                      <Link href="/product-details" className="link">
                         SaaS dashboard digital products Title here
-                      </a>
+                      </Link>
                     </h6>
                     <div className="product-item__info flx-between gap-2">
                       <span className="product-item__author">
                         by
-                        <a
-                          href="profile.html"
+                        <Link
+                          href="/profile"
                           className="link hover-text-decoration-underline"
                         >
                           themepix
-                        </a>
+                        </Link>
                       </span>
                       <div className="flx-align gap-2">
                         <h6 className="product-item__price mb-0">$129</h6>
@@ -3332,12 +3334,12 @@ const ArrivalTwo = () => {
                           </span>
                         </div>
                       </div>
-                      <a
-                        href="product-details.html"
+                      <Link
+                        href="/product-details"
                         className="btn btn-outline-light btn-sm pill"
                       >
                         Live Demo
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -3345,32 +3347,32 @@ const ArrivalTwo = () => {
               <div className="col-xl-3 col-lg-4 col-sm-6">
                 <div className="product-item">
                   <div className="product-item__thumb d-flex">
-                    <a href="product-details.html" className="link w-100">
+                    <Link href="/product-details" className="link w-100">
                       <img
                         src="assets/images/thumbs/product-img3.png"
                         alt=""
                         className="cover-img"
                       />
-                    </a>
+                    </Link>
                     <button type="button" className="product-item__wishlist">
                       <i className="fas fa-heart" />
                     </button>
                   </div>
                   <div className="product-item__content">
                     <h6 className="product-item__title">
-                      <a href="product-details.html" className="link">
+                      <Link href="/product-details" className="link">
                         SaaS dashboard digital products Title here
-                      </a>
+                      </Link>
                     </h6>
                     <div className="product-item__info flx-between gap-2">
                       <span className="product-item__author">
                         by
-                        <a
-                          href="profile.html"
+                        <Link
+                          href="/profile"
                           className="link hover-text-decoration-underline"
                         >
                           themepix
-                        </a>
+                        </Link>
                       </span>
                       <div className="flx-align gap-2">
                         <h6 className="product-item__price mb-0">$79</h6>
@@ -3407,12 +3409,12 @@ const ArrivalTwo = () => {
                           </span>
                         </div>
                       </div>
-                      <a
-                        href="product-details.html"
+                      <Link
+                        href="/product-details"
                         className="btn btn-outline-light btn-sm pill"
                       >
                         Live Demo
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -3420,32 +3422,32 @@ const ArrivalTwo = () => {
               <div className="col-xl-3 col-lg-4 col-sm-6">
                 <div className="product-item">
                   <div className="product-item__thumb d-flex">
-                    <a href="product-details.html" className="link w-100">
+                    <Link href="/product-details" className="link w-100">
                       <img
                         src="assets/images/thumbs/product-img4.png"
                         alt=""
                         className="cover-img"
                       />
-                    </a>
+                    </Link>
                     <button type="button" className="product-item__wishlist">
                       <i className="fas fa-heart" />
                     </button>
                   </div>
                   <div className="product-item__content">
                     <h6 className="product-item__title">
-                      <a href="product-details.html" className="link">
+                      <Link href="/product-details" className="link">
                         SaaS dashboard digital products Title here
-                      </a>
+                      </Link>
                     </h6>
                     <div className="product-item__info flx-between gap-2">
                       <span className="product-item__author">
                         by
-                        <a
-                          href="profile.html"
+                        <Link
+                          href="/profile"
                           className="link hover-text-decoration-underline"
                         >
                           themepix
-                        </a>
+                        </Link>
                       </span>
                       <div className="flx-align gap-2">
                         <h6 className="product-item__price mb-0">$59</h6>
@@ -3482,12 +3484,12 @@ const ArrivalTwo = () => {
                           </span>
                         </div>
                       </div>
-                      <a
-                        href="product-details.html"
+                      <Link
+                        href="/product-details"
                         className="btn btn-outline-light btn-sm pill"
                       >
                         Live Demo
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -3495,32 +3497,32 @@ const ArrivalTwo = () => {
               <div className="col-xl-3 col-lg-4 col-sm-6">
                 <div className="product-item">
                   <div className="product-item__thumb d-flex">
-                    <a href="product-details.html" className="link w-100">
+                    <Link href="/product-details" className="link w-100">
                       <img
                         src="assets/images/thumbs/product-img5.png"
                         alt=""
                         className="cover-img"
                       />
-                    </a>
+                    </Link>
                     <button type="button" className="product-item__wishlist">
                       <i className="fas fa-heart" />
                     </button>
                   </div>
                   <div className="product-item__content">
                     <h6 className="product-item__title">
-                      <a href="product-details.html" className="link">
+                      <Link href="/product-details" className="link">
                         SaaS dashboard digital products Title here
-                      </a>
+                      </Link>
                     </h6>
                     <div className="product-item__info flx-between gap-2">
                       <span className="product-item__author">
                         by
-                        <a
-                          href="profile.html"
+                        <Link
+                          href="/profile"
                           className="link hover-text-decoration-underline"
                         >
                           themepix
-                        </a>
+                        </Link>
                       </span>
                       <div className="flx-align gap-2">
                         <h6 className="product-item__price mb-0">$99</h6>
@@ -3557,12 +3559,12 @@ const ArrivalTwo = () => {
                           </span>
                         </div>
                       </div>
-                      <a
-                        href="product-details.html"
+                      <Link
+                        href="/product-details"
                         className="btn btn-outline-light btn-sm pill"
                       >
                         Live Demo
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -3570,32 +3572,32 @@ const ArrivalTwo = () => {
               <div className="col-xl-3 col-lg-4 col-sm-6">
                 <div className="product-item">
                   <div className="product-item__thumb d-flex">
-                    <a href="product-details.html" className="link w-100">
+                    <Link href="/product-details" className="link w-100">
                       <img
                         src="assets/images/thumbs/product-img6.png"
                         alt=""
                         className="cover-img"
                       />
-                    </a>
+                    </Link>
                     <button type="button" className="product-item__wishlist">
                       <i className="fas fa-heart" />
                     </button>
                   </div>
                   <div className="product-item__content">
                     <h6 className="product-item__title">
-                      <a href="product-details.html" className="link">
+                      <Link href="/product-details" className="link">
                         SaaS dashboard digital products Title here
-                      </a>
+                      </Link>
                     </h6>
                     <div className="product-item__info flx-between gap-2">
                       <span className="product-item__author">
                         by
-                        <a
-                          href="profile.html"
+                        <Link
+                          href="/profile"
                           className="link hover-text-decoration-underline"
                         >
                           themepix
-                        </a>
+                        </Link>
                       </span>
                       <div className="flx-align gap-2">
                         <h6 className="product-item__price mb-0">$129</h6>
@@ -3632,12 +3634,12 @@ const ArrivalTwo = () => {
                           </span>
                         </div>
                       </div>
-                      <a
-                        href="product-details.html"
+                      <Link
+                        href="/product-details"
                         className="btn btn-outline-light btn-sm pill"
                       >
                         Live Demo
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -3645,32 +3647,32 @@ const ArrivalTwo = () => {
               <div className="col-xl-3 col-lg-4 col-sm-6">
                 <div className="product-item">
                   <div className="product-item__thumb d-flex">
-                    <a href="product-details.html" className="link w-100">
+                    <Link href="/product-details" className="link w-100">
                       <img
                         src="assets/images/thumbs/product-img7.png"
                         alt=""
                         className="cover-img"
                       />
-                    </a>
+                    </Link>
                     <button type="button" className="product-item__wishlist">
                       <i className="fas fa-heart" />
                     </button>
                   </div>
                   <div className="product-item__content">
                     <h6 className="product-item__title">
-                      <a href="product-details.html" className="link">
+                      <Link href="/product-details" className="link">
                         SaaS dashboard digital products Title here
-                      </a>
+                      </Link>
                     </h6>
                     <div className="product-item__info flx-between gap-2">
                       <span className="product-item__author">
                         by
-                        <a
-                          href="profile.html"
+                        <Link
+                          href="/profile"
                           className="link hover-text-decoration-underline"
                         >
                           themepix
-                        </a>
+                        </Link>
                       </span>
                       <div className="flx-align gap-2">
                         <h6 className="product-item__price mb-0">$129</h6>
@@ -3707,12 +3709,12 @@ const ArrivalTwo = () => {
                           </span>
                         </div>
                       </div>
-                      <a
-                        href="product-details.html"
+                      <Link
+                        href="/product-details"
                         className="btn btn-outline-light btn-sm pill"
                       >
                         Live Demo
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -3720,32 +3722,32 @@ const ArrivalTwo = () => {
               <div className="col-xl-3 col-lg-4 col-sm-6">
                 <div className="product-item">
                   <div className="product-item__thumb d-flex">
-                    <a href="product-details.html" className="link w-100">
+                    <Link href="/product-details" className="link w-100">
                       <img
                         src="assets/images/thumbs/product-img8.png"
                         alt=""
                         className="cover-img"
                       />
-                    </a>
+                    </Link>
                     <button type="button" className="product-item__wishlist">
                       <i className="fas fa-heart" />
                     </button>
                   </div>
                   <div className="product-item__content">
                     <h6 className="product-item__title">
-                      <a href="product-details.html" className="link">
+                      <Link href="/product-details" className="link">
                         SaaS dashboard digital products Title here
-                      </a>
+                      </Link>
                     </h6>
                     <div className="product-item__info flx-between gap-2">
                       <span className="product-item__author">
                         by
-                        <a
-                          href="profile.html"
+                        <Link
+                          href="/profile"
                           className="link hover-text-decoration-underline"
                         >
                           themepix
-                        </a>
+                        </Link>
                       </span>
                       <div className="flx-align gap-2">
                         <h6 className="product-item__price mb-0">$79</h6>
@@ -3782,12 +3784,12 @@ const ArrivalTwo = () => {
                           </span>
                         </div>
                       </div>
-                      <a
-                        href="product-details.html"
+                      <Link
+                        href="/product-details"
                         className="btn btn-outline-light btn-sm pill"
                       >
                         Live Demo
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -3805,32 +3807,32 @@ const ArrivalTwo = () => {
               <div className="col-xl-3 col-lg-4 col-sm-6">
                 <div className="product-item">
                   <div className="product-item__thumb d-flex">
-                    <a href="product-details.html" className="link w-100">
+                    <Link href="/product-details" className="link w-100">
                       <img
                         src="assets/images/thumbs/product-img1.png"
                         alt=""
                         className="cover-img"
                       />
-                    </a>
+                    </Link>
                     <button type="button" className="product-item__wishlist">
                       <i className="fas fa-heart" />
                     </button>
                   </div>
                   <div className="product-item__content">
                     <h6 className="product-item__title">
-                      <a href="product-details.html" className="link">
+                      <Link href="/product-details" className="link">
                         SaaS dashboard digital products Title here
-                      </a>
+                      </Link>
                     </h6>
                     <div className="product-item__info flx-between gap-2">
                       <span className="product-item__author">
                         by
-                        <a
-                          href="profile.html"
+                        <Link
+                          href="/profile"
                           className="link hover-text-decoration-underline"
                         >
                           themepix
-                        </a>
+                        </Link>
                       </span>
                       <div className="flx-align gap-2">
                         <h6 className="product-item__price mb-0">$120</h6>
@@ -3867,12 +3869,12 @@ const ArrivalTwo = () => {
                           </span>
                         </div>
                       </div>
-                      <a
-                        href="product-details.html"
+                      <Link
+                        href="/product-details"
                         className="btn btn-outline-light btn-sm pill"
                       >
                         Live Demo
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -3880,32 +3882,32 @@ const ArrivalTwo = () => {
               <div className="col-xl-3 col-lg-4 col-sm-6">
                 <div className="product-item">
                   <div className="product-item__thumb d-flex">
-                    <a href="product-details.html" className="link w-100">
+                    <Link href="/product-details" className="link w-100">
                       <img
                         src="assets/images/thumbs/product-img2.png"
                         alt=""
                         className="cover-img"
                       />
-                    </a>
+                    </Link>
                     <button type="button" className="product-item__wishlist">
                       <i className="fas fa-heart" />
                     </button>
                   </div>
                   <div className="product-item__content">
                     <h6 className="product-item__title">
-                      <a href="product-details.html" className="link">
+                      <Link href="/product-details" className="link">
                         SaaS dashboard digital products Title here
-                      </a>
+                      </Link>
                     </h6>
                     <div className="product-item__info flx-between gap-2">
                       <span className="product-item__author">
                         by
-                        <a
-                          href="profile.html"
+                        <Link
+                          href="/profile"
                           className="link hover-text-decoration-underline"
                         >
                           themepix
-                        </a>
+                        </Link>
                       </span>
                       <div className="flx-align gap-2">
                         <h6 className="product-item__price mb-0">$129</h6>
@@ -3942,12 +3944,12 @@ const ArrivalTwo = () => {
                           </span>
                         </div>
                       </div>
-                      <a
-                        href="product-details.html"
+                      <Link
+                        href="/product-details"
                         className="btn btn-outline-light btn-sm pill"
                       >
                         Live Demo
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -3955,32 +3957,32 @@ const ArrivalTwo = () => {
               <div className="col-xl-3 col-lg-4 col-sm-6">
                 <div className="product-item">
                   <div className="product-item__thumb d-flex">
-                    <a href="product-details.html" className="link w-100">
+                    <Link href="/product-details" className="link w-100">
                       <img
                         src="assets/images/thumbs/product-img3.png"
                         alt=""
                         className="cover-img"
                       />
-                    </a>
+                    </Link>
                     <button type="button" className="product-item__wishlist">
                       <i className="fas fa-heart" />
                     </button>
                   </div>
                   <div className="product-item__content">
                     <h6 className="product-item__title">
-                      <a href="product-details.html" className="link">
+                      <Link href="/product-details" className="link">
                         SaaS dashboard digital products Title here
-                      </a>
+                      </Link>
                     </h6>
                     <div className="product-item__info flx-between gap-2">
                       <span className="product-item__author">
                         by
-                        <a
-                          href="profile.html"
+                        <Link
+                          href="/profile"
                           className="link hover-text-decoration-underline"
                         >
                           themepix
-                        </a>
+                        </Link>
                       </span>
                       <div className="flx-align gap-2">
                         <h6 className="product-item__price mb-0">$79</h6>
@@ -4017,12 +4019,12 @@ const ArrivalTwo = () => {
                           </span>
                         </div>
                       </div>
-                      <a
-                        href="product-details.html"
+                      <Link
+                        href="/product-details"
                         className="btn btn-outline-light btn-sm pill"
                       >
                         Live Demo
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -4030,32 +4032,32 @@ const ArrivalTwo = () => {
               <div className="col-xl-3 col-lg-4 col-sm-6">
                 <div className="product-item">
                   <div className="product-item__thumb d-flex">
-                    <a href="product-details.html" className="link w-100">
+                    <Link href="/product-details" className="link w-100">
                       <img
                         src="assets/images/thumbs/product-img4.png"
                         alt=""
                         className="cover-img"
                       />
-                    </a>
+                    </Link>
                     <button type="button" className="product-item__wishlist">
                       <i className="fas fa-heart" />
                     </button>
                   </div>
                   <div className="product-item__content">
                     <h6 className="product-item__title">
-                      <a href="product-details.html" className="link">
+                      <Link href="/product-details" className="link">
                         SaaS dashboard digital products Title here
-                      </a>
+                      </Link>
                     </h6>
                     <div className="product-item__info flx-between gap-2">
                       <span className="product-item__author">
                         by
-                        <a
-                          href="profile.html"
+                        <Link
+                          href="/profile"
                           className="link hover-text-decoration-underline"
                         >
                           themepix
-                        </a>
+                        </Link>
                       </span>
                       <div className="flx-align gap-2">
                         <h6 className="product-item__price mb-0">$59</h6>
@@ -4092,12 +4094,12 @@ const ArrivalTwo = () => {
                           </span>
                         </div>
                       </div>
-                      <a
-                        href="product-details.html"
+                      <Link
+                        href="/product-details"
                         className="btn btn-outline-light btn-sm pill"
                       >
                         Live Demo
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -4105,32 +4107,32 @@ const ArrivalTwo = () => {
               <div className="col-xl-3 col-lg-4 col-sm-6">
                 <div className="product-item">
                   <div className="product-item__thumb d-flex">
-                    <a href="product-details.html" className="link w-100">
+                    <Link href="/product-details" className="link w-100">
                       <img
                         src="assets/images/thumbs/product-img5.png"
                         alt=""
                         className="cover-img"
                       />
-                    </a>
+                    </Link>
                     <button type="button" className="product-item__wishlist">
                       <i className="fas fa-heart" />
                     </button>
                   </div>
                   <div className="product-item__content">
                     <h6 className="product-item__title">
-                      <a href="product-details.html" className="link">
+                      <Link href="/product-details" className="link">
                         SaaS dashboard digital products Title here
-                      </a>
+                      </Link>
                     </h6>
                     <div className="product-item__info flx-between gap-2">
                       <span className="product-item__author">
                         by
-                        <a
-                          href="profile.html"
+                        <Link
+                          href="/profile"
                           className="link hover-text-decoration-underline"
                         >
                           themepix
-                        </a>
+                        </Link>
                       </span>
                       <div className="flx-align gap-2">
                         <h6 className="product-item__price mb-0">$99</h6>
@@ -4167,12 +4169,12 @@ const ArrivalTwo = () => {
                           </span>
                         </div>
                       </div>
-                      <a
-                        href="product-details.html"
+                      <Link
+                        href="/product-details"
                         className="btn btn-outline-light btn-sm pill"
                       >
                         Live Demo
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -4180,32 +4182,32 @@ const ArrivalTwo = () => {
               <div className="col-xl-3 col-lg-4 col-sm-6">
                 <div className="product-item">
                   <div className="product-item__thumb d-flex">
-                    <a href="product-details.html" className="link w-100">
+                    <Link href="/product-details" className="link w-100">
                       <img
                         src="assets/images/thumbs/product-img6.png"
                         alt=""
                         className="cover-img"
                       />
-                    </a>
+                    </Link>
                     <button type="button" className="product-item__wishlist">
                       <i className="fas fa-heart" />
                     </button>
                   </div>
                   <div className="product-item__content">
                     <h6 className="product-item__title">
-                      <a href="product-details.html" className="link">
+                      <Link href="/product-details" className="link">
                         SaaS dashboard digital products Title here
-                      </a>
+                      </Link>
                     </h6>
                     <div className="product-item__info flx-between gap-2">
                       <span className="product-item__author">
                         by
-                        <a
-                          href="profile.html"
+                        <Link
+                          href="/profile"
                           className="link hover-text-decoration-underline"
                         >
                           themepix
-                        </a>
+                        </Link>
                       </span>
                       <div className="flx-align gap-2">
                         <h6 className="product-item__price mb-0">$129</h6>
@@ -4242,12 +4244,12 @@ const ArrivalTwo = () => {
                           </span>
                         </div>
                       </div>
-                      <a
-                        href="product-details.html"
+                      <Link
+                        href="/product-details"
                         className="btn btn-outline-light btn-sm pill"
                       >
                         Live Demo
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -4255,32 +4257,32 @@ const ArrivalTwo = () => {
               <div className="col-xl-3 col-lg-4 col-sm-6">
                 <div className="product-item">
                   <div className="product-item__thumb d-flex">
-                    <a href="product-details.html" className="link w-100">
+                    <Link href="/product-details" className="link w-100">
                       <img
                         src="assets/images/thumbs/product-img7.png"
                         alt=""
                         className="cover-img"
                       />
-                    </a>
+                    </Link>
                     <button type="button" className="product-item__wishlist">
                       <i className="fas fa-heart" />
                     </button>
                   </div>
                   <div className="product-item__content">
                     <h6 className="product-item__title">
-                      <a href="product-details.html" className="link">
+                      <Link href="/product-details" className="link">
                         SaaS dashboard digital products Title here
-                      </a>
+                      </Link>
                     </h6>
                     <div className="product-item__info flx-between gap-2">
                       <span className="product-item__author">
                         by
-                        <a
-                          href="profile.html"
+                        <Link
+                          href="/profile"
                           className="link hover-text-decoration-underline"
                         >
                           themepix
-                        </a>
+                        </Link>
                       </span>
                       <div className="flx-align gap-2">
                         <h6 className="product-item__price mb-0">$129</h6>
@@ -4317,12 +4319,12 @@ const ArrivalTwo = () => {
                           </span>
                         </div>
                       </div>
-                      <a
-                        href="product-details.html"
+                      <Link
+                        href="/product-details"
                         className="btn btn-outline-light btn-sm pill"
                       >
                         Live Demo
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -4330,32 +4332,32 @@ const ArrivalTwo = () => {
               <div className="col-xl-3 col-lg-4 col-sm-6">
                 <div className="product-item">
                   <div className="product-item__thumb d-flex">
-                    <a href="product-details.html" className="link w-100">
+                    <Link href="/product-details" className="link w-100">
                       <img
                         src="assets/images/thumbs/product-img8.png"
                         alt=""
                         className="cover-img"
                       />
-                    </a>
+                    </Link>
                     <button type="button" className="product-item__wishlist">
                       <i className="fas fa-heart" />
                     </button>
                   </div>
                   <div className="product-item__content">
                     <h6 className="product-item__title">
-                      <a href="product-details.html" className="link">
+                      <Link href="/product-details" className="link">
                         SaaS dashboard digital products Title here
-                      </a>
+                      </Link>
                     </h6>
                     <div className="product-item__info flx-between gap-2">
                       <span className="product-item__author">
                         by
-                        <a
-                          href="profile.html"
+                        <Link
+                          href="/profile"
                           className="link hover-text-decoration-underline"
                         >
                           themepix
-                        </a>
+                        </Link>
                       </span>
                       <div className="flx-align gap-2">
                         <h6 className="product-item__price mb-0">$79</h6>
@@ -4392,12 +4394,12 @@ const ArrivalTwo = () => {
                           </span>
                         </div>
                       </div>
-                      <a
-                        href="product-details.html"
+                      <Link
+                        href="/product-details"
                         className="btn btn-outline-light btn-sm pill"
                       >
                         Live Demo
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -4415,32 +4417,32 @@ const ArrivalTwo = () => {
               <div className="col-xl-3 col-lg-4 col-sm-6">
                 <div className="product-item">
                   <div className="product-item__thumb d-flex">
-                    <a href="product-details.html" className="link w-100">
+                    <Link href="/product-details" className="link w-100">
                       <img
                         src="assets/images/thumbs/product-img1.png"
                         alt=""
                         className="cover-img"
                       />
-                    </a>
+                    </Link>
                     <button type="button" className="product-item__wishlist">
                       <i className="fas fa-heart" />
                     </button>
                   </div>
                   <div className="product-item__content">
                     <h6 className="product-item__title">
-                      <a href="product-details.html" className="link">
+                      <Link href="/product-details" className="link">
                         SaaS dashboard digital products Title here
-                      </a>
+                      </Link>
                     </h6>
                     <div className="product-item__info flx-between gap-2">
                       <span className="product-item__author">
                         by
-                        <a
-                          href="profile.html"
+                        <Link
+                          href="/profile"
                           className="link hover-text-decoration-underline"
                         >
                           themepix
-                        </a>
+                        </Link>
                       </span>
                       <div className="flx-align gap-2">
                         <h6 className="product-item__price mb-0">$120</h6>
@@ -4477,12 +4479,12 @@ const ArrivalTwo = () => {
                           </span>
                         </div>
                       </div>
-                      <a
-                        href="product-details.html"
+                      <Link
+                        href="/product-details"
                         className="btn btn-outline-light btn-sm pill"
                       >
                         Live Demo
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -4490,32 +4492,32 @@ const ArrivalTwo = () => {
               <div className="col-xl-3 col-lg-4 col-sm-6">
                 <div className="product-item">
                   <div className="product-item__thumb d-flex">
-                    <a href="product-details.html" className="link w-100">
+                    <Link href="/product-details" className="link w-100">
                       <img
                         src="assets/images/thumbs/product-img2.png"
                         alt=""
                         className="cover-img"
                       />
-                    </a>
+                    </Link>
                     <button type="button" className="product-item__wishlist">
                       <i className="fas fa-heart" />
                     </button>
                   </div>
                   <div className="product-item__content">
                     <h6 className="product-item__title">
-                      <a href="product-details.html" className="link">
+                      <Link href="/product-details" className="link">
                         SaaS dashboard digital products Title here
-                      </a>
+                      </Link>
                     </h6>
                     <div className="product-item__info flx-between gap-2">
                       <span className="product-item__author">
                         by
-                        <a
-                          href="profile.html"
+                        <Link
+                          href="/profile"
                           className="link hover-text-decoration-underline"
                         >
                           themepix
-                        </a>
+                        </Link>
                       </span>
                       <div className="flx-align gap-2">
                         <h6 className="product-item__price mb-0">$129</h6>
@@ -4552,12 +4554,12 @@ const ArrivalTwo = () => {
                           </span>
                         </div>
                       </div>
-                      <a
-                        href="product-details.html"
+                      <Link
+                        href="/product-details"
                         className="btn btn-outline-light btn-sm pill"
                       >
                         Live Demo
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -4565,32 +4567,32 @@ const ArrivalTwo = () => {
               <div className="col-xl-3 col-lg-4 col-sm-6">
                 <div className="product-item">
                   <div className="product-item__thumb d-flex">
-                    <a href="product-details.html" className="link w-100">
+                    <Link href="/product-details" className="link w-100">
                       <img
                         src="assets/images/thumbs/product-img3.png"
                         alt=""
                         className="cover-img"
                       />
-                    </a>
+                    </Link>
                     <button type="button" className="product-item__wishlist">
                       <i className="fas fa-heart" />
                     </button>
                   </div>
                   <div className="product-item__content">
                     <h6 className="product-item__title">
-                      <a href="product-details.html" className="link">
+                      <Link href="/product-details" className="link">
                         SaaS dashboard digital products Title here
-                      </a>
+                      </Link>
                     </h6>
                     <div className="product-item__info flx-between gap-2">
                       <span className="product-item__author">
                         by
-                        <a
-                          href="profile.html"
+                        <Link
+                          href="/profile"
                           className="link hover-text-decoration-underline"
                         >
                           themepix
-                        </a>
+                        </Link>
                       </span>
                       <div className="flx-align gap-2">
                         <h6 className="product-item__price mb-0">$79</h6>
@@ -4627,12 +4629,12 @@ const ArrivalTwo = () => {
                           </span>
                         </div>
                       </div>
-                      <a
-                        href="product-details.html"
+                      <Link
+                        href="/product-details"
                         className="btn btn-outline-light btn-sm pill"
                       >
                         Live Demo
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -4640,32 +4642,32 @@ const ArrivalTwo = () => {
               <div className="col-xl-3 col-lg-4 col-sm-6">
                 <div className="product-item">
                   <div className="product-item__thumb d-flex">
-                    <a href="product-details.html" className="link w-100">
+                    <Link href="/product-details" className="link w-100">
                       <img
                         src="assets/images/thumbs/product-img4.png"
                         alt=""
                         className="cover-img"
                       />
-                    </a>
+                    </Link>
                     <button type="button" className="product-item__wishlist">
                       <i className="fas fa-heart" />
                     </button>
                   </div>
                   <div className="product-item__content">
                     <h6 className="product-item__title">
-                      <a href="product-details.html" className="link">
+                      <Link href="/product-details" className="link">
                         SaaS dashboard digital products Title here
-                      </a>
+                      </Link>
                     </h6>
                     <div className="product-item__info flx-between gap-2">
                       <span className="product-item__author">
                         by
-                        <a
-                          href="profile.html"
+                        <Link
+                          href="/profile"
                           className="link hover-text-decoration-underline"
                         >
                           themepix
-                        </a>
+                        </Link>
                       </span>
                       <div className="flx-align gap-2">
                         <h6 className="product-item__price mb-0">$59</h6>
@@ -4702,12 +4704,12 @@ const ArrivalTwo = () => {
                           </span>
                         </div>
                       </div>
-                      <a
-                        href="product-details.html"
+                      <Link
+                        href="/product-details"
                         className="btn btn-outline-light btn-sm pill"
                       >
                         Live Demo
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -4715,32 +4717,32 @@ const ArrivalTwo = () => {
               <div className="col-xl-3 col-lg-4 col-sm-6">
                 <div className="product-item">
                   <div className="product-item__thumb d-flex">
-                    <a href="product-details.html" className="link w-100">
+                    <Link href="/product-details" className="link w-100">
                       <img
                         src="assets/images/thumbs/product-img5.png"
                         alt=""
                         className="cover-img"
                       />
-                    </a>
+                    </Link>
                     <button type="button" className="product-item__wishlist">
                       <i className="fas fa-heart" />
                     </button>
                   </div>
                   <div className="product-item__content">
                     <h6 className="product-item__title">
-                      <a href="product-details.html" className="link">
+                      <Link href="/product-details" className="link">
                         SaaS dashboard digital products Title here
-                      </a>
+                      </Link>
                     </h6>
                     <div className="product-item__info flx-between gap-2">
                       <span className="product-item__author">
                         by
-                        <a
-                          href="profile.html"
+                        <Link
+                          href="/profile"
                           className="link hover-text-decoration-underline"
                         >
                           themepix
-                        </a>
+                        </Link>
                       </span>
                       <div className="flx-align gap-2">
                         <h6 className="product-item__price mb-0">$99</h6>
@@ -4777,12 +4779,12 @@ const ArrivalTwo = () => {
                           </span>
                         </div>
                       </div>
-                      <a
-                        href="product-details.html"
+                      <Link
+                        href="/product-details"
                         className="btn btn-outline-light btn-sm pill"
                       >
                         Live Demo
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -4790,32 +4792,32 @@ const ArrivalTwo = () => {
               <div className="col-xl-3 col-lg-4 col-sm-6">
                 <div className="product-item">
                   <div className="product-item__thumb d-flex">
-                    <a href="product-details.html" className="link w-100">
+                    <Link href="/product-details" className="link w-100">
                       <img
                         src="assets/images/thumbs/product-img6.png"
                         alt=""
                         className="cover-img"
                       />
-                    </a>
+                    </Link>
                     <button type="button" className="product-item__wishlist">
                       <i className="fas fa-heart" />
                     </button>
                   </div>
                   <div className="product-item__content">
                     <h6 className="product-item__title">
-                      <a href="product-details.html" className="link">
+                      <Link href="/product-details" className="link">
                         SaaS dashboard digital products Title here
-                      </a>
+                      </Link>
                     </h6>
                     <div className="product-item__info flx-between gap-2">
                       <span className="product-item__author">
                         by
-                        <a
-                          href="profile.html"
+                        <Link
+                          href="/profile"
                           className="link hover-text-decoration-underline"
                         >
                           themepix
-                        </a>
+                        </Link>
                       </span>
                       <div className="flx-align gap-2">
                         <h6 className="product-item__price mb-0">$129</h6>
@@ -4852,12 +4854,12 @@ const ArrivalTwo = () => {
                           </span>
                         </div>
                       </div>
-                      <a
-                        href="product-details.html"
+                      <Link
+                        href="/product-details"
                         className="btn btn-outline-light btn-sm pill"
                       >
                         Live Demo
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -4865,32 +4867,32 @@ const ArrivalTwo = () => {
               <div className="col-xl-3 col-lg-4 col-sm-6">
                 <div className="product-item">
                   <div className="product-item__thumb d-flex">
-                    <a href="product-details.html" className="link w-100">
+                    <Link href="/product-details" className="link w-100">
                       <img
                         src="assets/images/thumbs/product-img7.png"
                         alt=""
                         className="cover-img"
                       />
-                    </a>
+                    </Link>
                     <button type="button" className="product-item__wishlist">
                       <i className="fas fa-heart" />
                     </button>
                   </div>
                   <div className="product-item__content">
                     <h6 className="product-item__title">
-                      <a href="product-details.html" className="link">
+                      <Link href="/product-details" className="link">
                         SaaS dashboard digital products Title here
-                      </a>
+                      </Link>
                     </h6>
                     <div className="product-item__info flx-between gap-2">
                       <span className="product-item__author">
                         by
-                        <a
-                          href="profile.html"
+                        <Link
+                          href="/profile"
                           className="link hover-text-decoration-underline"
                         >
                           themepix
-                        </a>
+                        </Link>
                       </span>
                       <div className="flx-align gap-2">
                         <h6 className="product-item__price mb-0">$129</h6>
@@ -4927,12 +4929,12 @@ const ArrivalTwo = () => {
                           </span>
                         </div>
                       </div>
-                      <a
-                        href="product-details.html"
+                      <Link
+                        href="/product-details"
                         className="btn btn-outline-light btn-sm pill"
                       >
                         Live Demo
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -4940,32 +4942,32 @@ const ArrivalTwo = () => {
               <div className="col-xl-3 col-lg-4 col-sm-6">
                 <div className="product-item">
                   <div className="product-item__thumb d-flex">
-                    <a href="product-details.html" className="link w-100">
+                    <Link href="/product-details" className="link w-100">
                       <img
                         src="assets/images/thumbs/product-img8.png"
                         alt=""
                         className="cover-img"
                       />
-                    </a>
+                    </Link>
                     <button type="button" className="product-item__wishlist">
                       <i className="fas fa-heart" />
                     </button>
                   </div>
                   <div className="product-item__content">
                     <h6 className="product-item__title">
-                      <a href="product-details.html" className="link">
+                      <Link href="/product-details" className="link">
                         SaaS dashboard digital products Title here
-                      </a>
+                      </Link>
                     </h6>
                     <div className="product-item__info flx-between gap-2">
                       <span className="product-item__author">
                         by
-                        <a
-                          href="profile.html"
+                        <Link
+                          href="/profile"
                           className="link hover-text-decoration-underline"
                         >
                           themepix
-                        </a>
+                        </Link>
                       </span>
                       <div className="flx-align gap-2">
                         <h6 className="product-item__price mb-0">$79</h6>
@@ -5002,12 +5004,12 @@ const ArrivalTwo = () => {
                           </span>
                         </div>
                       </div>
-                      <a
-                        href="product-details.html"
+                      <Link
+                        href="/product-details"
                         className="btn btn-outline-light btn-sm pill"
                       >
                         Live Demo
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -5016,12 +5018,12 @@ const ArrivalTwo = () => {
           </div>
         </div>
         <div className="text-center mt-64">
-          <a
-            href="all-product.html"
+          <Link
+            href="/all-product"
             className="btn btn-main btn-lg pill fw-300"
           >
             View All Products
-          </a>
+          </Link>
         </div>
       </div>
     </section>

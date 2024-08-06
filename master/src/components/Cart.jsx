@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 const Cart = () => {
     return (
         <div className="cart padding-y-120">
@@ -19,20 +21,20 @@ const Cart = () => {
                       <div className="cart-item">
                         <div className="d-flex align-items-center gap-3">
                           <div className="cart-item__thumb">
-                            <a href="product-details.html" className="link">
+                            <Link href="/product-details" className="link">
                               <img
                                 src="assets/images/thumbs/product-img2.png"
                                 alt=""
                                 className="cover-img"
                               />
-                            </a>
+                            </Link>
                           </div>
                           <div className="cart-item__content">
                             <h6 className="cart-item__title font-heading fw-700 text-capitalize font-18 mb-4">
                               {" "}
-                              <a href="product-details.html" className="link">
+                              <Link href="/product-details" className="link">
                                 Digital product name here
-                              </a>
+                              </Link>
                             </h6>
                             <span className="cart-item__price font-18 text-heading fw-500">
                               Category:{" "}
@@ -91,20 +93,20 @@ const Cart = () => {
                       <div className="cart-item">
                         <div className="d-flex align-items-center gap-3">
                           <div className="cart-item__thumb">
-                            <a href="product-details.html" className="link">
+                            <Link href="/product-details" className="link">
                               <img
                                 src="assets/images/thumbs/product-img3.png"
                                 alt=""
                                 className="cover-img"
                               />
-                            </a>
+                            </Link>
                           </div>
                           <div className="cart-item__content">
                             <h6 className="cart-item__title font-heading fw-700 text-capitalize font-18 mb-4">
                               {" "}
-                              <a href="product-details.html" className="link">
+                              <Link href="/product-details" className="link">
                                 Digital product name here
-                              </a>
+                              </Link>
                             </h6>
                             <span className="cart-item__price font-18 text-heading fw-500">
                               Category:{" "}
@@ -163,20 +165,20 @@ const Cart = () => {
                       <div className="cart-item">
                         <div className="d-flex align-items-center gap-3">
                           <div className="cart-item__thumb">
-                            <a href="product-details.html" className="link">
+                            <Link href="/product-details" className="link">
                               <img
                                 src="assets/images/thumbs/product-img4.png"
                                 alt=""
                                 className="cover-img"
                               />
-                            </a>
+                            </Link>
                           </div>
                           <div className="cart-item__content">
                             <h6 className="cart-item__title font-heading fw-700 text-capitalize font-18 mb-4">
                               {" "}
-                              <a href="product-details.html" className="link">
+                              <Link href="/product-details" className="link">
                                 Digital product name here
-                              </a>
+                              </Link>
                             </h6>
                             <span className="cart-item__price font-18 text-heading fw-500">
                               Category:{" "}
@@ -234,24 +236,24 @@ const Cart = () => {
               </table>
             </div>
             <div className="cart-content__bottom flx-between gap-2">
-              <a
-                href="all-product.html"
+              <Link
+                href="/all-product"
                 className="btn btn-outline-light flx-align gap-2 pill btn-lg"
               >
                 <span className="icon line-height-1 font-20">
                   <i className="las la-arrow-left" />
                 </span>
                 Continue Shopping
-              </a>
-              <a
-                href="cart-personal.html"
+              </Link>
+              <Link
+                href="/cart-personal"
                 className="btn btn-main flx-align gap-2 pill btn-lg"
               >
                 Next
                 <span className="icon line-height-1 font-20">
                   <i className="las la-arrow-right" />
                 </span>
-              </a>
+              </Link>
             </div>
           </div>
         </div>

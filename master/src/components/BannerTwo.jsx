@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 const BannerTwo = () => {
   return (
     <section className="banner-two position-relative z-index-1 overflow-hidden">
@@ -98,52 +100,52 @@ const BannerTwo = () => {
                 </h6>
                 <ul className="search-list">
                   <li className="search-list__item">
-                    <a
-                      href="all-product.html"
+                    <Link
+                      href="/all-product"
                       className="search-list__link font-14 text-heading"
                     >
                       theme
-                    </a>
+                    </Link>
                   </li>
                   <li className="search-list__item">
-                    <a
-                      href="all-product.html"
+                    <Link
+                      href="/all-product"
                       className="search-list__link font-14 text-heading"
                     >
                       plugins
-                    </a>
+                    </Link>
                   </li>
                   <li className="search-list__item">
-                    <a
-                      href="all-product.html"
+                    <Link
+                      href="/all-product"
                       className="search-list__link font-14 text-heading"
                     >
                       ui template
-                    </a>
+                    </Link>
                   </li>
                   <li className="search-list__item">
-                    <a
-                      href="all-product.html"
+                    <Link
+                      href="/all-product"
                       className="search-list__link font-14 text-heading"
                     >
                       mobile app
-                    </a>
+                    </Link>
                   </li>
                   <li className="search-list__item">
-                    <a
-                      href="all-product.html"
+                    <Link
+                      href="/all-product"
                       className="search-list__link font-14 text-heading"
                     >
                       html template
-                    </a>
+                    </Link>
                   </li>
                   <li className="search-list__item">
-                    <a
-                      href="all-product.html"
+                    <Link
+                      href="/all-product"
                       className="search-list__link font-14 text-heading"
                     >
                       dashboard
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </div>

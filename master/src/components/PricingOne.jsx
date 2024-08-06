@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 const PricingOne = () => {
   return (
     <section className="pricing padding-y-120 position-relative z-index-1">
@@ -95,12 +97,12 @@ const PricingOne = () => {
                     <p className="pricing-item__desc">
                       Essential services to start your journey
                     </p>
-                    <a
+                    <Link
                       href="#"
                       className="btn btn-outline-light btn-lg pill w-100"
                     >
                       Get Started
-                    </a>
+                    </Link>
                   </div>
                   <div className="pricing-item__lists">
                     <ul className="text-list">
@@ -178,12 +180,12 @@ const PricingOne = () => {
                     <p className="pricing-item__desc">
                       Essential services to start your journey
                     </p>
-                    <a
+                    <Link
                       href="#"
                       className="btn btn-outline-light btn-lg pill w-100"
                     >
                       Get Started
-                    </a>
+                    </Link>
                   </div>
                   <div className="pricing-item__lists">
                     <ul className="text-list">
@@ -261,12 +263,12 @@ const PricingOne = () => {
                     <p className="pricing-item__desc">
                       Essential services to start your journey
                     </p>
-                    <a
+                    <Link
                       href="#"
                       className="btn btn-outline-light btn-lg pill w-100"
                     >
                       Get Started
-                    </a>
+                    </Link>
                   </div>
                   <div className="pricing-item__lists">
                     <ul className="text-list">
@@ -354,12 +356,12 @@ const PricingOne = () => {
                     <p className="pricing-item__desc">
                       Essential services to start your journey
                     </p>
-                    <a
+                    <Link
                       href="#"
                       className="btn btn-outline-light btn-lg pill w-100"
                     >
                       Get Started
-                    </a>
+                    </Link>
                   </div>
                   <div className="pricing-item__lists">
                     <ul className="text-list">
@@ -437,12 +439,12 @@ const PricingOne = () => {
                     <p className="pricing-item__desc">
                       Essential services to start your journey
                     </p>
-                    <a
+                    <Link
                       href="#"
                       className="btn btn-outline-light btn-lg pill w-100"
                     >
                       Get Started
-                    </a>
+                    </Link>
                   </div>
                   <div className="pricing-item__lists">
                     <ul className="text-list">
@@ -520,12 +522,12 @@ const PricingOne = () => {
                     <p className="pricing-item__desc">
                       Essential services to start your journey
                     </p>
-                    <a
+                    <Link
                       href="#"
                       className="btn btn-outline-light btn-lg pill w-100"
                     >
                       Get Started
-                    </a>
+                    </Link>
                   </div>
                   <div className="pricing-item__lists">
                     <ul className="text-list">

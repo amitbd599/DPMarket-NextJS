@@ -1,6 +1,7 @@
 "use client";
 import { useEffect, useRef } from "react";
 import CircleType from "circletype";
+import Link from "next/link";
 const FeaturedAuthor = () => {
   const textRef = useRef(null);
 
@@ -56,12 +57,12 @@ const FeaturedAuthor = () => {
                 </div>
               </div>
               <div className="flx-align gap-2 mt-48">
-                <a
-                  href="profile.html"
+                <Link
+                  href="/profile"
                   className="btn btn-main btn-lg pill fw-300"
                 >
                   View Profile
-                </a>
+                </Link>
                 <button
                   type="button"
                   className="follow-btn btn btn-outline-light btn-lg pill"
@@ -85,32 +86,32 @@ const FeaturedAuthor = () => {
                 <div className="col-sm-6">
                   <div className="product-item box-shadow">
                     <div className="product-item__thumb d-flex">
-                      <a href="product-details.html" className="link w-100">
+                      <Link href="/product-details" className="link w-100">
                         <img
                           src="assets/images/thumbs/product-img9.png"
                           alt=""
                           className="cover-img"
                         />
-                      </a>
+                      </Link>
                       <button type="button" className="product-item__wishlist">
                         <i className="fas fa-heart" />
                       </button>
                     </div>
                     <div className="product-item__content">
                       <h6 className="product-item__title">
-                        <a href="product-details.html" className="link">
+                        <Link href="/product-details" className="link">
                           SaaS dashboard digital products Title here
-                        </a>
+                        </Link>
                       </h6>
                       <div className="product-item__info flx-between gap-2">
                         <span className="product-item__author">
                           by
-                          <a
-                            href="profile.html"
+                          <Link
+                            href="/profile"
                             className="link hover-text-decoration-underline"
                           >
                             themepix
-                          </a>
+                          </Link>
                         </span>
                         <div className="flx-align gap-2">
                           <h6 className="product-item__price mb-0">$120</h6>
@@ -147,12 +148,12 @@ const FeaturedAuthor = () => {
                             </span>
                           </div>
                         </div>
-                        <a
-                          href="product-details.html"
+                        <Link
+                          href="/product-details"
                           className="btn btn-outline-light btn-sm pill"
                         >
                           Live Demo
-                        </a>
+                        </Link>
                       </div>
                     </div>
                   </div>
@@ -160,32 +161,32 @@ const FeaturedAuthor = () => {
                 <div className="col-sm-6">
                   <div className="product-item box-shadow">
                     <div className="product-item__thumb d-flex">
-                      <a href="product-details.html" className="link w-100">
+                      <Link href="/product-details" className="link w-100">
                         <img
                           src="assets/images/thumbs/product-img10.png"
                           alt=""
                           className="cover-img"
                         />
-                      </a>
+                      </Link>
                       <button type="button" className="product-item__wishlist">
                         <i className="fas fa-heart" />
                       </button>
                     </div>
                     <div className="product-item__content">
                       <h6 className="product-item__title">
-                        <a href="product-details.html" className="link">
+                        <Link href="/product-details" className="link">
                           SaaS dashboard digital products Title here
-                        </a>
+                        </Link>
                       </h6>
                       <div className="product-item__info flx-between gap-2">
                         <span className="product-item__author">
                           by
-                          <a
-                            href="profile.html"
+                          <Link
+                            href="/profile"
                             className="link hover-text-decoration-underline"
                           >
                             themepix
-                          </a>
+                          </Link>
                         </span>
                         <div className="flx-align gap-2">
                           <h6 className="product-item__price mb-0">$129</h6>
@@ -222,12 +223,12 @@ const FeaturedAuthor = () => {
                             </span>
                           </div>
                         </div>
-                        <a
-                          href="product-details.html"
+                        <Link
+                          href="/product-details"
                           className="btn btn-outline-light btn-sm pill"
                         >
                           Live Demo
-                        </a>
+                        </Link>
                       </div>
                     </div>
                   </div>
@@ -235,32 +236,32 @@ const FeaturedAuthor = () => {
                 <div className="col-sm-6">
                   <div className="product-item box-shadow">
                     <div className="product-item__thumb d-flex">
-                      <a href="product-details.html" className="link w-100">
+                      <Link href="/product-details" className="link w-100">
                         <img
                           src="assets/images/thumbs/product-img11.png"
                           alt=""
                           className="cover-img"
                         />
-                      </a>
+                      </Link>
                       <button type="button" className="product-item__wishlist">
                         <i className="fas fa-heart" />
                       </button>
                     </div>
                     <div className="product-item__content">
                       <h6 className="product-item__title">
-                        <a href="product-details.html" className="link">
+                        <Link href="/product-details" className="link">
                           SaaS dashboard digital products Title here
-                        </a>
+                        </Link>
                       </h6>
                       <div className="product-item__info flx-between gap-2">
                         <span className="product-item__author">
                           by
-                          <a
-                            href="profile.html"
+                          <Link
+                            href="/profile"
                             className="link hover-text-decoration-underline"
                           >
                             themepix
-                          </a>
+                          </Link>
                         </span>
                         <div className="flx-align gap-2">
                           <h6 className="product-item__price mb-0">$79</h6>
@@ -297,12 +298,12 @@ const FeaturedAuthor = () => {
                             </span>
                           </div>
                         </div>
-                        <a
-                          href="product-details.html"
+                        <Link
+                          href="/product-details"
                           className="btn btn-outline-light btn-sm pill"
                         >
                           Live Demo
-                        </a>
+                        </Link>
                       </div>
                     </div>
                   </div>
@@ -310,32 +311,32 @@ const FeaturedAuthor = () => {
                 <div className="col-sm-6">
                   <div className="product-item box-shadow">
                     <div className="product-item__thumb d-flex">
-                      <a href="product-details.html" className="link w-100">
+                      <Link href="/product-details" className="link w-100">
                         <img
                           src="assets/images/thumbs/product-img4.png"
                           alt=""
                           className="cover-img"
                         />
-                      </a>
+                      </Link>
                       <button type="button" className="product-item__wishlist">
                         <i className="fas fa-heart" />
                       </button>
                     </div>
                     <div className="product-item__content">
                       <h6 className="product-item__title">
-                        <a href="product-details.html" className="link">
+                        <Link href="/product-details" className="link">
                           SaaS dashboard digital products Title here
-                        </a>
+                        </Link>
                       </h6>
                       <div className="product-item__info flx-between gap-2">
                         <span className="product-item__author">
                           by
-                          <a
-                            href="profile.html"
+                          <Link
+                            href="/profile"
                             className="link hover-text-decoration-underline"
                           >
                             themepix
-                          </a>
+                          </Link>
                         </span>
                         <div className="flx-align gap-2">
                           <h6 className="product-item__price mb-0">$59</h6>
@@ -372,12 +373,12 @@ const FeaturedAuthor = () => {
                             </span>
                           </div>
                         </div>
-                        <a
-                          href="product-details.html"
+                        <Link
+                          href="/product-details"
                           className="btn btn-outline-light btn-sm pill"
                         >
                           Live Demo
-                        </a>
+                        </Link>
                       </div>
                     </div>
                   </div>

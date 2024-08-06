@@ -1,4 +1,5 @@
 "use client";
+import Link from "next/link";
 import Slider from "react-slick";
 
 const Testimonial = () => {
@@ -70,9 +71,9 @@ const Testimonial = () => {
           <div className="section-heading__inner w-lg">
             <h3 className="section-heading__title">Clients Feedback</h3>
           </div>
-          <a href="#" className="btn btn-main btn-lg pill">
+          <Link href="#" className="btn btn-main btn-lg pill">
             More Feedback
-          </a>
+          </Link>
         </div>
         <div className="testimonial-slider">
           <Slider {...settings}>

@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 const FeaturedTwo = () => {
   return (
     <section className="featured-contributor padding-y-120 position-relative z-index-1 overflow-hidden">
@@ -29,12 +31,12 @@ const FeaturedTwo = () => {
                   products
                 </p>
               </div>
-              <a
-                href="profile.html"
+              <Link
+                href="/profile"
                 className="btn btn-main btn-lg pill fw-300"
               >
                 All Contributors
-              </a>
+              </Link>
             </div>
           </div>
           <div className="col-xl-2 d-xl-block d-none" />
@@ -70,9 +72,9 @@ const FeaturedTwo = () => {
                         alt=""
                         className="cover-img"
                       />
-                      <a href="#" className="contributor-item__link">
+                      <Link href="#" className="contributor-item__link">
                         <img src="assets/images/icons/link-white.svg" alt="" />
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -107,9 +109,9 @@ const FeaturedTwo = () => {
                         alt=""
                         className="cover-img"
                       />
-                      <a href="#" className="contributor-item__link">
+                      <Link href="#" className="contributor-item__link">
                         <img src="assets/images/icons/link-white.svg" alt="" />
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -144,9 +146,9 @@ const FeaturedTwo = () => {
                         alt=""
                         className="cover-img"
                       />
-                      <a href="#" className="contributor-item__link">
+                      <Link href="#" className="contributor-item__link">
                         <img src="assets/images/icons/link-white.svg" alt="" />
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -181,9 +183,9 @@ const FeaturedTwo = () => {
                         alt=""
                         className="cover-img"
                       />
-                      <a href="#" className="contributor-item__link">
+                      <Link href="#" className="contributor-item__link">
                         <img src="assets/images/icons/link-white.svg" alt="" />
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>

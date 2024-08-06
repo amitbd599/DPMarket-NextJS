@@ -1,4 +1,5 @@
 "use client";
+import Link from "next/link";
 import Slider from "react-slick";
 
 const ResourceOne = () => {
@@ -80,40 +81,40 @@ const ResourceOne = () => {
               specialists.
             </p>
           </div>
-          <a href="#" className="btn btn-main btn-lg pill">
+          <Link href="#" className="btn btn-main btn-lg pill">
             View All Items
-          </a>
+          </Link>
         </div>
         <div className="resource-slider gy-4">
           <Slider {...settings}>
             <div className="product-item shadow-sm">
               <div className="product-item__thumb d-flex">
-                <a href="product-details.html" className="link w-100">
+                <Link href="/product-details" className="link w-100">
                   <img
                     src="assets/images/thumbs/product-img1.png"
                     alt=""
                     className="cover-img"
                   />
-                </a>
+                </Link>
                 <button type="button" className="product-item__wishlist">
                   <i className="fas fa-heart" />
                 </button>
               </div>
               <div className="product-item__content">
                 <h6 className="product-item__title">
-                  <a href="product-details.html" className="link">
+                  <Link href="/product-details" className="link">
                     SaaS dashboard digital products Title here
-                  </a>
+                  </Link>
                 </h6>
                 <div className="product-item__info flx-between gap-2">
                   <span className="product-item__author">
                     by
-                    <a
-                      href="profile.html"
+                    <Link
+                      href="profile"
                       className="link hover-text-decoration-underline"
                     >
                       themepix
-                    </a>
+                    </Link>
                   </span>
                   <div className="flx-align gap-2">
                     <h6 className="product-item__price mb-0">$120</h6>
@@ -150,43 +151,43 @@ const ResourceOne = () => {
                       </span>
                     </div>
                   </div>
-                  <a
-                    href="product-details.html"
+                  <Link
+                    href="/product-details"
                     className="btn btn-outline-light btn-sm pill"
                   >
                     Live Demo
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
             <div className="product-item shadow-sm">
               <div className="product-item__thumb d-flex">
-                <a href="product-details.html" className="link w-100">
+                <Link href="/product-details" className="link w-100">
                   <img
                     src="assets/images/thumbs/product-img2.png"
                     alt=""
                     className="cover-img"
                   />
-                </a>
+                </Link>
                 <button type="button" className="product-item__wishlist">
                   <i className="fas fa-heart" />
                 </button>
               </div>
               <div className="product-item__content">
                 <h6 className="product-item__title">
-                  <a href="product-details.html" className="link">
+                  <Link href="/product-details" className="link">
                     SaaS dashboard digital products Title here
-                  </a>
+                  </Link>
                 </h6>
                 <div className="product-item__info flx-between gap-2">
                   <span className="product-item__author">
                     by
-                    <a
-                      href="profile.html"
+                    <Link
+                      href="profile"
                       className="link hover-text-decoration-underline"
                     >
                       themepix
-                    </a>
+                    </Link>
                   </span>
                   <div className="flx-align gap-2">
                     <h6 className="product-item__price mb-0">$100</h6>
@@ -223,43 +224,43 @@ const ResourceOne = () => {
                       </span>
                     </div>
                   </div>
-                  <a
-                    href="product-details.html"
+                  <Link
+                    href="/product-details"
                     className="btn btn-outline-light btn-sm pill"
                   >
                     Live Demo
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
             <div className="product-item shadow-sm">
               <div className="product-item__thumb d-flex">
-                <a href="product-details.html" className="link w-100">
+                <Link href="/product-details" className="link w-100">
                   <img
                     src="assets/images/thumbs/product-img3.png"
                     alt=""
                     className="cover-img"
                   />
-                </a>
+                </Link>
                 <button type="button" className="product-item__wishlist">
                   <i className="fas fa-heart" />
                 </button>
               </div>
               <div className="product-item__content">
                 <h6 className="product-item__title">
-                  <a href="product-details.html" className="link">
+                  <Link href="/product-details" className="link">
                     SaaS dashboard digital products Title here
-                  </a>
+                  </Link>
                 </h6>
                 <div className="product-item__info flx-between gap-2">
                   <span className="product-item__author">
                     by
-                    <a
-                      href="profile.html"
+                    <Link
+                      href="profile"
                       className="link hover-text-decoration-underline"
                     >
                       themepix
-                    </a>
+                    </Link>
                   </span>
                   <div className="flx-align gap-2">
                     <h6 className="product-item__price mb-0">$160</h6>
@@ -296,43 +297,43 @@ const ResourceOne = () => {
                       </span>
                     </div>
                   </div>
-                  <a
-                    href="product-details.html"
+                  <Link
+                    href="/product-details"
                     className="btn btn-outline-light btn-sm pill"
                   >
                     Live Demo
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
             <div className="product-item shadow-sm">
               <div className="product-item__thumb d-flex">
-                <a href="product-details.html" className="link w-100">
+                <Link href="/product-details" className="link w-100">
                   <img
                     src="assets/images/thumbs/product-img4.png"
                     alt=""
                     className="cover-img"
                   />
-                </a>
+                </Link>
                 <button type="button" className="product-item__wishlist">
                   <i className="fas fa-heart" />
                 </button>
               </div>
               <div className="product-item__content">
                 <h6 className="product-item__title">
-                  <a href="product-details.html" className="link">
+                  <Link href="/product-details" className="link">
                     SaaS dashboard digital products Title here
-                  </a>
+                  </Link>
                 </h6>
                 <div className="product-item__info flx-between gap-2">
                   <span className="product-item__author">
                     by
-                    <a
-                      href="profile.html"
+                    <Link
+                      href="profile"
                       className="link hover-text-decoration-underline"
                     >
                       themepix
-                    </a>
+                    </Link>
                   </span>
                   <div className="flx-align gap-2">
                     <h6 className="product-item__price mb-0">$250</h6>
@@ -369,43 +370,43 @@ const ResourceOne = () => {
                       </span>
                     </div>
                   </div>
-                  <a
-                    href="product-details.html"
+                  <Link
+                    href="/product-details"
                     className="btn btn-outline-light btn-sm pill"
                   >
                     Live Demo
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
             <div className="product-item shadow-sm">
               <div className="product-item__thumb d-flex">
-                <a href="product-details.html" className="link w-100">
+                <Link href="/product-details" className="link w-100">
                   <img
                     src="assets/images/thumbs/product-img5.png"
                     alt=""
                     className="cover-img"
                   />
-                </a>
+                </Link>
                 <button type="button" className="product-item__wishlist">
                   <i className="fas fa-heart" />
                 </button>
               </div>
               <div className="product-item__content">
                 <h6 className="product-item__title">
-                  <a href="product-details.html" className="link">
+                  <Link href="/product-details" className="link">
                     SaaS dashboard digital products Title here
-                  </a>
+                  </Link>
                 </h6>
                 <div className="product-item__info flx-between gap-2">
                   <span className="product-item__author">
                     by
-                    <a
-                      href="profile.html"
+                    <Link
+                      href="profile"
                       className="link hover-text-decoration-underline"
                     >
                       themepix
-                    </a>
+                    </Link>
                   </span>
                   <div className="flx-align gap-2">
                     <h6 className="product-item__price mb-0">$65</h6>
@@ -442,12 +443,12 @@ const ResourceOne = () => {
                       </span>
                     </div>
                   </div>
-                  <a
-                    href="product-details.html"
+                  <Link
+                    href="/product-details"
                     className="btn btn-outline-light btn-sm pill"
                   >
                     Live Demo
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>

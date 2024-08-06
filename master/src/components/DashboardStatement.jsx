@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 const DashboardStatement = () => {
   return (
     <div className="dashboard-body__content">
@@ -78,9 +80,9 @@ const DashboardStatement = () => {
                     <td data-label="Type"> WordPress</td>
                     <td data-label="Price"> 59.00 USD</td>
                     <td data-label="Details">
-                      <a href="#" className="btn btn-main">
+                      <Link href="#" className="btn btn-main">
                         <i className="far fa-eye" />
-                      </a>
+                      </Link>
                     </td>
                   </tr>
                   <tr>
@@ -89,9 +91,9 @@ const DashboardStatement = () => {
                     <td data-label="Type"> WordPress</td>
                     <td data-label="Price"> 59.00 USD</td>
                     <td data-label="Details">
-                      <a href="#" className="btn btn-main">
+                      <Link href="#" className="btn btn-main">
                         <i className="far fa-eye" />
-                      </a>
+                      </Link>
                     </td>
                   </tr>
                   <tr>
@@ -100,9 +102,9 @@ const DashboardStatement = () => {
                     <td data-label="Type"> WordPress</td>
                     <td data-label="Price"> 59.00 USD</td>
                     <td data-label="Details">
-                      <a href="#" className="btn btn-main">
+                      <Link href="#" className="btn btn-main">
                         <i className="far fa-eye" />
-                      </a>
+                      </Link>
                     </td>
                   </tr>
                   <tr>
@@ -111,9 +113,9 @@ const DashboardStatement = () => {
                     <td data-label="Type"> WordPress</td>
                     <td data-label="Price"> 59.00 USD</td>
                     <td data-label="Details">
-                      <a href="#" className="btn btn-main">
+                      <Link href="#" className="btn btn-main">
                         <i className="far fa-eye" />
-                      </a>
+                      </Link>
                     </td>
                   </tr>
                   <tr>
@@ -122,9 +124,9 @@ const DashboardStatement = () => {
                     <td data-label="Type"> WordPress</td>
                     <td data-label="Price"> 59.00 USD</td>
                     <td data-label="Details">
-                      <a href="#" className="btn btn-main">
+                      <Link href="#" className="btn btn-main">
                         <i className="far fa-eye" />
-                      </a>
+                      </Link>
                     </td>
                   </tr>
                   <tr>
@@ -133,9 +135,9 @@ const DashboardStatement = () => {
                     <td data-label="Type"> WordPress</td>
                     <td data-label="Price"> 59.00 USD</td>
                     <td data-label="Details">
-                      <a href="#" className="btn btn-main">
+                      <Link href="#" className="btn btn-main">
                         <i className="far fa-eye" />
-                      </a>
+                      </Link>
                     </td>
                   </tr>
                   <tr>
@@ -144,9 +146,9 @@ const DashboardStatement = () => {
                     <td data-label="Type"> WordPress</td>
                     <td data-label="Price"> 59.00 USD</td>
                     <td data-label="Details">
-                      <a href="#" className="btn btn-main">
+                      <Link href="#" className="btn btn-main">
                         <i className="far fa-eye" />
-                      </a>
+                      </Link>
                     </td>
                   </tr>
                   <tr>
@@ -155,9 +157,9 @@ const DashboardStatement = () => {
                     <td data-label="Type"> WordPress</td>
                     <td data-label="Price"> 59.00 USD</td>
                     <td data-label="Details">
-                      <a href="#" className="btn btn-main">
+                      <Link href="#" className="btn btn-main">
                         <i className="far fa-eye" />
-                      </a>
+                      </Link>
                     </td>
                   </tr>
                   <tr>
@@ -166,9 +168,9 @@ const DashboardStatement = () => {
                     <td data-label="Type"> WordPress</td>
                     <td data-label="Price"> 59.00 USD</td>
                     <td data-label="Details">
-                      <a href="#" className="btn btn-main">
+                      <Link href="#" className="btn btn-main">
                         <i className="far fa-eye" />
-                      </a>
+                      </Link>
                     </td>
                   </tr>
                 </tbody>
@@ -194,27 +196,27 @@ const DashboardStatement = () => {
                 <nav aria-label="Page navigation example">
                   <ul className="pagination common-pagination mt-0">
                     <li className="page-item">
-                      <a className="page-link" href="#">
+                      <Link className="page-link" href="#">
                         1
-                      </a>
+                      </Link>
                     </li>
                     <li className="page-item active">
-                      <a className="page-link" href="#">
+                      <Link className="page-link" href="#">
                         2
-                      </a>
+                      </Link>
                     </li>
                     <li className="page-item">
-                      <a className="page-link" href="#">
+                      <Link className="page-link" href="#">
                         3
-                      </a>
+                      </Link>
                     </li>
                     <li className="page-item">
-                      <a className="page-link" href="#">
+                      <Link className="page-link" href="#">
                         4
-                      </a>
+                      </Link>
                     </li>
                     <li className="page-item">
-                      <a
+                      <Link
                         className="page-link flx-align gap-2 flex-nowrap"
                         href="#"
                       >
@@ -222,7 +224,7 @@ const DashboardStatement = () => {
                         <span className="icon line-height-1 font-20">
                           <i className="las la-arrow-right" />
                         </span>
-                      </a>
+                      </Link>
                     </li>
                   </ul>
                 </nav>

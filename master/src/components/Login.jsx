@@ -1,3 +1,6 @@
+import Link from "next/link";
+import ThemeToggle from "./ThemeToggle";
+
 const Login = () => {
   return (
     <>
@@ -27,20 +30,10 @@ const Login = () => {
         <div className="account__right padding-y-120 flx-align">
           <div className="dark-light-mode">
             {/* Light Dark Mode */}
-            <div className="theme-switch-wrapper position-relative">
-              <label className="theme-switch" htmlFor="checkbox">
-                <input type="checkbox" className="d-none" id="checkbox" />
-                <span className="slider text-black header-right__button white-version">
-                  <img src="assets/images/icons/sun.svg" alt="" />
-                </span>
-                <span className="slider text-black header-right__button dark-version">
-                  <img src="assets/images/icons/moon.svg" alt="" />
-                </span>
-              </label>
-            </div>
+            <ThemeToggle />
           </div>
           <div className="account-content">
-            <a href="index.html" className="logo mb-64">
+            <Link href="/" className="logo mb-64">
               <img
                 src="assets/images/logo/logo.png"
                 alt=""
@@ -51,7 +44,7 @@ const Login = () => {
                 alt=""
                 className="dark-version"
               />
-            </a>
+            </Link>
             <h4 className="account-content__title mb-48 text-capitalize">
               Welcome Back!
             </h4>
@@ -114,12 +107,12 @@ const Login = () => {
                         Keep me signed in
                       </label>
                     </div>
-                    <a
+                    <Link
                       href="#"
                       className="forgot-password text-decoration-underline text-main text-poppins font-14"
                     >
                       Forgot password?
-                    </a>
+                    </Link>
                   </div>
                 </div>
                 <div className="col-12">
@@ -146,12 +139,12 @@ const Login = () => {
                   <div className="have-account">
                     <p className="text font-14">
                       New to the market?{" "}
-                      <a
+                      <Link
                         className="link text-main text-decoration-underline fw-500"
-                        href="register.html"
+                        href="/register"
                       >
                         sign up
-                      </a>
+                      </Link>
                     </p>
                   </div>
                 </div>

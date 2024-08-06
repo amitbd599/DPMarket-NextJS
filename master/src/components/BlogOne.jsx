@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 const BlogOne = () => {
   return (
     <section className="blog padding-y-120 section-bg position-relative z-index-1 overflow-hidden">
@@ -13,30 +15,30 @@ const BlogOne = () => {
               Browse all latest blogs and articles
             </h3>
           </div>
-          <a href="blog.html" className="btn btn-main btn-lg pill">
+          <Link href="/blog" className="btn btn-main btn-lg pill">
             Browse All Articles
-          </a>
+          </Link>
         </div>
         <div className="row gy-4">
           <div className="col-lg-4 col-sm-6">
             <div className="post-item">
               <div className="post-item__thumb">
-                <a href="blog-details.html" className="link">
+                <Link href="/blog-details" className="link">
                   <img
                     src="assets/images/thumbs/blog1.png"
                     className="cover-img"
                     alt=""
                   />
-                </a>
+                </Link>
               </div>
               <div className="post-item__content">
                 <div className="post-item__top flx-align">
-                  <a
-                    href="blog.html"
+                  <Link
+                    href="/blog"
                     className="post-item__tag pill font-14 text-heading fw-500 hover-text-main"
                   >
                     Hiring
-                  </a>
+                  </Link>
                   <div className="post-item__date font-14 flx-align gap-2 font-14 text-heading fw-500">
                     <span className="icon">
                       <img
@@ -54,38 +56,38 @@ const BlogOne = () => {
                   </div>
                 </div>
                 <h5 className="post-item__title">
-                  <a href="blog-details.html" className="link">
+                  <Link href="/blog-details" className="link">
                     How to hire a right business executive for your company
-                  </a>
+                  </Link>
                 </h5>
-                <a
-                  href="blog-details.html"
+                <Link
+                  href="/blog-details"
                   className="btn btn-outline-light pill fw-600"
                 >
                   Read More
-                </a>
+                </Link>
               </div>
             </div>
           </div>
           <div className="col-lg-4 col-sm-6">
             <div className="post-item">
               <div className="post-item__thumb">
-                <a href="blog-details.html" className="link">
+                <Link href="/blog-details" className="link">
                   <img
                     src="assets/images/thumbs/blog2.png"
                     className="cover-img"
                     alt=""
                   />
-                </a>
+                </Link>
               </div>
               <div className="post-item__content">
                 <div className="post-item__top flx-align">
-                  <a
-                    href="blog.html"
+                  <Link
+                    href="/blog"
                     className="post-item__tag pill font-14 text-heading fw-500 hover-text-main"
                   >
                     Workshop
-                  </a>
+                  </Link>
                   <div className="post-item__date font-14 flx-align gap-2 font-14 text-heading fw-500">
                     <span className="icon">
                       <img
@@ -103,38 +105,38 @@ const BlogOne = () => {
                   </div>
                 </div>
                 <h5 className="post-item__title">
-                  <a href="blog-details.html" className="link">
+                  <Link href="/blog-details" className="link">
                     The Gig Economy: Adapting to a Flexible Workforce
-                  </a>
+                  </Link>
                 </h5>
-                <a
-                  href="blog-details.html"
+                <Link
+                  href="/blog-details"
                   className="btn btn-outline-light pill fw-600"
                 >
                   Read More
-                </a>
+                </Link>
               </div>
             </div>
           </div>
           <div className="col-lg-4 col-sm-6">
             <div className="post-item">
               <div className="post-item__thumb">
-                <a href="blog-details.html" className="link">
+                <Link href="/blog-details" className="link">
                   <img
                     src="assets/images/thumbs/blog3.png"
                     className="cover-img"
                     alt=""
                   />
-                </a>
+                </Link>
               </div>
               <div className="post-item__content">
                 <div className="post-item__top flx-align">
-                  <a
-                    href="blog.html"
+                  <Link
+                    href="/blog"
                     className="post-item__tag pill font-14 text-heading fw-500 hover-text-main"
                   >
                     Project Management
-                  </a>
+                  </Link>
                   <div className="post-item__date font-14 flx-align gap-2 font-14 text-heading fw-500">
                     <span className="icon">
                       <img
@@ -152,16 +154,16 @@ const BlogOne = () => {
                   </div>
                 </div>
                 <h5 className="post-item__title">
-                  <a href="blog-details.html" className="link">
+                  <Link href="/blog-details" className="link">
                     The Future of Remote Work: Strategies for Success
-                  </a>
+                  </Link>
                 </h5>
-                <a
-                  href="blog-details.html"
+                <Link
+                  href="/blog-details"
                   className="btn btn-outline-light pill fw-600"
                 >
                   Read More
-                </a>
+                </Link>
               </div>
             </div>
           </div>

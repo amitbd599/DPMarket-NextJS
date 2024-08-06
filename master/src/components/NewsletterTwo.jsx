@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 const NewsletterTwo = () => {
     return (
         <section className="newsletter-two padding-t-60 padding-b-120 section-bg position-relative z-index-1 overflow-hidden">
@@ -27,9 +29,9 @@ const NewsletterTwo = () => {
                 becomes natural. Disregard coding and partake in our topics.
               </p>
             </div>
-            <a href="all-product.html" className="btn btn-main btn-lg pill">
+            <Link href="/all-product" className="btn btn-main btn-lg pill">
               Grabe All Product
-            </a>
+            </Link>
           </div>
         </div>
       </section>

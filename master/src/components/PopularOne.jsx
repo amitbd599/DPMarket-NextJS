@@ -1,4 +1,5 @@
 "use client";
+import Link from "next/link";
 import Slider from "react-slick";
 
 const PopularOne = () => {
@@ -67,77 +68,77 @@ const PopularOne = () => {
         <div className="popular-slider arrow-style-two row gy-4">
           <Slider {...settings}>
             <div>
-              <a href="all-product.html" className="popular-item w-100">
+              <Link href="/all-product" className="popular-item w-100">
                 <span className="popular-item__icon">
                   <img src="assets/images/icons/popular-icon1.svg" alt="" />
                 </span>
                 <h6 className="popular-item__title font-18">WordPress</h6>
                 <span className="popular-item__qty text-body">15,296</span>
-              </a>
+              </Link>
             </div>
             <div>
-              <a href="all-product.html" className="popular-item w-100">
+              <Link href="/all-product" className="popular-item w-100">
                 <span className="popular-item__icon">
                   <img src="assets/images/icons/popular-icon2.svg" alt="" />
                 </span>
                 <h6 className="popular-item__title font-18">Plugin</h6>
                 <span className="popular-item__qty text-body">15,296</span>
-              </a>
+              </Link>
             </div>
             <div>
-              <a href="all-product.html" className="popular-item w-100">
+              <Link href="/all-product" className="popular-item w-100">
                 <span className="popular-item__icon">
                   <img src="assets/images/icons/popular-icon3.svg" alt="" />
                 </span>
                 <h6 className="popular-item__title font-18">HTML</h6>
                 <span className="popular-item__qty text-body">15,296</span>
-              </a>
+              </Link>
             </div>
             <div>
-              <a href="all-product.html" className="popular-item w-100">
+              <Link href="/all-product" className="popular-item w-100">
                 <span className="popular-item__icon">
                   <img src="assets/images/icons/popular-icon4.svg" alt="" />
                 </span>
                 <h6 className="popular-item__title font-18">Java Script</h6>
                 <span className="popular-item__qty text-body">15,296</span>
-              </a>
+              </Link>
             </div>
             <div>
-              <a href="all-product.html" className="popular-item w-100">
+              <Link href="/all-product" className="popular-item w-100">
                 <span className="popular-item__icon">
                   <img src="assets/images/icons/popular-icon5.svg" alt="" />
                 </span>
                 <h6 className="popular-item__title font-18">Mobile App</h6>
                 <span className="popular-item__qty text-body">15,296</span>
-              </a>
+              </Link>
             </div>
             <div>
-              <a href="all-product.html" className="popular-item w-100">
+              <Link href="/all-product" className="popular-item w-100">
                 <span className="popular-item__icon">
                   <img src="assets/images/icons/popular-icon6.svg" alt="" />
                 </span>
                 <h6 className="popular-item__title font-18">PHP Script</h6>
                 <span className="popular-item__qty text-body">15,296</span>
-              </a>
+              </Link>
             </div>
             <div>
-              <a href="all-product.html" className="popular-item w-100">
+              <Link href="/all-product" className="popular-item w-100">
                 <span className="popular-item__icon">
                   <img src="assets/images/icons/popular-icon4.svg" alt="" />
                 </span>
                 <h6 className="popular-item__title font-18">Java Script</h6>
                 <span className="popular-item__qty text-body">15,296</span>
-              </a>
+              </Link>
             </div>
           </Slider>
         </div>
         <div className="popular__button text-center">
-          <a
-            href="all-product.html"
+          <Link
+            href="/all-product"
             className="font-18 fw-600 text-heading hover-text-main text-decoration-underline font-heading"
           >
             Explore More
-          </a>
+          </Link>
         </div>
       </div>
     </section>

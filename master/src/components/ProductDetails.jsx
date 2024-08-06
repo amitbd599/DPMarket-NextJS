@@ -1,3 +1,4 @@
+import Link from "next/link";
 
 
 const ProductDetails = () => {
@@ -21,20 +22,20 @@ const ProductDetails = () => {
                                         <img src="assets/images/thumbs/product-details.png" alt="" />
                                     </div>
                                     <div className="product-details__buttons flx-align justify-content-center gap-3">
-                                        <a
+                                        <Link
                                             href="#"
                                             className="btn btn-main d-inline-flex align-items-center gap-2 pill px-sm-5 justify-content-center"
                                         >
                                             Live Preview
                                             <img src="assets/images/icons/eye-outline.svg" alt="" />
-                                        </a>
-                                        <a
+                                        </Link>
+                                        <Link
                                             href="#"
                                             className="screenshot-btn btn btn-white pill px-sm-5"
                                             data-images='["assets/images/thumbs/product-details.png", "assets/images/thumbs/product-details.png"]'
                                         >
                                             Screenshot
-                                        </a>
+                                        </Link>
                                     </div>
                                     <p className="product-details__desc">
                                         System management saas products, consectetur adipiscing elit,
@@ -85,20 +86,20 @@ const ProductDetails = () => {
                                         <h5 className="product-details__title mb-3">Font Family</h5>
                                         <ul className="product-list">
                                             <li className="product-list__item text-heading">
-                                                <a
+                                                <Link
                                                     href="https://fonts.google.com/specimen/Fira+Sans?query=fira"
                                                     className="link text-body hover-text-main hover-text-decoration-underline"
                                                 >
                                                     Fira Sans
-                                                </a>
+                                                </Link>
                                             </li>
                                             <li className="product-list__item text-heading">
-                                                <a
+                                                <Link
                                                     href="https://fonts.google.com/specimen/Inter?query=inter"
                                                     className="link text-body hover-text-main hover-text-decoration-underline"
                                                 >
                                                     Inter
-                                                </a>
+                                                </Link>
                                             </li>
                                         </ul>
                                     </div>
@@ -117,85 +118,85 @@ const ProductDetails = () => {
                                     <div className="more-item">
                                         <div className="flx-between mb-4">
                                             <h5 className="more-item__title">More Items</h5>
-                                            <a
-                                                href="profile.html"
+                                            <Link
+                                                href="/profile"
                                                 className="text-heading fw-500 hover-text-decoration-underline"
                                             >
                                                 View Author Profile
-                                            </a>
+                                            </Link>
                                         </div>
                                         <div className="more-item__content flx-align">
                                             <div className="more-item__item">
-                                                <a
-                                                    href="all-product.html"
+                                                <Link
+                                                    href="/all-product"
                                                     className="link w-100 h-100 d-block"
                                                 >
                                                     <img src="assets/images/thumbs/more-item1.png" alt="" />
-                                                </a>
+                                                </Link>
                                             </div>
                                             <div className="more-item__item">
-                                                <a
-                                                    href="all-product.html"
+                                                <Link
+                                                    href="/all-product"
                                                     className="link w-100 h-100 d-block"
                                                 >
                                                     <img src="assets/images/thumbs/more-item2.png" alt="" />
-                                                </a>
+                                                </Link>
                                             </div>
                                             <div className="more-item__item">
-                                                <a
-                                                    href="all-product.html"
+                                                <Link
+                                                    href="/all-product"
                                                     className="link w-100 h-100 d-block"
                                                 >
                                                     <img src="assets/images/thumbs/more-item3.png" alt="" />
-                                                </a>
+                                                </Link>
                                             </div>
                                             <div className="more-item__item">
-                                                <a
-                                                    href="all-product.html"
+                                                <Link
+                                                    href="/all-product"
                                                     className="link w-100 h-100 d-block"
                                                 >
                                                     <img src="assets/images/thumbs/more-item4.png" alt="" />
-                                                </a>
+                                                </Link>
                                             </div>
                                             <div className="more-item__item">
-                                                <a
-                                                    href="all-product.html"
+                                                <Link
+                                                    href="/all-product"
                                                     className="link w-100 h-100 d-block"
                                                 >
                                                     <img src="assets/images/thumbs/more-item5.png" alt="" />
-                                                </a>
+                                                </Link>
                                             </div>
                                             <div className="more-item__item">
-                                                <a
-                                                    href="all-product.html"
+                                                <Link
+                                                    href="/all-product"
                                                     className="link w-100 h-100 d-block"
                                                 >
                                                     <img src="assets/images/thumbs/more-item6.png" alt="" />
-                                                </a>
+                                                </Link>
                                             </div>
                                             <div className="more-item__item">
-                                                <a
-                                                    href="all-product.html"
+                                                <Link
+                                                    href="/all-product"
                                                     className="link w-100 h-100 d-block"
                                                 >
                                                     <img src="assets/images/thumbs/more-item7.png" alt="" />
-                                                </a>
+                                                </Link>
                                             </div>
                                             <div className="more-item__item">
-                                                <a
-                                                    href="all-product.html"
+                                                <Link
+                                                    href="/all-product"
                                                     className="link w-100 h-100 d-block"
                                                 >
                                                     <img src="assets/images/thumbs/more-item8.png" alt="" />
-                                                </a>
+                                                </Link>
                                             </div>
                                             <div className="more-item__item">
-                                                <a
-                                                    href="all-product.html"
+                                                <Link
+                                                    href="/all-product"
                                                     className="link w-100 h-100 d-block"
                                                 >
                                                     <img src="assets/images/thumbs/more-item9.png" alt="" />
-                                                </a>
+                                                </Link>
                                             </div>
                                         </div>
                                     </div>
@@ -242,9 +243,9 @@ const ProductDetails = () => {
                                             </div>
                                             <div className="product-review__date">
                                                 by{" "}
-                                                <a href="#" className="product-review__user text--base">
+                                                <Link href="#" className="product-review__user text--base">
                                                     John Doe{" "}
-                                                </a>{" "}
+                                                </Link>{" "}
                                                 2 month ago
                                             </div>
                                         </div>
@@ -294,9 +295,9 @@ const ProductDetails = () => {
                                             </div>
                                             <div className="product-review__date">
                                                 by{" "}
-                                                <a href="#" className="product-review__user text--base">
+                                                <Link href="#" className="product-review__user text--base">
                                                     John Doe{" "}
-                                                </a>{" "}
+                                                </Link>{" "}
                                                 2 month ago
                                             </div>
                                         </div>
@@ -345,7 +346,7 @@ const ProductDetails = () => {
                                                             Jan 21, 2024 at 11:25 pm
                                                         </span>
                                                     </div>
-                                                    <a
+                                                    <Link
                                                         className="comment-list__reply fw-500 flx-align gap-2 hover-text-decoration-underline"
                                                         href="#comment-box"
                                                     >
@@ -356,7 +357,7 @@ const ProductDetails = () => {
                                                                 alt=""
                                                             />
                                                         </span>
-                                                    </a>
+                                                    </Link>
                                                 </div>
                                                 <p className="comment-list__desc mt-3">
                                                     Lorem ipsum dolor sit amet consectetur. Nec nunc
@@ -386,7 +387,7 @@ const ProductDetails = () => {
                                                                     Jan 21, 2024 at 11:25 pm
                                                                 </span>
                                                             </div>
-                                                            <a
+                                                            <Link
                                                                 className="comment-list__reply fw-500 flx-align gap-2 hover-text-decoration-underline"
                                                                 href="#comment-box"
                                                             >
@@ -397,7 +398,7 @@ const ProductDetails = () => {
                                                                         alt=""
                                                                     />
                                                                 </span>
-                                                            </a>
+                                                            </Link>
                                                         </div>
                                                         <p className="comment-list__desc mt-3">
                                                             Lorem ipsum dolor sit amet consectetur. Nec nunc
@@ -446,12 +447,12 @@ const ProductDetails = () => {
                                         </p>
                                     </div>
                                     <div className="mt-3 pt-2 border-top text-center ">
-                                        <a
+                                        <Link
                                             href="#"
                                             className="link hover-text-decoration-underline font-14 text-main fw-500"
                                         >
                                             View License Details
-                                        </a>
+                                        </Link>
                                     </div>
                                 </div>
                                 <h6 className="product-sidebar__title">$1580.00</h6>
@@ -513,9 +514,9 @@ const ProductDetails = () => {
                                     </div>
                                     <div className="author-details__content">
                                         <h6 className="author-details__name font-18 mb-2">
-                                            <a href="profile.html" className="link hover-text-main">
+                                            <Link href="/profile" className="link hover-text-main">
                                                 Oviousdev
-                                            </a>
+                                            </Link>
                                         </h6>
                                         <span className="d-flex align-items-center gap-1">
                                             <span className="star-rating">
@@ -605,12 +606,12 @@ const ProductDetails = () => {
                                         <img src="assets/images/thumbs/badge8.png" alt="" />
                                     </li>
                                 </ul>
-                                <a
-                                    href="profile.html"
+                                <Link
+                                    href="/profile"
                                     className="btn btn-outline-light w-100 pill mt-32"
                                 >
                                     View Portfolio
-                                </a>
+                                </Link>
                             </div>
                             {/* Author Details End */}
                             {/* Meta Attribute List Start */}
@@ -638,25 +639,25 @@ const ProductDetails = () => {
                                 <li className="meta-attribute__item">
                                     <span className="name">Copatible with</span>
                                     <span className="details">
-                                        <a href="#" className="hover-text-decoration-underline">
+                                        <Link href="#" className="hover-text-decoration-underline">
                                             Contact Form 7,
-                                        </a>
-                                        <a href="#" className="hover-text-decoration-underline">
+                                        </Link>
+                                        <Link href="#" className="hover-text-decoration-underline">
                                             {" "}
                                             Calendar,
-                                        </a>
-                                        <a href="#" className="hover-text-decoration-underline">
+                                        </Link>
+                                        <Link href="#" className="hover-text-decoration-underline">
                                             {" "}
                                             Elementor,
-                                        </a>
-                                        <a href="#" className="hover-text-decoration-underline">
+                                        </Link>
+                                        <Link href="#" className="hover-text-decoration-underline">
                                             {" "}
                                             Elementor Pro,
-                                        </a>
-                                        <a href="#" className="hover-text-decoration-underline">
+                                        </Link>
+                                        <Link href="#" className="hover-text-decoration-underline">
                                             {" "}
                                             WooCommerce 8.x.x
-                                        </a>
+                                        </Link>
                                     </span>
                                 </li>
                                 <li className="meta-attribute__item">
@@ -670,38 +671,38 @@ const ProductDetails = () => {
                                 <li className="meta-attribute__item">
                                     <span className="name">Software Version</span>
                                     <span className="details">
-                                        <a href="#" className="hover-text-decoration-underline">
+                                        <Link href="#" className="hover-text-decoration-underline">
                                             WordPress 6.3.x,
-                                        </a>
-                                        <a href="#" className="hover-text-decoration-underline">
+                                        </Link>
+                                        <Link href="#" className="hover-text-decoration-underline">
                                             WordPress 6.2.x,
-                                        </a>
-                                        <a href="#" className="hover-text-decoration-underline">
+                                        </Link>
+                                        <Link href="#" className="hover-text-decoration-underline">
                                             WordPress 6.1.x,
-                                        </a>
-                                        <a href="#" className="hover-text-decoration-underline">
+                                        </Link>
+                                        <Link href="#" className="hover-text-decoration-underline">
                                             WordPress 6.0.x,
-                                        </a>
-                                        <a href="#" className="hover-text-decoration-underline">
+                                        </Link>
+                                        <Link href="#" className="hover-text-decoration-underline">
                                             WordPress 5.9.x,
-                                        </a>
+                                        </Link>
                                     </span>
                                 </li>
                                 <li className="meta-attribute__item">
                                     <span className="name">Marketplace Files Included</span>
                                     <span className="details">
-                                        <a href="#" className="hover-text-decoration-underline">
+                                        <Link href="#" className="hover-text-decoration-underline">
                                             PHP Files,
-                                        </a>
-                                        <a href="#" className="hover-text-decoration-underline">
+                                        </Link>
+                                        <Link href="#" className="hover-text-decoration-underline">
                                             CSS Files,
-                                        </a>
-                                        <a href="#" className="hover-text-decoration-underline">
+                                        </Link>
+                                        <Link href="#" className="hover-text-decoration-underline">
                                             SCSS Files,
-                                        </a>
-                                        <a href="#" className="hover-text-decoration-underline">
+                                        </Link>
+                                        <Link href="#" className="hover-text-decoration-underline">
                                             JS Files,
-                                        </a>
+                                        </Link>
                                     </span>
                                 </li>
                                 <li className="meta-attribute__item">
@@ -711,36 +712,35 @@ const ProductDetails = () => {
                                 <li className="meta-attribute__item">
                                     <span className="name">Tags</span>
                                     <span className="details">
-                                        <a href="#" className="hover-text-decoration-underline">
+                                        <Link href="#" className="hover-text-decoration-underline">
                                             theme,
-                                        </a>
-                                        <a href="#" className="hover-text-decoration-underline">
+                                        </Link>
+                                        <Link href="#" className="hover-text-decoration-underline">
                                             web design,
-                                        </a>
-                                        <a href="#" className="hover-text-decoration-underline">
+                                        </Link>
+                                        <Link href="#" className="hover-text-decoration-underline">
                                             minimal design,
-                                        </a>
-                                        <a href="#" className="hover-text-decoration-underline">
+                                        </Link>
+                                        <Link href="#" className="hover-text-decoration-underline">
                                             trendy,
-                                        </a>
-                                        <a href="#" className="hover-text-decoration-underline">
+                                        </Link>
+                                        <Link href="#" className="hover-text-decoration-underline">
                                             responsive,
-                                        </a>
-                                        <a href="#" className="hover-text-decoration-underline">
+                                        </Link>
+                                        <Link href="#" className="hover-text-decoration-underline">
                                             wordpress,
-                                        </a>
-                                        <a href="#" className="hover-text-decoration-underline">
+                                        </Link>
+                                        <Link href="#" className="hover-text-decoration-underline">
                                             saas,
-                                        </a>
-                                        <a href="#" className="hover-text-decoration-underline">
+                                        </Link>
+                                        <Link href="#" className="hover-text-decoration-underline">
                                             dashboard,
-                                        </a>
+                                        </Link>
                                     </span>
                                 </li>
                             </ul>
                             {/* Meta Attribute List End */}
                         </div>
-                        {/* ======================= Product Sidebar End ========================= */}
                     </div>
                 </div>
             </div>

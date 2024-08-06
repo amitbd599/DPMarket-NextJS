@@ -1,4 +1,5 @@
 "use client"
+import Link from "next/link";
 import { useState } from "react";
 
 const BreadcrumbTwo = () => {
@@ -17,12 +18,12 @@ const BreadcrumbTwo = () => {
                             <div className="breadcrumb-two-content">
                                 <ul className="breadcrumb-list flx-align gap-2 mb-2">
                                     <li className="breadcrumb-list__item font-14 text-body">
-                                        <a
-                                            href="index.html"
+                                        <Link
+                                            href="/"
                                             className="breadcrumb-list__link text-body hover-text-main"
                                         >
                                             Home
-                                        </a>
+                                        </Link>
                                     </li>
                                     <li className="breadcrumb-list__item font-14 text-body">
                                         <span className="breadcrumb-list__icon font-10">
@@ -30,12 +31,12 @@ const BreadcrumbTwo = () => {
                                         </span>
                                     </li>
                                     <li className="breadcrumb-list__item font-14 text-body">
-                                        <a
-                                            href="all-product.html"
+                                        <Link
+                                            href="/all-product"
                                             className="breadcrumb-list__link text-body hover-text-main"
                                         >
                                             Products
-                                        </a>
+                                        </Link>
                                     </li>
                                     <li className="breadcrumb-list__item font-14 text-body">
                                         <span className="breadcrumb-list__icon font-10">
@@ -53,9 +54,9 @@ const BreadcrumbTwo = () => {
                                     <div className="breadcrumb-content__item text-heading fw-500 flx-align gap-2">
                                         <span className="text">
                                             By{" "}
-                                            <a href="#" className="link text-main fw-600">
+                                            <Link href="#" className="link text-main fw-600">
                                                 Oviousdev
-                                            </a>{" "}
+                                            </Link>{" "}
                                         </span>
                                     </div>
                                     <div className="breadcrumb-content__item text-heading fw-500 flx-align gap-2">
@@ -182,30 +183,30 @@ const BreadcrumbTwo = () => {
                         <div className="social-share__icons">
                             <ul className="social-icon-list colorful-style">
                                 <li className="social-icon-list__item">
-                                    <a
+                                    <Link
                                         href="https://www.facebook.com"
                                         className="social-icon-list__link text-body flex-center"
                                     >
                                         <i className="fab fa-facebook-f" />
-                                    </a>
+                                    </Link>
                                 </li>
                                 <li className="social-icon-list__item">
-                                    <a
+                                    <Link
                                         href="https://www.twitter.com"
                                         className="social-icon-list__link text-body flex-center"
                                     >
                                         {" "}
                                         <i className="fab fa-linkedin-in" />
-                                    </a>
+                                    </Link>
                                 </li>
                                 <li className="social-icon-list__item">
-                                    <a
+                                    <Link
                                         href="https://www.google.com"
                                         className="social-icon-list__link text-body flex-center"
                                     >
                                         {" "}
                                         <i className="fab fa-twitter" />
-                                    </a>
+                                    </Link>
                                 </li>
                             </ul>
                         </div>

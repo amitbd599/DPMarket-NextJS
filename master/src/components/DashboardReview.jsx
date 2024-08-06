@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 const DashboardReview = () => {
   return (
     <div className="dashboard-body__content">
@@ -23,9 +25,9 @@ const DashboardReview = () => {
                     </div>
                     <div className="review-product__content">
                       <h6 className="review-product__name font-15 fw-500 mb-0">
-                        <a href="profile.html" className="link">
+                        <Link href="/profile" className="link">
                           CityScape - Real Estate
-                        </a>
+                        </Link>
                       </h6>
                       <span className="review-product__date font-12">
                         2024-03-13 04:50 pm
@@ -61,9 +63,9 @@ const DashboardReview = () => {
                   </ul>
                 </td>
                 <td>
-                  <a href="#" className="btn btn-main">
+                  <Link href="#" className="btn btn-main">
                     <i className="fa fa-reply" />
-                  </a>
+                  </Link>
                 </td>
               </tr>
               <tr>
@@ -74,9 +76,9 @@ const DashboardReview = () => {
                     </div>
                     <div className="review-product__content">
                       <h6 className="review-product__name font-15 fw-500 mb-0">
-                        <a href="profile.html" className="link">
+                        <Link href="/profile" className="link">
                           FixTurbo - Car Repair
-                        </a>
+                        </Link>
                       </h6>
                       <span className="review-product__date font-12">
                         2024-02-10 04:50 pm
@@ -112,9 +114,9 @@ const DashboardReview = () => {
                   </ul>
                 </td>
                 <td>
-                  <a href="#" className="btn btn-main">
+                  <Link href="#" className="btn btn-main">
                     <i className="fa fa-reply" />
-                  </a>
+                  </Link>
                 </td>
               </tr>
               <tr>
@@ -125,9 +127,9 @@ const DashboardReview = () => {
                     </div>
                     <div className="review-product__content">
                       <h6 className="review-product__name font-15 fw-500 mb-0">
-                        <a href="profile.html" className="link">
+                        <Link href="/profile" className="link">
                           CityScape - Real Estate
-                        </a>
+                        </Link>
                       </h6>
                       <span className="review-product__date font-12">
                         2024-03-13 04:50 pm
@@ -163,9 +165,9 @@ const DashboardReview = () => {
                   </ul>
                 </td>
                 <td>
-                  <a href="#" className="btn btn-main">
+                  <Link href="#" className="btn btn-main">
                     <i className="fa fa-reply" />
-                  </a>
+                  </Link>
                 </td>
               </tr>
               <tr>
@@ -176,9 +178,9 @@ const DashboardReview = () => {
                     </div>
                     <div className="review-product__content">
                       <h6 className="review-product__name font-15 fw-500 mb-0">
-                        <a href="profile.html" className="link">
+                        <Link href="/profile" className="link">
                           FixTurbo - Car Repair
-                        </a>
+                        </Link>
                       </h6>
                       <span className="review-product__date font-12">
                         2024-02-10 04:50 pm
@@ -214,9 +216,9 @@ const DashboardReview = () => {
                   </ul>
                 </td>
                 <td>
-                  <a href="#" className="btn btn-main">
+                  <Link href="#" className="btn btn-main">
                     <i className="fa fa-reply" />
-                  </a>
+                  </Link>
                 </td>
               </tr>
               <tr>
@@ -227,9 +229,9 @@ const DashboardReview = () => {
                     </div>
                     <div className="review-product__content">
                       <h6 className="review-product__name font-15 fw-500 mb-0">
-                        <a href="profile.html" className="link">
+                        <Link href="/profile" className="link">
                           CityScape - Real Estate
-                        </a>
+                        </Link>
                       </h6>
                       <span className="review-product__date font-12">
                         2024-03-13 04:50 pm
@@ -265,9 +267,9 @@ const DashboardReview = () => {
                   </ul>
                 </td>
                 <td>
-                  <a href="#" className="btn btn-main">
+                  <Link href="#" className="btn btn-main">
                     <i className="fa fa-reply" />
-                  </a>
+                  </Link>
                 </td>
               </tr>
               <tr>
@@ -278,9 +280,9 @@ const DashboardReview = () => {
                     </div>
                     <div className="review-product__content">
                       <h6 className="review-product__name font-15 fw-500 mb-0">
-                        <a href="profile.html" className="link">
+                        <Link href="/profile" className="link">
                           FixTurbo - Car Repair
-                        </a>
+                        </Link>
                       </h6>
                       <span className="review-product__date font-12">
                         2024-02-10 04:50 pm
@@ -316,9 +318,9 @@ const DashboardReview = () => {
                   </ul>
                 </td>
                 <td>
-                  <a href="#" className="btn btn-main">
+                  <Link href="#" className="btn btn-main">
                     <i className="fa fa-reply" />
-                  </a>
+                  </Link>
                 </td>
               </tr>
             </tbody>
@@ -344,32 +346,32 @@ const DashboardReview = () => {
             <nav aria-label="Page navigation example">
               <ul className="pagination common-pagination mt-0">
                 <li className="page-item">
-                  <a className="page-link" href="#">
+                  <Link className="page-link" href="#">
                     1
-                  </a>
+                  </Link>
                 </li>
                 <li className="page-item active">
-                  <a className="page-link" href="#">
+                  <Link className="page-link" href="#">
                     2
-                  </a>
+                  </Link>
                 </li>
                 <li className="page-item">
-                  <a className="page-link" href="#">
+                  <Link className="page-link" href="#">
                     3
-                  </a>
+                  </Link>
                 </li>
                 <li className="page-item">
-                  <a className="page-link" href="#">
+                  <Link className="page-link" href="#">
                     4
-                  </a>
+                  </Link>
                 </li>
                 <li className="page-item">
-                  <a className="page-link flx-align gap-2 flex-nowrap" href="#">
+                  <Link className="page-link flx-align gap-2 flex-nowrap" href="#">
                     Next
                     <span className="icon line-height-1 font-20">
                       <i className="las la-arrow-right" />
                     </span>
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </nav>

@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 const BannerOne = () => {
   return (
     <>
@@ -45,8 +47,7 @@ const BannerOne = () => {
                   </div>
                   {/* Tech List Start */}
                   <div className="product-category-list">
-                    <a
-                      href="all-product.html"
+                    <Link href="/all-product"
                       className="product-category-list__item"
                       data-bs-toggle="tooltip"
                       data-bs-placement="top"
@@ -62,18 +63,16 @@ const BannerOne = () => {
                         alt=""
                         className="dark-version"
                       />
-                    </a>
-                    <a
-                      href="all-product.html"
+                    </Link>
+                    <Link href="/all-product"
                       className="product-category-list__item"
                       data-bs-toggle="tooltip"
                       data-bs-placement="top"
                       data-bs-title="Laravel"
                     >
                       <img src="assets/images/thumbs/tech-icon2.png" alt="" />
-                    </a>
-                    <a
-                      href="all-product.html"
+                    </Link>
+                    <Link href="/all-product"
                       className="product-category-list__item"
                       data-bs-toggle="tooltip"
                       data-bs-placement="top"
@@ -89,61 +88,55 @@ const BannerOne = () => {
                         alt=""
                         className="dark-version"
                       />
-                    </a>
-                    <a
-                      href="all-product.html"
+                    </Link>
+                    <Link href="/all-product"
                       className="product-category-list__item"
                       data-bs-toggle="tooltip"
                       data-bs-placement="top"
                       data-bs-title="HTML"
                     >
                       <img src="assets/images/thumbs/tech-icon4.png" alt="" />
-                    </a>
-                    <a
-                      href="all-product.html"
+                    </Link>
+                    <Link href="/all-product"
                       className="product-category-list__item"
                       data-bs-toggle="tooltip"
                       data-bs-placement="top"
                       data-bs-title="Sketch"
                     >
                       <img src="assets/images/thumbs/tech-icon5.png" alt="" />
-                    </a>
-                    <a
-                      href="all-product.html"
+                    </Link>
+                    <Link href="/all-product"
                       className="product-category-list__item"
                       data-bs-toggle="tooltip"
                       data-bs-placement="top"
                       data-bs-title="Figma"
                     >
                       <img src="assets/images/thumbs/tech-icon6.png" alt="" />
-                    </a>
-                    <a
-                      href="all-product.html"
+                    </Link>
+                    <Link href="/all-product"
                       className="product-category-list__item"
                       data-bs-toggle="tooltip"
                       data-bs-placement="top"
                       data-bs-title="Bootstrap"
                     >
                       <img src="assets/images/thumbs/tech-icon7.png" alt="" />
-                    </a>
-                    <a
-                      href="all-product.html"
+                    </Link>
+                    <Link href="/all-product"
                       className="product-category-list__item"
                       data-bs-toggle="tooltip"
                       data-bs-placement="top"
                       data-bs-title="Tailwind"
                     >
                       <img src="assets/images/thumbs/tech-icon8.png" alt="" />
-                    </a>
-                    <a
-                      href="all-product.html"
+                    </Link>
+                    <Link href="/all-product"
                       className="product-category-list__item"
                       data-bs-toggle="tooltip"
                       data-bs-placement="top"
                       data-bs-title="React"
                     >
                       <img src="assets/images/thumbs/tech-icon9.png" alt="" />
-                    </a>
+                    </Link>
                   </div>
                   {/* Tech List End */}
                 </div>

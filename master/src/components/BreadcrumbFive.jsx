@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 const BreadcrumbFive = () => {
     return (
         <section className="breadcrumb breadcrumb-four padding-static-y-60 section-bg position-relative z-index-1 overflow-hidden">
@@ -25,12 +27,12 @@ const BreadcrumbFive = () => {
                             </h3>
                             <ul className="breadcrumb-list flx-align justify-content-center gap-2 mb-2">
                                 <li className="breadcrumb-list__item font-14 text-body">
-                                    <a
-                                        href="index.html"
+                                    <Link
+                                        href="/"
                                         className="breadcrumb-list__link text-body hover-text-main"
                                     >
                                         Home
-                                    </a>
+                                    </Link>
                                 </li>
                                 <li className="breadcrumb-list__item font-14 text-body">
                                     <span className="breadcrumb-list__icon font-10">
@@ -43,17 +45,17 @@ const BreadcrumbFive = () => {
                             </ul>
                             <ul className="process-list">
                                 <li className="process-list__item activePage">
-                                    <a href="cart.html" className="process-list__link">
+                                    <Link href="/cart" className="process-list__link">
                                         <div className="icons">
                                             <span className="icon white">
                                                 <img src="assets/images/icons/process-white1.svg" alt="" />
                                             </span>
                                         </div>
                                         <span className="text">Shopping Cart</span>
-                                    </a>
+                                    </Link>
                                 </li>
                                 <li className="process-list__item activePage">
-                                    <a href="cart-personal.html" className="process-list__link">
+                                    <Link href="/cart-personal" className="process-list__link">
                                         <div className="icons">
                                             <span className="icon white">
                                                 <img src="assets/images/icons/process-white2.svg" alt="" />
@@ -63,10 +65,10 @@ const BreadcrumbFive = () => {
                                             </span>
                                         </div>
                                         <span className="text">Mailing Address</span>
-                                    </a>
+                                    </Link>
                                 </li>
                                 <li className="process-list__item ">
-                                    <a href="cart-payment.html" className="process-list__link">
+                                    <Link href="/cart-payment" className="process-list__link">
                                         <div className="icons">
                                             <span className="icon white">
                                                 <img src="assets/images/icons/process-white3.svg" alt="" />
@@ -76,10 +78,10 @@ const BreadcrumbFive = () => {
                                             </span>
                                         </div>
                                         <span className="text">Payment Methods</span>
-                                    </a>
+                                    </Link>
                                 </li>
                                 <li className="process-list__item">
-                                    <a href="cart-thank-you.html" className="process-list__link">
+                                    <Link href="/cart-thank-you" className="process-list__link">
                                         <div className="icons">
                                             <span className="icon white">
                                                 <img src="assets/images/icons/process-white4.svg" alt="" />
@@ -89,7 +91,7 @@ const BreadcrumbFive = () => {
                                             </span>
                                         </div>
                                         <span className="text">Preview Order</span>
-                                    </a>
+                                    </Link>
                                 </li>
                             </ul>
                         </div>

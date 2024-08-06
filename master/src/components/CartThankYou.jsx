@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 const CartThankYou = () => {
     return (
         <section className="cart-thank section-bg padding-y-120 position-relative z-index-1 overflow-hidden">
@@ -93,15 +95,15 @@ const CartThankYou = () => {
                     </div>
                     <div className="flx-between gap-2">
                       <p className="text">Please don’t forget to rating</p>
-                      <a
-                        href="index.html"
+                      <Link
+                        href="/"
                         className="btn btn-main flx-align gap-2 pill"
                       >
                         Back To Home
                         <span className="icon line-height-1 font-20">
                           <i className="las la-arrow-right" />
                         </span>
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>

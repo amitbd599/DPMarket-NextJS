@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 const BlogDetailsSidebar = () => {
     return (
         <>
@@ -129,28 +131,28 @@ const BlogDetailsSidebar = () => {
                                         </span>
                                         <ul className="post-tag__list flx-align gap-2">
                                             <li className="post-tag__item">
-                                                <a
-                                                    href="blog.html"
+                                                <Link
+                                                    href="/blog"
                                                     className="post-tag__link font-14 text-heading pill fw-500"
                                                 >
                                                     Business
-                                                </a>
+                                                </Link>
                                             </li>
                                             <li className="post-tag__item">
-                                                <a
-                                                    href="blog.html"
+                                                <Link
+                                                    href="/blog"
                                                     className="post-tag__link font-14 text-heading pill fw-500"
                                                 >
                                                     Marketing
-                                                </a>
+                                                </Link>
                                             </li>
                                             <li className="post-tag__item">
-                                                <a
-                                                    href="blog.html"
+                                                <Link
+                                                    href="/blog"
                                                     className="post-tag__link font-14 text-heading pill fw-500"
                                                 >
                                                     Strategy
-                                                </a>
+                                                </Link>
                                             </li>
                                         </ul>
                                     </div>
@@ -160,30 +162,30 @@ const BlogDetailsSidebar = () => {
                                         </span>
                                         <ul className="social-icon-list colorful-style">
                                             <li className="social-icon-list__item">
-                                                <a
+                                                <Link
                                                     href="https://www.facebook.com"
                                                     className="social-icon-list__link text-heading font-16 flex-center"
                                                 >
                                                     <i className="fab fa-facebook-f" />
-                                                </a>
+                                                </Link>
                                             </li>
                                             <li className="social-icon-list__item">
-                                                <a
+                                                <Link
                                                     href="https://www.twitter.com"
                                                     className="social-icon-list__link text-heading font-16 flex-center"
                                                 >
                                                     {" "}
                                                     <i className="fab fa-linkedin-in" />
-                                                </a>
+                                                </Link>
                                             </li>
                                             <li className="social-icon-list__item">
-                                                <a
+                                                <Link
                                                     href="https://www.google.com"
                                                     className="social-icon-list__link text-heading font-16 flex-center"
                                                 >
                                                     {" "}
                                                     <i className="fab fa-twitter" />
-                                                </a>
+                                                </Link>
                                             </li>
                                         </ul>
                                     </div>
@@ -305,7 +307,7 @@ const BlogDetailsSidebar = () => {
                                                             Jan 21, 2024 at 11:25 pm
                                                         </span>
                                                     </div>
-                                                    <a
+                                                    <Link
                                                         className="comment-list__reply fw-500 flx-align gap-2 hover-text-decoration-underline"
                                                         href="#comment-box"
                                                     >
@@ -316,7 +318,7 @@ const BlogDetailsSidebar = () => {
                                                                 alt=""
                                                             />
                                                         </span>
-                                                    </a>
+                                                    </Link>
                                                 </div>
                                                 <p className="comment-list__desc mt-3">
                                                     Lorem ipsum dolor sit amet consectetur. Nec nunc
@@ -346,7 +348,7 @@ const BlogDetailsSidebar = () => {
                                                                     Jan 21, 2024 at 11:25 pm
                                                                 </span>
                                                             </div>
-                                                            <a
+                                                            <Link
                                                                 className="comment-list__reply fw-500 flx-align gap-2 hover-text-decoration-underline"
                                                                 href="#comment-box"
                                                             >
@@ -357,7 +359,7 @@ const BlogDetailsSidebar = () => {
                                                                         alt=""
                                                                     />
                                                                 </span>
-                                                            </a>
+                                                            </Link>
                                                         </div>
                                                         <p className="comment-list__desc mt-3">
                                                             Lorem ipsum dolor sit amet consectetur. Nec nunc
@@ -407,68 +409,68 @@ const BlogDetailsSidebar = () => {
                                     <h6 className="common-sidebar__title">Recent News</h6>
                                     <div className="latest-blog">
                                         <div className="latest-blog__thumb">
-                                            <a href="blog-details.html">
+                                            <Link href="/blog-details">
                                                 {" "}
                                                 <img
                                                     src="assets/images/thumbs/latest-blog1.png"
                                                     className="cover-img"
                                                     alt=""
                                                 />
-                                            </a>
+                                            </Link>
                                         </div>
                                         <div className="latest-blog__content">
                                             <span className="latest-blog__date font-14 mb-2">
                                                 January 15, 2024
                                             </span>
                                             <h6 className="latest-blog__title fw-500 font-body font-16">
-                                                <a href="blog-details.html">
+                                                <Link href="/blog-details">
                                                     There are many variations of business consulting.
-                                                </a>
+                                                </Link>
                                             </h6>
                                         </div>
                                     </div>
                                     <div className="latest-blog">
                                         <div className="latest-blog__thumb">
-                                            <a href="blog-details.html">
+                                            <Link href="/blog-details">
                                                 {" "}
                                                 <img
                                                     src="assets/images/thumbs/latest-blog2.png"
                                                     className="cover-img"
                                                     alt=""
                                                 />
-                                            </a>
+                                            </Link>
                                         </div>
                                         <div className="latest-blog__content">
                                             <span className="latest-blog__date font-14 mb-2">
                                                 January 15, 2024
                                             </span>
                                             <h6 className="latest-blog__title fw-500 font-body font-16">
-                                                <a href="blog-details.html">
+                                                <Link href="/blog-details">
                                                     Maecenas malesuada mauris libero, ultricies vehicula.
-                                                </a>
+                                                </Link>
                                             </h6>
                                         </div>
                                     </div>
                                     <div className="latest-blog">
                                         <div className="latest-blog__thumb">
-                                            <a href="blog-details.html">
+                                            <Link href="/blog-details">
                                                 {" "}
                                                 <img
                                                     src="assets/images/thumbs/latest-blog3.png"
                                                     className="cover-img"
                                                     alt=""
                                                 />
-                                            </a>
+                                            </Link>
                                         </div>
                                         <div className="latest-blog__content">
                                             <span className="latest-blog__date font-14 mb-2">
                                                 January 15, 2024
                                             </span>
                                             <h6 className="latest-blog__title fw-500 font-body font-16">
-                                                <a href="blog-details.html">
+                                                <Link href="/blog-details">
                                                     Phasellus sollicitudin massa aliquet ultricies
                                                     condimentum.
-                                                </a>
+                                                </Link>
                                             </h6>
                                         </div>
                                     </div>
@@ -477,8 +479,8 @@ const BlogDetailsSidebar = () => {
                                     <h6 className="common-sidebar__title"> Categories </h6>
                                     <ul className="category-list">
                                         <li className="category-list__item">
-                                            <a
-                                                href="blog.html"
+                                            <Link
+                                                href="/blog"
                                                 className="category-list__link flx-align flex-nowrap gap-2 text-body hover-text-main"
                                             >
                                                 <span className="icon font-12">
@@ -486,11 +488,11 @@ const BlogDetailsSidebar = () => {
                                                     <i className="fas fa-chevron-right" />
                                                 </span>
                                                 <span className="text">WordPress (12)</span>
-                                            </a>
+                                            </Link>
                                         </li>
                                         <li className="category-list__item">
-                                            <a
-                                                href="blog.html"
+                                            <Link
+                                                href="/blog"
                                                 className="category-list__link flx-align flex-nowrap gap-2 text-body hover-text-main"
                                             >
                                                 <span className="icon font-12">
@@ -498,11 +500,11 @@ const BlogDetailsSidebar = () => {
                                                     <i className="fas fa-chevron-right" />
                                                 </span>
                                                 <span className="text">App &amp; Saas (6)</span>
-                                            </a>
+                                            </Link>
                                         </li>
                                         <li className="category-list__item">
-                                            <a
-                                                href="blog.html"
+                                            <Link
+                                                href="/blog"
                                                 className="category-list__link flx-align flex-nowrap gap-2 text-body hover-text-main"
                                             >
                                                 <span className="icon font-12">
@@ -510,11 +512,11 @@ const BlogDetailsSidebar = () => {
                                                     <i className="fas fa-chevron-right" />
                                                 </span>
                                                 <span className="text">Web Development (6)</span>
-                                            </a>
+                                            </Link>
                                         </li>
                                         <li className="category-list__item">
-                                            <a
-                                                href="blog.html"
+                                            <Link
+                                                href="/blog"
                                                 className="category-list__link flx-align flex-nowrap gap-2 text-body hover-text-main"
                                             >
                                                 <span className="icon font-12">
@@ -522,11 +524,11 @@ const BlogDetailsSidebar = () => {
                                                     <i className="fas fa-chevron-right" />
                                                 </span>
                                                 <span className="text">Graphics (6)</span>
-                                            </a>
+                                            </Link>
                                         </li>
                                         <li className="category-list__item">
-                                            <a
-                                                href="blog.html"
+                                            <Link
+                                                href="/blog"
                                                 className="category-list__link flx-align flex-nowrap gap-2 text-body hover-text-main"
                                             >
                                                 <span className="icon font-12">
@@ -534,11 +536,11 @@ const BlogDetailsSidebar = () => {
                                                     <i className="fas fa-chevron-right" />
                                                 </span>
                                                 <span className="text">IOS/Android Design (6)</span>
-                                            </a>
+                                            </Link>
                                         </li>
                                         <li className="category-list__item">
-                                            <a
-                                                href="blog.html"
+                                            <Link
+                                                href="/blog"
                                                 className="category-list__link flx-align flex-nowrap gap-2 text-body hover-text-main"
                                             >
                                                 <span className="icon font-12">
@@ -546,7 +548,7 @@ const BlogDetailsSidebar = () => {
                                                     <i className="fas fa-chevron-right" />
                                                 </span>
                                                 <span className="text">Web Design (6)</span>
-                                            </a>
+                                            </Link>
                                         </li>
                                     </ul>
                                 </div>
@@ -554,100 +556,100 @@ const BlogDetailsSidebar = () => {
                                     <h6 className="common-sidebar__title"> Popular Tags </h6>
                                     <ul className="tag-list flx-align gap-2">
                                         <li className="tag-list__item">
-                                            <a
-                                                href="blog.html"
+                                            <Link
+                                                href="/blog"
                                                 className="tag-list__link pill px-3 py-2 font-14 fw-500"
                                             >
                                                 Digital
-                                            </a>
+                                            </Link>
                                         </li>
                                         <li className="tag-list__item">
-                                            <a
-                                                href="blog.html"
+                                            <Link
+                                                href="/blog"
                                                 className="tag-list__link pill px-3 py-2 font-14 fw-500"
                                             >
                                                 Template
-                                            </a>
+                                            </Link>
                                         </li>
                                         <li className="tag-list__item">
-                                            <a
-                                                href="blog.html"
+                                            <Link
+                                                href="/blog"
                                                 className="tag-list__link pill px-3 py-2 font-14 fw-500"
                                             >
                                                 Web Design
-                                            </a>
+                                            </Link>
                                         </li>
                                         <li className="tag-list__item">
-                                            <a
-                                                href="blog.html"
+                                            <Link
+                                                href="/blog"
                                                 className="tag-list__link pill px-3 py-2 font-14 fw-500"
                                             >
                                                 SaaS
-                                            </a>
+                                            </Link>
                                         </li>
                                         <li className="tag-list__item">
-                                            <a
-                                                href="blog.html"
+                                            <Link
+                                                href="/blog"
                                                 className="tag-list__link pill px-3 py-2 font-14 fw-500"
                                             >
                                                 Products
-                                            </a>
+                                            </Link>
                                         </li>
                                         <li className="tag-list__item">
-                                            <a
-                                                href="blog.html"
+                                            <Link
+                                                href="/blog"
                                                 className="tag-list__link pill px-3 py-2 font-14 fw-500"
                                             >
                                                 App
-                                            </a>
+                                            </Link>
                                         </li>
                                         <li className="tag-list__item">
-                                            <a
-                                                href="blog.html"
+                                            <Link
+                                                href="/blog"
                                                 className="tag-list__link pill px-3 py-2 font-14 fw-500"
                                             >
                                                 Development
-                                            </a>
+                                            </Link>
                                         </li>
                                         <li className="tag-list__item">
-                                            <a
-                                                href="blog.html"
+                                            <Link
+                                                href="/blog"
                                                 className="tag-list__link pill px-3 py-2 font-14 fw-500"
                                             >
                                                 UI/UX
-                                            </a>
+                                            </Link>
                                         </li>
                                         <li className="tag-list__item">
-                                            <a
-                                                href="blog.html"
+                                            <Link
+                                                href="/blog"
                                                 className="tag-list__link pill px-3 py-2 font-14 fw-500"
                                             >
                                                 Marketing
-                                            </a>
+                                            </Link>
                                         </li>
                                         <li className="tag-list__item">
-                                            <a
-                                                href="blog.html"
+                                            <Link
+                                                href="/blog"
                                                 className="tag-list__link pill px-3 py-2 font-14 fw-500"
                                             >
                                                 HTML
-                                            </a>
+                                            </Link>
                                         </li>
                                         <li className="tag-list__item">
-                                            <a
-                                                href="blog.html"
+                                            <Link
+                                                href="/blog"
                                                 className="tag-list__link pill px-3 py-2 font-14 fw-500"
                                             >
                                                 Web App
-                                            </a>
+                                            </Link>
                                         </li>
                                         <li className="tag-list__item">
-                                            <a
-                                                href="blog.html"
+                                            <Link
+                                                href="/blog"
                                                 className="tag-list__link pill px-3 py-2 font-14 fw-500"
                                             >
                                                 Design
-                                            </a>
+                                            </Link>
                                         </li>
                                     </ul>
                                 </div>
@@ -667,9 +669,9 @@ const BlogDetailsSidebar = () => {
                                 Browse all latest blogs and articles
                             </h3>
                         </div>
-                        <a href="blog.html" className="btn btn-outline-light btn-lg pill">
+                        <Link href="/blog" className="btn btn-outline-light btn-lg pill">
                             Browse All Articles
-                        </a>
+                        </Link>
                     </div>
                     <div className="article-item-wrapper">
                         <div className="article-item">
@@ -690,21 +692,21 @@ const BlogDetailsSidebar = () => {
                                 <div className="article-item__center d-flex align-items-center">
                                     <div className="article-item__content">
                                         <div className="article-item__top flx-align">
-                                            <a href="blog.html" className="article-item__tag font-14">
+                                            <Link href="/blog" className="article-item__tag font-14">
                                                 Startup
-                                            </a>
-                                            <a href="blog.html" className="article-item__tag font-14">
+                                            </Link>
+                                            <Link href="/blog" className="article-item__tag font-14">
                                                 Marketing
-                                            </a>
+                                            </Link>
                                             <span className="text-heading font-16 fw-500">
                                                 June 24, 2024
                                             </span>
                                         </div>
                                         <h4 className="article-item__title mb-3">
-                                            <a href="blog-details.html" className="link">
+                                            <Link href="/blog-details" className="link">
                                                 {" "}
                                                 Data-Driven Insights Unlock The Hidden Potential
-                                            </a>
+                                            </Link>
                                         </h4>
                                         <p className="article-item__desc">
                                             Etiam id euismod odio. Ut euismod sem a lacus ringill a
@@ -717,12 +719,12 @@ const BlogDetailsSidebar = () => {
                                 </div>
                             </div>
                             <div className="article-item__end flex-shrink-0">
-                                <a href="blog-details.html" className="btn-simple">
+                                <Link href="/blog-details" className="btn-simple">
                                     Read More{" "}
                                     <span className="icon font-26">
                                         <i className="las la-arrow-right" />
                                     </span>{" "}
-                                </a>
+                                </Link>
                             </div>
                         </div>
                         <div className="article-item">
@@ -743,20 +745,20 @@ const BlogDetailsSidebar = () => {
                                 <div className="article-item__center d-flex align-items-center">
                                     <div className="article-item__content">
                                         <div className="article-item__top flx-align">
-                                            <a href="blog.html" className="article-item__tag font-14">
+                                            <Link href="/blog" className="article-item__tag font-14">
                                                 Startup
-                                            </a>
-                                            <a href="blog.html" className="article-item__tag font-14">
+                                            </Link>
+                                            <Link href="/blog" className="article-item__tag font-14">
                                                 Marketing
-                                            </a>
+                                            </Link>
                                             <span className="text-heading font-16 fw-500">
                                                 June 24, 2024
                                             </span>
                                         </div>
                                         <h4 className="article-item__title mb-3">
-                                            <a href="blog-details.html" className="link">
+                                            <Link href="/blog-details" className="link">
                                                 we offer best training for individuals and teams
-                                            </a>
+                                            </Link>
                                         </h4>
                                         <p className="article-item__desc">
                                             Etiam id euismod odio. Ut euismod sem a lacus ringill a
@@ -769,12 +771,12 @@ const BlogDetailsSidebar = () => {
                                 </div>
                             </div>
                             <div className="article-item__end flex-shrink-0">
-                                <a href="blog-details.html" className="btn-simple">
+                                <Link href="/blog-details" className="btn-simple">
                                     Read More{" "}
                                     <span className="icon font-26">
                                         <i className="las la-arrow-right" />
                                     </span>{" "}
-                                </a>
+                                </Link>
                             </div>
                         </div>
                         <div className="article-item">
@@ -795,20 +797,20 @@ const BlogDetailsSidebar = () => {
                                 <div className="article-item__center d-flex align-items-center">
                                     <div className="article-item__content">
                                         <div className="article-item__top flx-align">
-                                            <a href="blog.html" className="article-item__tag font-14">
+                                            <Link href="/blog" className="article-item__tag font-14">
                                                 Startup
-                                            </a>
-                                            <a href="blog.html" className="article-item__tag font-14">
+                                            </Link>
+                                            <Link href="/blog" className="article-item__tag font-14">
                                                 Marketing
-                                            </a>
+                                            </Link>
                                             <span className="text-heading font-16 fw-500">
                                                 June 24, 2024
                                             </span>
                                         </div>
                                         <h4 className="article-item__title mb-3">
-                                            <a href="blog-details.html" className="link">
+                                            <Link href="/blog-details" className="link">
                                                 The analytics feature is like having a personal fortune.
-                                            </a>
+                                            </Link>
                                         </h4>
                                         <p className="article-item__desc">
                                             Etiam id euismod odio. Ut euismod sem a lacus ringill a
@@ -821,12 +823,12 @@ const BlogDetailsSidebar = () => {
                                 </div>
                             </div>
                             <div className="article-item__end flex-shrink-0">
-                                <a href="blog-details.html" className="btn-simple">
+                                <Link href="/blog-details" className="btn-simple">
                                     Read More{" "}
                                     <span className="icon font-26">
                                         <i className="las la-arrow-right" />
                                     </span>{" "}
-                                </a>
+                                </Link>
                             </div>
                         </div>
                     </div>

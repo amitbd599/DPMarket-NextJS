@@ -1,4 +1,5 @@
 "use client";
+import Link from "next/link";
 import Slider from "react-slick";
 
 const CartPayment = () => {
@@ -344,13 +345,13 @@ const CartPayment = () => {
                                             </div>
                                         </div>
                                         <div className="col-lg-12">
-                                            <a
-                                                href="cart-thank-you.html"
+                                            <Link
+                                                href="/cart-thank-you"
                                                 className="btn btn-main btn-lg w-100 pill"
                                             >
                                                 {" "}
                                                 Confirm Payment
-                                            </a>
+                                            </Link>
                                         </div>
                                     </div>
                                 </form>
@@ -359,15 +360,15 @@ const CartPayment = () => {
                     </div>
                 </div>
                 <div className="cart-content__bottom flx-between gap-2">
-                    <a
-                        href="cart-personal.html"
+                    <Link
+                        href="/cart-personal"
                         className="btn btn-outline-light flx-align gap-2 pill btn-lg"
                     >
                         <span className="icon line-height-1 font-20">
                             <i className="las la-arrow-left" />
                         </span>
                         Back
-                    </a>
+                    </Link>
                 </div>
             </div>
         </section>

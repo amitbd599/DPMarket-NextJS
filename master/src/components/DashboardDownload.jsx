@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 const DashboardDownload = () => {
   return (
     <div className="dashboard-body__content">
@@ -23,16 +25,16 @@ const DashboardDownload = () => {
             </div>
             <div className="download-item__info">
               <h6 className="download-item__title mb-1">
-                <a href="#" className="link">
+                <Link href="#" className="link">
                   CityScape - Real Estate HTML Template
-                </a>
+                </Link>
               </h6>
-              <a
+              <Link
                 href="#"
                 className="download-item__text text-main mb-3 font-12 hover-text-decoration-underline"
               >
                 Tools License
-              </a>
+              </Link>
               <div className="common-check">
                 <input
                   className="form-check-input"
@@ -85,16 +87,16 @@ const DashboardDownload = () => {
             </div>
             <div className="download-item__info">
               <h6 className="download-item__title mb-1">
-                <a href="#" className="link">
+                <Link href="#" className="link">
                   FixTurbo - Car Repairing HTML Template
-                </a>
+                </Link>
               </h6>
-              <a
+              <Link
                 href="#"
                 className="download-item__text text-main mb-3 font-12 hover-text-decoration-underline"
               >
                 Tools License
-              </a>
+              </Link>
               <div className="common-check">
                 <input
                   className="form-check-input"
@@ -147,16 +149,16 @@ const DashboardDownload = () => {
             </div>
             <div className="download-item__info">
               <h6 className="download-item__title mb-1">
-                <a href="#" className="link">
+                <Link href="#" className="link">
                   CityScape - Real Estate HTML Template
-                </a>
+                </Link>
               </h6>
-              <a
+              <Link
                 href="#"
                 className="download-item__text text-main mb-3 font-12 hover-text-decoration-underline"
               >
                 Tools License
-              </a>
+              </Link>
               <div className="common-check">
                 <input
                   className="form-check-input"
@@ -209,16 +211,16 @@ const DashboardDownload = () => {
             </div>
             <div className="download-item__info">
               <h6 className="download-item__title mb-1">
-                <a href="#" className="link">
+                <Link href="#" className="link">
                   FixTurbo - Car Repairing HTML Template
-                </a>
+                </Link>
               </h6>
-              <a
+              <Link
                 href="#"
                 className="download-item__text text-main mb-3 font-12 hover-text-decoration-underline"
               >
                 Tools License
-              </a>
+              </Link>
               <div className="common-check">
                 <input
                   className="form-check-input"

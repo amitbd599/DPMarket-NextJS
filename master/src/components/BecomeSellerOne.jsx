@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 const BecomeSellerOne = () => {
   return (
     <section className="seller padding-y-120">
@@ -18,12 +20,12 @@ const BecomeSellerOne = () => {
                 exclusively and 50% for items sold non-exclusively. See detailed
                 informationabout the fee structure on Market.
               </p>
-              <a
-                href="register.html"
+              <Link
+                href="/register"
                 className="btn btn-static-outline-black btn-xl pill fw-600"
               >
                 Become a Seller
-              </a>
+              </Link>
             </div>
           </div>
           <div className="col-lg-6">
@@ -39,12 +41,12 @@ const BecomeSellerOne = () => {
                 millions of digital assets every year. With 30% affiliate
                 commission, earning money has never been easier!
               </p>
-              <a
-                href="register.html"
+              <Link
+                href="/register"
                 className="btn btn-static-outline-black btn-xl pill fw-600"
               >
                 Become an Affiliate
-              </a>
+              </Link>
             </div>
           </div>
           <div className="col-lg-12">
@@ -75,12 +77,12 @@ const BecomeSellerOne = () => {
                     <p className="support-content__desc">
                       Wanna talk? Send us a message
                     </p>
-                    <a
+                    <Link
                       href="mailto:infomail@office.com"
                       className="btn btn-static-black btn-lg fw-300 pill"
                     >
                       infomail@office.com
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>

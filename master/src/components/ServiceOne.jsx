@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 const ServiceOne = () => {
   return (
     <section className="service padding-y-120 position-relative z-index-1 overflow-hidden">
@@ -21,9 +23,9 @@ const ServiceOne = () => {
               specialists.
             </p>
           </div>
-          <a href="#" className="btn btn-main btn-lg pill">
+          <Link href="#" className="btn btn-main btn-lg pill">
             See All Services
-          </a>
+          </Link>
         </div>
         <div className="row gy-4">
           <div className="col-lg-4 col-sm-6 col-xs-6">
@@ -48,12 +50,12 @@ const ServiceOne = () => {
                 We help companies communicate with customers more effectively
                 and efficiently. Help is a conversational customer support.
               </p>
-              <a href="#" className="btn-simple">
+              <Link href="#" className="btn-simple">
                 Read More
                 <span className="icon">
                   <i className="las la-arrow-right" />
                 </span>
-              </a>
+              </Link>
             </div>
           </div>
           <div className="col-lg-4 col-sm-6 col-xs-6">
@@ -78,12 +80,12 @@ const ServiceOne = () => {
                 We help companies communicate with customers more effectively
                 and efficiently. Help is a conversational customer support.
               </p>
-              <a href="#" className="btn-simple">
+              <Link href="#" className="btn-simple">
                 Read More
                 <span className="icon">
                   <i className="las la-arrow-right" />
                 </span>
-              </a>
+              </Link>
             </div>
           </div>
           <div className="col-lg-4 col-sm-6 col-xs-6">
@@ -108,12 +110,12 @@ const ServiceOne = () => {
                 We help companies communicate with customers more effectively
                 and efficiently. Help is a conversational customer support.
               </p>
-              <a href="#" className="btn-simple">
+              <Link href="#" className="btn-simple">
                 Read More
                 <span className="icon">
                   <i className="las la-arrow-right" />
                 </span>
-              </a>
+              </Link>
             </div>
           </div>
           <div className="col-lg-4 col-sm-6 col-xs-6">
@@ -138,12 +140,12 @@ const ServiceOne = () => {
                 We help companies communicate with customers more effectively
                 and efficiently. Help is a conversational customer support.
               </p>
-              <a href="#" className="btn-simple">
+              <Link href="#" className="btn-simple">
                 Read More
                 <span className="icon">
                   <i className="las la-arrow-right" />
                 </span>
-              </a>
+              </Link>
             </div>
           </div>
           <div className="col-lg-4 col-sm-6 col-xs-6">
@@ -168,12 +170,12 @@ const ServiceOne = () => {
                 We help companies communicate with customers more effectively
                 and efficiently. Help is a conversational customer support.
               </p>
-              <a href="#" className="btn-simple">
+              <Link href="#" className="btn-simple">
                 Read More
                 <span className="icon">
                   <i className="las la-arrow-right" />
                 </span>
-              </a>
+              </Link>
             </div>
           </div>
           <div className="col-lg-4 col-sm-6 col-xs-6">
@@ -198,12 +200,12 @@ const ServiceOne = () => {
                 We help companies communicate with customers more effectively
                 and efficiently. Help is a conversational customer support.
               </p>
-              <a href="#" className="btn-simple">
+              <Link href="#" className="btn-simple">
                 Read More
                 <span className="icon">
                   <i className="las la-arrow-right" />
                 </span>
-              </a>
+              </Link>
             </div>
           </div>
         </div>

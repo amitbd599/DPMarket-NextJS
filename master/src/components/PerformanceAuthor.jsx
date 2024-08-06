@@ -1,6 +1,7 @@
 "use client";
 import { useEffect, useRef } from "react";
 import CircleType from "circletype";
+import Link from "next/link";
 
 const PerformanceAuthor = () => {
   const textRef = useRef(null);
@@ -80,12 +81,12 @@ const PerformanceAuthor = () => {
                   content specialists.
                 </p>
               </div>
-              <a
-                href="register.html"
+              <Link
+                href="/register"
                 className="btn btn-main btn-lg pill fw-300"
               >
                 Get Started
-              </a>
+              </Link>
             </div>
           </div>
         </div>

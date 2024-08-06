@@ -1,4 +1,5 @@
 "use client";
+import Link from "next/link";
 import React, { useState, useEffect } from "react";
 const SaleOffer = () => {
   let [show, setShow] = useState(true);
@@ -81,9 +82,9 @@ const SaleOffer = () => {
               <strong className="sale-offer__qty text-heading font-heading">
                 45% OFF
               </strong>
-              <a href="#" className="btn btn-sm btn-white pill fw-500">
+              <Link href="#" className="btn btn-sm btn-white pill fw-500">
                 Shop Now
-              </a>
+              </Link>
             </div>
             <div className="sale-offer__button">
               <button
