@@ -192,7 +192,6 @@ const DashboardInner = () => {
                                 </div>
                                 <div className="dashboard-card__chart">
                                     <Chart options={options} series={series} type="area" height={"500"} width={"100%"} />
-
                                 </div>
                             </div>
                         </div>

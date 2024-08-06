@@ -1,7 +1,6 @@
 const DashboardRefund = () => {
   return (
     <div className="dashboard-body__content">
-      {/* =========================== Refund Section Start ========================= */}
       <div className="row gy-4">
         <div className="col-lg-8">
           <div className="refund-feedback">
@@ -28,7 +27,6 @@ const DashboardRefund = () => {
           </div>
         </div>
       </div>
-      {/* =========================== Refund Section End ========================= */}
     </div>
 
   );

@@ -1,7 +1,6 @@
 const DashboardDownload = () => {
   return (
     <div className="dashboard-body__content">
-  {/* ========================= Download Section Start ====================== */}
   <div className="row gy-4">
     <div className="col-lg-12">
       <div className="search-box">
@@ -268,7 +267,6 @@ const DashboardDownload = () => {
       </div>
     </div>
   </div>
-  {/* ========================= Download Section End ====================== */}
 </div>
 
   );

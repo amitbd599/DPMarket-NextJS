@@ -22,7 +22,6 @@ const DashboardEarning = () => {
     <div className="dashboard-body__content">
     <div className="card common-card">
       <div className="card-body">
-        {/* ========================= Earning Section Start ============================= */}
         <div className="row gy-4">
           <div className="col-lg-4 col-sm-6">
             <div className="earning-card position-relative z-index-1">
@@ -272,7 +271,6 @@ const DashboardEarning = () => {
             </div>
           </div>
         </div>
-        {/* ========================= Earning Section End ============================= */}
       </div>
     </div>
   </div>

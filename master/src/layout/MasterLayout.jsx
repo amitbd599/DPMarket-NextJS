@@ -1,5 +1,6 @@
 'use client'
 import ThemeToggle from "@/components/ThemeToggle";
+import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useState } from "react";
 
@@ -20,12 +21,12 @@ let [show, setShow] = useState(false)
         <>
 
             <div className="mobile-menu d-lg-none d-block" >
-                <button type="button" className="close-button">
+                <button type="button" className="close-button" >
                     {" "}
                     <i className="las la-times" />{" "}
                 </button>
                 <div className="mobile-menu__inner">
-                    <a href="index.html" className="mobile-menu__logo">
+                    <Link href="/index" className="mobile-menu__logo">
                         <img
                             src="assets/images/logo/logo.png"
                             alt="Logo"
@@ -36,128 +37,128 @@ let [show, setShow] = useState(false)
                             alt="Logo"
                             className="dark-version"
                         />
-                    </a>
+                    </Link>
                     <div className="mobile-menu__menu">
                         <ul className="nav-menu flx-align nav-menu--mobile">
                             <li className="nav-menu__item has-submenu">
-                                <a href="javascript:void(0)" className="nav-menu__link">
+                                <Link href="javascript:void(0)" className="nav-menu__link">
                                     Home
-                                </a>
+                                </Link>
                                 <ul className="nav-submenu">
                                     <li className="nav-submenu__item">
-                                        <a href="index.html" className="nav-submenu__link">
+                                        <Link href="/index" className="nav-submenu__link">
                                             {" "}
                                             Home One
-                                        </a>
+                                        </Link>
                                     </li>
                                     <li className="nav-submenu__item">
-                                        <a href="index-two.html" className="nav-submenu__link">
+                                        <Link href="/index-two" className="nav-submenu__link">
                                             {" "}
                                             Home Two
-                                        </a>
+                                        </Link>
                                     </li>
                                 </ul>
                             </li>
                             <li className="nav-menu__item has-submenu">
-                                <a href="javascript:void(0)" className="nav-menu__link">
+                                <Link href="/javascript:void(0)" className="nav-menu__link">
                                     Products
-                                </a>
+                                </Link>
                                 <ul className="nav-submenu">
                                     <li className="nav-submenu__item">
-                                        <a href="all-product.html" className="nav-submenu__link">
+                                        <Link href="/all-product" className="nav-submenu__link">
                                             {" "}
                                             All Products
-                                        </a>
+                                        </Link>
                                     </li>
                                     <li className="nav-submenu__item">
-                                        <a href="product-details.html" className="nav-submenu__link">
+                                        <Link href="/product-details" className="nav-submenu__link">
                                             {" "}
                                             Product Details
-                                        </a>
+                                        </Link>
                                     </li>
                                 </ul>
                             </li>
                             <li className="nav-menu__item has-submenu">
-                                <a href="javascript:void(0)" className="nav-menu__link">
+                                <Link href="/javascript:void(0)" className="nav-menu__link">
                                     Pages
-                                </a>
+                                </Link>
                                 <ul className="nav-submenu">
                                     <li className="nav-submenu__item">
-                                        <a href="profile.html" className="nav-submenu__link">
+                                        <Link href="/profile" className="nav-submenu__link">
                                             {" "}
                                             Profile
-                                        </a>
+                                        </Link>
                                     </li>
                                     <li className="nav-submenu__item">
-                                        <a href="cart.html" className="nav-submenu__link">
+                                        <Link href="/cart" className="nav-submenu__link">
                                             {" "}
                                             Shopping Cart
-                                        </a>
+                                        </Link>
                                     </li>
                                     <li className="nav-submenu__item">
-                                        <a href="cart-personal.html" className="nav-submenu__link">
+                                        <Link href="/cart-personal" className="nav-submenu__link">
                                             {" "}
                                             Mailing Address
-                                        </a>
+                                        </Link>
                                     </li>
                                     <li className="nav-submenu__item">
-                                        <a href="cart-payment.html" className="nav-submenu__link">
+                                        <Link href="/cart-payment" className="nav-submenu__link">
                                             {" "}
                                             Payment Method
-                                        </a>
+                                        </Link>
                                     </li>
                                     <li className="nav-submenu__item">
-                                        <a href="cart-thank-you.html" className="nav-submenu__link">
+                                        <Link href="/cart-thank-you" className="nav-submenu__link">
                                             {" "}
                                             Preview Order
-                                        </a>
+                                        </Link>
                                     </li>
                                     <li className="nav-submenu__item">
-                                        <a href="dashboard.html" className="nav-submenu__link">
+                                        <Link href="/dashboard" className="nav-submenu__link">
                                             {" "}
                                             Dashboard
-                                        </a>
+                                        </Link>
                                     </li>
                                 </ul>
                             </li>
                             <li className="nav-menu__item has-submenu">
-                                <a href="javascript:void(0)" className="nav-menu__link">
+                                <Link href="/javascript:void(0)" className="nav-menu__link">
                                     Blog
-                                </a>
+                                </Link>
                                 <ul className="nav-submenu">
                                     <li className="nav-submenu__item">
-                                        <a href="blog.html" className="nav-submenu__link">
+                                        <Link href="/blog" className="nav-submenu__link">
                                             {" "}
                                             Blog
-                                        </a>
+                                        </Link>
                                     </li>
                                     <li className="nav-submenu__item">
-                                        <a href="blog-details.html" className="nav-submenu__link">
+                                        <Link href="/blog-details" className="nav-submenu__link">
                                             {" "}
                                             Blog Details
-                                        </a>
+                                        </Link>
                                     </li>
                                     <li className="nav-submenu__item">
-                                        <a href="blog-details-sidebar.html" className="nav-submenu__link">
+                                        <Link href="/blog-details-sidebar" className="nav-submenu__link">
                                             {" "}
                                             Blog Details Sidebar
-                                        </a>
+                                        </Link>
                                     </li>
                                 </ul>
                             </li>
                             <li className="nav-menu__item">
-                                <a href="contact.html" className="nav-menu__link">
+                                <Link href="/contact" className="nav-menu__link">
                                     Contact
-                                </a>
+                                </Link>
                             </li>
                         </ul>
                         <div className="header-right__inner d-lg-none my-3 gap-1 d-flex flx-align">
-                            <a href="register.html" className="btn btn-main pill">
+                            <Link href="/register" className="btn btn-main pill">
                                 <span className="icon-left icon">
                                     <img src="assets/images/icons/user.svg" alt="" />
                                 </span>
                                 Create Account
-                            </a>
+                            </Link>
                             <div className="language-select flx-align select-has-icon">
                                 <img
                                     src="assets/images/icons/globe.svg"
@@ -188,12 +189,12 @@ let [show, setShow] = useState(false)
                     <div className={`dashboard-sidebar ${active && "active"}`}>
                         <button
                             type="button"
-                            className="dashboard-sidebar__close d-lg-none d-flex"
+                            className="dashboard-sidebar__close d-lg-none d-flex"  onClick={dashboardControl}
                         >
                             <i className="las la-times" />
                         </button>
                         <div className="dashboard-sidebar__inner">
-                            <a href="index.html" className="logo mb-48">
+                            <Link href="/index" className="logo mb-48">
                                 <img
                                     src="assets/images/logo/logo.png"
                                     alt=""
@@ -204,14 +205,14 @@ let [show, setShow] = useState(false)
                                     alt=""
                                     className="dark-version"
                                 />
-                            </a>
-                            <a href="index.html" className="logo favicon mb-48">
+                            </Link>
+                            <Link href="/index" className="logo favicon mb-48">
                                 <img src="assets/images/logo/favicon.png" alt="" />
-                            </a>
+                            </Link>
                             {/* Sidebar List Start */}
                             <ul className="sidebar-list">
                                 <li className={`sidebar-list__item ${pathname == "/dashboard" && "activePage"}`}>
-                                    <a href="dashboard.html" className="sidebar-list__link">
+                                    <Link href="/dashboard" className="sidebar-list__link">
                                         <span className="sidebar-list__icon">
                                             <img
                                                 src="assets/images/icons/sidebar-icon1.svg"
@@ -225,10 +226,10 @@ let [show, setShow] = useState(false)
                                             />
                                         </span>
                                         <span className="text">Dashboard</span>
-                                    </a>
+                                    </Link>
                                 </li>
                                 <li className={`sidebar-list__item ${pathname == "/dashboard-profile" && "activePage"}`}>
-                                    <a href="dashboard-profile.html" className="sidebar-list__link">
+                                    <Link href="/dashboard-profile" className="sidebar-list__link">
                                         <span className="sidebar-list__icon">
                                             <img
                                                 src="assets/images/icons/sidebar-icon2.svg"
@@ -242,10 +243,10 @@ let [show, setShow] = useState(false)
                                             />
                                         </span>
                                         <span className="text">Profile</span>
-                                    </a>
+                                    </Link>
                                 </li>
                                 <li className={`sidebar-list__item ${pathname == "/follower" && "activePage"}`}>
-                                    <a href="follower.html" className="sidebar-list__link">
+                                    <Link href="/follower" className="sidebar-list__link">
                                         <span className="sidebar-list__icon">
                                             <img
                                                 src="assets/images/icons/sidebar-icon4.svg"
@@ -259,10 +260,10 @@ let [show, setShow] = useState(false)
                                             />
                                         </span>
                                         <span className="text">Followers</span>
-                                    </a>
+                                    </Link>
                                 </li>
                                 <li className={`sidebar-list__item ${pathname == "/following" && "activePage"}`}>
-                                    <a href="following.html" className="sidebar-list__link">
+                                    <Link href="/following" className="sidebar-list__link">
                                         <span className="sidebar-list__icon">
                                             <img
                                                 src="assets/images/icons/sidebar-icon5.svg"
@@ -276,10 +277,10 @@ let [show, setShow] = useState(false)
                                             />
                                         </span>
                                         <span className="text">Followings</span>
-                                    </a>
+                                    </Link>
                                 </li>
                                 <li className={`sidebar-list__item ${pathname == "/setting" && "activePage"}`}>
-                                    <a href="setting.html" className="sidebar-list__link">
+                                    <Link href="/setting" className="sidebar-list__link">
                                         <span className="sidebar-list__icon">
                                             <img
                                                 src="assets/images/icons/sidebar-icon10.svg"
@@ -293,10 +294,10 @@ let [show, setShow] = useState(false)
                                             />
                                         </span>
                                         <span className="text">Settings</span>
-                                    </a>
+                                    </Link>
                                 </li>
                                 <li className={`sidebar-list__item ${pathname == "/statement" && "activePage"}`}>
-                                    <a href="statement.html" className="sidebar-list__link">
+                                    <Link href="/statement" className="sidebar-list__link">
                                         <span className="sidebar-list__icon">
                                             <img
                                                 src="assets/images/icons/sidebar-icon12.svg"
@@ -310,10 +311,10 @@ let [show, setShow] = useState(false)
                                             />
                                         </span>
                                         <span className="text">Statements</span>
-                                    </a>
+                                    </Link>
                                 </li>
                                 <li className={`sidebar-list__item ${pathname == "/earning" && "activePage"}`}>
-                                    <a href="earning.html" className="sidebar-list__link">
+                                    <Link href="/earning" className="sidebar-list__link">
                                         <span className="sidebar-list__icon">
                                             <img
                                                 src="assets/images/icons/sidebar-icon11.svg"
@@ -327,10 +328,10 @@ let [show, setShow] = useState(false)
                                             />
                                         </span>
                                         <span className="text">Earnings</span>
-                                    </a>
+                                    </Link>
                                 </li>
                                 <li className={`sidebar-list__item ${pathname == "/review" && "activePage"}`}>
-                                    <a href="review.html" className="sidebar-list__link">
+                                    <Link href="/review" className="sidebar-list__link">
                                         <span className="sidebar-list__icon">
                                             <img
                                                 src="assets/images/icons/sidebar-icon7.svg"
@@ -344,10 +345,10 @@ let [show, setShow] = useState(false)
                                             />
                                         </span>
                                         <span className="text">Reviews</span>
-                                    </a>
+                                    </Link>
                                 </li>
                                 <li className={`sidebar-list__item ${pathname == "/download" && "activePage"}`}>
-                                    <a href="download.html" className="sidebar-list__link">
+                                    <Link href="/download" className="sidebar-list__link">
                                         <span className="sidebar-list__icon">
                                             <img
                                                 src="assets/images/icons/sidebar-icon6.svg"
@@ -361,10 +362,10 @@ let [show, setShow] = useState(false)
                                             />
                                         </span>
                                         <span className="text">Downloads</span>
-                                    </a>
+                                    </Link>
                                 </li>
                                 <li className={`sidebar-list__item ${pathname == "/refund" && "activePage"}`}>
-                                    <a href="refund.html" className="sidebar-list__link">
+                                    <Link href="/refund" className="sidebar-list__link">
                                         <span className="sidebar-list__icon">
                                             <img
                                                 src="assets/images/icons/sidebar-icon8.svg"
@@ -378,10 +379,10 @@ let [show, setShow] = useState(false)
                                             />
                                         </span>
                                         <span className="text">Refunds</span>
-                                    </a>
+                                    </Link>
                                 </li>
                                 <li className={`sidebar-list__item ${pathname == "/login" && "activePage"}`}>
-                                    <a href="login.html" className="sidebar-list__link">
+                                    <Link href="/login" className="sidebar-list__link">
                                         <span className="sidebar-list__icon">
                                             <img
                                                 src="assets/images/icons/sidebar-icon13.svg"
@@ -395,7 +396,7 @@ let [show, setShow] = useState(false)
                                             />
                                         </span>
                                         <span className="text">Logout</span>
-                                    </a>
+                                    </Link>
                                 </li>
                             </ul>
                             {/* Sidebar List End */}
@@ -455,7 +456,7 @@ let [show, setShow] = useState(false)
                                             </button>
                                             <ul className={`user-profile-dropdown ${show && "show"} `}>
                                                 <li className="sidebar-list__item">
-                                                    <a href="dashboard-profile.html" className="sidebar-list__link">
+                                                    <Link href="/dashboard-profile" className="sidebar-list__link">
                                                         <span className="sidebar-list__icon">
                                                             <img
                                                                 src="assets/images/icons/sidebar-icon2.svg"
@@ -469,10 +470,10 @@ let [show, setShow] = useState(false)
                                                             />
                                                         </span>
                                                         <span className="text">Profile</span>
-                                                    </a>
+                                                    </Link>
                                                 </li>
                                                 <li className="sidebar-list__item">
-                                                    <a href="setting.html" className="sidebar-list__link">
+                                                    <Link href="/setting" className="sidebar-list__link">
                                                         <span className="sidebar-list__icon">
                                                             <img
                                                                 src="assets/images/icons/sidebar-icon10.svg"
@@ -486,10 +487,10 @@ let [show, setShow] = useState(false)
                                                             />
                                                         </span>
                                                         <span className="text">Settings</span>
-                                                    </a>
+                                                    </Link>
                                                 </li>
                                                 <li className="sidebar-list__item">
-                                                    <a href="login.html" className="sidebar-list__link">
+                                                    <Link href="/login" className="sidebar-list__link">
                                                         <span className="sidebar-list__icon">
                                                             <img
                                                                 src="assets/images/icons/sidebar-icon13.svg"
@@ -503,7 +504,7 @@ let [show, setShow] = useState(false)
                                                             />
                                                         </span>
                                                         <span className="text">Logout</span>
-                                                    </a>
+                                                    </Link>
                                                 </li>
                                             </ul>
                                         </div>
@@ -541,15 +542,15 @@ let [show, setShow] = useState(false)
                                     Copyright © 2024 DPmarket, All rights reserved.
                                 </p>
                                 <div className="footer-links gap-4">
-                                    <a href="#" className="footer-link hover-text-heading font-14">
+                                    <Link href="/#" className="footer-link hover-text-heading font-14">
                                         Terms of service
-                                    </a>
-                                    <a href="#" className="footer-link hover-text-heading font-14">
+                                    </Link>
+                                    <Link href="/#" className="footer-link hover-text-heading font-14">
                                         Privacy Policy
-                                    </a>
-                                    <a href="#" className="footer-link hover-text-heading font-14">
+                                    </Link>
+                                    <Link href="/#" className="footer-link hover-text-heading font-14">
                                         cookies
-                                    </a>
+                                    </Link>
                                 </div>
                             </div>
                         </div>
