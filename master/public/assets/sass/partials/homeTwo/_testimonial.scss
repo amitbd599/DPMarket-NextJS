@@ -62,7 +62,7 @@
         margin-bottom: clampCal(24, 40);
     }
     &__quote {
-        text-align: end;
+        text-align: flex-end;
         position: relative;
         z-index: 1;
         height: 25px;

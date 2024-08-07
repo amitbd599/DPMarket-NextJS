@@ -16,7 +16,7 @@
 
 .profile-wrapper {
     display: flex;
-    align-items: start;
+    align-items: flex-start;
     gap: 32px;
     overflow: hidden;
     @include md-screen {

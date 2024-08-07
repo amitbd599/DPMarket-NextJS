@@ -1,10 +1,17 @@
 'use client'
+import { useState } from "react";
 import dynamic from 'next/dynamic';
 import Link from 'next/link';
 
 const Chart = dynamic(() => import('react-apexcharts'), { ssr: false });
 
 const Profile = () => {
+
+  const [activeButton, setActiveButton] = useState("grid-view");
+
+  const handleClick = (buttonName) => {
+    setActiveButton(buttonName);
+  };
 
  let options =  {
     chart: {
@@ -22,7 +29,8 @@ const Profile = () => {
 
 
     return (
-        <section className="profile pt-5 padding-b-120">
+        <section className={`profile pt-5 padding-b-120 ${activeButton === "list-view" ? "list-view" : ""
+      }`}>
         <div className="container container-two">
           <div className="tab-content" id="pills-tabb">
             <div
@@ -465,10 +473,12 @@ const Profile = () => {
               {/* Tab Start */}
               <div className="filter-tab gap-3 flx-between mb-5">
                 <div className="list-grid d-flex align-items-center gap-2">
-                  <button className="list-grid__button list-button d-sm-flex d-none text-body">
+                  <button className={`list-grid__button list-button d-sm-flex d-none text-body ${activeButton === "list-view" ? "active" : ""
+                    }`}  onClick={() => handleClick("list-view")}>
                     <i className="las la-list" />
                   </button>
-                  <button className="list-grid__button grid-button d-sm-flex d-none active text-body">
+                  <button className={`list-grid__button grid-button d-sm-flex d-none text-body ${activeButton === "grid-view" ? "active" : ""
+                    }`} onClick={() => handleClick("grid-view")}>
                     <i className="las la-border-all" />
                   </button>
                 </div>

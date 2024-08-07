@@ -11,14 +11,14 @@ const Preloader = () => {
 
   return (
     <>
-      {active === true && (
+      {active  ? (
         <div className="loader-mask">
           <div className="loader">
-            <div />
-            <div />
+            <div></div>
+            <div></div>
           </div>
         </div>
-      )}
+      ) : (<div></div>)}
     </>
   );
 };

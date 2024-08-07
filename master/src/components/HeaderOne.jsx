@@ -28,13 +28,21 @@ const HeaderOne = () => {
     for (let i = 0; i < numMenuExpand; i++) {
       menuExpand[i].addEventListener("click", sideMenuExpand);
     }
-    window.onscroll = () => {
+
+  }, []);
+
+
+  useEffect(() => {
+    const handleScroll = () => {
       if (window.pageYOffset < 150) {
         setScroll(false);
-      } else if (window.pageYOffset > 150) {
+      } else {
         setScroll(true);
       }
-      return () => (window.onscroll = null);
+    };
+    window.addEventListener('scroll', handleScroll);
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
     };
   }, []);
 
@@ -47,12 +55,12 @@ const HeaderOne = () => {
       <div className="overlay"></div>
       <div className={`side-overlay ${active && "show"}`}></div>
       {/* ==================== Header Start Here ==================== */}
-      <header className={`header ${scroll && "fixed-header"} `}>
+      <header className={`header ${scroll ? "fixed-header" : ""} `}>
         <div className="container container-full">
           <nav className="header-inner flx-between">
             {/* Logo Start */}
             <div className="logo">
-              <Link href="/" className="link white-version">
+              <Link href="/" className="link white-version" >
                 <img src="assets/images/logo/logo-two.png" alt="Logo" />
               </Link>
               <Link href="/" className="link dark-version">

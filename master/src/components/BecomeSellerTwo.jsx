@@ -9,7 +9,7 @@ const BecomeSellerTwo = () => {
         className="spider-net position-absolute bottom-0 end-0 z-index--1 white-version"
       />
       <img
-        src="assets/images/shapes/spider-net-dark.png"
+        src="assets/images/shapes/spider-net.png"
         alt=""
         className="spider-net position-absolute bottom-0 end-0 z-index--1 dark-version"
       />

@@ -10,9 +10,9 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
-      <BootstrapInit />
-      <body suppressHydrationWarning={true}>{children}</body>
+    <html lang="en" >
+      
+      <body suppressHydrationWarning={true}> <BootstrapInit /> {children}</body>
     </html>
   );
 }
