@@ -46,7 +46,6 @@ const Testimonial = () => {
           slidesToShow: 2,
           slidesToScroll: 2,
           initialSlide: 2,
-          arrows: false,
         },
       },
       {
@@ -54,7 +53,7 @@ const Testimonial = () => {
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1,
-          arrows: false,
+           dots: false,
         },
       },
     ],

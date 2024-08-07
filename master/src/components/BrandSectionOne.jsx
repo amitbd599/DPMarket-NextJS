@@ -14,8 +14,8 @@ const BrandSectionOne = () => {
       {
         breakpoint: 1024,
         settings: {
-          slidesToShow: 3,
-          slidesToScroll: 3,
+          slidesToShow: 4,
+          slidesToScroll: 1,
           infinite: true,
           dots: true,
         },
@@ -23,8 +23,8 @@ const BrandSectionOne = () => {
       {
         breakpoint: 992,
         settings: {
-          slidesToShow: 2,
-          slidesToScroll: 2,
+          slidesToShow: 4,
+          slidesToScroll: 1,
           initialSlide: 2,
           arrows: false,
         },
@@ -32,7 +32,15 @@ const BrandSectionOne = () => {
       {
         breakpoint: 768,
         settings: {
-          slidesToShow: 1,
+          slidesToShow: 3,
+          slidesToScroll: 1,
+          arrows: false,
+        },
+      },
+       {
+        breakpoint: 576,
+        settings: {
+          slidesToShow: 2,
           slidesToScroll: 1,
           arrows: false,
         },

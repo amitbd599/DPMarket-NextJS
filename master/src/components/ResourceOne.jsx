@@ -43,18 +43,25 @@ const ResourceOne = () => {
       {
         breakpoint: 992,
         settings: {
-          slidesToShow: 2,
+          slidesToShow: 3,
           slidesToScroll: 2,
           initialSlide: 2,
-          arrows: false,
         },
       },
       {
         breakpoint: 768,
         settings: {
+          slidesToShow: 2,
+          slidesToScroll: 1,
+            dots: false,
+        },
+      },
+      {
+        breakpoint: 576,
+        settings: {
           slidesToShow: 1,
           slidesToScroll: 1,
-          arrows: false,
+            dots: false,
         },
       },
     ],
