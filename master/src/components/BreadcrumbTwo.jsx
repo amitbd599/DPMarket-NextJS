@@ -18,7 +18,7 @@ const BreadcrumbTwo = () => {
                             <div className="breadcrumb-two-content">
                                 <ul className="breadcrumb-list flx-align gap-2 mb-2">
                                     <li className="breadcrumb-list__item font-14 text-body">
-                                        <Link
+                                        <Link scroll={false}
                                             href="/"
                                             className="breadcrumb-list__link text-body hover-text-main"
                                         >
@@ -31,7 +31,7 @@ const BreadcrumbTwo = () => {
                                         </span>
                                     </li>
                                     <li className="breadcrumb-list__item font-14 text-body">
-                                        <Link
+                                        <Link scroll={false}
                                             href="/all-product"
                                             className="breadcrumb-list__link text-body hover-text-main"
                                         >
@@ -54,7 +54,7 @@ const BreadcrumbTwo = () => {
                                     <div className="breadcrumb-content__item text-heading fw-500 flx-align gap-2">
                                         <span className="text">
                                             By{" "}
-                                            <Link href="#" className="link text-main fw-600">
+                                            <Link scroll={false} href="#" className="link text-main fw-600">
                                                 Oviousdev
                                             </Link>{" "}
                                         </span>
@@ -183,7 +183,7 @@ const BreadcrumbTwo = () => {
                         <div className="social-share__icons">
                             <ul className="social-icon-list colorful-style">
                                 <li className="social-icon-list__item">
-                                    <Link
+                                    <Link scroll={false}
                                         href="https://www.facebook.com"
                                         className="social-icon-list__link text-body flex-center"
                                     >
@@ -191,7 +191,7 @@ const BreadcrumbTwo = () => {
                                     </Link>
                                 </li>
                                 <li className="social-icon-list__item">
-                                    <Link
+                                    <Link scroll={false}
                                         href="https://www.twitter.com"
                                         className="social-icon-list__link text-body flex-center"
                                     >
@@ -200,7 +200,7 @@ const BreadcrumbTwo = () => {
                                     </Link>
                                 </li>
                                 <li className="social-icon-list__item">
-                                    <Link
+                                    <Link scroll={false}
                                         href="https://www.google.com"
                                         className="social-icon-list__link text-body flex-center"
                                     >

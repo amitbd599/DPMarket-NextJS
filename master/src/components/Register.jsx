@@ -33,7 +33,7 @@ const Register = () => {
            <ThemeToggle />
           </div>
           <div className="account-content">
-            <Link href="/" className="logo mb-64">
+            <Link scroll={false} href="/" className="logo mb-64">
               <img
                 src="assets/images/logo/logo.png"
                 alt=""
@@ -150,7 +150,7 @@ const Register = () => {
                   <div className="have-account">
                     <p className="text font-14">
                       Already a member?{" "}
-                      <Link
+                      <Link scroll={false}
                         className="link text-main text-decoration-underline  fw-500"
                         href="/login"
                       >

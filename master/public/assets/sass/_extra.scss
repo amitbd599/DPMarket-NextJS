@@ -60,3 +60,14 @@
 .post-item__thumb a{
   width:100%
 }
+
+.not-found{
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.close-button i{
+  font-size: 24px;
+}

@@ -80,7 +80,7 @@ const DashboardStatement = () => {
                     <td data-label="Type"> WordPress</td>
                     <td data-label="Price"> 59.00 USD</td>
                     <td data-label="Details">
-                      <Link href="#" className="btn btn-main">
+                      <Link scroll={false} href="#" className="btn btn-main">
                         <i className="far fa-eye" />
                       </Link>
                     </td>
@@ -91,7 +91,7 @@ const DashboardStatement = () => {
                     <td data-label="Type"> WordPress</td>
                     <td data-label="Price"> 59.00 USD</td>
                     <td data-label="Details">
-                      <Link href="#" className="btn btn-main">
+                      <Link scroll={false} href="#" className="btn btn-main">
                         <i className="far fa-eye" />
                       </Link>
                     </td>
@@ -102,7 +102,7 @@ const DashboardStatement = () => {
                     <td data-label="Type"> WordPress</td>
                     <td data-label="Price"> 59.00 USD</td>
                     <td data-label="Details">
-                      <Link href="#" className="btn btn-main">
+                      <Link scroll={false} href="#" className="btn btn-main">
                         <i className="far fa-eye" />
                       </Link>
                     </td>
@@ -113,7 +113,7 @@ const DashboardStatement = () => {
                     <td data-label="Type"> WordPress</td>
                     <td data-label="Price"> 59.00 USD</td>
                     <td data-label="Details">
-                      <Link href="#" className="btn btn-main">
+                      <Link scroll={false} href="#" className="btn btn-main">
                         <i className="far fa-eye" />
                       </Link>
                     </td>
@@ -124,7 +124,7 @@ const DashboardStatement = () => {
                     <td data-label="Type"> WordPress</td>
                     <td data-label="Price"> 59.00 USD</td>
                     <td data-label="Details">
-                      <Link href="#" className="btn btn-main">
+                      <Link scroll={false} href="#" className="btn btn-main">
                         <i className="far fa-eye" />
                       </Link>
                     </td>
@@ -135,7 +135,7 @@ const DashboardStatement = () => {
                     <td data-label="Type"> WordPress</td>
                     <td data-label="Price"> 59.00 USD</td>
                     <td data-label="Details">
-                      <Link href="#" className="btn btn-main">
+                      <Link scroll={false} href="#" className="btn btn-main">
                         <i className="far fa-eye" />
                       </Link>
                     </td>
@@ -146,7 +146,7 @@ const DashboardStatement = () => {
                     <td data-label="Type"> WordPress</td>
                     <td data-label="Price"> 59.00 USD</td>
                     <td data-label="Details">
-                      <Link href="#" className="btn btn-main">
+                      <Link scroll={false} href="#" className="btn btn-main">
                         <i className="far fa-eye" />
                       </Link>
                     </td>
@@ -157,7 +157,7 @@ const DashboardStatement = () => {
                     <td data-label="Type"> WordPress</td>
                     <td data-label="Price"> 59.00 USD</td>
                     <td data-label="Details">
-                      <Link href="#" className="btn btn-main">
+                      <Link scroll={false} href="#" className="btn btn-main">
                         <i className="far fa-eye" />
                       </Link>
                     </td>
@@ -168,7 +168,7 @@ const DashboardStatement = () => {
                     <td data-label="Type"> WordPress</td>
                     <td data-label="Price"> 59.00 USD</td>
                     <td data-label="Details">
-                      <Link href="#" className="btn btn-main">
+                      <Link scroll={false} href="#" className="btn btn-main">
                         <i className="far fa-eye" />
                       </Link>
                     </td>
@@ -196,27 +196,27 @@ const DashboardStatement = () => {
                 <nav aria-label="Page navigation example">
                   <ul className="pagination common-pagination mt-0">
                     <li className="page-item">
-                      <Link className="page-link" href="#">
+                      <Link scroll={false} className="page-link" href="#">
                         1
                       </Link>
                     </li>
                     <li className="page-item active">
-                      <Link className="page-link" href="#">
+                      <Link scroll={false} className="page-link" href="#">
                         2
                       </Link>
                     </li>
                     <li className="page-item">
-                      <Link className="page-link" href="#">
+                      <Link scroll={false} className="page-link" href="#">
                         3
                       </Link>
                     </li>
                     <li className="page-item">
-                      <Link className="page-link" href="#">
+                      <Link scroll={false} className="page-link" href="#">
                         4
                       </Link>
                     </li>
                     <li className="page-item">
-                      <Link
+                      <Link scroll={false}
                         className="page-link flx-align gap-2 flex-nowrap"
                         href="#"
                       >

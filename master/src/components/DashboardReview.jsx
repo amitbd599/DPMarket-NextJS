@@ -25,7 +25,7 @@ const DashboardReview = () => {
                     </div>
                     <div className="review-product__content">
                       <h6 className="review-product__name font-15 fw-500 mb-0">
-                        <Link href="/profile" className="link">
+                        <Link scroll={false} href="/profile" className="link">
                           CityScape - Real Estate
                         </Link>
                       </h6>
@@ -63,7 +63,7 @@ const DashboardReview = () => {
                   </ul>
                 </td>
                 <td>
-                  <Link href="#" className="btn btn-main">
+                  <Link scroll={false} href="#" className="btn btn-main">
                     <i className="fa fa-reply" />
                   </Link>
                 </td>
@@ -76,7 +76,7 @@ const DashboardReview = () => {
                     </div>
                     <div className="review-product__content">
                       <h6 className="review-product__name font-15 fw-500 mb-0">
-                        <Link href="/profile" className="link">
+                        <Link scroll={false} href="/profile" className="link">
                           FixTurbo - Car Repair
                         </Link>
                       </h6>
@@ -114,7 +114,7 @@ const DashboardReview = () => {
                   </ul>
                 </td>
                 <td>
-                  <Link href="#" className="btn btn-main">
+                  <Link scroll={false} href="#" className="btn btn-main">
                     <i className="fa fa-reply" />
                   </Link>
                 </td>
@@ -127,7 +127,7 @@ const DashboardReview = () => {
                     </div>
                     <div className="review-product__content">
                       <h6 className="review-product__name font-15 fw-500 mb-0">
-                        <Link href="/profile" className="link">
+                        <Link scroll={false} href="/profile" className="link">
                           CityScape - Real Estate
                         </Link>
                       </h6>
@@ -165,7 +165,7 @@ const DashboardReview = () => {
                   </ul>
                 </td>
                 <td>
-                  <Link href="#" className="btn btn-main">
+                  <Link scroll={false} href="#" className="btn btn-main">
                     <i className="fa fa-reply" />
                   </Link>
                 </td>
@@ -178,7 +178,7 @@ const DashboardReview = () => {
                     </div>
                     <div className="review-product__content">
                       <h6 className="review-product__name font-15 fw-500 mb-0">
-                        <Link href="/profile" className="link">
+                        <Link scroll={false} href="/profile" className="link">
                           FixTurbo - Car Repair
                         </Link>
                       </h6>
@@ -216,7 +216,7 @@ const DashboardReview = () => {
                   </ul>
                 </td>
                 <td>
-                  <Link href="#" className="btn btn-main">
+                  <Link scroll={false} href="#" className="btn btn-main">
                     <i className="fa fa-reply" />
                   </Link>
                 </td>
@@ -229,7 +229,7 @@ const DashboardReview = () => {
                     </div>
                     <div className="review-product__content">
                       <h6 className="review-product__name font-15 fw-500 mb-0">
-                        <Link href="/profile" className="link">
+                        <Link scroll={false} href="/profile" className="link">
                           CityScape - Real Estate
                         </Link>
                       </h6>
@@ -267,7 +267,7 @@ const DashboardReview = () => {
                   </ul>
                 </td>
                 <td>
-                  <Link href="#" className="btn btn-main">
+                  <Link scroll={false} href="#" className="btn btn-main">
                     <i className="fa fa-reply" />
                   </Link>
                 </td>
@@ -280,7 +280,7 @@ const DashboardReview = () => {
                     </div>
                     <div className="review-product__content">
                       <h6 className="review-product__name font-15 fw-500 mb-0">
-                        <Link href="/profile" className="link">
+                        <Link scroll={false} href="/profile" className="link">
                           FixTurbo - Car Repair
                         </Link>
                       </h6>
@@ -318,7 +318,7 @@ const DashboardReview = () => {
                   </ul>
                 </td>
                 <td>
-                  <Link href="#" className="btn btn-main">
+                  <Link scroll={false} href="#" className="btn btn-main">
                     <i className="fa fa-reply" />
                   </Link>
                 </td>
@@ -346,27 +346,27 @@ const DashboardReview = () => {
             <nav aria-label="Page navigation example">
               <ul className="pagination common-pagination mt-0">
                 <li className="page-item">
-                  <Link className="page-link" href="#">
+                  <Link scroll={false} className="page-link" href="#">
                     1
                   </Link>
                 </li>
                 <li className="page-item active">
-                  <Link className="page-link" href="#">
+                  <Link scroll={false} className="page-link" href="#">
                     2
                   </Link>
                 </li>
                 <li className="page-item">
-                  <Link className="page-link" href="#">
+                  <Link scroll={false} className="page-link" href="#">
                     3
                   </Link>
                 </li>
                 <li className="page-item">
-                  <Link className="page-link" href="#">
+                  <Link scroll={false} className="page-link" href="#">
                     4
                   </Link>
                 </li>
                 <li className="page-item">
-                  <Link className="page-link flx-align gap-2 flex-nowrap" href="#">
+                  <Link scroll={false} className="page-link flx-align gap-2 flex-nowrap" href="#">
                     Next
                     <span className="icon line-height-1 font-20">
                       <i className="las la-arrow-right" />

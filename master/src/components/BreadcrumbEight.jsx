@@ -15,7 +15,7 @@ const BreadcrumbEight = () => {
                 <div className="breadcrumb-two-content text-center">
                   <ul className="breadcrumb-list flx-align gap-2 mb-2 justify-content-center">
                     <li className="breadcrumb-list__item font-14 text-body">
-                      <Link
+                      <Link scroll={false}
                         href="/"
                         className="breadcrumb-list__link text-body hover-text-main"
                       >

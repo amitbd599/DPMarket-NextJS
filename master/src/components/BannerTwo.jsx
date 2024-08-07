@@ -100,7 +100,7 @@ const BannerTwo = () => {
                 </h6>
                 <ul className="search-list">
                   <li className="search-list__item">
-                    <Link
+                    <Link scroll={false}
                       href="/all-product"
                       className="search-list__link font-14 text-heading"
                     >
@@ -108,7 +108,7 @@ const BannerTwo = () => {
                     </Link>
                   </li>
                   <li className="search-list__item">
-                    <Link
+                    <Link scroll={false}
                       href="/all-product"
                       className="search-list__link font-14 text-heading"
                     >
@@ -116,7 +116,7 @@ const BannerTwo = () => {
                     </Link>
                   </li>
                   <li className="search-list__item">
-                    <Link
+                    <Link scroll={false}
                       href="/all-product"
                       className="search-list__link font-14 text-heading"
                     >
@@ -124,7 +124,7 @@ const BannerTwo = () => {
                     </Link>
                   </li>
                   <li className="search-list__item">
-                    <Link
+                    <Link scroll={false}
                       href="/all-product"
                       className="search-list__link font-14 text-heading"
                     >
@@ -132,7 +132,7 @@ const BannerTwo = () => {
                     </Link>
                   </li>
                   <li className="search-list__item">
-                    <Link
+                    <Link scroll={false}
                       href="/all-product"
                       className="search-list__link font-14 text-heading"
                     >
@@ -140,7 +140,7 @@ const BannerTwo = () => {
                     </Link>
                   </li>
                   <li className="search-list__item">
-                    <Link
+                    <Link scroll={false}
                       href="/all-product"
                       className="search-list__link font-14 text-heading"
                     >

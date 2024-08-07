@@ -29,7 +29,7 @@ const FooterOne = () => {
             <div className="col-xl-3 col-sm-6">
               <div className="footer-widget">
                 <div className="footer-widget__logo">
-                  <Link href="/">
+                  <Link scroll={false} href="/">
                     <img src="assets/images/logo/white-logo.png" alt="" />
                   </Link>
                 </div>
@@ -40,7 +40,7 @@ const FooterOne = () => {
                 <div className="footer-widget__social">
                   <ul className="social-icon-list">
                     <li className="social-icon-list__item">
-                      <Link
+                      <Link scroll={false}
                         href="https://www.facebook.com"
                         className="social-icon-list__link flx-center"
                       >
@@ -48,7 +48,7 @@ const FooterOne = () => {
                       </Link>
                     </li>
                     <li className="social-icon-list__item">
-                      <Link
+                      <Link scroll={false}
                         href="https://www.twitter.com"
                         className="social-icon-list__link flx-center"
                       >
@@ -56,7 +56,7 @@ const FooterOne = () => {
                       </Link>
                     </li>
                     <li className="social-icon-list__item">
-                      <Link
+                      <Link scroll={false}
                         href="https://www.linkedin.com"
                         className="social-icon-list__link flx-center"
                       >
@@ -64,7 +64,7 @@ const FooterOne = () => {
                       </Link>
                     </li>
                     <li className="social-icon-list__item">
-                      <Link
+                      <Link scroll={false}
                         href="https://www.pinterest.com"
                         className="social-icon-list__link flx-center"
                       >
@@ -72,7 +72,7 @@ const FooterOne = () => {
                       </Link>
                     </li>
                     <li className="social-icon-list__item">
-                      <Link
+                      <Link scroll={false}
                         href="https://www.pinterest.com"
                         className="social-icon-list__link flx-center"
                       >
@@ -88,12 +88,12 @@ const FooterOne = () => {
                 <h5 className="footer-widget__title text-white">Useful Link</h5>
                 <ul className="footer-lists">
                   <li className="footer-lists__item">
-                    <Link href="/all-product" className="footer-lists__link">
+                    <Link scroll={false} href="/all-product" className="footer-lists__link">
                       Product
                     </Link>
                   </li>
                   <li className="footer-lists__item">
-                    <Link
+                    <Link scroll={false}
                       href="/product-details"
                       className="footer-lists__link"
                     >
@@ -101,17 +101,17 @@ const FooterOne = () => {
                     </Link>
                   </li>
                   <li className="footer-lists__item">
-                    <Link href="/profile" className="footer-lists__link">
+                    <Link scroll={false} href="/profile" className="footer-lists__link">
                       Profile
                     </Link>
                   </li>
                   <li className="footer-lists__item">
-                    <Link href="/cart" className="footer-lists__link">
+                    <Link scroll={false} href="/cart" className="footer-lists__link">
                       Shopping Cart
                     </Link>
                   </li>
                   <li className="footer-lists__item">
-                    <Link href="/dashboard" className="footer-lists__link">
+                    <Link scroll={false} href="/dashboard" className="footer-lists__link">
                       Dashboard
                     </Link>
                   </li>
@@ -123,27 +123,27 @@ const FooterOne = () => {
                 <h5 className="footer-widget__title text-white">Quick Links</h5>
                 <ul className="footer-lists">
                   <li className="footer-lists__item">
-                    <Link href="/dashboard" className="footer-lists__link">
+                    <Link scroll={false} href="/dashboard" className="footer-lists__link">
                       Dashboard
                     </Link>
                   </li>
                   <li className="footer-lists__item">
-                    <Link href="/login" className="footer-lists__link">
+                    <Link scroll={false} href="/login" className="footer-lists__link">
                       Login{" "}
                     </Link>
                   </li>
                   <li className="footer-lists__item">
-                    <Link href="/register" className="footer-lists__link">
+                    <Link scroll={false} href="/register" className="footer-lists__link">
                       Register
                     </Link>
                   </li>
                   <li className="footer-lists__item">
-                    <Link href="/blog" className="footer-lists__link">
+                    <Link scroll={false} href="/blog" className="footer-lists__link">
                       Blog{" "}
                     </Link>
                   </li>
                   <li className="footer-lists__item">
-                    <Link href="/blog-details" className="footer-lists__link">
+                    <Link scroll={false} href="/blog-details" className="footer-lists__link">
                       Blog Details
                     </Link>
                   </li>
@@ -185,13 +185,13 @@ const FooterOne = () => {
               Copyright © 2024 DPmarket, All rights reserved.
             </p>
             <div className="footer-links">
-              <Link href="#" className="footer-link font-14">
+              <Link scroll={false} href="#" className="footer-link font-14">
                 Terms of service
               </Link>
-              <Link href="#" className="footer-link font-14">
+              <Link scroll={false} href="#" className="footer-link font-14">
                 Privacy Policy
               </Link>
-              <Link href="/contact" className="footer-link font-14">
+              <Link scroll={false} href="/contact" className="footer-link font-14">
                 cookies
               </Link>
             </div>

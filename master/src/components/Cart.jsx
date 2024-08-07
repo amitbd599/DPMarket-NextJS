@@ -21,7 +21,7 @@ const Cart = () => {
                       <div className="cart-item">
                         <div className="d-flex align-items-center gap-3">
                           <div className="cart-item__thumb">
-                            <Link href="/product-details" className="link">
+                            <Link scroll={false} href="/product-details" className="link">
                               <img
                                 src="assets/images/thumbs/product-img2.png"
                                 alt=""
@@ -32,7 +32,7 @@ const Cart = () => {
                           <div className="cart-item__content">
                             <h6 className="cart-item__title font-heading fw-700 text-capitalize font-18 mb-4">
                               {" "}
-                              <Link href="/product-details" className="link">
+                              <Link scroll={false} href="/product-details" className="link">
                                 Digital product name here
                               </Link>
                             </h6>
@@ -93,7 +93,7 @@ const Cart = () => {
                       <div className="cart-item">
                         <div className="d-flex align-items-center gap-3">
                           <div className="cart-item__thumb">
-                            <Link href="/product-details" className="link">
+                            <Link scroll={false} href="/product-details" className="link">
                               <img
                                 src="assets/images/thumbs/product-img3.png"
                                 alt=""
@@ -104,7 +104,7 @@ const Cart = () => {
                           <div className="cart-item__content">
                             <h6 className="cart-item__title font-heading fw-700 text-capitalize font-18 mb-4">
                               {" "}
-                              <Link href="/product-details" className="link">
+                              <Link scroll={false} href="/product-details" className="link">
                                 Digital product name here
                               </Link>
                             </h6>
@@ -165,7 +165,7 @@ const Cart = () => {
                       <div className="cart-item">
                         <div className="d-flex align-items-center gap-3">
                           <div className="cart-item__thumb">
-                            <Link href="/product-details" className="link">
+                            <Link scroll={false} href="/product-details" className="link">
                               <img
                                 src="assets/images/thumbs/product-img4.png"
                                 alt=""
@@ -176,7 +176,7 @@ const Cart = () => {
                           <div className="cart-item__content">
                             <h6 className="cart-item__title font-heading fw-700 text-capitalize font-18 mb-4">
                               {" "}
-                              <Link href="/product-details" className="link">
+                              <Link scroll={false} href="/product-details" className="link">
                                 Digital product name here
                               </Link>
                             </h6>
@@ -236,7 +236,7 @@ const Cart = () => {
               </table>
             </div>
             <div className="cart-content__bottom flx-between gap-2">
-              <Link
+              <Link scroll={false}
                 href="/all-product"
                 className="btn btn-outline-light flx-align gap-2 pill btn-lg"
               >
@@ -245,7 +245,7 @@ const Cart = () => {
                 </span>
                 Continue Shopping
               </Link>
-              <Link
+              <Link scroll={false}
                 href="/cart-personal"
                 className="btn btn-main flx-align gap-2 pill btn-lg"
               >

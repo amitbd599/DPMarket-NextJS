@@ -95,7 +95,7 @@ const CartThankYou = () => {
                     </div>
                     <div className="flx-between gap-2">
                       <p className="text">Please don’t forget to rating</p>
-                      <Link
+                      <Link scroll={false}
                         href="/"
                         className="btn btn-main flx-align gap-2 pill"
                       >

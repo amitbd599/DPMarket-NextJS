@@ -47,7 +47,7 @@ const BannerOne = () => {
                   </div>
                   {/* Tech List Start */}
                   <div className="product-category-list">
-                    <Link href="/all-product"
+                    <Link scroll={false} href="/all-product"
                       className="product-category-list__item"
                       data-bs-toggle="tooltip"
                       data-bs-placement="top"
@@ -64,7 +64,7 @@ const BannerOne = () => {
                         className="dark-version"
                       />
                     </Link>
-                    <Link href="/all-product"
+                    <Link scroll={false} href="/all-product"
                       className="product-category-list__item"
                       data-bs-toggle="tooltip"
                       data-bs-placement="top"
@@ -72,7 +72,7 @@ const BannerOne = () => {
                     >
                       <img src="assets/images/thumbs/tech-icon2.png" alt="" />
                     </Link>
-                    <Link href="/all-product"
+                    <Link scroll={false} href="/all-product"
                       className="product-category-list__item"
                       data-bs-toggle="tooltip"
                       data-bs-placement="top"
@@ -89,7 +89,7 @@ const BannerOne = () => {
                         className="dark-version"
                       />
                     </Link>
-                    <Link href="/all-product"
+                    <Link scroll={false} href="/all-product"
                       className="product-category-list__item"
                       data-bs-toggle="tooltip"
                       data-bs-placement="top"
@@ -97,7 +97,7 @@ const BannerOne = () => {
                     >
                       <img src="assets/images/thumbs/tech-icon4.png" alt="" />
                     </Link>
-                    <Link href="/all-product"
+                    <Link scroll={false} href="/all-product"
                       className="product-category-list__item"
                       data-bs-toggle="tooltip"
                       data-bs-placement="top"
@@ -105,7 +105,7 @@ const BannerOne = () => {
                     >
                       <img src="assets/images/thumbs/tech-icon5.png" alt="" />
                     </Link>
-                    <Link href="/all-product"
+                    <Link scroll={false} href="/all-product"
                       className="product-category-list__item"
                       data-bs-toggle="tooltip"
                       data-bs-placement="top"
@@ -113,7 +113,7 @@ const BannerOne = () => {
                     >
                       <img src="assets/images/thumbs/tech-icon6.png" alt="" />
                     </Link>
-                    <Link href="/all-product"
+                    <Link scroll={false} href="/all-product"
                       className="product-category-list__item"
                       data-bs-toggle="tooltip"
                       data-bs-placement="top"
@@ -121,7 +121,7 @@ const BannerOne = () => {
                     >
                       <img src="assets/images/thumbs/tech-icon7.png" alt="" />
                     </Link>
-                    <Link href="/all-product"
+                    <Link scroll={false} href="/all-product"
                       className="product-category-list__item"
                       data-bs-toggle="tooltip"
                       data-bs-placement="top"
@@ -129,7 +129,7 @@ const BannerOne = () => {
                     >
                       <img src="assets/images/thumbs/tech-icon8.png" alt="" />
                     </Link>
-                    <Link href="/all-product"
+                    <Link scroll={false} href="/all-product"
                       className="product-category-list__item"
                       data-bs-toggle="tooltip"
                       data-bs-placement="top"

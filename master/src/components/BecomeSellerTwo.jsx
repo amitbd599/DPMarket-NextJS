@@ -28,7 +28,7 @@ const BecomeSellerTwo = () => {
                 and 50% for items sold non-exclusively. See detailed
                 informationabout the fee structure on Market.
               </p>
-              <Link
+              <Link scroll={false}
                 href="/register"
                 className="btn btn-static-outline-black btn-xl pill fw-600"
               >
@@ -49,7 +49,7 @@ const BecomeSellerTwo = () => {
                 millions of digital assets every year. With 30% affiliate
                 commission, earning money has never been easier!
               </p>
-              <Link
+              <Link scroll={false}
                 href="/register"
                 className="btn btn-static-outline-black btn-xl pill fw-600"
               >
@@ -68,7 +68,7 @@ const BecomeSellerTwo = () => {
                     <p className="support-content__descc mb-3 font-19">
                       Wanna talk? Send us a message
                     </p>
-                    <Link
+                    <Link scroll={false}
                       href="mailto:infomail@office.com"
                       className="btn btn-main btn-lg fw-300 pill"
                     >

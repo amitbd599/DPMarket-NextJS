@@ -90,7 +90,7 @@ const PerformanceAuthor = () => {
                   content specialists.
                 </p>
               </div>
-              <Link
+              <Link scroll={false}
                 href="/register"
                 className="btn btn-main btn-lg pill fw-300"
               >

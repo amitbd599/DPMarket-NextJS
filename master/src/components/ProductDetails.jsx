@@ -22,14 +22,14 @@ const ProductDetails = () => {
                                         <img src="assets/images/thumbs/product-details.png" alt="" />
                                     </div>
                                     <div className="product-details__buttons flx-align justify-content-center gap-3">
-                                        <Link
+                                        <Link scroll={false}
                                             href="#"
                                             className="btn btn-main d-inline-flex align-items-center gap-2 pill px-sm-5 justify-content-center"
                                         >
                                             Live Preview
                                             <img src="assets/images/icons/eye-outline.svg" alt="" />
                                         </Link>
-                                        <Link
+                                        <Link scroll={false}
                                             href="#"
                                             className="screenshot-btn btn btn-white pill px-sm-5"
                                             data-images='["assets/images/thumbs/product-details.png", "assets/images/thumbs/product-details.png"]'
@@ -86,7 +86,7 @@ const ProductDetails = () => {
                                         <h5 className="product-details__title mb-3">Font Family</h5>
                                         <ul className="product-list">
                                             <li className="product-list__item text-heading">
-                                                <Link
+                                                <Link scroll={false}
                                                     href="https://fonts.google.com/specimen/Fira+Sans?query=fira"
                                                     className="link text-body hover-text-main hover-text-decoration-underline"
                                                 >
@@ -94,7 +94,7 @@ const ProductDetails = () => {
                                                 </Link>
                                             </li>
                                             <li className="product-list__item text-heading">
-                                                <Link
+                                                <Link scroll={false}
                                                     href="https://fonts.google.com/specimen/Inter?query=inter"
                                                     className="link text-body hover-text-main hover-text-decoration-underline"
                                                 >
@@ -118,7 +118,7 @@ const ProductDetails = () => {
                                     <div className="more-item">
                                         <div className="flx-between mb-4">
                                             <h5 className="more-item__title">More Items</h5>
-                                            <Link
+                                            <Link scroll={false}
                                                 href="/profile"
                                                 className="text-heading fw-500 hover-text-decoration-underline"
                                             >
@@ -127,7 +127,7 @@ const ProductDetails = () => {
                                         </div>
                                         <div className="more-item__content flx-align">
                                             <div className="more-item__item">
-                                                <Link
+                                                <Link scroll={false}
                                                     href="/all-product"
                                                     className="link w-100 h-100 d-block"
                                                 >
@@ -135,7 +135,7 @@ const ProductDetails = () => {
                                                 </Link>
                                             </div>
                                             <div className="more-item__item">
-                                                <Link
+                                                <Link scroll={false}
                                                     href="/all-product"
                                                     className="link w-100 h-100 d-block"
                                                 >
@@ -143,7 +143,7 @@ const ProductDetails = () => {
                                                 </Link>
                                             </div>
                                             <div className="more-item__item">
-                                                <Link
+                                                <Link scroll={false}
                                                     href="/all-product"
                                                     className="link w-100 h-100 d-block"
                                                 >
@@ -151,7 +151,7 @@ const ProductDetails = () => {
                                                 </Link>
                                             </div>
                                             <div className="more-item__item">
-                                                <Link
+                                                <Link scroll={false}
                                                     href="/all-product"
                                                     className="link w-100 h-100 d-block"
                                                 >
@@ -159,7 +159,7 @@ const ProductDetails = () => {
                                                 </Link>
                                             </div>
                                             <div className="more-item__item">
-                                                <Link
+                                                <Link scroll={false}
                                                     href="/all-product"
                                                     className="link w-100 h-100 d-block"
                                                 >
@@ -167,7 +167,7 @@ const ProductDetails = () => {
                                                 </Link>
                                             </div>
                                             <div className="more-item__item">
-                                                <Link
+                                                <Link scroll={false}
                                                     href="/all-product"
                                                     className="link w-100 h-100 d-block"
                                                 >
@@ -175,7 +175,7 @@ const ProductDetails = () => {
                                                 </Link>
                                             </div>
                                             <div className="more-item__item">
-                                                <Link
+                                                <Link scroll={false}
                                                     href="/all-product"
                                                     className="link w-100 h-100 d-block"
                                                 >
@@ -183,7 +183,7 @@ const ProductDetails = () => {
                                                 </Link>
                                             </div>
                                             <div className="more-item__item">
-                                                <Link
+                                                <Link scroll={false}
                                                     href="/all-product"
                                                     className="link w-100 h-100 d-block"
                                                 >
@@ -191,7 +191,7 @@ const ProductDetails = () => {
                                                 </Link>
                                             </div>
                                             <div className="more-item__item">
-                                                <Link
+                                                <Link scroll={false}
                                                     href="/all-product"
                                                     className="link w-100 h-100 d-block"
                                                 >
@@ -243,7 +243,7 @@ const ProductDetails = () => {
                                             </div>
                                             <div className="product-review__date">
                                                 by{" "}
-                                                <Link href="#" className="product-review__user text--base">
+                                                <Link scroll={false} href="#" className="product-review__user text--base">
                                                     John Doe{" "}
                                                 </Link>{" "}
                                                 2 month ago
@@ -295,7 +295,7 @@ const ProductDetails = () => {
                                             </div>
                                             <div className="product-review__date">
                                                 by{" "}
-                                                <Link href="#" className="product-review__user text--base">
+                                                <Link scroll={false} href="#" className="product-review__user text--base">
                                                     John Doe{" "}
                                                 </Link>{" "}
                                                 2 month ago
@@ -346,7 +346,7 @@ const ProductDetails = () => {
                                                             Jan 21, 2024 at 11:25 pm
                                                         </span>
                                                     </div>
-                                                    <Link
+                                                    <Link scroll={false}
                                                         className="comment-list__reply fw-500 flx-align gap-2 hover-text-decoration-underline"
                                                         href="#comment-box"
                                                     >
@@ -387,7 +387,7 @@ const ProductDetails = () => {
                                                                     Jan 21, 2024 at 11:25 pm
                                                                 </span>
                                                             </div>
-                                                            <Link
+                                                            <Link scroll={false}
                                                                 className="comment-list__reply fw-500 flx-align gap-2 hover-text-decoration-underline"
                                                                 href="#comment-box"
                                                             >
@@ -447,7 +447,7 @@ const ProductDetails = () => {
                                         </p>
                                     </div>
                                     <div className="mt-3 pt-2 border-top text-center ">
-                                        <Link
+                                        <Link scroll={false}
                                             href="#"
                                             className="link hover-text-decoration-underline font-14 text-main fw-500"
                                         >
@@ -514,7 +514,7 @@ const ProductDetails = () => {
                                     </div>
                                     <div className="author-details__content">
                                         <h6 className="author-details__name font-18 mb-2">
-                                            <Link href="/profile" className="link hover-text-main">
+                                            <Link scroll={false} href="/profile" className="link hover-text-main">
                                                 Oviousdev
                                             </Link>
                                         </h6>
@@ -606,7 +606,7 @@ const ProductDetails = () => {
                                         <img src="assets/images/thumbs/badge8.png" alt="" />
                                     </li>
                                 </ul>
-                                <Link
+                                <Link scroll={false}
                                     href="/profile"
                                     className="btn btn-outline-light w-100 pill mt-32"
                                 >
@@ -639,22 +639,22 @@ const ProductDetails = () => {
                                 <li className="meta-attribute__item">
                                     <span className="name">Copatible with</span>
                                     <span className="details">
-                                        <Link href="#" className="hover-text-decoration-underline">
+                                        <Link scroll={false} href="#" className="hover-text-decoration-underline">
                                             Contact Form 7,
                                         </Link>
-                                        <Link href="#" className="hover-text-decoration-underline">
+                                        <Link scroll={false} href="#" className="hover-text-decoration-underline">
                                             {" "}
                                             Calendar,
                                         </Link>
-                                        <Link href="#" className="hover-text-decoration-underline">
+                                        <Link scroll={false} href="#" className="hover-text-decoration-underline">
                                             {" "}
                                             Elementor,
                                         </Link>
-                                        <Link href="#" className="hover-text-decoration-underline">
+                                        <Link scroll={false} href="#" className="hover-text-decoration-underline">
                                             {" "}
                                             Elementor Pro,
                                         </Link>
-                                        <Link href="#" className="hover-text-decoration-underline">
+                                        <Link scroll={false} href="#" className="hover-text-decoration-underline">
                                             {" "}
                                             WooCommerce 8.x.x
                                         </Link>
@@ -671,19 +671,19 @@ const ProductDetails = () => {
                                 <li className="meta-attribute__item">
                                     <span className="name">Software Version</span>
                                     <span className="details">
-                                        <Link href="#" className="hover-text-decoration-underline">
+                                        <Link scroll={false} href="#" className="hover-text-decoration-underline">
                                             WordPress 6.3.x,
                                         </Link>
-                                        <Link href="#" className="hover-text-decoration-underline">
+                                        <Link scroll={false} href="#" className="hover-text-decoration-underline">
                                             WordPress 6.2.x,
                                         </Link>
-                                        <Link href="#" className="hover-text-decoration-underline">
+                                        <Link scroll={false} href="#" className="hover-text-decoration-underline">
                                             WordPress 6.1.x,
                                         </Link>
-                                        <Link href="#" className="hover-text-decoration-underline">
+                                        <Link scroll={false} href="#" className="hover-text-decoration-underline">
                                             WordPress 6.0.x,
                                         </Link>
-                                        <Link href="#" className="hover-text-decoration-underline">
+                                        <Link scroll={false} href="#" className="hover-text-decoration-underline">
                                             WordPress 5.9.x,
                                         </Link>
                                     </span>
@@ -691,16 +691,16 @@ const ProductDetails = () => {
                                 <li className="meta-attribute__item">
                                     <span className="name">Marketplace Files Included</span>
                                     <span className="details">
-                                        <Link href="#" className="hover-text-decoration-underline">
+                                        <Link scroll={false} href="#" className="hover-text-decoration-underline">
                                             PHP Files,
                                         </Link>
-                                        <Link href="#" className="hover-text-decoration-underline">
+                                        <Link scroll={false} href="#" className="hover-text-decoration-underline">
                                             CSS Files,
                                         </Link>
-                                        <Link href="#" className="hover-text-decoration-underline">
+                                        <Link scroll={false} href="#" className="hover-text-decoration-underline">
                                             SCSS Files,
                                         </Link>
-                                        <Link href="#" className="hover-text-decoration-underline">
+                                        <Link scroll={false} href="#" className="hover-text-decoration-underline">
                                             JS Files,
                                         </Link>
                                     </span>
@@ -712,28 +712,28 @@ const ProductDetails = () => {
                                 <li className="meta-attribute__item">
                                     <span className="name">Tags</span>
                                     <span className="details">
-                                        <Link href="#" className="hover-text-decoration-underline">
+                                        <Link scroll={false} href="#" className="hover-text-decoration-underline">
                                             theme,
                                         </Link>
-                                        <Link href="#" className="hover-text-decoration-underline">
+                                        <Link scroll={false} href="#" className="hover-text-decoration-underline">
                                             web design,
                                         </Link>
-                                        <Link href="#" className="hover-text-decoration-underline">
+                                        <Link scroll={false} href="#" className="hover-text-decoration-underline">
                                             minimal design,
                                         </Link>
-                                        <Link href="#" className="hover-text-decoration-underline">
+                                        <Link scroll={false} href="#" className="hover-text-decoration-underline">
                                             trendy,
                                         </Link>
-                                        <Link href="#" className="hover-text-decoration-underline">
+                                        <Link scroll={false} href="#" className="hover-text-decoration-underline">
                                             responsive,
                                         </Link>
-                                        <Link href="#" className="hover-text-decoration-underline">
+                                        <Link scroll={false} href="#" className="hover-text-decoration-underline">
                                             wordpress,
                                         </Link>
-                                        <Link href="#" className="hover-text-decoration-underline">
+                                        <Link scroll={false} href="#" className="hover-text-decoration-underline">
                                             saas,
                                         </Link>
-                                        <Link href="#" className="hover-text-decoration-underline">
+                                        <Link scroll={false} href="#" className="hover-text-decoration-underline">
                                             dashboard,
                                         </Link>
                                     </span>

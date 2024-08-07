@@ -131,7 +131,7 @@ const BlogDetailsSidebar = () => {
                                         </span>
                                         <ul className="post-tag__list flx-align gap-2">
                                             <li className="post-tag__item">
-                                                <Link
+                                                <Link scroll={false}
                                                     href="/blog"
                                                     className="post-tag__link font-14 text-heading pill fw-500"
                                                 >
@@ -139,7 +139,7 @@ const BlogDetailsSidebar = () => {
                                                 </Link>
                                             </li>
                                             <li className="post-tag__item">
-                                                <Link
+                                                <Link scroll={false}
                                                     href="/blog"
                                                     className="post-tag__link font-14 text-heading pill fw-500"
                                                 >
@@ -147,7 +147,7 @@ const BlogDetailsSidebar = () => {
                                                 </Link>
                                             </li>
                                             <li className="post-tag__item">
-                                                <Link
+                                                <Link scroll={false}
                                                     href="/blog"
                                                     className="post-tag__link font-14 text-heading pill fw-500"
                                                 >
@@ -162,7 +162,7 @@ const BlogDetailsSidebar = () => {
                                         </span>
                                         <ul className="social-icon-list colorful-style">
                                             <li className="social-icon-list__item">
-                                                <Link
+                                                <Link scroll={false}
                                                     href="https://www.facebook.com"
                                                     className="social-icon-list__link text-heading font-16 flex-center"
                                                 >
@@ -170,7 +170,7 @@ const BlogDetailsSidebar = () => {
                                                 </Link>
                                             </li>
                                             <li className="social-icon-list__item">
-                                                <Link
+                                                <Link scroll={false}
                                                     href="https://www.twitter.com"
                                                     className="social-icon-list__link text-heading font-16 flex-center"
                                                 >
@@ -179,7 +179,7 @@ const BlogDetailsSidebar = () => {
                                                 </Link>
                                             </li>
                                             <li className="social-icon-list__item">
-                                                <Link
+                                                <Link scroll={false}
                                                     href="https://www.google.com"
                                                     className="social-icon-list__link text-heading font-16 flex-center"
                                                 >
@@ -307,7 +307,7 @@ const BlogDetailsSidebar = () => {
                                                             Jan 21, 2024 at 11:25 pm
                                                         </span>
                                                     </div>
-                                                    <Link
+                                                    <Link scroll={false}
                                                         className="comment-list__reply fw-500 flx-align gap-2 hover-text-decoration-underline"
                                                         href="#comment-box"
                                                     >
@@ -348,7 +348,7 @@ const BlogDetailsSidebar = () => {
                                                                     Jan 21, 2024 at 11:25 pm
                                                                 </span>
                                                             </div>
-                                                            <Link
+                                                            <Link scroll={false}
                                                                 className="comment-list__reply fw-500 flx-align gap-2 hover-text-decoration-underline"
                                                                 href="#comment-box"
                                                             >
@@ -409,7 +409,7 @@ const BlogDetailsSidebar = () => {
                                     <h6 className="common-sidebar__title">Recent News</h6>
                                     <div className="latest-blog">
                                         <div className="latest-blog__thumb">
-                                            <Link href="/blog-details">
+                                            <Link scroll={false} href="/blog-details">
                                                 {" "}
                                                 <img
                                                     src="assets/images/thumbs/latest-blog1.png"
@@ -423,7 +423,7 @@ const BlogDetailsSidebar = () => {
                                                 January 15, 2024
                                             </span>
                                             <h6 className="latest-blog__title fw-500 font-body font-16">
-                                                <Link href="/blog-details">
+                                                <Link scroll={false} href="/blog-details">
                                                     There are many variations of business consulting.
                                                 </Link>
                                             </h6>
@@ -431,7 +431,7 @@ const BlogDetailsSidebar = () => {
                                     </div>
                                     <div className="latest-blog">
                                         <div className="latest-blog__thumb">
-                                            <Link href="/blog-details">
+                                            <Link scroll={false} href="/blog-details">
                                                 {" "}
                                                 <img
                                                     src="assets/images/thumbs/latest-blog2.png"
@@ -445,7 +445,7 @@ const BlogDetailsSidebar = () => {
                                                 January 15, 2024
                                             </span>
                                             <h6 className="latest-blog__title fw-500 font-body font-16">
-                                                <Link href="/blog-details">
+                                                <Link scroll={false} href="/blog-details">
                                                     Maecenas malesuada mauris libero, ultricies vehicula.
                                                 </Link>
                                             </h6>
@@ -453,7 +453,7 @@ const BlogDetailsSidebar = () => {
                                     </div>
                                     <div className="latest-blog">
                                         <div className="latest-blog__thumb">
-                                            <Link href="/blog-details">
+                                            <Link scroll={false} href="/blog-details">
                                                 {" "}
                                                 <img
                                                     src="assets/images/thumbs/latest-blog3.png"
@@ -467,7 +467,7 @@ const BlogDetailsSidebar = () => {
                                                 January 15, 2024
                                             </span>
                                             <h6 className="latest-blog__title fw-500 font-body font-16">
-                                                <Link href="/blog-details">
+                                                <Link scroll={false} href="/blog-details">
                                                     Phasellus sollicitudin massa aliquet ultricies
                                                     condimentum.
                                                 </Link>
@@ -479,7 +479,7 @@ const BlogDetailsSidebar = () => {
                                     <h6 className="common-sidebar__title"> Categories </h6>
                                     <ul className="category-list">
                                         <li className="category-list__item">
-                                            <Link
+                                            <Link scroll={false}
                                                 href="/blog"
                                                 className="category-list__link flx-align flex-nowrap gap-2 text-body hover-text-main"
                                             >
@@ -491,7 +491,7 @@ const BlogDetailsSidebar = () => {
                                             </Link>
                                         </li>
                                         <li className="category-list__item">
-                                            <Link
+                                            <Link scroll={false}
                                                 href="/blog"
                                                 className="category-list__link flx-align flex-nowrap gap-2 text-body hover-text-main"
                                             >
@@ -503,7 +503,7 @@ const BlogDetailsSidebar = () => {
                                             </Link>
                                         </li>
                                         <li className="category-list__item">
-                                            <Link
+                                            <Link scroll={false}
                                                 href="/blog"
                                                 className="category-list__link flx-align flex-nowrap gap-2 text-body hover-text-main"
                                             >
@@ -515,7 +515,7 @@ const BlogDetailsSidebar = () => {
                                             </Link>
                                         </li>
                                         <li className="category-list__item">
-                                            <Link
+                                            <Link scroll={false}
                                                 href="/blog"
                                                 className="category-list__link flx-align flex-nowrap gap-2 text-body hover-text-main"
                                             >
@@ -527,7 +527,7 @@ const BlogDetailsSidebar = () => {
                                             </Link>
                                         </li>
                                         <li className="category-list__item">
-                                            <Link
+                                            <Link scroll={false}
                                                 href="/blog"
                                                 className="category-list__link flx-align flex-nowrap gap-2 text-body hover-text-main"
                                             >
@@ -539,7 +539,7 @@ const BlogDetailsSidebar = () => {
                                             </Link>
                                         </li>
                                         <li className="category-list__item">
-                                            <Link
+                                            <Link scroll={false}
                                                 href="/blog"
                                                 className="category-list__link flx-align flex-nowrap gap-2 text-body hover-text-main"
                                             >
@@ -556,7 +556,7 @@ const BlogDetailsSidebar = () => {
                                     <h6 className="common-sidebar__title"> Popular Tags </h6>
                                     <ul className="tag-list flx-align gap-2">
                                         <li className="tag-list__item">
-                                            <Link
+                                            <Link scroll={false}
                                                 href="/blog"
                                                 className="tag-list__link pill px-3 py-2 font-14 fw-500"
                                             >
@@ -564,7 +564,7 @@ const BlogDetailsSidebar = () => {
                                             </Link>
                                         </li>
                                         <li className="tag-list__item">
-                                            <Link
+                                            <Link scroll={false}
                                                 href="/blog"
                                                 className="tag-list__link pill px-3 py-2 font-14 fw-500"
                                             >
@@ -572,7 +572,7 @@ const BlogDetailsSidebar = () => {
                                             </Link>
                                         </li>
                                         <li className="tag-list__item">
-                                            <Link
+                                            <Link scroll={false}
                                                 href="/blog"
                                                 className="tag-list__link pill px-3 py-2 font-14 fw-500"
                                             >
@@ -580,7 +580,7 @@ const BlogDetailsSidebar = () => {
                                             </Link>
                                         </li>
                                         <li className="tag-list__item">
-                                            <Link
+                                            <Link scroll={false}
                                                 href="/blog"
                                                 className="tag-list__link pill px-3 py-2 font-14 fw-500"
                                             >
@@ -588,7 +588,7 @@ const BlogDetailsSidebar = () => {
                                             </Link>
                                         </li>
                                         <li className="tag-list__item">
-                                            <Link
+                                            <Link scroll={false}
                                                 href="/blog"
                                                 className="tag-list__link pill px-3 py-2 font-14 fw-500"
                                             >
@@ -596,7 +596,7 @@ const BlogDetailsSidebar = () => {
                                             </Link>
                                         </li>
                                         <li className="tag-list__item">
-                                            <Link
+                                            <Link scroll={false}
                                                 href="/blog"
                                                 className="tag-list__link pill px-3 py-2 font-14 fw-500"
                                             >
@@ -604,7 +604,7 @@ const BlogDetailsSidebar = () => {
                                             </Link>
                                         </li>
                                         <li className="tag-list__item">
-                                            <Link
+                                            <Link scroll={false}
                                                 href="/blog"
                                                 className="tag-list__link pill px-3 py-2 font-14 fw-500"
                                             >
@@ -612,7 +612,7 @@ const BlogDetailsSidebar = () => {
                                             </Link>
                                         </li>
                                         <li className="tag-list__item">
-                                            <Link
+                                            <Link scroll={false}
                                                 href="/blog"
                                                 className="tag-list__link pill px-3 py-2 font-14 fw-500"
                                             >
@@ -620,7 +620,7 @@ const BlogDetailsSidebar = () => {
                                             </Link>
                                         </li>
                                         <li className="tag-list__item">
-                                            <Link
+                                            <Link scroll={false}
                                                 href="/blog"
                                                 className="tag-list__link pill px-3 py-2 font-14 fw-500"
                                             >
@@ -628,7 +628,7 @@ const BlogDetailsSidebar = () => {
                                             </Link>
                                         </li>
                                         <li className="tag-list__item">
-                                            <Link
+                                            <Link scroll={false}
                                                 href="/blog"
                                                 className="tag-list__link pill px-3 py-2 font-14 fw-500"
                                             >
@@ -636,7 +636,7 @@ const BlogDetailsSidebar = () => {
                                             </Link>
                                         </li>
                                         <li className="tag-list__item">
-                                            <Link
+                                            <Link scroll={false}
                                                 href="/blog"
                                                 className="tag-list__link pill px-3 py-2 font-14 fw-500"
                                             >
@@ -644,7 +644,7 @@ const BlogDetailsSidebar = () => {
                                             </Link>
                                         </li>
                                         <li className="tag-list__item">
-                                            <Link
+                                            <Link scroll={false}
                                                 href="/blog"
                                                 className="tag-list__link pill px-3 py-2 font-14 fw-500"
                                             >
@@ -669,7 +669,7 @@ const BlogDetailsSidebar = () => {
                                 Browse all latest blogs and articles
                             </h3>
                         </div>
-                        <Link href="/blog" className="btn btn-outline-light btn-lg pill">
+                        <Link scroll={false} href="/blog" className="btn btn-outline-light btn-lg pill">
                             Browse All Articles
                         </Link>
                     </div>
@@ -692,10 +692,10 @@ const BlogDetailsSidebar = () => {
                                 <div className="article-item__center d-flex align-items-center">
                                     <div className="article-item__content">
                                         <div className="article-item__top flx-align">
-                                            <Link href="/blog" className="article-item__tag font-14">
+                                            <Link scroll={false} href="/blog" className="article-item__tag font-14">
                                                 Startup
                                             </Link>
-                                            <Link href="/blog" className="article-item__tag font-14">
+                                            <Link scroll={false} href="/blog" className="article-item__tag font-14">
                                                 Marketing
                                             </Link>
                                             <span className="text-heading font-16 fw-500">
@@ -703,7 +703,7 @@ const BlogDetailsSidebar = () => {
                                             </span>
                                         </div>
                                         <h4 className="article-item__title mb-3">
-                                            <Link href="/blog-details" className="link">
+                                            <Link scroll={false} href="/blog-details" className="link">
                                                 {" "}
                                                 Data-Driven Insights Unlock The Hidden Potential
                                             </Link>
@@ -719,7 +719,7 @@ const BlogDetailsSidebar = () => {
                                 </div>
                             </div>
                             <div className="article-item__end flex-shrink-0">
-                                <Link href="/blog-details" className="btn-simple">
+                                <Link scroll={false} href="/blog-details" className="btn-simple">
                                     Read More{" "}
                                     <span className="icon font-26">
                                         <i className="las la-arrow-right" />
@@ -745,10 +745,10 @@ const BlogDetailsSidebar = () => {
                                 <div className="article-item__center d-flex align-items-center">
                                     <div className="article-item__content">
                                         <div className="article-item__top flx-align">
-                                            <Link href="/blog" className="article-item__tag font-14">
+                                            <Link scroll={false} href="/blog" className="article-item__tag font-14">
                                                 Startup
                                             </Link>
-                                            <Link href="/blog" className="article-item__tag font-14">
+                                            <Link scroll={false} href="/blog" className="article-item__tag font-14">
                                                 Marketing
                                             </Link>
                                             <span className="text-heading font-16 fw-500">
@@ -756,7 +756,7 @@ const BlogDetailsSidebar = () => {
                                             </span>
                                         </div>
                                         <h4 className="article-item__title mb-3">
-                                            <Link href="/blog-details" className="link">
+                                            <Link scroll={false} href="/blog-details" className="link">
                                                 we offer best training for individuals and teams
                                             </Link>
                                         </h4>
@@ -771,7 +771,7 @@ const BlogDetailsSidebar = () => {
                                 </div>
                             </div>
                             <div className="article-item__end flex-shrink-0">
-                                <Link href="/blog-details" className="btn-simple">
+                                <Link scroll={false} href="/blog-details" className="btn-simple">
                                     Read More{" "}
                                     <span className="icon font-26">
                                         <i className="las la-arrow-right" />
@@ -797,10 +797,10 @@ const BlogDetailsSidebar = () => {
                                 <div className="article-item__center d-flex align-items-center">
                                     <div className="article-item__content">
                                         <div className="article-item__top flx-align">
-                                            <Link href="/blog" className="article-item__tag font-14">
+                                            <Link scroll={false} href="/blog" className="article-item__tag font-14">
                                                 Startup
                                             </Link>
-                                            <Link href="/blog" className="article-item__tag font-14">
+                                            <Link scroll={false} href="/blog" className="article-item__tag font-14">
                                                 Marketing
                                             </Link>
                                             <span className="text-heading font-16 fw-500">
@@ -808,7 +808,7 @@ const BlogDetailsSidebar = () => {
                                             </span>
                                         </div>
                                         <h4 className="article-item__title mb-3">
-                                            <Link href="/blog-details" className="link">
+                                            <Link scroll={false} href="/blog-details" className="link">
                                                 The analytics feature is like having a personal fortune.
                                             </Link>
                                         </h4>
@@ -823,7 +823,7 @@ const BlogDetailsSidebar = () => {
                                 </div>
                             </div>
                             <div className="article-item__end flex-shrink-0">
-                                <Link href="/blog-details" className="btn-simple">
+                                <Link scroll={false} href="/blog-details" className="btn-simple">
                                     Read More{" "}
                                     <span className="icon font-26">
                                         <i className="las la-arrow-right" />

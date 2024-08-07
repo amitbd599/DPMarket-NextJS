@@ -70,7 +70,7 @@ const Testimonial = () => {
           <div className="section-heading__inner w-lg">
             <h3 className="section-heading__title">Clients Feedback</h3>
           </div>
-          <Link href="#" className="btn btn-main btn-lg pill">
+          <Link scroll={false} href="#" className="btn btn-main btn-lg pill">
             More Feedback
           </Link>
         </div>

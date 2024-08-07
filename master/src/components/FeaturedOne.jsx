@@ -30,7 +30,7 @@ const FeaturedOne = () => {
               <div className="col-sm-6">
                 <div className="product-item box-shadow">
                   <div className="product-item__thumb d-flex">
-                    <Link href="/product-details" className="link w-100">
+                    <Link scroll={false} href="/product-details" className="link w-100">
                       <img
                         src="assets/images/thumbs/product-img9.png"
                         alt=""
@@ -43,14 +43,14 @@ const FeaturedOne = () => {
                   </div>
                   <div className="product-item__content">
                     <h6 className="product-item__title">
-                      <Link href="/product-details" className="link">
+                      <Link scroll={false} href="/product-details" className="link">
                         SaaS dashboard digital products Title here
                       </Link>
                     </h6>
                     <div className="product-item__info flx-between gap-2">
                       <span className="product-item__author">
                         by
-                        <Link
+                        <Link scroll={false}
                           href="profile"
                           className="link hover-text-decoration-underline"
                         >
@@ -92,7 +92,7 @@ const FeaturedOne = () => {
                           </span>
                         </div>
                       </div>
-                      <Link
+                      <Link scroll={false}
                         href="/product-details"
                         className="btn btn-outline-light btn-sm pill"
                       >
@@ -105,7 +105,7 @@ const FeaturedOne = () => {
               <div className="col-sm-6">
                 <div className="product-item box-shadow">
                   <div className="product-item__thumb d-flex">
-                    <Link href="/product-details" className="link w-100">
+                    <Link scroll={false} href="/product-details" className="link w-100">
                       <img
                         src="assets/images/thumbs/product-img10.png"
                         alt=""
@@ -118,14 +118,14 @@ const FeaturedOne = () => {
                   </div>
                   <div className="product-item__content">
                     <h6 className="product-item__title">
-                      <Link href="/product-details" className="link">
+                      <Link scroll={false} href="/product-details" className="link">
                         SaaS dashboard digital products Title here
                       </Link>
                     </h6>
                     <div className="product-item__info flx-between gap-2">
                       <span className="product-item__author">
                         by
-                        <Link
+                        <Link scroll={false}
                           href="profile"
                           className="link hover-text-decoration-underline"
                         >
@@ -167,7 +167,7 @@ const FeaturedOne = () => {
                           </span>
                         </div>
                       </div>
-                      <Link
+                      <Link scroll={false}
                         href="/product-details"
                         className="btn btn-outline-light btn-sm pill"
                       >
@@ -180,7 +180,7 @@ const FeaturedOne = () => {
               <div className="col-sm-6">
                 <div className="product-item box-shadow">
                   <div className="product-item__thumb d-flex">
-                    <Link href="/product-details" className="link w-100">
+                    <Link scroll={false} href="/product-details" className="link w-100">
                       <img
                         src="assets/images/thumbs/product-img11.png"
                         alt=""
@@ -193,14 +193,14 @@ const FeaturedOne = () => {
                   </div>
                   <div className="product-item__content">
                     <h6 className="product-item__title">
-                      <Link href="/product-details" className="link">
+                      <Link scroll={false} href="/product-details" className="link">
                         SaaS dashboard digital products Title here
                       </Link>
                     </h6>
                     <div className="product-item__info flx-between gap-2">
                       <span className="product-item__author">
                         by
-                        <Link
+                        <Link scroll={false}
                           href="profile"
                           className="link hover-text-decoration-underline"
                         >
@@ -242,7 +242,7 @@ const FeaturedOne = () => {
                           </span>
                         </div>
                       </div>
-                      <Link
+                      <Link scroll={false}
                         href="/product-details"
                         className="btn btn-outline-light btn-sm pill"
                       >
@@ -255,7 +255,7 @@ const FeaturedOne = () => {
               <div className="col-sm-6">
                 <div className="product-item box-shadow">
                   <div className="product-item__thumb d-flex">
-                    <Link href="/product-details" className="link w-100">
+                    <Link scroll={false} href="/product-details" className="link w-100">
                       <img
                         src="assets/images/thumbs/product-img4.png"
                         alt=""
@@ -268,14 +268,14 @@ const FeaturedOne = () => {
                   </div>
                   <div className="product-item__content">
                     <h6 className="product-item__title">
-                      <Link href="/product-details" className="link">
+                      <Link scroll={false} href="/product-details" className="link">
                         SaaS dashboard digital products Title here
                       </Link>
                     </h6>
                     <div className="product-item__info flx-between gap-2">
                       <span className="product-item__author">
                         by
-                        <Link
+                        <Link scroll={false}
                           href="profile"
                           className="link hover-text-decoration-underline"
                         >
@@ -317,7 +317,7 @@ const FeaturedOne = () => {
                           </span>
                         </div>
                       </div>
-                      <Link
+                      <Link scroll={false}
                         href="/product-details"
                         className="btn btn-outline-light btn-sm pill"
                       >
@@ -340,7 +340,7 @@ const FeaturedOne = () => {
                   content specialists.
                 </p>
               </div>
-              <Link
+              <Link scroll={false}
                 href="all-product"
                 className="btn btn-main btn-lg pill fw-300"
               >

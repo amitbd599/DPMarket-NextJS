@@ -10,7 +10,7 @@ const BlogTwo = () => {
               Browse all latest blogs and articles
             </h3>
           </div>
-          <Link href="/blog" className="btn btn-outline-light btn-lg pill">
+          <Link scroll={false} href="/blog" className="btn btn-outline-light btn-lg pill">
             Browse All Articles
           </Link>
         </div>
@@ -33,10 +33,10 @@ const BlogTwo = () => {
               <div className="article-item__center d-flex align-items-center">
                 <div className="article-item__content">
                   <div className="article-item__top flx-align">
-                    <Link href="/blog" className="article-item__tag font-14">
+                    <Link scroll={false} href="/blog" className="article-item__tag font-14">
                       Startup
                     </Link>
-                    <Link href="/blog" className="article-item__tag font-14">
+                    <Link scroll={false} href="/blog" className="article-item__tag font-14">
                       Marketing
                     </Link>
                     <span className="text-heading font-16 fw-500">
@@ -44,7 +44,7 @@ const BlogTwo = () => {
                     </span>
                   </div>
                   <h4 className="article-item__title mb-3">
-                    <Link href="/blog-details" className="link">
+                    <Link scroll={false} href="/blog-details" className="link">
                       Data-Driven Insights Unlock The Hidden Potential
                     </Link>
                   </h4>
@@ -59,7 +59,7 @@ const BlogTwo = () => {
               </div>
             </div>
             <div className="article-item__end flex-shrink-0">
-              <Link href="/blog-details" className="btn-simple">
+              <Link scroll={false} href="/blog-details" className="btn-simple">
                 Read More
                 <span className="icon font-26">
                   <i className="las la-arrow-right" />
@@ -85,10 +85,10 @@ const BlogTwo = () => {
               <div className="article-item__center d-flex align-items-center">
                 <div className="article-item__content">
                   <div className="article-item__top flx-align">
-                    <Link href="/blog" className="article-item__tag font-14">
+                    <Link scroll={false} href="/blog" className="article-item__tag font-14">
                       Startup
                     </Link>
-                    <Link href="/blog" className="article-item__tag font-14">
+                    <Link scroll={false} href="/blog" className="article-item__tag font-14">
                       Marketing
                     </Link>
                     <span className="text-heading font-16 fw-500">
@@ -96,7 +96,7 @@ const BlogTwo = () => {
                     </span>
                   </div>
                   <h4 className="article-item__title mb-3">
-                    <Link href="/blog-details" className="link">
+                    <Link scroll={false} href="/blog-details" className="link">
                       we offer best training for individuals and teams
                     </Link>
                   </h4>
@@ -111,7 +111,7 @@ const BlogTwo = () => {
               </div>
             </div>
             <div className="article-item__end flex-shrink-0">
-              <Link href="/blog-details" className="btn-simple">
+              <Link scroll={false} href="/blog-details" className="btn-simple">
                 Read More
                 <span className="icon font-26">
                   <i className="las la-arrow-right" />
@@ -137,10 +137,10 @@ const BlogTwo = () => {
               <div className="article-item__center d-flex align-items-center">
                 <div className="article-item__content">
                   <div className="article-item__top flx-align">
-                    <Link href="/blog" className="article-item__tag font-14">
+                    <Link scroll={false} href="/blog" className="article-item__tag font-14">
                       Startup
                     </Link>
-                    <Link href="/blog" className="article-item__tag font-14">
+                    <Link scroll={false} href="/blog" className="article-item__tag font-14">
                       Marketing
                     </Link>
                     <span className="text-heading font-16 fw-500">
@@ -148,7 +148,7 @@ const BlogTwo = () => {
                     </span>
                   </div>
                   <h4 className="article-item__title mb-3">
-                    <Link href="/blog-details" className="link">
+                    <Link scroll={false} href="/blog-details" className="link">
                       The analytics feature is like having a personal fortune.
                     </Link>
                   </h4>
@@ -163,7 +163,7 @@ const BlogTwo = () => {
               </div>
             </div>
             <div className="article-item__end flex-shrink-0">
-              <Link href="/blog-details" className="btn-simple">
+              <Link scroll={false} href="/blog-details" className="btn-simple">
                 Read More
                 <span className="icon font-26">
                   <i className="las la-arrow-right" />

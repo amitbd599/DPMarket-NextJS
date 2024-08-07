@@ -13,7 +13,7 @@ const Blog = () => {
             <div className="col-lg-4 col-sm-6">
               <div className="post-item">
                 <div className="post-item__thumb">
-                  <Link href="/blog-details" className="link">
+                  <Link scroll={false} href="/blog-details" className="link">
                     <img
                       src="assets/images/thumbs/blog1.png"
                       className="cover-img"
@@ -23,7 +23,7 @@ const Blog = () => {
                 </div>
                 <div className="post-item__content">
                   <div className="post-item__top flx-align">
-                    <Link
+                    <Link scroll={false}
                       href="/blog"
                       className="post-item__tag pill font-14 text-heading fw-500 hover-text-main"
                     >
@@ -46,11 +46,11 @@ const Blog = () => {
                     </div>
                   </div>
                   <h5 className="post-item__title">
-                    <Link href="/blog-details" className="link">
+                    <Link scroll={false} href="/blog-details" className="link">
                       How to hire a right business executive for your company
                     </Link>
                   </h5>
-                  <Link
+                  <Link scroll={false}
                     href="/blog-details"
                     className="btn btn-outline-light pill fw-600"
                   >
@@ -62,7 +62,7 @@ const Blog = () => {
             <div className="col-lg-4 col-sm-6">
               <div className="post-item">
                 <div className="post-item__thumb">
-                  <Link href="/blog-details" className="link">
+                  <Link scroll={false} href="/blog-details" className="link">
                     <img
                       src="assets/images/thumbs/blog2.png"
                       className="cover-img"
@@ -72,7 +72,7 @@ const Blog = () => {
                 </div>
                 <div className="post-item__content">
                   <div className="post-item__top flx-align">
-                    <Link
+                    <Link scroll={false}
                       href="/blog"
                       className="post-item__tag pill font-14 text-heading fw-500 hover-text-main"
                     >
@@ -95,11 +95,11 @@ const Blog = () => {
                     </div>
                   </div>
                   <h5 className="post-item__title">
-                    <Link href="/blog-details" className="link">
+                    <Link scroll={false} href="/blog-details" className="link">
                       The Gig Economy: Adapting to a Flexible Workforce
                     </Link>
                   </h5>
-                  <Link
+                  <Link scroll={false}
                     href="/blog-details"
                     className="btn btn-outline-light pill fw-600"
                   >
@@ -111,7 +111,7 @@ const Blog = () => {
             <div className="col-lg-4 col-sm-6">
               <div className="post-item">
                 <div className="post-item__thumb">
-                  <Link href="/blog-details" className="link">
+                  <Link scroll={false} href="/blog-details" className="link">
                     <img
                       src="assets/images/thumbs/blog3.png"
                       className="cover-img"
@@ -121,7 +121,7 @@ const Blog = () => {
                 </div>
                 <div className="post-item__content">
                   <div className="post-item__top flx-align">
-                    <Link
+                    <Link scroll={false}
                       href="/blog"
                       className="post-item__tag pill font-14 text-heading fw-500 hover-text-main"
                     >
@@ -144,11 +144,11 @@ const Blog = () => {
                     </div>
                   </div>
                   <h5 className="post-item__title">
-                    <Link href="/blog-details" className="link">
+                    <Link scroll={false} href="/blog-details" className="link">
                       The Future of Remote Work: Strategies for Success
                     </Link>
                   </h5>
-                  <Link
+                  <Link scroll={false}
                     href="/blog-details"
                     className="btn btn-outline-light pill fw-600"
                   >
@@ -160,7 +160,7 @@ const Blog = () => {
             <div className="col-lg-4 col-sm-6">
               <div className="post-item">
                 <div className="post-item__thumb">
-                  <Link href="/blog-details" className="link">
+                  <Link scroll={false} href="/blog-details" className="link">
                     <img
                       src="assets/images/thumbs/blog3.png"
                       className="cover-img"
@@ -170,7 +170,7 @@ const Blog = () => {
                 </div>
                 <div className="post-item__content">
                   <div className="post-item__top flx-align">
-                    <Link
+                    <Link scroll={false}
                       href="/blog"
                       className="post-item__tag pill font-14 text-heading fw-500 hover-text-main"
                     >
@@ -193,11 +193,11 @@ const Blog = () => {
                     </div>
                   </div>
                   <h5 className="post-item__title">
-                    <Link href="/blog-details" className="link">
+                    <Link scroll={false} href="/blog-details" className="link">
                       The Future of Remote Work: Strategies for Success
                     </Link>
                   </h5>
-                  <Link
+                  <Link scroll={false}
                     href="/blog-details"
                     className="btn btn-outline-light pill fw-600"
                   >
@@ -209,7 +209,7 @@ const Blog = () => {
             <div className="col-lg-4 col-sm-6">
               <div className="post-item">
                 <div className="post-item__thumb">
-                  <Link href="/blog-details" className="link">
+                  <Link scroll={false} href="/blog-details" className="link">
                     <img
                       src="assets/images/thumbs/blog1.png"
                       className="cover-img"
@@ -219,7 +219,7 @@ const Blog = () => {
                 </div>
                 <div className="post-item__content">
                   <div className="post-item__top flx-align">
-                    <Link
+                    <Link scroll={false}
                       href="/blog"
                       className="post-item__tag pill font-14 text-heading fw-500 hover-text-main"
                     >
@@ -242,11 +242,11 @@ const Blog = () => {
                     </div>
                   </div>
                   <h5 className="post-item__title">
-                    <Link href="/blog-details" className="link">
+                    <Link scroll={false} href="/blog-details" className="link">
                       How to hire a right business executive for your company
                     </Link>
                   </h5>
-                  <Link
+                  <Link scroll={false}
                     href="/blog-details"
                     className="btn btn-outline-light pill fw-600"
                   >
@@ -258,7 +258,7 @@ const Blog = () => {
             <div className="col-lg-4 col-sm-6">
               <div className="post-item">
                 <div className="post-item__thumb">
-                  <Link href="/blog-details" className="link">
+                  <Link scroll={false} href="/blog-details" className="link">
                     <img
                       src="assets/images/thumbs/blog2.png"
                       className="cover-img"
@@ -268,7 +268,7 @@ const Blog = () => {
                 </div>
                 <div className="post-item__content">
                   <div className="post-item__top flx-align">
-                    <Link
+                    <Link scroll={false}
                       href="/blog"
                       className="post-item__tag pill font-14 text-heading fw-500 hover-text-main"
                     >
@@ -291,11 +291,11 @@ const Blog = () => {
                     </div>
                   </div>
                   <h5 className="post-item__title">
-                    <Link href="/blog-details" className="link">
+                    <Link scroll={false} href="/blog-details" className="link">
                       The Gig Economy: Adapting to a Flexible Workforce
                     </Link>
                   </h5>
-                  <Link
+                  <Link scroll={false}
                     href="/blog-details"
                     className="btn btn-outline-light pill fw-600"
                   >
@@ -307,7 +307,7 @@ const Blog = () => {
             <div className="col-lg-4 col-sm-6">
               <div className="post-item">
                 <div className="post-item__thumb">
-                  <Link href="/blog-details" className="link">
+                  <Link scroll={false} href="/blog-details" className="link">
                     <img
                       src="assets/images/thumbs/blog1.png"
                       className="cover-img"
@@ -317,7 +317,7 @@ const Blog = () => {
                 </div>
                 <div className="post-item__content">
                   <div className="post-item__top flx-align">
-                    <Link
+                    <Link scroll={false}
                       href="/blog"
                       className="post-item__tag pill font-14 text-heading fw-500 hover-text-main"
                     >
@@ -340,11 +340,11 @@ const Blog = () => {
                     </div>
                   </div>
                   <h5 className="post-item__title">
-                    <Link href="/blog-details" className="link">
+                    <Link scroll={false} href="/blog-details" className="link">
                       How to hire a right business executive for your company
                     </Link>
                   </h5>
-                  <Link
+                  <Link scroll={false}
                     href="/blog-details"
                     className="btn btn-outline-light pill fw-600"
                   >
@@ -356,7 +356,7 @@ const Blog = () => {
             <div className="col-lg-4 col-sm-6">
               <div className="post-item">
                 <div className="post-item__thumb">
-                  <Link href="/blog-details" className="link">
+                  <Link scroll={false} href="/blog-details" className="link">
                     <img
                       src="assets/images/thumbs/blog2.png"
                       className="cover-img"
@@ -366,7 +366,7 @@ const Blog = () => {
                 </div>
                 <div className="post-item__content">
                   <div className="post-item__top flx-align">
-                    <Link
+                    <Link scroll={false}
                       href="/blog"
                       className="post-item__tag pill font-14 text-heading fw-500 hover-text-main"
                     >
@@ -389,11 +389,11 @@ const Blog = () => {
                     </div>
                   </div>
                   <h5 className="post-item__title">
-                    <Link href="/blog-details" className="link">
+                    <Link scroll={false} href="/blog-details" className="link">
                       The Gig Economy: Adapting to a Flexible Workforce
                     </Link>
                   </h5>
-                  <Link
+                  <Link scroll={false}
                     href="/blog-details"
                     className="btn btn-outline-light pill fw-600"
                   >
@@ -405,7 +405,7 @@ const Blog = () => {
             <div className="col-lg-4 col-sm-6">
               <div className="post-item">
                 <div className="post-item__thumb">
-                  <Link href="/blog-details" className="link">
+                  <Link scroll={false} href="/blog-details" className="link">
                     <img
                       src="assets/images/thumbs/blog3.png"
                       className="cover-img"
@@ -415,7 +415,7 @@ const Blog = () => {
                 </div>
                 <div className="post-item__content">
                   <div className="post-item__top flx-align">
-                    <Link
+                    <Link scroll={false}
                       href="/blog"
                       className="post-item__tag pill font-14 text-heading fw-500 hover-text-main"
                     >
@@ -438,11 +438,11 @@ const Blog = () => {
                     </div>
                   </div>
                   <h5 className="post-item__title">
-                    <Link href="/blog-details" className="link">
+                    <Link scroll={false} href="/blog-details" className="link">
                       The Future of Remote Work: Strategies for Success
                     </Link>
                   </h5>
-                  <Link
+                  <Link scroll={false}
                     href="/blog-details"
                     className="btn btn-outline-light pill fw-600"
                   >
@@ -456,32 +456,32 @@ const Blog = () => {
           <nav aria-label="Page navigation example">
             <ul className="pagination common-pagination">
               <li className="page-item">
-                <Link className="page-link" href="#">
+                <Link scroll={false} className="page-link" href="#">
                   1
                 </Link>
               </li>
               <li className="page-item">
-                <Link className="page-link" href="#">
+                <Link scroll={false} className="page-link" href="#">
                   2
                 </Link>
               </li>
               <li className="page-item">
-                <Link className="page-link" href="#">
+                <Link scroll={false} className="page-link" href="#">
                   3
                 </Link>
               </li>
               <li className="page-item">
-                <Link className="page-link" href="#">
+                <Link scroll={false} className="page-link" href="#">
                   4
                 </Link>
               </li>
               <li className="page-item">
-                <Link className="page-link" href="#">
+                <Link scroll={false} className="page-link" href="#">
                   5
                 </Link>
               </li>
               <li className="page-item">
-                <Link className="page-link flx-align gap-2 flex-nowrap" href="#">
+                <Link scroll={false} className="page-link flx-align gap-2 flex-nowrap" href="#">
                   Next
                   <span className="icon line-height-1 font-20">
                     <i className="las la-arrow-right" />

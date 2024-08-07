@@ -101,7 +101,7 @@ const CartPersonal = () => {
                 </button>
               </form>
               <div className="cart-content__bottom flx-between gap-2">
-                <Link
+                <Link scroll={false}
                   href="/cart"
                   className="btn btn-outline-light flx-align gap-2 pill btn-lg"
                 >
@@ -110,7 +110,7 @@ const CartPersonal = () => {
                   </span>
                   Back
                 </Link>
-                <Link
+                <Link scroll={false}
                   href="/cart-payment"
                   className="btn btn-main flx-align gap-2 pill btn-lg"
                 >

@@ -25,11 +25,11 @@ const DashboardDownload = () => {
             </div>
             <div className="download-item__info">
               <h6 className="download-item__title mb-1">
-                <Link href="#" className="link">
+                <Link scroll={false} href="#" className="link">
                   CityScape - Real Estate HTML Template
                 </Link>
               </h6>
-              <Link
+              <Link scroll={false}
                 href="#"
                 className="download-item__text text-main mb-3 font-12 hover-text-decoration-underline"
               >
@@ -87,11 +87,11 @@ const DashboardDownload = () => {
             </div>
             <div className="download-item__info">
               <h6 className="download-item__title mb-1">
-                <Link href="#" className="link">
+                <Link scroll={false} href="#" className="link">
                   FixTurbo - Car Repairing HTML Template
                 </Link>
               </h6>
-              <Link
+              <Link scroll={false}
                 href="#"
                 className="download-item__text text-main mb-3 font-12 hover-text-decoration-underline"
               >
@@ -149,11 +149,11 @@ const DashboardDownload = () => {
             </div>
             <div className="download-item__info">
               <h6 className="download-item__title mb-1">
-                <Link href="#" className="link">
+                <Link scroll={false} href="#" className="link">
                   CityScape - Real Estate HTML Template
                 </Link>
               </h6>
-              <Link
+              <Link scroll={false}
                 href="#"
                 className="download-item__text text-main mb-3 font-12 hover-text-decoration-underline"
               >
@@ -211,11 +211,11 @@ const DashboardDownload = () => {
             </div>
             <div className="download-item__info">
               <h6 className="download-item__title mb-1">
-                <Link href="#" className="link">
+                <Link scroll={false} href="#" className="link">
                   FixTurbo - Car Repairing HTML Template
                 </Link>
               </h6>
-              <Link
+              <Link scroll={false}
                 href="#"
                 className="download-item__text text-main mb-3 font-12 hover-text-decoration-underline"
               >

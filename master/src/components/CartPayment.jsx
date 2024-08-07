@@ -350,7 +350,7 @@ const CartPayment = () => {
                                             </div>
                                         </div>
                                         <div className="col-lg-12">
-                                            <Link
+                                            <Link scroll={false}
                                                 href="/cart-thank-you"
                                                 className="btn btn-main btn-lg w-100 pill"
                                             >
@@ -365,7 +365,7 @@ const CartPayment = () => {
                     </div>
                 </div>
                 <div className="cart-content__bottom flx-between gap-2">
-                    <Link
+                    <Link scroll={false}
                         href="/cart-personal"
                         className="btn btn-outline-light flx-align gap-2 pill btn-lg"
                     >

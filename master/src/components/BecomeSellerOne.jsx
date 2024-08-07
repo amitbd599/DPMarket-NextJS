@@ -20,7 +20,7 @@ const BecomeSellerOne = () => {
                 exclusively and 50% for items sold non-exclusively. See detailed
                 informationabout the fee structure on Market.
               </p>
-              <Link
+              <Link scroll={false}
                 href="/register"
                 className="btn btn-static-outline-black btn-xl pill fw-600"
               >
@@ -41,7 +41,7 @@ const BecomeSellerOne = () => {
                 millions of digital assets every year. With 30% affiliate
                 commission, earning money has never been easier!
               </p>
-              <Link
+              <Link scroll={false}
                 href="/register"
                 className="btn btn-static-outline-black btn-xl pill fw-600"
               >
@@ -77,7 +77,7 @@ const BecomeSellerOne = () => {
                     <p className="support-content__desc">
                       Wanna talk? Send us a message
                     </p>
-                    <Link
+                    <Link scroll={false}
                       href="mailto:infomail@office.com"
                       className="btn btn-static-black btn-lg fw-300 pill"
                     >

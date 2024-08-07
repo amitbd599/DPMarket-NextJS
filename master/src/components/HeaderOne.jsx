@@ -60,10 +60,10 @@ const HeaderOne = () => {
           <nav className="header-inner flx-between">
             {/* Logo Start */}
             <div className="logo">
-              <Link href="/" className="link white-version" >
+              <Link scroll={false} href="/" className="link white-version" >
                 <img src="assets/images/logo/logo-two.png" alt="Logo" />
               </Link>
-              <Link href="/" className="link dark-version">
+              <Link scroll={false} href="/" className="link dark-version">
                 <img src="assets/images/logo/white-logo.png" alt="Logo" />
               </Link>
             </div>
@@ -72,34 +72,34 @@ const HeaderOne = () => {
             <div className="header-menu d-lg-block d-none">
               <ul className="nav-menu flx-align">
                 <li className="nav-menu__item has-submenu">
-                  <Link href="#" className="nav-menu__link">
+                  <Link scroll={false} href="#" className="nav-menu__link">
                     Home
                   </Link>
                   <ul className="nav-submenu">
                     <li className="nav-submenu__item">
-                      <Link href="/" className="nav-submenu__link">
+                      <Link scroll={false} href="/" className="nav-submenu__link">
                         Home One
                       </Link>
                     </li>
                     <li className="nav-submenu__item">
-                      <Link href="/index-two" className="nav-submenu__link">
+                      <Link scroll={false} href="/index-two" className="nav-submenu__link">
                         Home Two
                       </Link>
                     </li>
                   </ul>
                 </li>
                 <li className="nav-menu__item has-submenu">
-                  <Link href="#" className="nav-menu__link">
+                  <Link scroll={false} href="#" className="nav-menu__link">
                     Products
                   </Link>
                   <ul className="nav-submenu">
                     <li className="nav-submenu__item">
-                      <Link href="/all-product" className="nav-submenu__link">
+                      <Link scroll={false} href="/all-product" className="nav-submenu__link">
                         All Products
                       </Link>
                     </li>
                     <li className="nav-submenu__item">
-                      <Link
+                      <Link scroll={false}
                         href="/product-details"
                         className="nav-submenu__link"
                       >
@@ -109,22 +109,22 @@ const HeaderOne = () => {
                   </ul>
                 </li>
                 <li className="nav-menu__item has-submenu">
-                  <Link href="#" className="nav-menu__link">
+                  <Link scroll={false} href="#" className="nav-menu__link">
                     Pages
                   </Link>
                   <ul className="nav-submenu">
                     <li className="nav-submenu__item">
-                      <Link href="/profile" className="nav-submenu__link">
+                      <Link scroll={false} href="/profile" className="nav-submenu__link">
                         Profile
                       </Link>
                     </li>
                     <li className="nav-submenu__item">
-                      <Link href="/cart" className="nav-submenu__link">
+                      <Link scroll={false} href="/cart" className="nav-submenu__link">
                         Shopping Cart
                       </Link>
                     </li>
                     <li className="nav-submenu__item">
-                      <Link
+                      <Link scroll={false}
                         href="/cart-personal"
                         className="nav-submenu__link"
                       >
@@ -132,12 +132,12 @@ const HeaderOne = () => {
                       </Link>
                     </li>
                     <li className="nav-submenu__item">
-                      <Link href="/cart-payment" className="nav-submenu__link">
+                      <Link scroll={false} href="/cart-payment" className="nav-submenu__link">
                         Payment Method
                       </Link>
                     </li>
                     <li className="nav-submenu__item">
-                      <Link
+                      <Link scroll={false}
                         href="/cart-thank-you"
                         className="nav-submenu__link"
                       >
@@ -145,30 +145,30 @@ const HeaderOne = () => {
                       </Link>
                     </li>
                     <li className="nav-submenu__item">
-                      <Link href="/dashboard" className="nav-submenu__link">
+                      <Link scroll={false} href="/dashboard" className="nav-submenu__link">
                         Dashboard
                       </Link>
                     </li>
                   </ul>
                 </li>
                 <li className="nav-menu__item has-submenu">
-                  <Link href="#" className="nav-menu__link">
+                  <Link scroll={false} href="#" className="nav-menu__link">
                     Blog
                   </Link>
                   <ul className="nav-submenu">
                     <li className="nav-submenu__item">
-                      <Link href="/blog" className="nav-submenu__link">
+                      <Link scroll={false} href="/blog" className="nav-submenu__link">
                         {" "}
                         Blog
                       </Link>
                     </li>
                     <li className="nav-submenu__item">
-                      <Link href="/blog-details" className="nav-submenu__link">
+                      <Link scroll={false} href="/blog-details" className="nav-submenu__link">
                         Blog Details
                       </Link>
                     </li>
                     <li className="nav-submenu__item">
-                      <Link
+                      <Link scroll={false}
                         href="/blog-details-sidebar"
                         className="nav-submenu__link"
                       >
@@ -178,7 +178,7 @@ const HeaderOne = () => {
                   </ul>
                 </li>
                 <li className="nav-menu__item">
-                  <Link href="/contact" className="nav-menu__link">
+                  <Link scroll={false} href="/contact" className="nav-menu__link">
                     Contact
                   </Link>
                 </li>
@@ -187,7 +187,7 @@ const HeaderOne = () => {
             {/* Menu End  */}
             {/* Header Right start */}
             <div className="header-right flx-align">
-              <Link
+              <Link scroll={false}
                 href="/cart"
                 className="header-right__button cart-btn position-relative"
               >
@@ -207,7 +207,7 @@ const HeaderOne = () => {
               <ThemeToggle />
               {/* Light Dark Mode */}
               <div className="header-right__inner gap-3 flx-align d-lg-flex d-none">
-                <Link href="/register" className="btn btn-main pill">
+                <Link scroll={false} href="/register" className="btn btn-main pill">
                   <span className="icon-left icon">
                     <img src="assets/images/icons/user.svg" alt="" />{" "}
                   </span>
@@ -247,11 +247,11 @@ const HeaderOne = () => {
       {/* ==================== Header End Here ==================== */}
 
       <div className={`mobile-menu d-lg-none d-block ${active && "active"}`}>
-        <button type="button" className="close-button" onClick={mobileMenu}>
+        <button type="button" className="close-button text-body hover-text-main" onClick={mobileMenu}>
           <i className="las la-times" />
         </button>
         <div className="mobile-menu__inner">
-          <Link href="/" className="mobile-menu__logo">
+          <Link scroll={false} href="/" className="mobile-menu__logo">
             <img
               src="assets/images/logo/logo.png"
               alt="Logo"
@@ -269,35 +269,35 @@ const HeaderOne = () => {
               id="offcanvas-navigation"
             >
               <li className="nav-menu__item has-submenu ">
-                <Link href="#" className="nav-menu__link">
+                <Link scroll={false} href="#" className="nav-menu__link">
                   Home
                 </Link>
                 <ul className="nav-submenu">
                   <li className="nav-submenu__item">
-                    <Link href="/" className="nav-submenu__link">
+                    <Link scroll={false} href="/" className="nav-submenu__link">
                       {" "}
                       Home One
                     </Link>
                   </li>
                   <li className="nav-submenu__item">
-                    <Link href="/index-two" className="nav-submenu__link">
+                    <Link scroll={false} href="/index-two" className="nav-submenu__link">
                       Home Two
                     </Link>
                   </li>
                 </ul>
               </li>
               <li className="nav-menu__item has-submenu">
-                <Link href="#" className="nav-menu__link">
+                <Link scroll={false} href="#" className="nav-menu__link">
                   Products
                 </Link>
                 <ul className="nav-submenu">
                   <li className="nav-submenu__item">
-                    <Link href="/all-product" className="nav-submenu__link">
+                    <Link scroll={false} href="/all-product" className="nav-submenu__link">
                       All Products
                     </Link>
                   </li>
                   <li className="nav-submenu__item">
-                    <Link
+                    <Link scroll={false}
                       href="/product-details"
                       className="nav-submenu__link"
                     >
@@ -307,61 +307,61 @@ const HeaderOne = () => {
                 </ul>
               </li>
               <li className="nav-menu__item has-submenu">
-                <Link href="#" className="nav-menu__link">
+                <Link scroll={false} href="#" className="nav-menu__link">
                   Pages
                 </Link>
                 <ul className="nav-submenu">
                   <li className="nav-submenu__item">
-                    <Link href="/profile" className="nav-submenu__link">
+                    <Link scroll={false} href="/profile" className="nav-submenu__link">
                       {" "}
                       Profile
                     </Link>
                   </li>
                   <li className="nav-submenu__item">
-                    <Link href="/cart" className="nav-submenu__link">
+                    <Link scroll={false} href="/cart" className="nav-submenu__link">
                       Shopping Cart
                     </Link>
                   </li>
                   <li className="nav-submenu__item">
-                    <Link href="/cart-personal" className="nav-submenu__link">
+                    <Link scroll={false} href="/cart-personal" className="nav-submenu__link">
                       Mailing Address
                     </Link>
                   </li>
                   <li className="nav-submenu__item">
-                    <Link href="/cart-payment" className="nav-submenu__link">
+                    <Link scroll={false} href="/cart-payment" className="nav-submenu__link">
                       Payment Method
                     </Link>
                   </li>
                   <li className="nav-submenu__item">
-                    <Link href="/cart-thank-you" className="nav-submenu__link">
+                    <Link scroll={false} href="/cart-thank-you" className="nav-submenu__link">
                       Preview Order
                     </Link>
                   </li>
                   <li className="nav-submenu__item">
-                    <Link href="/dashboard" className="nav-submenu__link">
+                    <Link scroll={false} href="/dashboard" className="nav-submenu__link">
                       Dashboard
                     </Link>
                   </li>
                 </ul>
               </li>
               <li className="nav-menu__item has-submenu">
-                <Link href="#" className="nav-menu__link">
+                <Link scroll={false} href="#" className="nav-menu__link">
                   Blog
                 </Link>
                 <ul className="nav-submenu">
                   <li className="nav-submenu__item">
-                    <Link href="/blog" className="nav-submenu__link">
+                    <Link scroll={false} href="/blog" className="nav-submenu__link">
                       {" "}
                       Blog
                     </Link>
                   </li>
                   <li className="nav-submenu__item">
-                    <Link href="/blog-details" className="nav-submenu__link">
+                    <Link scroll={false} href="/blog-details" className="nav-submenu__link">
                       Blog Details
                     </Link>
                   </li>
                   <li className="nav-submenu__item">
-                    <Link
+                    <Link scroll={false}
                       href="/blog-details-sidebar"
                       className="nav-submenu__link"
                     >
@@ -371,13 +371,13 @@ const HeaderOne = () => {
                 </ul>
               </li>
               <li className="nav-menu__item">
-                <Link href="/contact" className="nav-menu__link">
+                <Link scroll={false} href="/contact" className="nav-menu__link">
                   Contact
                 </Link>
               </li>
             </ul>
             <div className="header-right__inner d-lg-none my-3 gap-1 d-flex flx-align">
-              <Link href="/register" className="btn btn-main pill">
+              <Link scroll={false} href="/register" className="btn btn-main pill">
                 <span className="icon-left icon">
                   <img src="assets/images/icons/user.svg" alt="" />{" "}
                 </span>

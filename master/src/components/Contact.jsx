@@ -28,7 +28,7 @@ const Contact = () => {
                     <span className="contact-info__text text-capitalize d-block mb-1">
                       Give Us A Call
                     </span>
-                    <Link
+                    <Link scroll={false}
                       href="tel:01812345678"
                       className="contact-info__link font-24 fw-500 text-heading hover-text-main"
                     >
@@ -39,7 +39,7 @@ const Contact = () => {
                     <span className="contact-info__text text-capitalize d-block mb-1">
                       Give Us An Email
                     </span>
-                    <Link
+                    <Link scroll={false}
                       href="tel:dpmarket@gmail.com"
                       className="contact-info__link font-24 fw-500 text-heading hover-text-main"
                     >
@@ -50,7 +50,7 @@ const Contact = () => {
                 <div className="mt-24">
                   <ul className="social-icon-list">
                     <li className="social-icon-list__item">
-                      <Link
+                      <Link scroll={false}
                         href="https://www.facebook.com"
                         className="social-icon-list__link text-heading flx-center"
                       >
@@ -58,7 +58,7 @@ const Contact = () => {
                       </Link>
                     </li>
                     <li className="social-icon-list__item">
-                      <Link
+                      <Link scroll={false}
                         href="https://www.twitter.com"
                         className="social-icon-list__link text-heading flx-center"
                       >
@@ -67,7 +67,7 @@ const Contact = () => {
                       </Link>
                     </li>
                     <li className="social-icon-list__item">
-                      <Link
+                      <Link scroll={false}
                         href="https://www.linkedin.com"
                         className="social-icon-list__link text-heading flx-center"
                       >
@@ -76,7 +76,7 @@ const Contact = () => {
                       </Link>
                     </li>
                     <li className="social-icon-list__item">
-                      <Link
+                      <Link scroll={false}
                         href="https://www.pinterest.com"
                         className="social-icon-list__link text-heading flx-center"
                       >
@@ -85,7 +85,7 @@ const Contact = () => {
                       </Link>
                     </li>
                     <li className="social-icon-list__item">
-                      <Link
+                      <Link scroll={false}
                         href="https://www.pinterest.com"
                         className="social-icon-list__link text-heading flx-center"
                       >

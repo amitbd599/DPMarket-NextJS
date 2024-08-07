@@ -29,7 +29,7 @@ const NewsletterTwo = () => {
                 becomes natural. Disregard coding and partake in our topics.
               </p>
             </div>
-            <Link href="/all-product" className="btn btn-main btn-lg pill">
+            <Link scroll={false} href="/all-product" className="btn btn-main btn-lg pill">
               Grabe All Product
             </Link>
           </div>

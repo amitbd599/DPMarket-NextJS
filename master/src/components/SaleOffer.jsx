@@ -82,7 +82,7 @@ const SaleOffer = () => {
               <strong className="sale-offer__qty text-heading font-heading">
                 45% OFF
               </strong>
-              <Link href="#" className="btn btn-sm btn-white pill fw-500">
+              <Link scroll={false} href="#" className="btn btn-sm btn-white pill fw-500">
                 Shop Now
               </Link>
             </div>

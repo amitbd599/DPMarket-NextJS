@@ -68,7 +68,7 @@ const PopularOne = () => {
         <div className="popular-slider arrow-style-two row gy-4">
           <Slider {...settings}>
             <div>
-              <Link href="/all-product" className="popular-item w-100">
+              <Link scroll={false} href="/all-product" className="popular-item w-100">
                 <span className="popular-item__icon">
                   <img src="assets/images/icons/popular-icon1.svg" alt="" />
                 </span>
@@ -77,7 +77,7 @@ const PopularOne = () => {
               </Link>
             </div>
             <div>
-              <Link href="/all-product" className="popular-item w-100">
+              <Link scroll={false} href="/all-product" className="popular-item w-100">
                 <span className="popular-item__icon">
                   <img src="assets/images/icons/popular-icon2.svg" alt="" />
                 </span>
@@ -86,7 +86,7 @@ const PopularOne = () => {
               </Link>
             </div>
             <div>
-              <Link href="/all-product" className="popular-item w-100">
+              <Link scroll={false} href="/all-product" className="popular-item w-100">
                 <span className="popular-item__icon">
                   <img src="assets/images/icons/popular-icon3.svg" alt="" />
                 </span>
@@ -95,7 +95,7 @@ const PopularOne = () => {
               </Link>
             </div>
             <div>
-              <Link href="/all-product" className="popular-item w-100">
+              <Link scroll={false} href="/all-product" className="popular-item w-100">
                 <span className="popular-item__icon">
                   <img src="assets/images/icons/popular-icon4.svg" alt="" />
                 </span>
@@ -104,7 +104,7 @@ const PopularOne = () => {
               </Link>
             </div>
             <div>
-              <Link href="/all-product" className="popular-item w-100">
+              <Link scroll={false} href="/all-product" className="popular-item w-100">
                 <span className="popular-item__icon">
                   <img src="assets/images/icons/popular-icon5.svg" alt="" />
                 </span>
@@ -113,7 +113,7 @@ const PopularOne = () => {
               </Link>
             </div>
             <div>
-              <Link href="/all-product" className="popular-item w-100">
+              <Link scroll={false} href="/all-product" className="popular-item w-100">
                 <span className="popular-item__icon">
                   <img src="assets/images/icons/popular-icon6.svg" alt="" />
                 </span>
@@ -122,7 +122,7 @@ const PopularOne = () => {
               </Link>
             </div>
             <div>
-              <Link href="/all-product" className="popular-item w-100">
+              <Link scroll={false} href="/all-product" className="popular-item w-100">
                 <span className="popular-item__icon">
                   <img src="assets/images/icons/popular-icon4.svg" alt="" />
                 </span>
@@ -133,7 +133,7 @@ const PopularOne = () => {
           </Slider>
         </div>
         <div className="popular__button text-center">
-          <Link
+          <Link scroll={false}
             href="/all-product"
             className="font-18 fw-600 text-heading hover-text-main text-decoration-underline font-heading"
           >
