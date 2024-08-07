@@ -34,8 +34,8 @@ const CartPayment = () => {
             {
                 breakpoint: 1024,
                 settings: {
-                    slidesToShow: 10,
-                    slidesToScroll: 3,
+                    slidesToShow: 8,
+                    slidesToScroll: 8,
                     infinite: true,
                     dots: true,
                 },
@@ -43,18 +43,23 @@ const CartPayment = () => {
             {
                 breakpoint: 992,
                 settings: {
-                    slidesToShow: 2,
-                    slidesToScroll: 2,
+                    slidesToShow: 6,
+                    slidesToScroll: 6,
                     initialSlide: 2,
-                    arrows: false,
                 },
             },
             {
                 breakpoint: 768,
                 settings: {
-                    slidesToShow: 1,
-                    slidesToScroll: 1,
-                    arrows: false,
+                    slidesToShow: 5,
+                    slidesToScroll: 5,
+                },
+            },
+            {
+                breakpoint: 576,
+                settings: {
+                    slidesToShow: 3,
+                    slidesToScroll: 3,
                 },
             },
         ],
