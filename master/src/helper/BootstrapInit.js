@@ -8,6 +8,6 @@ export default function BootstrapInit() {
     }
   }, []);
   return <>
-   <ScrollToTop smooth color="#E8092E" />
+   <ScrollToTop smooth color="#B94BF0" />
   </>;
 }
