@@ -10,6 +10,13 @@ const AllProduct = () => {
     setActiveButton(buttonName);
   };
 
+  
+  const handleFilter = () => {
+    setFilter(!filter);
+  };
+
+
+
 
 
   return (
@@ -133,7 +140,7 @@ const AllProduct = () => {
                 >
                   <i className="las la-border-all" />
                 </button>
-                <button className="list-grid__button sidebar-btn text-body d-lg-none d-flex">
+                <button className="list-grid__button sidebar-btn text-body d-lg-none d-flex" onClick={handleFilter}>
                   <i className="las la-bars" />
                 </button>
               </div>
@@ -201,11 +208,11 @@ const AllProduct = () => {
           </div>
           <div className="col-xl-3 col-lg-4">
             {/* ===================== Filter Sidebar Start ============================= */}
-            <div className="filter-sidebar">
+            <div className={`filter-sidebar ${filter && "show"}`}>
               <button
                 type="button"
                 className="filter-sidebar__close p-2 position-absolute end-0 top-0 z-index-1 text-body hover-text-main font-20 d-lg-none d-block"
-              >
+              onClick={handleFilter}>
                 <i className="las la-times" />
               </button>
               <div className="filter-sidebar__item">
