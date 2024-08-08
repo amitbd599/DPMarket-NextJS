@@ -1,0 +1,40 @@
+{
+  "name": "DP_Market",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@ramonak/react-progress-bar": "^5.2.0",
+    "animate.css": "^4.1.1",
+    "aos": "^2.3.4",
+    "bootstrap": "^5.3.3",
+    "circletype": "^2.3.0",
+    "imagesloaded": "^5.0.0",
+    "isotope-layout": "^3.0.6",
+    "next": "14.1.4",
+    "rc-slider": "^10.6.2",
+    "react": "^18",
+    "react-apexcharts": "^1.4.1",
+    "react-countup": "^6.5.3",
+    "react-dom": "^18",
+    "react-fast-marquee": "^1.6.4",
+    "react-icons": "^5.2.1",
+    "react-modal-image": "^2.6.0",
+    "react-on-screen": "^2.1.1",
+    "react-progress-bar": "^0.1.0",
+    "react-range": "^1.8.14",
+    "react-scroll-to-top": "^3.0.0",
+    "react-slick": "^0.30.2",
+    "react-visibility-sensor": "^5.1.1",
+    "slick-carousel": "^1.8.1",
+    "swiper": "^9.4.1"
+  },
+  "devDependencies": {
+    "sass": "^1.71.1"
+  }
+}
